@@ -12,7 +12,7 @@ class TestMailbox < Minitest::Test
     assert_equal "No name provided", error.message
   end
 
-  def test_respond_to_name
+  def test_name_reader
     assert_equal @name, @mailbox.name
   end
 end

@@ -10,19 +10,19 @@ class TestMessage < Minitest::Test
     @message = Stamper::Message.new(header: @header, body: @body)
   end
 
-  def test_respond_to_body
+  def test_body_reader
     assert_equal @body, @message.body
   end
 
-  def test_respond_to_header
+  def test_header_reader
     assert_equal @header, @message.header
   end
 
-  def test_respond_to_date
+  def test_date_reader
     assert_equal @date, @message.date
   end
 
-  def test_respond_to_from
+  def test_from_reader
     assert_equal @from_address, @message.from
   end
 
