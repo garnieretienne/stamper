@@ -1,5 +1,5 @@
 require "stamper/version"
+require "stamper/message"
 
 module Stamper
-  # Your code goes here...
 end
