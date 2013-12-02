@@ -4,22 +4,34 @@ class TestAccount < Minitest::Test
 
   def setup
     @email_address = 'testing@provider.tld'
-    @account = Stamper::Account.new address: @email_address
+    @adapter = MiniTest::Mock.new
+    @account = Stamper::Account.new address: @email_address, adapter: @adapter
   end
 
   def test_raising_error_if_no_address_provided
-    error = assert_raises(RuntimeError){ Stamper::Account.new }
+    error = assert_raises(RuntimeError){ Stamper::Account.new(adapter: MiniTest::Mock.new) }
     assert_equal "No address provided", error.message
+  end
+
+  def test_raising_error_if_no_adapter_provided
+    error = assert_raises(RuntimeError){ Stamper::Account.new(address: @email_address) }
+    assert_equal "No adapter provided", error.message
   end
 
   def test_address_reader
     assert_equal @email_address, @account.address
   end
 
-  def test_adapter_accessor
-    refute @account.adapter?
-    @account.adapter = Object.new
+  def test_adapter_reader
+    @adapter.expect :nil?, false
     refute_nil @account.adapter
-    assert @account.adapter?
+  end
+
+  def test_list_subscribed_mailboxes
+    @adapter.expect :list_subscribed_mailboxes, [{name: 'INBOX'}, {name: 'Spam'}]
+    mailboxes = @account.list_subscribed_mailboxes
+    @adapter.verify
+    assert_equal 2, mailboxes.count
+    assert_instance_of Stamper::Mailbox, mailboxes.first
   end
 end
