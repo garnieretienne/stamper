@@ -16,5 +16,11 @@ module Stamper
         Mailbox.new mailbox_attributes
       end
     end
+
+    def list_messages_in_mailbox(mailbox: "INBOX")
+      @adapter.list_messages_in_mailbox.map do |message_attributes|
+        Message.new message_attributes
+      end
+    end
   end
 end
