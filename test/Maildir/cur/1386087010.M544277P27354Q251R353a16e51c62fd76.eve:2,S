@@ -1,0 +1,781 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853773-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.23.70 with SMTP id k6csp86049obf;
+        Fri, 18 Jan 2013 07:56:28 -0800 (PST)
+X-Received: by 10.182.40.2 with SMTP id t2mr7360873obk.51.1358524588356;
+        Fri, 18 Jan 2013 07:56:28 -0800 (PST)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id wz4si5399129obb.90.2013.01.18.07.56.27;
+        Fri, 18 Jan 2013 07:56:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853773-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1853773-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853773-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=mSUbvQYNEeSEJbZZJy6Pt7W4Kj4=;
+ b=KVkIa9R4AZGTXREK/0XRtrxKpgLCvXjf5oPW/4Q5TFlFzZZNWArsl5eZg5SCYFqiaTra3N9XquFE
+   96Q22VGqVnCDTYFyjuy8BQ/Ei69u3bVLtorEEg9MgXgDV5puZAAprxhouQ0vqGZYWRdTq1fRhEYy
+   GBj74QXTJ0onR4wMSu4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=ti8NqplSwrjuvog2Ukwav0B1U5qw+s3a2BNqarqskuAyNLSskHIWE51SQJxxppAx0rZJxYqL9r5j
+   hGzSFip+S0dDGs2l6dPAH7Usru3vgf235/fsq9yPiAYSvT44CBGSyH5y4fHjKERIRxSwfbMkJx+R
+   Xl0Kcitpr6XiBoFhMdY=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hv5oao0ik18e for <webmail.testing.dev@gmail.com>; Fri, 18 Jan 2013 15:35:44 +0000 (envelope-from <bounce-mc.us1_449017.1853773-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20113?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 18 Jan 2013 15:35:44 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130118153520@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID7286c8c7bab4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.7286c8c7ba
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.7286c8c7ba
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=7286c8c7ba&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-7286c8c7ba-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=7286c8c7ba>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1434362551"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1434362551
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #113 - January 18, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D7286c8c7ba
+
+
+--- Featured ---
+
+# Announcing the jQuery Plugin Registry
+http://blog.jquery.com/2013/01/16/announcing-the-jquery-plugin-registry/
+
+The jQuery Plugin Registry is a new site for centralized distribution and=
+ discovery of plugins. One of the goals was to improve on the old jQuery p=
+lugins site with regard to ease of contributing to plugins and to the site=
+ itself.
+
+# jQuery 1.9 Final, jQuery 2.0 Beta, and Migrate Final Released
+http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate=
+-final-released/
+
+# Node 0.8.17 (stable) Released
+http://blog.nodejs.org/2013/01/09/node-v0-8-17-stable/
+
+This release addresses a potential security vulnerability for code that us=
+es TypedArray. It also upgrades npm to 1.2.0 and includes other improvemen=
+ts and fixes.
+
+# Backbone 0.9.10
+http://backbonejs.org/#upgrading
+
+Backbone 0.9.10 is out. Features include: improved event handling, support=
+ for the HTTP PATCH method, and an update() method for Collection, enablin=
+g smarter syncing with the server.
+
+
+--- From our Sponsor ---
+
+# From MSDN Magazine: A Deeper Dive into jQuery Mobile
+http://msdn.microsoft.com/en-us/magazine/jj906416.aspx
+
+Wallace McClure takes a look at the popular mobile-focused JavaScript liba=
+ry for Microsoft's MSDN Magazine's 'scriptjunkie' sub-site.
+
+
+--- Reading ---
+
+# Using Web Workers to Speed Up Your JavaScript Applications
+http://blog.teamtreehouse.com/using-web-workers-to-speed-up-your-javascrip=
+t-applications
+
+Matt West teaches us how to write multi-threaded JavaScript applications u=
+sing Web Workers. One benefit is that longer-running tasks can be performe=
+d in the background and won=E2=80=99t lock up the user interface thread, a=
+ny more.
+
+# The Magic of the jQuery 1.9 Source Map
+http://www.elijahmanor.com/2013/01/the-magic-of-jquery-source-map.html
+
+jQuery has support for source maps: you can debug the minified version via=
+ the original source.
+
+# A Strategy for i18n and Node.js
+http://ejohn.org/blog/a-strategy-for-i18n-and-node/
+
+John Resig=E2=80=99s first blog post in a while. He describes how he inter=
+nationalized a Node/Express web application.
+
+# Building A Node.js Server That Won=E2=80=99t Melt
+https://hacks.mozilla.org/2013/01/building-a-node-js-server-that-wont-melt=
+-a-node-js-holiday-season-part-5/
+
+How can you build a Node.js application that keeps running, even under imp=
+ossible load?
+
+# Source Maps 101
+http://net.tutsplus.com/tutorials/tools-and-tips/source-maps-101/
+
+If you compile from one language to JavaScript, a source map is a file tha=
+t maps line numbers in the compiled file to line numbers in the original.=
+ Via source maps, several browsers now let you debug the compiled version=
+ via the original.
+
+# Building Huge Apps with AngularJS
+http://briantford.com/blog/huuuuuge-angular-apps.html
+
+Brian Ford tells you how to organize and manage your app as it grows to te=
+ns or hundreds of thousands of lines of code.
+
+# JavaScript Unit Testing with Jasmine: Part 1
+http://www.joezimjs.com/javascript/javascript-unit-testing-with-jasmine-pa=
+rt-1/
+
+
+--- Watching ---
+
+# Faster Websites: A Crash Course on Web Performance
+http://www.igvita.com/2013/01/15/faster-websites-crash-course-on-web-perfo=
+rmance/
+
+Delivering a fast and optimized user experience in the browser requires ca=
+reful thinking across many layers of the stack =E2=80=93 TCP and up. Ilya=
+ Grigorik is an expert in this area and presents two videos plus slides on=
+ the topic.
+
+# Reid Burke at YUIConf: Write Code That Works
+http://www.yuiblog.com/blog/2013/01/10/yuiconf-2012-talk-reid-burke-on-wri=
+te-code-that-works/
+
+
+--- Code and Libraries ---
+
+# Announcing jQuery Mobile 1.3.0 Beta
+http://jquerymobile.com/blog/2013/01/14/announcing-jquery-mobile-1-3-0-bet=
+a/
+
+This release is focused on elevating responsive web design and brings lots=
+ of new widgets including panels, dual handle range sliders, and two diffe=
+rent responsive table modes. Additionally, the Ajax nav system has been re=
+factored and made easier to use.
+
+# Introducing Yeoman: Express Stack, A Full Stack Experiment
+https://plus.google.com/115133653231679625609/posts/YDNbxVxi4er
+
+The Express Stack is a proof-of-concept branch of Yeoman that includes sup=
+port for the Express middleware, CRUD generators for Express &amp; Angular=
+JS, and support for LiveReload. A demo application using AngularJS is incl=
+uded.
+
+# Basket.js: Simple Script Loader That Caches Scripts with LocalStorage
+http://addyosmani.github.com/basket.js/
+
+Tests by Google and Bing have shown that there are performance benefits to=
+ caching assets in localStorage (especially on mobile) when compared to si=
+mply reading and writing from the standard browser cache.
+
+# ParamQuery: jQuery Grid Plugin
+http://paramquery.com/
+
+A lightweight jQuery grid plugin inspired by MS Excel and Google Spreadshe=
+et.
+
+# iPhone Style Dragging for Both Desktop and Mobile with jQuery
+http://www.inserthtml.com/2013/01/touch-drag-movement-html5/
+
+# Rye: A Modern, Lightweight Browser Library Using ES5 Natives
+http://ryejs.com/
+
+Rye is a lightweight javascript library for DOM manipulation and events wi=
+th support for all modern browsers, including IE9+. It also has touch even=
+ts/gestures, an event emitter constructor, and a jQuery-like API.
+
+# Review: Get Screenshots of Your Running Sites in Different Resolutions
+https://github.com/juliangruber/review
+
+# Dyson: Node Server for Dynamic, Fake JSON
+https://github.com/webpro/dyson
+
+# TextareaHelper: Improved Tracking of a Textarea
+https://github.com/Codecademy/textarea-helper
+
+A small library that mirrors a textarea's content onto a div to provide th=
+e following functionality: get the textarea=E2=80=99s content height and g=
+et the x-y coordinates of the caret.
+
+# jQuery UI Touch Punch: Touch Event Support for jQuery UI
+http://touchpunch.furf.com/
+
+# Laces.js: Provides the M in MVC, While You Tie the Rest
+https://github.com/arendjr/laces.js
+
+In contrast to a full-blown MVC framework, Laces.js only gives you a model=
+ and nothing more. It provides you with the laces to tie your model to wha=
+tever view or controller you prefer.
+
+# Acorn=E2=80=99s Loose JavaScript Parser
+https://github.com/marijnh/acorn/blob/master/acorn_loose.js
+
+This parser will try to parse anything as JavaScript, repairing syntax err=
+ors as best it can. There are circumstances in which it will raise an erro=
+r and give up, but they are rare.
+
+# jQuery.x18n: jQuery Adapter for x18n
+https://github.com/js-coder/jQuery.x18n
+
+X18n is an internationalization library for JavaScript. jQuery.x18n is an=
+ x18n adapter that updates your HTML when the language changes or new tran=
+slations are added.
+
+# Maskew: Skew the Shapes of Elements Without Distorting Their Contents
+https://github.com/dmotz/maskew
+
+Features: less than 5 KB, mobile-friendly, no dependencies, optional jQuer=
+y plugin.
+
+# 50 JavaScript Libraries for Charts and Graphs
+http://techslides.com/50-javascript-charting-and-graphics-libraries/
+
+
+--- Jobs ---
+
+# Test Driven JavaScript and Ruby Developer (San Francisco and Santa Monic=
+a, CA)
+http://www.carbonfive.com/jobs
+
+&lt;blink&gt;Stuck with a terrible codebase?&lt;/blink&gt;
+
+# Front End Engineer (Mobile/Ember.js) - Q2eBanking (Austin, TX)
+https://jobs-q2ebanking.icims.com/jobs/1086/mobile-engineer-%28ios-html5%2=
+9/job
+
+Help us build cutting edge user experiences in Ember.js.  Q2 has been reco=
+gnized as one of the fastest growing companies for 3 years running by Inc.=
+ magazine.  Javascript, iOS and/or Android development experience is key.
+
+# Senior Front-End Software Engineer at Backbase, New York
+http://www.jobscore.com/jobs/backbase/senior-front-end-software-engineer/b=
+--Ffenomr4R33iGakhP3Q?ref=3Drss&sid=3D68
+
+Backbase is an internationally fast growing portal software vendor with he=
+adquarters in Amsterdam, NL. We're currently looking for a Senior Front-En=
+d Software Engineer at our New York office. Are you a master in JavaScript=
+, CSS, HTML? Come join Backbase.
+
+
+--- Last but not least.. ---
+
+# Chrome 25 Beta: Content Security Policy and Shadow DOM
+http://blog.chromium.org/2013/01/content-security-policy-and-shadow-dom.ht=
+ml
+
+Chrome 25 Beta includes unprefixed support for Content Security Policy, wh=
+ich helps reduce the risk of cross-site scripting and other content inject=
+ion attacks. It also includes prefixed support for the Shadow DOM (a part=
+ of the web components infrastructure). Other features: Web Speech API, Re=
+source Timing API, User Timing API, etc. If these sort of topics appeal to=
+ you, subscribe to our browser technology focused newsletter HTML5 Weekly=
+ as well :-)
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D7286c8c7ba
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_1434362551
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">jQuery 1.=
+9, jQuery Plugins, Node 0.8.17</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&i=
+d=3D909f1ae332&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dc915f0f924&e=3Db4af456f64"><img src=3D"http:=
+//javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366=
+" height=3D"69" style=3D"margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #113 - January 18, 2013</p>
+=09
+=09
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D07201d9a14&e=3D=
+b4af456f64" title=3D"blog.jquery.com/2013/01/16/announcing-the-jquery-plug=
+in-registry">Announcing the jQuery Plugin Registry</a></strong><br /><span=
+ style=3D"font-size: 13px">
+The jQuery Plugin Registry is a new site for centralized distribution and=
+ discovery of plugins. One of the goals was to improve on the old jQuery p=
+lugins site with regard to ease of contributing to plugins and to the site=
+ itself.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3De647eff058&e=3Db4af456f64" title=3D"blog.jque=
+ry.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released"=
+>jQuery 1.9 Final, jQuery 2.0 Beta, and Migrate Final Released</a><br /><s=
+pan style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5f9d2afc15&e=3D=
+b4af456f64" title=3D"blog.nodejs.org/2013/01/09/node-v0-8-17-stable">Node 0=
+=2E8.17 (stable) Released</a></strong><br /><span style=3D"font-size: 13px">=
+This release addresses a potential security vulnerability for code that us=
+es TypedArray. It also upgrades npm to 1.2.0 and includes other improvemen=
+ts and fixes.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0c70a0b4f4&e=3D=
+b4af456f64" title=3D"backbonejs.org/#upgrading">Backbone 0.9.10</a></strong=
+><br /><span style=3D"font-size: 13px">
+Backbone 0.9.10 is out. Features include: improved event handling, support=
+ for the HTTP PATCH method, and an update() method for Collection, enablin=
+g smarter syncing with the server.</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D96220564aa&e=3D=
+b4af456f64" title=3D"msdn.microsoft.com/en-us/magazine/jj906416.aspx">From=
+ MSDN Magazine: A Deeper Dive into jQuery Mobile</a></strong><br /><span s=
+tyle=3D"font-size: 13px">Wallace McClure takes a look at the popular mobil=
+e-focused JavaScript libary for Microsoft's MSDN Magazine's 'scriptjunkie'=
+ sub-site.</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D88e0d8acf1&e=3D=
+b4af456f64" title=3D"blog.teamtreehouse.com/using-web-workers-to-speed-up-y=
+our-javascript-applications">Using Web Workers to Speed Up Your JavaScript=
+ Applications</a></strong><br /><span style=3D"font-size: 13px">
+Matt West teaches us how to write multi-threaded JavaScript applications u=
+sing Web Workers. One benefit is that longer-running tasks can be performe=
+d in the background and won=E2=80=99t lock up the user interface thread, a=
+ny more.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D90af4b73a9&e=3D=
+b4af456f64" title=3D"www.elijahmanor.com/2013/01/the-magic-of-jquery-sourc=
+e-map.html">The Magic of the jQuery 1.9 Source Map </a></strong><br /><spa=
+n style=3D"font-size: 13px">
+jQuery has support for source maps: you can debug the minified version via=
+ the original source.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D05a54250dc&e=3D=
+b4af456f64" title=3D"ejohn.org/blog/a-strategy-for-i18n-and-node">A Strate=
+gy for i18n and Node.js</a></strong><br /><span style=3D"font-size: 13px">
+John Resig=E2=80=99s first blog post in a while. He describes how he inter=
+nationalized a Node/Express web application.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ded42b96954&e=3D=
+b4af456f64" title=3D"hacks.mozilla.org/2013/01/building-a-node-js-server-th=
+at-wont-melt-a-node-js-holiday-season-part-5">Building A Node.js Server Th=
+at Won=E2=80=99t Melt</a></strong><br /><span style=3D"font-size: 13px">
+How can you build a Node.js application that keeps running, even under imp=
+ossible load?
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc0a99dc0ac&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/tutorials/tools-and-tips/source-maps-=
+101">Source Maps 101</a></strong><br /><span style=3D"font-size: 13px">
+If you compile from one language to JavaScript, a source map is a file tha=
+t maps line numbers in the compiled file to line numbers in the original.=
+ Via source maps, several browsers now let you debug the compiled version=
+ via the original.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D39f0084e90&e=3D=
+b4af456f64" title=3D"briantford.com/blog/huuuuuge-angular-apps.html">Buildi=
+ng Huge Apps with AngularJS</a></strong><br /><span style=3D"font-size: 13=
+px">
+Brian Ford tells you how to organize and manage your app as it grows to te=
+ns or hundreds of thousands of lines of code.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D2a8b69a3dc&e=3Db4af456f64" title=3D"www.joez=
+imjs.com/javascript/javascript-unit-testing-with-jasmine-part-1">JavaScrip=
+t Unit Testing with Jasmine: Part 1</a><br /><span style=3D"font-size: 13p=
+x"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbc64859b13&e=3D=
+b4af456f64" title=3D"www.igvita.com/2013/01/15/faster-websites-crash-course=
+-on-web-performance">Faster Websites: A Crash Course on Web Performance</a=
+></strong><br /><span style=3D"font-size: 13px">
+Delivering a fast and optimized user experience in the browser requires ca=
+reful thinking across many layers of the stack =E2=80=93 TCP and up. Ilya=
+ Grigorik is an expert in this area and presents two videos plus slides on=
+ the topic.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3149f4f454&e=3D=
+b4af456f64" title=3D"www.yuiblog.com/blog/2013/01/10/yuiconf-2012-talk-reid=
+-burke-on-write-code-that-works">Reid Burke at YUIConf: Write Code That Wo=
+rks</a></strong><br /><span style=3D"font-size: 13px">Focuses on testing.<=
+/span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D718aa24a1e&e=3D=
+b4af456f64" title=3D"jquerymobile.com/blog/2013/01/14/announcing-jquery-mo=
+bile-1-3-0-beta">Announcing jQuery Mobile 1.3.0 Beta</a></strong><br /><sp=
+an style=3D"font-size: 13px">
+This release is focused on elevating responsive web design and brings lots=
+ of new widgets including panels, dual handle range sliders, and two diffe=
+rent responsive table modes. Additionally, the Ajax nav system has been re=
+factored and made easier to use.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dafe37794ef&e=3D=
+b4af456f64" title=3D"plus.google.com/115133653231679625609/posts/YDNbxVxi4=
+er">Introducing Yeoman: Express Stack, A Full Stack Experiment</a></strong=
+><br /><span style=3D"font-size: 13px">
+The Express Stack is a proof-of-concept branch of Yeoman that includes sup=
+port for the Express middleware, CRUD generators for Express &amp; Angular=
+JS, and support for LiveReload. A demo application using AngularJS is incl=
+uded.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D830edb6c3a&e=3D=
+b4af456f64" title=3D"addyosmani.github.com/basket.js">Basket.js: Simple Scr=
+ipt Loader That Caches Scripts with LocalStorage</a></strong><br /><span s=
+tyle=3D"font-size: 13px">
+Tests by Google and Bing have shown that there are performance benefits to=
+ caching assets in localStorage (especially on mobile) when compared to si=
+mply reading and writing from the standard browser cache.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7f2c7699fe&e=3D=
+b4af456f64" title=3D"paramquery.com">ParamQuery: jQuery Grid Plugin</a></st=
+rong><br /><span style=3D"font-size: 13px">
+A lightweight jQuery grid plugin inspired by MS Excel and Google Spreadshe=
+et.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3De8bcea8095&e=3Db4af456f64" title=3D"www.inse=
+rthtml.com/2013/01/touch-drag-movement-html5">iPhone Style Dragging for Bo=
+th Desktop and Mobile with jQuery</a><br /><span style=3D"font-size: 13px"=
+></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D610a8a3d9e&e=3D=
+b4af456f64" title=3D"ryejs.com">Rye: A Modern, Lightweight Browser Library=
+ Using ES5 Natives</a></strong><br /><span style=3D"font-size: 13px">
+Rye is a lightweight javascript library for DOM manipulation and events wi=
+th support for all modern browsers, including IE9+. It also has touch even=
+ts/gestures, an event emitter constructor, and a jQuery-like API.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7496774d70&e=3Db4af456f64" title=3D"github.co=
+m/juliangruber/review">Review: Get Screenshots of Your Running Sites in Di=
+fferent Resolutions</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7cfb97368f&e=3D=
+b4af456f64" title=3D"github.com/webpro/dyson">Dyson: Node Server for Dynami=
+c, Fake JSON</a></strong><br /><span style=3D"font-size: 13px">
+If you need test data for your web app.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D30b0515ee5&e=3D=
+b4af456f64" title=3D"github.com/Codecademy/textarea-helper">TextareaHelper:=
+ Improved Tracking of a Textarea</a></strong><br /><span style=3D"font-siz=
+e: 13px">
+A small library that mirrors a textarea's content onto a div to provide th=
+e following functionality: get the textarea=E2=80=99s content height and g=
+et the x-y coordinates of the caret.
+
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D1cd1445883&e=3Db4af456f64" title=3D"touchpunc=
+h.furf.com">jQuery UI Touch Punch: Touch Event Support for jQuery UI</a><b=
+r /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da4d403570d&e=3D=
+b4af456f64" title=3D"github.com/arendjr/laces.js">Laces.js: Provides the M=
+ in MVC, While You Tie the Rest</a></strong><br /><span style=3D"font-size=
+: 13px">
+In contrast to a full-blown MVC framework, Laces.js only gives you a model=
+ and nothing more. It provides you with the laces to tie your model to wha=
+tever view or controller you prefer.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1894b7507d&e=3D=
+b4af456f64" title=3D"github.com/marijnh/acorn/blob/master/acorn_loose.js">A=
+corn=E2=80=99s Loose JavaScript Parser</a></strong><br /><span style=3D"fo=
+nt-size: 13px">
+This parser will try to parse anything as JavaScript, repairing syntax err=
+ors as best it can. There are circumstances in which it will raise an erro=
+r and give up, but they are rare.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6d581ad91f&e=3D=
+b4af456f64" title=3D"github.com/js-coder/jQuery.x18n">jQuery.x18n: jQuery A=
+dapter for x18n</a></strong><br /><span style=3D"font-size: 13px"><a href=
+=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79=
+d6bb9675f313ceb2&id=3Dc6cdec80ea&e=3Db4af456f64">X18n</a> is an internati=
+onalization library for JavaScript. jQuery.x18n is an x18n adapter that up=
+dates your HTML when the language changes or new translations are added.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4801810aa2&e=3D=
+b4af456f64" title=3D"github.com/dmotz/maskew">Maskew: Skew the Shapes of El=
+ements Without Distorting Their Contents</a></strong><br /><span style=3D"=
+font-size: 13px">Features: less than 5 KB, mobile-friendly, no dependencie=
+s, optional jQuery plugin.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D6af3cbe8ca&e=3Db4af456f64" title=3D"techslide=
+s.com/50-javascript-charting-and-graphics-libraries">50 JavaScript Librari=
+es for Charts and Graphs</a><br /><span style=3D"font-size: 13px"></span><=
+/p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D44ed11fd74&e=3D=
+b4af456f64"><img src=3D"http://s3.cooperpress.com/carbonfive.png" width=3D"66" heig=
+ht=3D"50" style=3D"float: right; margin-left: 14px; margin-bottom: 16px; b=
+order: 1px solid #1173c7" /></a><strong><a href=3D"http://javascriptweekly=
+=2Eus1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D026767=
+e145&e=3Db4af456f64" title=3D"www.carbonfive.com/jobs">Test Driven JavaSc=
+ript and Ruby Developer (San Francisco and Santa Monica, CA)</a></strong><=
+br /><span style=3D"font-size: 13px">&lt;blink&gt;Stuck with a terrible co=
+debase?&lt;/blink&gt;</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0ed563cf57&e=3D=
+b4af456f64" title=3D"jobs-q2ebanking.icims.com/jobs/1086/mobile-engineer-%=
+28ios-html5%29/job">Front End Engineer (Mobile/Ember.js) - Q2eBanking (Aus=
+tin, TX) </a></strong><br /><span style=3D"font-size: 13px">Help us build=
+ cutting edge user experiences in Ember.js.  Q2 has been recognized as one=
+ of the fastest growing companies for 3 years running by Inc. magazine.  J=
+avascript, iOS and/or Android development experience is key.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D111d812456&e=3D=
+b4af456f64" title=3D"www.jobscore.com/jobs/backbase/senior-front-end-softw=
+are-engineer/b--Ffenomr4R33iGakhP3Q?ref=3Drss&sid=3D68">Senior Front-End S=
+oftware Engineer at Backbase, New York</a></strong><br /><span style=3D"fo=
+nt-size: 13px">Backbase is an internationally fast growing portal software=
+ vendor with headquarters in Amsterdam, NL. We're currently looking for a=
+ Senior Front-End Software Engineer at our New York office. Are you a mast=
+er in JavaScript, CSS, HTML? Come join Backbase.</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D83aba987d4&e=3D=
+b4af456f64" title=3D"blog.chromium.org/2013/01/content-security-policy-and=
+-shadow-dom.html">Chrome 25 Beta: Content Security Policy and Shadow DOM</=
+a></strong><br /><span style=3D"font-size: 13px">
+Chrome 25 Beta includes unprefixed support for Content Security Policy, wh=
+ich helps reduce the risk of cross-site scripting and other content inject=
+ion attacks. It also includes prefixed support for the <a href=3D"http://j=
+avascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313c=
+eb2&id=3D48228039da&e=3Db4af456f64">Shadow DOM</a> (a part of the web com=
+ponents infrastructure). Other features: <a href=3D"http://javascriptweekl=
+y.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ddf85a=
+b2dd8&e=3Db4af456f64">Web Speech API</a>, Resource Timing API, User Timin=
+g API, etc. If these sort of topics appeal to you, subscribe to our browse=
+r technology focused newsletter <a href=3D"http://javascriptweekly.us1.lis=
+t-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7aa81af891&e=
+=3Db4af456f64">HTML5 Weekly</a> as well :-)
+</span></p>
+
+
+
+
+
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De0e9d83b2f&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da6=
+64182c5a&e=3Db4af456f64">Peter Cooper</a></p>
+
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc3d11d0700&e=
+=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3Df915913c28&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br />Want to advertise? <a href=3D"http://javascriptweekly.us1.list-ma=
+nage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3f6fc2db9f&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br />Want to post a job? <a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5c0f67e75e&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br />To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br /><a href=3D"http://javascriptw=
+eekly.us1.list-manage1.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D=
+596bcf37c5&e=3Db4af456f64&c=3D7286c8c7ba">Unsubscribe</a> or <a href=3D"http=
+://javascriptweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313c=
+eb2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a><=
+/p>
+=09</td></tr>
+</table>
+
+</td></tr></table>
+
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D7286c8c7ba&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_1434362551--

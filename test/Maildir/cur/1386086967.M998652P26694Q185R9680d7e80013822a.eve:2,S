@@ -1,0 +1,759 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853545-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.114.57.180 with SMTP id j20csp133702ldq;
+        Fri, 12 Oct 2012 05:33:53 -0700 (PDT)
+Received: by 10.229.114.203 with SMTP id f11mr1812713qcq.94.1350045232622;
+        Fri, 12 Oct 2012 05:33:52 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id d7si7957565qeo.8.2012.10.12.05.33.51;
+        Fri, 12 Oct 2012 05:33:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853545-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-mc.us1_449017.1853545-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853545-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net; dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=bWE4q1cX7FUOJJOBtRU+JeJ0hBc=;
+ b=a9TiqN1enMKX5OkqGA6ymC7R7Tr12Fb0gZv0wRrcryslz/6nTwMdjw+ElBk3MGFT9fXhSnRTHkAv
+   oNVpvRKIB5wb60vxABqioIZZRCxo6ioEKk9lY464iDi12vBASw9MFO+srXSoRoaYldCVL+ZUNGU4
+   5uffqbwCEzB/Iv9GX8A=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=Wuilozjx0fyF2GuFOzsesrRxTpQRJas/qLe+XVaMSyBrMVuY8BCUlyP2DP73Rr5+ofGB16QEdI4X
+   RG8jJ+ilK67jby82+Kp7EJUatyBih18mYmku7ZdOorcSo4COpkesOEdM6MsyDXVBVh/vHfA7ZGFH
+   jWNnj7xEpUMB4y5lC0o=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hf07300ik18l for <webmail.testing.dev@gmail.com>; Fri, 12 Oct 2012 12:17:44 +0000 (envelope-from <bounce-mc.us1_449017.1853545-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=2D=20Issue=20100?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 12 Oct 2012 12:17:44 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20121012121727@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID09545c01b0b4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.09545c01b0
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.09545c01b0
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=09545c01b0&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-09545c01b0-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=09545c01b0>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_893283609"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_893283609
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #100 - October 12, 2012
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+To unsubscribe: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D09545c01b0
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Issue 100 has snuck up on me! :-) No big fanfare but issue 104 will be our
+2nd birthday.. so maybe then! Thank you for your continued support and
+patronage. - Peter C
+
+
+Headlines
+---------
+
+Harmony of Dreams Come True (New Stuff in ES6)
+https://brendaneich.com/2012/10/harmony-of-dreams-come-true/
+
+  Brendan Eich reflects on a recent keynote he gave at Strange Loop (be su=
+re
+  to check out the slides) and shows how many of his dreams for the future=
+ of
+  JavaScript's syntax and functionality are coming true. He covers sets,
+  maps, default parameters, for-of iteration, and much more.
+
+jQuery UI 1.9.0 Released
+http://blog.jqueryui.com/2012/10/jquery-ui-1-9-0/
+
+  jQuery UI is a curated set of UI effects, widgets and themes built on to=
+p
+  of jQuery. 1.9 introduces new Menu, Spinner, and Tooltip widgets, some
+  redesigned APIs, and extra jQuery version support.
+
+YUIConf 2012 Early Bird Registration Open (Santa Clara, Nov 14-15)
+http://www.yuiblog.com/blog/2012/10/05/yuiconf-2012-early-bird-registratio=
+n-open/
+
+
+From our Sponsor
+----------------
+
+Celebrate your nerd life
+http://newrelic.com/nerdlife?utm_source=3DCOOP&utm_medium=3Demail&utm_cont=
+ent=3Dnewsletter&utm_campaign=3DRPM&utm_term=3Dnerdlife&mpc=3DEM-COOP-RPM-=
+EN-100-JavascriptWeekly-nerdlife
+
+  New Relic is on a mission. We are creating app management that ANY
+  organization with a business-critical web app can use. We think EVERY
+  developer will benefit from a New Relic account, hooked up to WHATEVER a=
+pp
+  they are working on. So go deploy us now and get your free shirt <a
+  href=3D"http://newrelic.com/nerdlife?utm_source=3DCOOP&amp;utm_medium=3D=
+email&amp;utm_content=3Dnewsletter&amp;utm_campaign=3DRPM&amp;utm_term=3Dn=
+erdlife&amp;mpc=3DEM-COOP-RPM-EN-100-JavascriptWeekly-nerdlife">here</a>.
+
+
+Reading
+-------
+
+Performance Tips for JavaScript in V8
+http://www.html5rocks.com/en/tutorials/speed/v8/
+
+  Google's Chris Wilson offers up plenty of practical advice and insights
+  into ensuring your code flies along happily on the V8 engine (as used by
+  Node and Chrome).
+
+Essential JavaScript: The Top Five Testing Libraries
+http://www.netmagazine.com/features/essential-javascript-top-five-testing-=
+libraries
+
+  Jack Franklin looks at Jasmine, QUnit, Mocha, Buster.JS, and YUI Test. I=
+f
+  you're new to JavaScript testing, this is a handy overview of some optio=
+ns.
+
+Optimizing JavaScript Variable Access (in SpiderMonkey)
+https://blog.mozilla.org/luke/2012/10/02/optimizing-javascript-variable-ac=
+cess/
+
+  Mozilla's Luke Wagner takes a technical look at how variable access in
+  SpiderMonkey (Mozilla's JS engine) has been made more efficient. Catnip=
+ to
+  the engine implementation crowd!
+
+DOM Enlightenment: Exploring The Relationship Between JS and the Modern HT=
+ML DOM
+http://domenlightenment.com/
+
+  A draft version of a book under development by Cody Lindley for O'Reilly=
+=2E
+
+JS Minty Fresh: Identifying and Eliminating Code Smells in JS
+http://rmurphey.com/js-minty-fresh/presentation/#/
+
+  A slide deck by Rebecca Murphey. Note that the slides about the 'smells'
+  allow you to move down to see the before and after code examples.
+
+55 Unique jQuery Techniques and Tutorials
+http://www.designsmag.com/2012/10/55-unique-jquery-techniques-and-tutorial=
+s/
+
+  Yes, it's a cheap and cheerful screenshot-laden list post! But if you're=
+ on
+  the prowl for an interesting effect or widget, they can be handy.
+
+2 Helpful JavaScript Patterns
+http://blog.newrelic.com/2012/10/09/helpful-javascript-patterns/
+
+  New Relic's David Morrow shows off his two favorite JavaScript code
+  organization patterns: modules and hand-rolled 'classes'.
+
+Categorizing Values in JavaScript
+http://www.adobe.com/devnet/html5/articles/categorizing-values-in-javascri=
+pt.html
+
+  Dr. Axel Rauschmayer helps you better understand how how different types=
+ of
+  values are categorized in JavaScript.
+
+Hosting a Node App on Heroku
+http://javascriptplayground.com/blog/2012/10/hosting-a-node-app-on-heroku
+
+Flying JavaScript! JS Powered Drones and Copters at the Nodecopter Hackath=
+on
+http://creativejs.com/2012/10/flying-javascript/
+
+ECMAScript 6 collections, Part 2: Maps
+http://www.nczonline.net/blog/2012/10/09/ecmascript-6-collections-part-2-m=
+aps/
+
+Designing Better JavaScript APIs
+http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-us=
+ability/
+
+
+Watching
+--------
+
+Hacking Node.js on a Raspberry Pi using Orion
+http://www.youtube.com/watch?v=3DtjR5Kh3jlYs
+
+
+Code and Libraries
+------------------
+
+Scripted: A New JavaScript Editor, From VMware
+http://blog.springsource.org/2012/10/11/scripted-a-javascript-editor-from-=
+vmware/
+
+  A general purpose code editor built using Web technologies with a focus=
+ on
+  offering a great JavaScript editing experience.
+
+node-sha3: An SHA-3 Library for Node.js
+https://github.com/phusion/node-sha3
+
+  Based on the reference C implementation, Phusion has released a library
+  that implements the SHA-3 (Keccak) cryptographic hashing algorithm for N=
+ode
+  users.
+
+JS-VBA-M: A JavaScript Game Boy Advance Emulator
+http://dl.dropbox.com/u/20328726/vbamjs/index.html
+
+  I'm sure we've all seen the JS Game Boy emulators but now it's the Game=
+ Boy
+  Advance's turn. I downloaded a ROM to try it out and it worked but was a=
+n
+  unplayable 4 fps or so in the latest Chrome.
+
+otto: A JavaScript Parser and Interpreter Written in Go
+https://github.com/robertkrimen/otto
+
+HATCHSHOW.js: A(nother) jQuery Typesetting Plugin
+http://charliepark.org/hatchshow-a-jquery-typesetting-plugin/
+
+Templayed.js: Fastest and Smallest Mustache-compliant JS Templating Lib
+http://archan937.github.com/templayed.js/
+
+microformat-node: Microformats Parser for Node.js
+https://github.com/glennjones/microformat-node
+
+Examplifier: Turn Bland Source Code Into Interactive Demos
+http://raynos.github.com/examplifier/doc/index.html
+
+ABalytics.js: Client-side A/B Testing With Google Analytics
+http://danmaz74.me/2012/10/10/abalytics-js-client-side-ab-testing-with-goo=
+gle-analytics/
+
+InstaLib: A jQuery Instagram Library
+http://imkreative.com/instalib-jquery-instagram-library/
+
+tappivate: Zepto + jQuery Plugin for More App-like Buttons on Mobile
+https://github.com/fiznool/tappivate
+
+
+Jobs
+----
+
+JavaScript Developer (United Kingdom)
+http://www.dotdigitaljobs.com/
+
+  We need you to build the fantastic user interfaces which give our produc=
+ts
+  their easy to use feel. Work on our pure JavaScript applications that
+  seamlessly bridge the gap between client and server operations. Join our
+  agile team to learn and build great things.
+
+Bring Home the Bacon with Hubbub
+http://apply.hubbub.co.uk/
+
+  Hubbub change how people shop, and support local high streets, by provid=
+ing
+  a pioneering delivery service for independent shops. We're looking for t=
+wo
+  super-smart developers to join us - and we're offering a year's free bac=
+on
+  to successful applicants AND the person that refers them too!
+
+Post a job in next week's JavaScript Weekly
+https://cooperpress.com/jobs
+
+
+Last but not least..
+--------------------
+
+Trigger Rally: A 3D Web-Based Rally Driving Game using Three.js
+http://triggerrally.com/x/Preview/Arbusu/drive
+
+  A fast paced rally driving game with 20 checkpoints. Give it a go. I
+  eventually got an OK time of 1:39.41.. but tweet me at @peterc to gloat
+  about your better time ;-)
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly
+e-mails about JavaScript and its ancillary technologies.
+
+You can unsubscribe at: http://javascriptweekly.us1.list-manage.com/unsubs=
+cribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D09545=
+c01b0
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e,
+Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@javascriptweekly=
+=2Ecom
+if you like.
+--_----------=_MCPart_893283609
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px), (max-width: 600px) {
+     body {
+          padding: 10px !important;
+     }
+=09#maintable, #toptable {
+=09=09width: auto !important;
+=09}
+}
+</style>
+
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">Eich on n=
+ew ES6 features, jQuery UI 1.9, V8 performance tips</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3D3dea332c67&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D136463fef8&e=3Db4af456f64"><img src=3D"http:/=
+/javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366"=
+ height=3D"69" style=3D"margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #100 - October 12, 2012</p>
+=09
+=09
+
+
+<p style=3D"margin: 1.2em 0px 1.35em 0px; line-height: 21px; font-size: 14=
+px">Issue 100 has snuck up on me! :-) No big fanfare but issue 104 will be=
+ our 2nd birthday.. so maybe then! Thank you for your continued support an=
+d patronage. <em>- Peter C</em></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Headlines</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D3bf46b06e6&e=3Db4af456f64" title=3D"brendaneich.com/2012/10=
+/harmony-of-dreams-come-true">Harmony of Dreams Come True (New Stuff in ES=
+6)</a></strong><br /><span style=3D"font-size: 13px">
+Brendan Eich reflects on a recent keynote he gave at Strange Loop (be sure=
+ to check out the slides) and shows how many of his dreams for the future=
+ of JavaScript's syntax and functionality are coming true. He covers sets,=
+ maps, default parameters, for-of iteration, and much more.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3De5714451f6&e=3Db4af456f64" title=3D"blog.jqueryui.com/2012/=
+10/jquery-ui-1-9-0">jQuery UI 1.9.0 Released</a></strong><br /><span style=
+=3D"font-size: 13px">
+jQuery UI is a curated set of UI effects, widgets and themes built on top=
+ of jQuery. 1.9 introduces new Menu, Spinner, and Tooltip widgets, some re=
+designed APIs, and extra jQuery version support.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Df81e64141a&e=3Db4af456f64" title=3D"www.yuibl=
+og.com/blog/2012/10/05/yuiconf-2012-early-bird-registration-open">YUIConf=
+ 2012 Early Bird Registration Open (Santa Clara, Nov 14-15)</a><br /><span=
+ style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2e3d4ab28a&e=3D=
+b4af456f64"><img src=3D"http://s3.cooperpress.com.s3.amazonaws.com/nerdlife.png" wi=
+dth=3D"105" height=3D"105" style=3D"float: right; margin-left: 14px; margi=
+n-bottom: 16px; border: 1px solid #1173c7" /></a><strong style=3D"font-wei=
+ght: normalx"><a href=3D"http://javascriptweekly.us1.list-manage2.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db0a5db84f2&e=3Db4af456f64" tit=
+le=3D"newrelic.com/nerdlife?utm_source=3DCOOP&utm_medium=3Demail&utm_conte=
+nt=3Dnewsletter&utm_campaign=3DRPM&utm_term=3Dnerdlife&mpc=3DEM-COOP-RPM-E=
+N-100-JavascriptWeekly-nerdlife">Celebrate your nerd life</a></strong><br=
+ /><span style=3D"font-size: 13px">New Relic is on a mission. We are creat=
+ing app management that ANY organization with a business-critical web app=
+ can use. We think EVERY developer will benefit from a New Relic account,=
+ hooked up to WHATEVER app they are working on. So go deploy us now and ge=
+t your free shirt <a href=3D"http://javascriptweekly.us1.list-manage.com/t=
+rack/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4f2341b4e4&e=3Db4af456f64">=
+here</a>.</span></p>
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D6e69fd6615&e=3Db4af456f64" title=3D"www.html5rocks.com/en/t=
+utorials/speed/v8">Performance Tips for JavaScript in V8</a></strong><br /=
+><span style=3D"font-size: 13px">
+Google's Chris Wilson offers up plenty of practical advice and insights in=
+to ensuring your code flies along happily on the V8 engine (as used by Nod=
+e and Chrome).
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D4400ff0ea8&e=3Db4af456f64" title=3D"www.netmagazine.com/fea=
+tures/essential-javascript-top-five-testing-libraries">Essential JavaScrip=
+t: The Top Five Testing Libraries</a></strong><br /><span style=3D"font-si=
+ze: 13px">
+Jack Franklin looks at Jasmine, QUnit, Mocha, Buster.JS, and YUI Test. If=
+ you're new to JavaScript testing, this is a handy overview of some option=
+s.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D72d1beed11&e=3Db4af456f64" title=3D"blog.mozilla.org/luke/2=
+012/10/02/optimizing-javascript-variable-access">Optimizing JavaScript Var=
+iable Access (in SpiderMonkey)</a></strong><br /><span style=3D"font-size:=
+ 13px">
+Mozilla's Luke Wagner takes a technical look at how variable access in Spi=
+derMonkey (Mozilla's JS engine) has been made more efficient. Catnip to th=
+e engine implementation crowd!
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D88b058956f&e=3Db4af456f64" title=3D"domenlightenment.com">D=
+OM Enlightenment: Exploring The Relationship Between JS and the Modern HTM=
+L DOM</a></strong><br /><span style=3D"font-size: 13px">
+A draft version of a book under development by Cody Lindley for O'Reilly.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D27c6a9a8f6&e=3Db4af456f64" title=3D"rmurphey.com/js-minty-f=
+resh/presentation/#">JS Minty Fresh: Identifying and Eliminating Code Smel=
+ls in JS</a></strong><br /><span style=3D"font-size: 13px">
+A slide deck by Rebecca Murphey. Note that the slides about the 'smells' a=
+llow you to move down to see the before and after code examples.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3Dbe50954187&e=3Db4af456f64" title=3D"www.designsmag.com/201=
+2/10/55-unique-jquery-techniques-and-tutorials">55 Unique jQuery Technique=
+s and Tutorials</a></strong><br /><span style=3D"font-size: 13px">
+Yes, it's a cheap and cheerful screenshot-laden list post! But if you're o=
+n the prowl for an interesting effect or widget, they can be handy.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D469b22209e&e=3Db4af456f64" title=3D"blog.newrelic.com/2012/=
+10/09/helpful-javascript-patterns">2 Helpful JavaScript Patterns</a></stro=
+ng><br /><span style=3D"font-size: 13px">
+New Relic's David Morrow shows off his two favorite JavaScript code organi=
+zation patterns: modules and hand-rolled 'classes'.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Db7ba15706d&e=3Db4af456f64" title=3D"www.adobe.com/devnet/ht=
+ml5/articles/categorizing-values-in-javascript.html">Categorizing Values i=
+n JavaScript</a></strong><br /><span style=3D"font-size: 13px">
+Dr. Axel Rauschmayer helps you better understand how how different types o=
+f values are categorized in JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D268d16b79b&e=3Db4af456f64" title=3D"javascrip=
+tplayground.com/blog/2012/10/hosting-a-node-app-on-heroku">Hosting a Node=
+ App on Heroku</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D428f454429&e=3Db4af456f64" title=3D"creativej=
+s.com/2012/10/flying-javascript">Flying JavaScript! JS Powered Drones and=
+ Copters at the Nodecopter Hackathon</a><br /><span style=3D"font-size: 13=
+px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D9147ae0e35&e=3Db4af456f64" title=3D"www.nczon=
+line.net/blog/2012/10/09/ecmascript-6-collections-part-2-maps">ECMAScript=
+ 6 collections, Part 2: Maps</a><br /><span style=3D"font-size: 13px"></sp=
+an></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D36340d0d1f&e=3Db4af456f64" title=3D"coding.sm=
+ashingmagazine.com/2012/10/09/designing-javascript-apis-usability">Designi=
+ng Better JavaScript APIs</a><br /><span style=3D"font-size: 13px"></span>=
+</p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D56a1c3ae80&e=3Db4af456f64" title=3D"www.youtu=
+be.com/watch?v=3DtjR5Kh3jlYs">Hacking Node.js on a Raspberry Pi using Orio=
+n</a><br /><span style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Daa2aef983f&e=3Db4af456f64" title=3D"blog.springsource.org/2=
+012/10/11/scripted-a-javascript-editor-from-vmware">Scripted: A New JavaSc=
+ript Editor, From VMware</a></strong><br /><span style=3D"font-size: 13px"=
+>
+A general purpose code editor built using Web technologies with a focus on=
+ offering a great JavaScript editing experience.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3De4e3e151d8&e=3Db4af456f64" title=3D"github.com/phusion/node=
+-sha3">node-sha3: An SHA-3 Library for Node.js</a></strong><br /><span sty=
+le=3D"font-size: 13px">
+Based on the reference C implementation, Phusion has released a library th=
+at implements the SHA-3 (Keccak) cryptographic hashing algorithm for Node=
+ users.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D5c3dfea142&e=3Db4af456f64" title=3D"dl.dropbox.com/u/203287=
+26/vbamjs/index.html">JS-VBA-M: A JavaScript Game Boy Advance Emulator</a>=
+</strong><br /><span style=3D"font-size: 13px">
+I'm sure we've all seen the JS Game Boy emulators but now it's the Game Bo=
+y Advance's turn. I downloaded a ROM to try it out and it worked but was a=
+n unplayable 4 fps or so in the latest Chrome.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dbf9c11f3ed&e=3Db4af456f64" title=3D"github.co=
+m/robertkrimen/otto">otto: A JavaScript Parser and Interpreter Written in=
+ Go</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D20a00b7131&e=3Db4af456f64" title=3D"charliepa=
+rk.org/hatchshow-a-jquery-typesetting-plugin">HATCHSHOW.js: A(nother) jQue=
+ry Typesetting Plugin</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3De2c91136b0&e=3Db4af456f64" title=3D"archan93=
+7.github.com/templayed.js">Templayed.js: Fastest and Smallest Mustache-com=
+pliant JS Templating Lib</a><br /><span style=3D"font-size: 13px"></span><=
+/p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D3a9ac168ce&e=3Db4af456f64" title=3D"github.co=
+m/glennjones/microformat-node">microformat-node: Microformats Parser for N=
+ode.js</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D856baa06c6&e=3Db4af456f64" title=3D"raynos.gi=
+thub.com/examplifier/doc/index.html">Examplifier: Turn Bland Source Code I=
+nto Interactive Demos</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D068f850107&e=3Db4af456f64" title=3D"danmaz74=
+=2Eme/2012/10/10/abalytics-js-client-side-ab-testing-with-google-analytics">=
+ABalytics.js: Client-side A/B Testing With Google Analytics</a><br /><span=
+ style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D3333e32a83&e=3Db4af456f64" title=3D"imkreativ=
+e.com/instalib-jquery-instagram-library">InstaLib: A jQuery Instagram Libr=
+ary</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D8fe6ee1cb5&e=3Db4af456f64" title=3D"github.co=
+m/fiznool/tappivate">tappivate: Zepto + jQuery Plugin for More App-like Bu=
+ttons on Mobile</a><br /><span style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D4f951e8f0a&e=3Db4af456f64" title=3D"www.dotdigitaljobs.com"=
+>JavaScript Developer (United Kingdom)</a></strong><br /><span style=3D"fo=
+nt-size: 13px">We need you to build the fantastic user interfaces which gi=
+ve our products their easy to use feel. Work on our pure JavaScript applic=
+ations that seamlessly bridge the gap between client and server operations=
+=2E Join our agile team to learn and build great things.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D52fb17f5c5&e=3Db4af456f64" title=3D"apply.hubbub.co.uk">Br=
+ing Home the Bacon with Hubbub</a></strong><br /><span style=3D"font-size:=
+ 13px">Hubbub change how people shop, and support local high streets, by p=
+roviding a pioneering delivery service for independent shops. We're lookin=
+g for two super-smart developers to join us - and we're offering a year's=
+ free bacon to successful applicants AND the person that refers them too!<=
+/span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D11bcfe353a&e=3Db4af456f64" title=3D"cooperpre=
+ss.com/jobs">Post a job in next week's JavaScript Weekly</a><br /><span st=
+yle=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db051c17243&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/6338/thumb_=
+rally.png" width=3D"80" height=3D"60" style=3D"float: right; margin-left:=
+ 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong style=
+=3D"font-weight: normalx"><a href=3D"http://javascriptweekly.us1.list-mana=
+ge.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D13d5b54f2e&e=3D=
+b4af456f64" title=3D"triggerrally.com/x/Preview/Arbusu/drive">Trigger Rally: A=
+ 3D Web-Based Rally Driving Game using Three.js</a></strong><br /><span st=
+yle=3D"font-size: 13px">
+A fast paced rally driving game with 20 checkpoints. Give it a go. I event=
+ually got an OK time of 1:39.41.. but tweet me at @peterc to gloat about y=
+our better time ;-)
+</span></p>
+
+
+
+
+</td></tr>
+
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<!-- p>You joined <a href=3D"http://javascriptweekly.com/">JavaScript W=
+eekly</a> to get weekly e-mails about JavaScript programming and related t=
+opics. --><p>Want to see more? Check out <a href=3D"http://javascriptweekl=
+y.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dee88a=
+61485&e=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3D24d0e33a2a&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br />Want to advertise? <a href=3D"http://javascriptweekly.us1.list-ma=
+nage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D63fdf7ca6f&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br />Want to post a job? <a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd7dccb209c&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br />To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br /><a href=3D"http://javascriptw=
+eekly.us1.list-manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D5=
+96bcf37c5&e=3Db4af456f64&c=3D09545c01b0">Unsubscribe</a> or <a href=3D"http:=
+//javascriptweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313ce=
+b2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a></=
+p>
+=09</td></tr>
+</table>
+
+</td></tr></table><img src=3D"http://javascriptweekly.us1.list-manage.com/=
+track/open.php?u=3D0618f6a79d6bb9675f313ceb2&id=3D09545c01b0&e=3D=
+b4af456f64" height=3D"1" width=3D"1">
+--_----------=_MCPart_893283609--

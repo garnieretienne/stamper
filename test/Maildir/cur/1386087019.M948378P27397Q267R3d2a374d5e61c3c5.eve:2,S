@@ -1,0 +1,478 @@
+Return-Path: <delivery@mx.sailthru.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.85.73 with SMTP id f9csp11137oaz;
+        Fri, 15 Feb 2013 04:03:01 -0800 (PST)
+X-Received: by 10.52.93.235 with SMTP id cx11mr2340075vdb.51.1360929781516;
+        Fri, 15 Feb 2013 04:03:01 -0800 (PST)
+Received: from mx-aol-a.sailthru.com (mx-aol-a.sailthru.com. [64.34.57.249])
+        by mx.google.com with ESMTP id w7si8259259vdh.113.2013.02.15.04.03.00;
+        Fri, 15 Feb 2013 04:03:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) client-ip=64.34.57.249;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) smtp.mail=delivery@mx.sailthru.com;
+       dkim=pass header.i=@techcrunch.com
+Received: from nyp1-jmailer15.sailthru.com (nyp1-jmailer15.sailthru.com [65.39.215.167])
+	by mx-aol-a.sailthru.com (Postfix) with ESMTP id 68A7311A4579
+	for <webmail.testing.dev@gmail.com>; Fri, 15 Feb 2013 07:01:40 -0500 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1360929700;
+	s=sailthru; d=techcrunch.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-ID:List-Unsubscribe;
+	bh=klUKSwRHvo68atQn9W2sIreRKqix49SLuP4f0hdJ4sI=;
+	b=qR2A4A71mLYZx6qLSeBbxz48det0uJ0Yp5/BN9JSsUL6SEXMY4xJ4pUipnMDKkDZ
+	2X0mbgKF3F/uspXNsqfRc8AlriGpT0LshKtHkjQLT0Qmzaxiq2qWvZFAIgAz8AdfCEI
+	wkYE0dXjN4DW1CeETPHEHhsFNzHBycL8BbXsD/6Y=
+Date: Fri, 15 Feb 2013 07:01:40 -0500 (EST)
+From: CrunchBase <mailer@crunchbase.com>
+To: webmail.testing.dev@gmail.com
+Message-ID: <20130215120140.1440924.111263@sailthru.com>
+Subject: News from the CrunchBase team
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_538382_1218755106.1360929700421"
+Precedence: bulk
+X-TM-ID: 20130215120140.1440924.111263
+X-Info: Message sent by sailthru.com customer CrunchBase
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-IADB-IP: 64.34.57.249
+X-IADB-IP-REVERSE: 249.57.34.64
+X-IADB-URL: http://www.isipp.com/iadb.php
+X-Unsubscribe-Web: http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576uvto.2dun/9c16eae6
+List-ID: <cm.3808.5f5d37c7784e7431f532b403fd20aa36.sailthru.com>
+List-Unsubscribe: <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576uvto.2dun/9c16eae6>, <mailto:unsubscribe_3808@mx.sailthru.com>
+X-rpcampaign: stfqm1440924
+
+------=_Part_538382_1218755106.1360929700421
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Friday Feb 15, 2013
+
+TechCrunch Talks About Big Plans for CrunchBase <http://link.crunchbase.com=
+/5072cfd8dc87ac0b4f10f576uvto.2dun/UR12ycQceLedItYRDd714>
+Check out today's TechCrunch story about CrunchBase <http://link.crunchbase=
+.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR12ycQceLedItYREbbc5>. Since our la=
+unch six years ago, we have quietly grown a community of over 90k contribut=
+ors who have profiled 105k=C2=A0companies and 140k people. =C2=A0With the h=
+elp=C2=A0of our community,=C2=A0CrunchBase is now a valuable resource for e=
+ntrepreneurs, investors, journalists, recruiters, job seekers, and everyone=
+ in-between. =C2=A0We host over 1.5MM monthly visitors, and this audience c=
+ontinues to grow.
+
+Developer Spotlight Program <http://link.crunchbase.com/5072cfd8dc87ac0b4f1=
+0f576uvto.2dun/UR12ycQceLedItYSD8999>
+Today we are introducing the CrunchBase Developer Spotlight Program <http:/=
+/link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/URrBasQcQfkwbJE1Ca93=
+5> where we highlight great applications built with the CrunchBase API. SiS=
+ense's CrunchAlytics <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uv=
+to.2dun/UR12ycQceLedItYSEb05b> is the first application we are spotlighting=
+ and you can use it today to explore and visualize the entire CrunchBase da=
+taset. It's free and we're really excited to share it with you.
+
+We're Hiring Developers! Help Build the Future CrunchBase... <http://link.c=
+runchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR12ycQceLedItYTD7450>
+CrunchBase is used by millions of consumers, analysts, and investors every =
+month to track what's happening in the fast-paced world of tech startups, a=
+nd we're growing. The key to our continued success is building a robust and=
+ scalable system that can capture and reflect the complex relationships amo=
+ngst participants in the industry. Right now, we have the unique opportunit=
+y to technically "reboot", taking all the lessons of running CrunchBase up =
+to this point and build a brand new CrunchBase from the ground up. Sound ex=
+citing? It does to us. To learn more, visit the CrunchBase blog. <http://li=
+nk.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR12ycQceLedItYTEb730>
+To forward this newsletter to a friend, click here <http://link.crunchbase.=
+com/forward/5072cfd8dc87ac0b4f10f576uvto.2dun/ff7670fe> =C2=BB
+
+If you do not want to receive this, you can unsubscribe with one click here=
+ <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576uvto.2dun/9c16eae6>=
+.
+
+TechCrunch
+410 Townsend Street, San Francisco, CA 94107
+
+=C2=A9 2012 AOL Inc. All rights reserved. Privacy Policy <http://link.crunc=
+hbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/Tbc0FWjEFi33iYBPCdff3> Terms of=
+ Service <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UDRv=
+8qgvtQYAsa_pC3206>
+------=_Part_538382_1218755106.1360929700421
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<!-- saved from url=3D(0018)http://amrt.in/tc/ -->
+<html lang=3D"en">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>CrunchBase Developer News</title>
+<style>
+@media only screen and (max-device-width: 480px) {
+div[class=3D".tempsponsor] {margin: 0 17px;color: #000; padding-right:10px;=
+ font:normal 11px 'helvetica neue',helvetica,arial,sans-serif; color:#acaca=
+c;}
+table[class=3D"hide"], img[class=3D"hide"], td[class=3D"hide"] {
+display: none !important;
+}
+td[class=3D"content"] {
+width: 320px !important;
+}
+h2 {
+font-size: 34px !important;
+line-height: 37px !important;
+}
+h3 {
+color: #457177;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h4 {
+color: #222222 !important;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h5 {
+font-size: 40px !important;
+}
+h2[class=3D"company-name"],
+h2[class=3D"company-name"] a,
+span[class=3D"company-name"],
+span[class=3D"company-name"] a,
+strong[class=3D"company-name"],
+strong[class=3D"company-name"] a,
+strong[class=3D"exec-name"],
+strong[class=3D"exec-name"] a
+{
+font-size: 34px !important;
+line-height: 40px !important;
+}
+h3[class=3D"company-type"],
+h3[class=3D"company-type"] a,
+span[class=3D"company-type"],
+span[class=3D"company-type"] a=20
+{
+color: #777777;
+font-size: 26px !important;
+line-height: 36px !important;
+}
+h4[class=3D"company-revenue"],
+h4[class=3D"company-revenue"] a {
+color: #222222 !important;
+font-size: 24px !important;
+line-height: 36px !important;
+}
+a {
+color: #000000;
+text-decoration: none;
+}
+a[class=3D"header"] {
+color: #ffffff;
+text-decoration:none;
+}
+td[class=3D"sectionheader"] {
+font-size: 20px !important;
+line-height: 24px !important;
+padding: 10px 10px !important;
+}
+td[class=3D"row"] {
+/*=09=09border-bottom: 4px solid #e5e5e5 !important;*/
+padding: 10px 10px !important;
+}
+img[class=3D"double"] {
+border: 4px solid #4d7e84 !important;
+height: 96px !important;
+margin-right: 40px !important;
+margin-bottom: 20px !important;
+width: 96px !important;
+}
+td[class=3D"additional"] {
+font-size: 40px !important;
+line-height: 48px !important;
+padding: 10px 10px !important;
+}
+td[class=3D"footer"] {
+font-size: 34px !important;
+line-height: 37px !important;
+padding: 0 30px;
+}
+p[class=3D"footer-text"] {
+font-size: 24px !important;
+line-height: 3px !important;
+}
+p[class=3D"footer-text"] a {
+text-decoration:underline !important;
+font-size: 24px !important;
+line-height: 3px !important;
+}
+img[class=3D"footerimg"] {
+width: 147px !important;
+}
+img[class=3D"cblogo"] {
+float: left !important;
+padding-left:16px !important;
+width: 260px !important;
+}
+td[class=3D"taglinemobile"] {
+background-color: #000000 !important;
+color: #ffffff !important;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 40px !important;
+padding: 20px 30px 10px !important;
+text-align: left !important;
+}
+p[class=3D"right"] {
+float: left !important;
+}
+h3[class=3D"mainheadline"] {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 32px !important;
+line-height: 40px !important;
+text-align: left !important;
+}
+td[class=3D"news-item"] {
+font-size:30px !important;
+line-height:36px !important;
+}
+p[class=3D"company-listing"] {
+font-size:24px !important;
+line-height:36px !important;
+}
+p[class=3D"see-more-link"] {
+font-size:28px !important;
+line-height:36px !important;
+}
+p[class=3D"forward-link"] {
+font-size:28px !important;
+line-height:24px !important;
+}
+table[class=3D"container"] {
+width:656px !important;
+margin:0 auto !important;
+}
+}
+</style>
+</head>
+<body bgcolor=3D"#e2e8e7" topmargin=3D"0" leftmargin=3D"0" marginheight=3D"=
+0" marginwidth=3D"0" style=3D"-webkit-font-smoothing: antialiased;width:100=
+% !important;background:#e2e8e7;-webkit-text-size-adjust:none;">
+<table class=3D"container" width=3D"656" height=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" bgcolor=3D"#e2e8e7" style=3D"margin:0 auto; =
+background:#e2e8e7 url('i/bg_header_banner.png') top center no-repeat;">
+<tbody>
+<tr>
+<td class=3D"hide"></td>
+<td class=3D"content" style=3D"text-align: center; padding: 10px 8px 10px 8=
+px; width:656px; background:#f1f2f2 url('i/bg_header_banner.png') top cente=
+r repeat-x; border-bottom:1px solid #ced1d0;"><!-- Header -->
+<!-- Header -->
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td>
+<img class=3D"cwlogo" src=3D"http://www.crunchbase.com/images/crunchbase_ne=
+ws.png" style=3D"float:left;" />
+</td>
+<td class=3D"hide" style=3D"color:#333333;font-size:14px;font-family:'Helve=
+tica Neue',Helvetica,Arial,sans-serif;padding-right:5px;">
+<span style=3D"float:right;font-size:14px;line-height:18px;">Friday Feb 15,=
+ 2013</span>
+</td>
+</tr>
+</table>
+</td>
+<td class=3D"hide"></td>
+</tr>
+<tr>
+<td class=3D"hide"></td>
+<td style=3D"padding-top: 0px;" bgcolor=3D"#ffffff">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin-lef=
+t:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class=3D"sectionheader" bgcolor=3D"#2f8090" style=3D"background:#2f8090=
+; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:1=
+0px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,ari=
+al,sans-serif; text-transform:uppercase;">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR1=
+2ycQceLedItYRB1867" class=3D"header" target=3D"_blank" style=3D"color:#ffff=
+ff;text-decoration:none;">TechCrunch Talks About Big Plans for CrunchBase</=
+a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"row" style=3D"padding:14px 20px 0 20px;">
+<table width=3D"100%" style=3D"padding-bottom:10px; border-bottom:1px solid=
+ #e5e5e5;">
+<tr valign=3D"top">
+<td class=3D"news-item" style=3D"padding:0 0 7px 0; font:normal 15px/20px '=
+helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+Check out today's <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f1=
+0f576uvto.2dun/UR12ycQceLedItYRC9758">TechCrunch story about CrunchBase</a>=
+.  Since our launch six years ago, we have quietly grown a community of ove=
+r 90k contributors who have profiled 105k=C2=A0companies and 140k people. =
+=C2=A0With the help=C2=A0of our community,=C2=A0CrunchBase is now a valuabl=
+e resource for entrepreneurs, investors, journalists, recruiters, job seeke=
+rs, and everyone in-between. =C2=A0We host over 1.5MM monthly visitors, and=
+ this audience continues to grow.
+</td>=09=09=09=09=09=09=09=09
+</tr>
+</table>
+</td>
+</tr>=09=09=09=09=09
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin-lef=
+t:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class=3D"sectionheader" bgcolor=3D"#2f8090" style=3D"background:#2f8090=
+; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:1=
+0px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,ari=
+al,sans-serif; text-transform:uppercase;">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR1=
+2ycQceLedItYSB550a" class=3D"header" target=3D"_blank" style=3D"color:#ffff=
+ff;text-decoration:none;">Developer Spotlight Program</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"row" style=3D"padding:14px 20px 0 20px;">
+<table width=3D"100%" style=3D"padding-bottom:10px; border-bottom:1px solid=
+ #e5e5e5;">
+<tr valign=3D"top">
+<td class=3D"news-item" style=3D"padding:0 0 7px 0; font:normal 15px/20px '=
+helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+Today we are introducing the <a href=3D"http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f576uvto.2dun/URrBasQcQfkwbJE1B7ae3"> CrunchBase Developer Spot=
+light Program</a> where we highlight great applications built with the Crun=
+chBase API. <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576u=
+vto.2dun/UR12ycQceLedItYSCb9a2">SiSense's CrunchAlytics</a> is the first ap=
+plication we are spotlighting and you can use it today to explore and visua=
+lize the entire CrunchBase dataset.  It's free and we're really excited to =
+share it with you.
+</td>=09=09=09=09=09=09=09=09
+</tr>
+</table>
+</td>
+</tr>=09=09=09=09=09
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin-lef=
+t:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class=3D"sectionheader" bgcolor=3D"#2f8090" style=3D"background:#2f8090=
+; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:1=
+0px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,ari=
+al,sans-serif; text-transform:uppercase;">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR1=
+2ycQceLedItYTB49a7" class=3D"header" target=3D"_blank" style=3D"color:#ffff=
+ff;text-decoration:none;">We're Hiring Developers!  Help Build the Future C=
+runchBase...</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"row" style=3D"padding:14px 20px 0 20px;">
+<table width=3D"100%" style=3D"padding-bottom:10px; border-bottom:1px solid=
+ #e5e5e5;">
+<tr valign=3D"top">
+<td class=3D"news-item" style=3D"padding:0 0 7px 0; font:normal 15px/20px '=
+helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+CrunchBase is used by millions of consumers, analysts, and investors every =
+month to track what's happening in the fast-paced world of tech startups, a=
+nd we're growing. The key to our continued success is building a robust and=
+ scalable system that can capture and reflect the complex relationships amo=
+ngst participants in the industry. Right now, we have the unique opportunit=
+y to technically "reboot", taking all the lessons of running CrunchBase up =
+to this point and build a brand new CrunchBase from the ground up.  Sound e=
+xciting? It does to us.  To learn more, visit the <a href=3D"http://link.cr=
+unchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UR12ycQceLedItYTC411d">
+CrunchBase blog.</a>
+</td>=09=09=09=09=09=09=09=09
+</tr>
+</table>
+</td>
+</tr>=09=09=09=09=09
+</tbody>
+</table>
+<!-- End: News items -->=09=09=09=09=09=09=09
+<!-- Begin: Forward bar -->
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding:0 20px 10px 20px; color:#000000; font:normal 14px/12px=
+ 'helvetica neue',helvetica,arial,sans-serif;">
+<p class=3D"forward-link" style=3D"margin:0; padding:0; font-size:14px; fon=
+t-weight: normal; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; =
+line-height: 20px;">To forward this newsletter to a friend, <a href=3D"http=
+://link.crunchbase.com/forward/5072cfd8dc87ac0b4f10f576uvto.2dun/ff7670fe" =
+style=3D"text-decoration:none; font-weight:bold; color:#0567a5 !important;"=
+>click here</a> <span style=3D"color:#449d50;">&raquo;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Forward bar -->
+</td>
+<td class=3D"hide"></td>
+</tr>
+<tr>
+<td class=3D"hide"></td>
+<td bgcolor=3D"#ffffff" style=3D"padding:14px 20px 14px 20px; border-bottom=
+:3px solid #cbd0cf;">
+<!-- Begin: Footer -->
+<p class=3D"footer-text" style=3D"margin:0; padding:20px 0 25px 0; border-t=
+op:3px solid #e5e5e5; color:#777777; font:normal 11px/18px 'helvetica neue'=
+,helvetica,arial,sans-serif;"> If you do not want to receive this, you can =
+<a href=3D"http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576uvto.2dun/=
+9c16eae6" style=3D"color:#777777">unsubscribe with one click here</a>.</p>=
+=09=09=09=09=09=09=09
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td><img src=3D"http://www.crunchbase.com/images/crunchbase_logo.png" alt=
+=3D"TechCrunch" width=3D"112" class=3D"footerimg" style=3D"width:112px; pad=
+ding-bottom:15px;"></td>
+</tr>
+<tr>
+<td style=3D"font:normal 11px/12px 'helvetica neue',helvetica,arial,sans-se=
+rif; color:#777777;">
+<p class=3D"footer-text" style=3D"margin:0; padding:0;">410 Townsend Street=
+, San Francisco, CA 94107</p>
+<p class=3D"footer-text" style=3D"margin:0; padding:5px 0 0 0;"> &copy; 201=
+2 AOL Inc. All rights reserved. <a href=3D"http://link.crunchbase.com/5072c=
+fd8dc87ac0b4f10f576uvto.2dun/Tbc0FWjEFi33iYBPB22fe" style=3D"color:#777777"=
+>Privacy Policy</a> <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4=
+f10f576uvto.2dun/UDRv8qgvtQYAsa_pB1a4f" style=3D"color:#777777">Terms of Se=
+rvice</a> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Footer -->
+</td>
+<td class=3D"hide"></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576uvto.2dun/UBg=
+haqgv-c4CZNdSA784e"><img src=3D"http://link.crunchbase.com/img/5072cfd8dc87=
+ac0b4f10f576uvto.2dun/1e9af322.gif" alt=3D"" border=3D"0" /></a>
+------=_Part_538382_1218755106.1360929700421--
+

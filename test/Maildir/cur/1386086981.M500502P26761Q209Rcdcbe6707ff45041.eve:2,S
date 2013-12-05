@@ -1,0 +1,905 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853617-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.60.135 with SMTP id h7csp55766obr;
+        Thu, 15 Nov 2012 08:44:23 -0800 (PST)
+Received: by 10.60.170.9 with SMTP id ai9mr1335469oec.36.1352997862961;
+        Thu, 15 Nov 2012 08:44:22 -0800 (PST)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id s5si16193591obo.124.2012.11.15.08.44.21;
+        Thu, 15 Nov 2012 08:44:22 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853617-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-mc.us1_449017.1853617-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853617-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net; dkim=pass header.i=rw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=rw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=Ulo4uYyU5f9pKCVrV1oB79jHnZw=;
+ b=1xsfSV/Xr0Ar/ywkqKDnrMomWb1twqaimcbx39e6gyY4qi0VpQHnDMLXEFUBga/xGvSz2+1MCJA3
+   gPeKNTXkBHwdakXQLHAwqEiH8tB0gQ6id4Te8jwAzeWEXr3tvtXirH5V6raUxR4YjSVtPtgWuGma
+   OUEa5eZmGhwkDwtdjLs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=hZAgPb8rPKHhVAXAYPGPsyU7hwhGN4IcsTEz3TRIYbe1oMUf6s1yUahpfMvMBgrryJEfL8K6TPbX
+   j8WSRNrn+2rP/9J4y0Ank2E67dtmFRzmSqPp8sFj1di411F+Uli2htFNBUVYN/J9gXHwuVZvQsMS
+   /xxH1HqIk2Ox3xS+NwE=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hkkduc0ik181 for <webmail.testing.dev@gmail.com>; Thu, 15 Nov 2012 16:31:19 +0000 (envelope-from <bounce-mc.us1_449017.1853617-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20Ruby=20News=20=2D=20Issue=20119?=
+From: =?utf-8?Q?Ruby=20Weekly?= <rw@peterc.org>
+Reply-To: =?utf-8?Q?Ruby=20Weekly?= <rw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Thu, 15 Nov 2012 16:31:19 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20121115163101@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CIDef15a0e61cb4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.ef15a0e61c
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.ef15a0e61c
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=ef15a0e61c&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-ef15a0e61c-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://rubyweekly.us1.list-manage1.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=d9d24eba5b&e=b4af456f64&c=ef15a0e61c>
+Sender: "Ruby Weekly" <rw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_841037843"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_841037843
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Ruby Weekly - A Weekly Ruby Newsletter
+Issue #119 - November 15, 2012
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+To unsubscribe: http://rubyweekly.us1.list-manage1.com/unsubscribe?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3Db4af456f64&c=3Def15a0e61c
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+Featured
+--------
+
+Ruby 1.9.3-p327 Released: Fixes a Hash-Flooding DoS Vulnerability
+http://www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/
+
+  Carefully crafted strings can be used in a denial of service attack on a=
+pps
+  that parse strings to create Hash objects by using the strings as keys.
+  This new patch level release of 1.9.3 counters the issue.
+
+2013 Fukuoka Ruby Award Competition
+http://www.ruby-lang.org/en/news/2012/11/10/2013-fukuoka-ruby-award-compet=
+itionentries-to-be-judged-by-matz/
+
+  Each year Matz and the Government of Fukuoka in Japan run an award for R=
+uby
+  programs. Submit by November 30th to enter - it doesn't have to be an al=
+l
+  new app either. The grand prize is 1 million yen (about $12,000).
+
+Capybara 2.0.0 Released: The Acceptance Test Framework for Webapps
+https://groups.google.com/forum/?fromgroups=3D#!topic/ruby-capybara/C0O7nP=
+2YG1A
+
+  Not backwards compatible with Capybara 1.x so be careful and read the
+  notes. It also drops support for Ruby 1.8.
+
+LA Ruby Conf 2013: Call For Proposals Open Until Dec 10
+http://larubyconf.com/
+
+Rails 3.2.9 Released
+http://weblog.rubyonrails.org/2012/11/12/ann-rails-3-2-9-has-been-released=
+/
+
+
+From Our Sponsor
+----------------
+
+Cloud-based image management for your web application
+http://cloudinary.com/
+
+  Let Cloudinary manage your image upload process, storage, image
+  manipulation and CDN delivery, end-to-end. Create thumbnails using
+  face-detection, apply effects, convert formats and much more. Simple
+  integration with Ruby on Rails. Sign-up for free.
+
+
+Reading
+-------
+
+Printing 'Hello, World' in Style (Concurrently)
+http://danielsz.posterous.com/167870244
+
+  Daniel Szmulewicz looks at what's involved in using Celluloid and two
+  actors to print out 'Hello, World'.
+
+Matz Is Not A Threading Guy
+http://jstorimer.com/2012/11/08/matz-is-not-a-threading-guy.html
+
+  Jesse Storimer talks about the status of concurrency in Ruby and Matz's
+  opinions in a Q+A session at RubyConf. Reinforcing the status quo, Matz
+  said: 'Using multiple processes is the best way to do concurrency in MRI
+  for the near future.'
+
+rspec-rails and Capybara 2.0: What You Need to Know
+http://alindeman.github.com/2012/11/11/rspec-rails-and-capybara-2.0-what-y=
+ou-need-to-know.html
+
+  Andy Lindeman of the RSpec core team talks about the new Capybara 2.0
+  release and what you need to be aware of when using it with RSpec and
+  Rails.
+
+Why Ruby Class Methods Resist=C2=A0Refactoring
+http://blog.codeclimate.com/blog/2012/11/14/why-ruby-class-methods-resist-=
+refactoring/
+
+  Bryan Helmkamp demonstrates why he thinks class methods are much trickie=
+r
+  to refactor than instance methods.
+
+Reference Graphs as Tools for Refactoring
+http://blog.newrelic.com/2012/11/08/reference-graphs-as-tools-for-refactor=
+ing/
+
+  A quick look at using graphs of references in order to refactor Ruby cod=
+e.
+
+Trick for Tolerance-based Test Assertions Using #ish
+http://spin.atomicobject.com/2012/11/13/convenient-trick-for-tolerance-bas=
+ed-test-assertions-using-ish/
+
+Recurrent Neural Networks in Ruby
+http://blog.josephwilk.net/ruby/recurrent-neural-networks-in-ruby.html
+
+
+Watching and Listening
+----------------------
+
+How I Set out to Benchmark an Algorithm and Ended Up Fixing Ruby
+http://confreaks.com/videos/1301-rubyconf2012-there-and-back-again-or-how-=
+i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby
+
+  Joshua Ballanco wanted to build a delegation library but got lured into=
+ the
+  worlds of benchmarks and garbage collectors.
+
+Ten Things You Didn't Know You Could Do in Ruby
+http://www.youtube.com/watch?v=3DaBgnlBoIkVM
+
+  A month ago, we linked to the slidedeck of James Edward Gray II's Aloha=
+ on
+  Rails talk with 101 various Ruby tricks and code snippets. Now the video=
+ is
+  available too! Enjoy.
+
+The Ruby Rogues on Documenting Code
+http://rubyrogues.com/079-rr-documenting-code/
+
+  The Ruby Rogues tackle a sore subject: documentation.
+
+
+Libraries and Code
+------------------
+
+ruby-lint: Static Code Analysis and Linter for Ruby
+https://github.com/YorickPeterse/ruby-lint
+
+  Currently a prototype and work in progress so your mileage may vary. It
+  makes it possible for developers to detect errors such as undefined or
+  unused variables and the use of non existing methods.
+
+Spinel: A New, 'Ruby-Infused' Open Source Game Engine
+https://github.com/cadwallion/spinel
+
+  Spinel is a new open source game engine still under development that use=
+s
+  'mruby' (the embeddable Ruby interpreter Matz is currently working on) a=
+s
+  its scripting layer while leaning on speedy C/C++ under the hood.
+
+Version Cake: An Unobtrusive Way to Version APIs in Your Rails App
+https://github.com/bwillis/versioncake
+
+  Easily version views with their API version in the filename (e.g.
+  index.v3.xml.builder). The cool part is if a request comes in for a
+  different version, the closest version will be used.
+
+enumerate_it: Enumerations for Ruby (and ActiveRecord) Classes
+https://github.com/cassiomarques/enumerate_it
+
+rmagick-metadata: Parses An Image Using RMagick and Return The Metadata
+https://github.com/cavneb/rmagick-metadata
+
+lazy_mail: A Lazy and Quick Way to Use The Function 'mail'
+https://github.com/arkes/lazy_mail
+
+has-many-with-set: A Smarter Way to Have Many-to-Many Relationships in Rai=
+ls
+https://github.com/ebobby/has-many-with-set
+
+
+Jobs
+----
+
+Test Driven JavaScript and Ruby Developer [San Francisco and Santa Monica=
+, CA]
+http://www.carbonfive.com/jobs
+
+  Carbon Five builds web and mobile products for startups, institutional
+  companies and non-profit organizations using a finely tuned agile proces=
+s
+  with cutting edge tools and technology. Join a team of seasoned pros in=
+ a
+  highly-collaborative environment and work on a new project every couple=
+ of
+  months.
+
+Backend Web Developer (Ruby) for NY Times featured Startup at Cater2.me [=
+New York, New York]
+http://jobs.rubyinside.com/a/jbb/job-details/754596
+
+Ruby engineer at profitable established company at Concierge Live [New Yo=
+rk, New York]
+http://jobs.rubyinside.com/a/jbb/job-details/755916
+
+
+Last but not least..
+--------------------
+
+Write Faster Rails Tests: Insights via E-mail
+http://www.fastrailstests.com/
+
+  Get an infrequent e-mail from Thoughbot's Ben Orenstein packed with batt=
+le
+  tested advice for speeding up your Rails apps' tests.
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You opted in for Ruby Weekly at http://rubyweekly.com/ to get weekly e-mai=
+ls
+about the Ruby programming language.
+
+You can unsubscribe at: http://rubyweekly.us1.list-manage1.com/unsubscribe=
+?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3Db4af456f64&c=3Def15a0e61c
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e,
+Louth, Lincs, UK, LN11 9EJ.
+
+You can e-mail the list maintainer directly at rw@peterc.org in case of
+problems/questions.
+--_----------=_MCPart_841037843
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+=09
+<style>
+=09body { font-family: "Helvetica Neue", Helvetica, Ubuntu, arial, sans-se=
+rif; }
+=09@media only screen and (max-device-width: 480px) {
+    body { padding: 0px !important; margin: 8px !important }
+=09  #maintable { width: auto !important }
+=09=09.item { margin-left: 0px !important; margin-right: 0px !important }
+=09=09.item IMG { display: none !important }
+=09}
+</style>
+
+<p style=3D"font-size: 11px; text-align: center; margin-bottom: 22px"><a h=
+ref=3D"http://rubyweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb=
+9675f313ceb2&id=3D9477f2961c&e=3Db4af456f64">View this newsletter on the=
+ Web</a> or <a href=3D"http://rubyweekly.us1.list-manage.com/track/click?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3De11a4dd9d3&e=3Db4af456f64">see the issu=
+e archive</a></p>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" w=
+idth=3D"600" id=3D"maintable">
+=09<tr bgcolor=3D"#ffffff"><td>
+=09=09<p style=3D"font-size: 14px; float: right">Issue 119 - November 15,=
+ 2012</p><a href=3D"http://rubyweekly.us1.list-manage.com/track/click?u=3D=
+0618f6a79d6bb9675f313ceb2&id=3D8d64842019&e=3Db4af456f64"><img src=3D"htt=
+p://rubyweekly.com/logosmall.gif" alt=3D"Ruby Weekly" width=3D"300" height=
+=3D"30" style=3D"margin-bottom: 10px; border-width: 0px; margin-bottom: -8=
+px" /></a>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Featured</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D053b52d319&e=3Db4af456f64" titl=
+e=3D"www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/" st=
+yle=3D"font-weight: bold; font-size: 15px; display: block; margin-bottom:=
+ 3px">Ruby 1.9.3-p327 Released: Fixes a Hash-Flooding DoS Vulnerability</a=
+></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Carefully crafted strings can be used in a denial of service attack on app=
+s that parse strings to create Hash objects by using the strings as keys.=
+ This new patch level release of 1.9.3 counters the issue.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dac5bce540c&e=3Db4af456f64" titl=
+e=3D"www.ruby-lang.org/en/news/2012/11/10/2013-fukuoka-ruby-award-competit=
+ionentries-to-be-judged-by-matz/" style=3D"font-weight: bold; font-size: 1=
+5px; display: block; margin-bottom: 3px">2013 Fukuoka Ruby Award Competiti=
+on</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Each year Matz and the Government of Fukuoka in Japan run an award for Rub=
+y programs. Submit by November 30th to enter - it doesn't have to be an al=
+l new app either. The grand prize is 1 million yen (about $12,000).
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df194529818&e=3Db4af456f64" titl=
+e=3D"groups.google.com/forum/?fromgroups=3D#!topic/ruby-capybara/C0O7nP2YG=
+1A" style=3D"font-weight: bold; font-size: 15px; display: block; margin-bo=
+ttom: 3px">Capybara 2.0.0 Released: The Acceptance Test Framework for Weba=
+pps</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Not backwards compatible with Capybara 1.x so be careful and read the note=
+s. It also drops support for Ruby 1.8.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D770e0da289&e=3Db4af456f64" titl=
+e=3D"larubyconf.com/" style=3D" font-size: 15px; display: block; margin-bo=
+ttom: 3px">LA Ruby Conf 2013: Call For Proposals Open Until Dec 10</a></di=
+v>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D28096297bc&e=3Db4af456f64" titl=
+e=3D"weblog.rubyonrails.org/2012/11/12/ann-rails-3-2-9-has-been-released/"=
+ style=3D" font-size: 15px; display: block; margin-bottom: 3px">Rails 3.2.=
+9 Released</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">From Our Sponsor</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09<a href=3D"http://rubyweekly.us1.list-manage1.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd76eb60f3e&e=3Db4af456f64"><img src=
+=3D"http://s3.cooperpress.com/cloudinary.png" width=3D"160" height=3D"100"=
+ style=3D"float: right; margin-left: 14px; margin-bottom: 16px; border: 1p=
+x solid #1173c7" /></a>
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0c8b99ba8e&e=3Db4af456f64" tit=
+le=3D"cloudinary.com/" style=3D"font-weight: bold; font-size: 15px; displa=
+y: block; margin-bottom: 3px">Cloud-based image management for your web ap=
+plication</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Let Cloudinary manage your image upload process, storage, image manipulati=
+on and CDN delivery, end-to-end. Create thumbnails using face-detection, a=
+pply effects, convert formats and much more. Simple integration with Ruby=
+ on Rails. Sign-up for free.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Reading</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D494f4082d7&e=3Db4af456f64" titl=
+e=3D"danielsz.posterous.com/167870244" style=3D"font-weight: bold; font-si=
+ze: 15px; display: block; margin-bottom: 3px">Printing 'Hello, World' in S=
+tyle (Concurrently)</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Daniel Szmulewicz looks at what's involved in using Celluloid and two acto=
+rs to print out 'Hello, World'.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D75004457b1&e=3Db4af456f64" titl=
+e=3D"jstorimer.com/2012/11/08/matz-is-not-a-threading-guy.html" style=3D"f=
+ont-weight: bold; font-size: 15px; display: block; margin-bottom: 3px">Mat=
+z Is Not A Threading Guy</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Jesse Storimer talks about the status of concurrency in Ruby and Matz's op=
+inions in a Q+A session at RubyConf. Reinforcing the status quo, Matz said=
+: 'Using multiple processes is the best way to do concurrency in MRI for t=
+he near future.'
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df9e56f2eed&e=3Db4af456f64" titl=
+e=3D"alindeman.github.com/2012/11/11/rspec-rails-and-capybara-2.0-what-you=
+-need-to-know.html" style=3D"font-weight: bold; font-size: 15px; display:=
+ block; margin-bottom: 3px">rspec-rails and Capybara 2.0: What You Need to=
+ Know</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Andy Lindeman of the RSpec core team talks about the new Capybara 2.0 rele=
+ase and what you need to be aware of when using it with RSpec and Rails.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D20cf6ea2e1&e=3Db4af456f64" titl=
+e=3D"blog.codeclimate.com/blog/2012/11/14/why-ruby-class-methods-resist-re=
+factoring/" style=3D"font-weight: bold; font-size: 15px; display: block; m=
+argin-bottom: 3px">Why Ruby Class Methods Resist=C2=A0Refactoring</a></div=
+>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Bryan Helmkamp demonstrates why he thinks class methods are much trickier=
+ to refactor than instance methods.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5c0300990d&e=3Db4af456f64" tit=
+le=3D"blog.newrelic.com/2012/11/08/reference-graphs-as-tools-for-refactori=
+ng/" style=3D"font-weight: bold; font-size: 15px; display: block; margin-b=
+ottom: 3px">Reference Graphs as Tools for Refactoring</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+A quick look at using graphs of references in order to refactor Ruby code.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De708457b92&e=3Db4af456f64" titl=
+e=3D"spin.atomicobject.com/2012/11/13/convenient-trick-for-tolerance-based=
+-test-assertions-using-ish/" style=3D" font-size: 15px; display: block; ma=
+rgin-bottom: 3px">Trick for Tolerance-based Test Assertions Using #ish</a>=
+</div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De4df88bb68&e=3Db4af456f64" titl=
+e=3D"blog.josephwilk.net/ruby/recurrent-neural-networks-in-ruby.html" styl=
+e=3D" font-size: 15px; display: block; margin-bottom: 3px">Recurrent Neura=
+l Networks in Ruby</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Watching and Listening</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D508589dd41&e=3Db4af456f64" titl=
+e=3D"confreaks.com/videos/1301-rubyconf2012-there-and-back-again-or-how-i-=
+set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby" style=3D"font-=
+weight: bold; font-size: 15px; display: block; margin-bottom: 3px">How I S=
+et out to Benchmark an Algorithm and Ended Up Fixing Ruby</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Joshua Ballanco wanted to build a delegation library but got lured into th=
+e worlds of benchmarks and garbage collectors.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1b04b627b6&e=3Db4af456f64" titl=
+e=3D"www.youtube.com/watch?v=3DaBgnlBoIkVM" style=3D"font-weight: bold; fo=
+nt-size: 15px; display: block; margin-bottom: 3px">Ten Things You Didn't K=
+now You Could Do in Ruby</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+A month ago, we linked to the slidedeck of James Edward Gray II's Aloha on=
+ Rails talk with 101 various Ruby tricks and code snippets. Now the video=
+ is available too! Enjoy.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df300de4b31&e=3Db4af456f64" titl=
+e=3D"rubyrogues.com/079-rr-documenting-code/" style=3D"font-weight: bold;=
+ font-size: 15px; display: block; margin-bottom: 3px">The Ruby Rogues on D=
+ocumenting Code</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+The Ruby Rogues tackle a sore subject: documentation.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Libraries and Code</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcbb5059018&e=3Db4af456f64" titl=
+e=3D"github.com/YorickPeterse/ruby-lint" style=3D"font-weight: bold; font-=
+size: 15px; display: block; margin-bottom: 3px">ruby-lint: Static Code Ana=
+lysis and Linter for Ruby</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Currently a prototype and work in progress so your mileage may vary. It ma=
+kes it possible for developers to detect errors such as undefined or unuse=
+d variables and the use of non existing methods.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd7b22a9ded&e=3Db4af456f64" tit=
+le=3D"github.com/cadwallion/spinel" style=3D"font-weight: bold; font-size:=
+ 15px; display: block; margin-bottom: 3px">Spinel: A New, 'Ruby-Infused' O=
+pen Source Game Engine</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Spinel is a new open source game engine still under development that uses=
+ 'mruby' (the embeddable Ruby interpreter Matz is currently working on) as=
+ its scripting layer while leaning on speedy C/C++ under the hood.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De85a1ff62b&e=3Db4af456f64" titl=
+e=3D"github.com/bwillis/versioncake" style=3D"font-weight: bold; font-size=
+: 15px; display: block; margin-bottom: 3px">Version Cake: An Unobtrusive W=
+ay to Version APIs in Your Rails App</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Easily version views with their API version in the filename (e.g. index.v3=
+=2Exml.builder). The cool part is if a request comes in for a different vers=
+ion, the closest version will be used.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2d418e06fc&e=3Db4af456f64" titl=
+e=3D"github.com/cassiomarques/enumerate_it" style=3D" font-size: 15px; dis=
+play: block; margin-bottom: 3px">enumerate_it: Enumerations for Ruby (and=
+ ActiveRecord) Classes</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De29a1c1d37&e=3Db4af456f64" tit=
+le=3D"github.com/cavneb/rmagick-metadata" style=3D" font-size: 15px; displ=
+ay: block; margin-bottom: 3px">rmagick-metadata: Parses An Image Using RMa=
+gick and Return The Metadata</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9bb953a0de&e=3Db4af456f64" tit=
+le=3D"github.com/arkes/lazy_mail" style=3D" font-size: 15px; display: bloc=
+k; margin-bottom: 3px">lazy_mail: A Lazy and Quick Way to Use The Function=
+ 'mail'</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D83a4d87449&e=3Db4af456f64" titl=
+e=3D"github.com/ebobby/has-many-with-set" style=3D" font-size: 15px; displ=
+ay: block; margin-bottom: 3px">has-many-with-set: A Smarter Way to Have Ma=
+ny-to-Many Relationships in Rails</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Jobs</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09<a href=3D"http://rubyweekly.us1.list-manage1.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3D111b144209&e=3Db4af456f64"><img src=
+=3D"http://s3.cooperpress.com/carbonfive.png" width=3D"133" height=3D"100"=
+ style=3D"float: right; margin-left: 14px; margin-bottom: 16px; border: 1p=
+x solid #1173c7" /></a>
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7ea00c9e6a&e=3Db4af456f64" tit=
+le=3D"www.carbonfive.com/jobs" style=3D"font-weight: bold; font-size: 15px=
+; display: block; margin-bottom: 3px">Test Driven JavaScript and Ruby Deve=
+loper [San Francisco and Santa Monica, CA]</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">Carbon Fi=
+ve builds web and mobile products for startups, institutional companies an=
+d non-profit organizations using a finely tuned agile process with cutting=
+ edge tools and technology. Join a team of seasoned pros in a highly-colla=
+borative environment and work on a new project every couple of months.</di=
+v>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De386a8511b&e=3Db4af456f64" tit=
+le=3D"jobs.rubyinside.com/a/jbb/job-details/754596" style=3D" font-size: 1=
+5px; display: block; margin-bottom: 3px">Backend Web Developer (Ruby) for=
+ NY Times featured Startup at Cater2.me [New York, New York]</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7efb4baf43&e=3Db4af456f64" titl=
+e=3D"jobs.rubyinside.com/a/jbb/job-details/755916" style=3D" font-size: 15=
+px; display: block; margin-bottom: 3px">Ruby engineer at profitable establ=
+ished company at Concierge Live [New York, New York]</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; color: #c00; margin-bottom: 4px; padding-top: 4px; border-top: 2px solid=
+ #c00; margin-top: 1.5em; font-size: 18px; ">Last but not least..</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 16px 16px; l=
+ine-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://rubyweekly.us1.list-manage2.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1b5b2fc824&e=3Db4af456f64" tit=
+le=3D"www.fastrailstests.com/" style=3D"font-weight: bold; font-size: 15px=
+; display: block; margin-bottom: 3px">Write Faster Rails Tests: Insights v=
+ia E-mail</a></div>
+=09=09=09=09=09<div style=3D"font-size: 13px; line-height: 19px">
+Get an infrequent e-mail from Thoughbot's Ben Orenstein packed with battle=
+ tested advice for speeding up your Rails apps' tests.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+
+=09=09<p style=3D"font-size: 14px; padding: 8px; border-top: 1px solid #cc=
+c">
+=09=09=09You opted in to Ruby Weekly at <a href=3D"http://rubyweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D67207431fa&e=
+=3Db4af456f64">RubyWeekly.com</a> to get weekly e-mails
+=09=09=09about the Ruby programming language. <strong>Reading this as a no=
+n-subscriber? <a href=3D"http://rubyweekly.us1.list-manage1.com/track/clic=
+k?u=3D0618f6a79d6bb9675f313ceb2&id=3D25907823bd&e=3Db4af456f64">Click her=
+e to subscribe.</a></strong></p>
+=09=09
+=09=09<p style=3D"font-size: 14px; padding: 0px 8px;">To unsubscribe, <a h=
+ref=3D"http://rubyweekly.us1.list-manage1.com/unsubscribe?u=3D0618f6a79d6b=
+b9675f313ceb2&id=3Dd9d24eba5b&e=3Db4af456f64&c=3Def15a0e61c">click here</a>=
+ or e-mail the list maintainer directly at rw@peterc.org.
+=09=09=09 To change your e-mail address, <a href=3D"http://rubyweekly.us1.=
+list-manage.com/profile?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3D=
+b4af456f64">click here.</a></p>
+=09=09=09
+=09=09<p style=3D"font-size: 14px; padding: 0px 8px;">Address: Office 30,=
+ Lincoln Way, Fairfield Enterprise Centre, Louth, Lincs, UK, LN11 0LS</p>
+  </td></tr>
+</table>
+
+<img src=3D"http://rubyweekly.us1.list-manage.com/track/open.php?u=3D0618f=
+6a79d6bb9675f313ceb2&id=3Def15a0e61c&e=3Db4af456f64" height=3D"1" width=
+=3D"1"></body></html>
+--_----------=_MCPart_841037843--

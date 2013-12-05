@@ -1,0 +1,212 @@
+Return-Path:
+  <38KPDUAcLE9EABE1C8LLBHGHy1.zB9J1y9x58.G1FG5A3.01I39x58.zB9@scoutcamp.bounces.google.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.7.226 with SMTP id m2csp206567oba;
+        Sat, 8 Dec 2012 12:32:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of 38KPDUAcLE9EABE1C8LLBHGHy1.zB9J1y9x58.G1FG5A3.01I39x58.zB9@scoutcamp.bounces.google.com designates 10.66.74.135 as permitted sender) client-ip=10.66.74.135
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of 38KPDUAcLE9EABE1C8LLBHGHy1.zB9J1y9x58.G1FG5A3.01I39x58.zB9@scoutcamp.bounces.google.com designates 10.66.74.135 as permitted sender) smtp.mail=38KPDUAcLE9EABE1C8LLBHGHy1.zB9J1y9x58.G1FG5A3.01I39x58.zB9@scoutcamp.bounces.google.com; dkim=pass header.i=38KPDUAcLE9EABE1C8LLBHGHy1.zB9J1y9x58.G1FG5A3.01I39x58.zB9@scoutcamp.bounces.google.com
+Received: from mr.google.com ([10.66.74.135])
+        by 10.66.74.135 with SMTP id t7mr1875013pav.29.1354998769364 (num_hops = 1);
+        Sat, 08 Dec 2012 12:32:49 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=youtube.com; s=20120806;
+        h=mime-version:precedence:x-google-id:reply-to:message-id:date
+         :subject:from:to:content-type;
+        bh=0Y0MHmpLEdODkxy/2FbjZjByetgNkEdRj7alJQqhEio=;
+        b=a/8+elP1m4W6VenimF0X87pNuNY5fpAAnRZ+mlWbFufL8Te2D17Z/pbEqaZKXmMfrF
+         4v3EOmj7Ev0y3jhnH7F545Mi9iT6mpSLqto7HzY8NVYZqyiODWiLPp6wKZFCecwos9zf
+         cYMX3g016J1DCRPC0Kzghi0v3tbVBj8dPgUiEDcsVnrNNTZqIyIeGsuMkP5nkygrqAsL
+         y3lT0c91h3+u6JMhooEFkv/ztOxWOgBG09D1BI+qrPMluQ9/avNFPY9yUVOdQ5UYSbSU
+         AnhetO+hezvH4Nkqnl33Jaanvkf7me1rDr7FoRTjMp+JkSE6Cz80xBsjot+Pu0SiIEDH
+         r2KQ==
+MIME-Version: 1.0
+Received: by 10.66.74.135 with SMTP id t7mr1358877pav.29.1354998768163; Sat,
+ 08 Dec 2012 12:32:48 -0800 (PST)
+Precedence: bulk
+X-Google-Id: 2310003
+Reply-To: noreply@youtube.com
+Message-ID: <79cdfc91.1354998766.142826.100718.en-US.814df5f5@google.com>
+Date: Sat, 08 Dec 2012 20:32:48 +0000
+Subject: =?windows-1252?Q?Newsflash_=2D_YouTube=92s_had_a_makeover?=
+From: YouTube <noreply@youtube.com>
+To: webmail.testing.dev@gmail.com
+Content-Type: multipart/alternative; boundary=f46d042f96be3f5ad504d05d3c7c
+
+--f46d042f96be3f5ad504d05d3c7c
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Q2hlY2sgb3V0IHRoZSBuZXcgWW91VHViZQ0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoN
+CllvdVR1YmUgZ2V0cyBhIG5ldyBsb29rDQoNCldlIHdhbnQgeW91IHRvIGtub3cgd2UndmUgbWFk
+ZSBzb21lIGNoYW5nZXMgYXQgWW91VHViZS4uDQoNCllvdSBjb21lIHRvIFlvdVR1YmUgZm9yIGV2
+ZXJ5dGhpbmc6IGVudGVydGFpbm1lbnQsIG5ld3MsIGhvdy10byB0dXRvcmlhbHMsICANCmxpdmUg
+Y29uY2VydHMsIG11c2ljLCBhbmQgbW9yZS4gTWFueSBvZiB5b3UgaGF2ZSBsZWFybmVkIHRoZSBz
+ZWNyZXQgdG8gIA0KbWFraW5nIGl0IGV2ZW4gYmV0dGVyl2ZpbmQgdGhlIGNoYW5uZWxzIHlvdSBs
+b3ZlIGFuZCBzdWJzY3JpYmUuIEJ1dCBpdCAgDQp3YXNuknQgYWx3YXlzIGVhc3kgdG8gZG8gdGhh
+dC4gTGFzdCB5ZWFyLCB3ZSB0b29rIGEgc3RlcCBmb3J3YXJkIHdoZW4gd2UgIA0KaW50cm9kdWNl
+ZCB0aGUgR3VpZGUgb24gdGhlIGhvbWVwYWdll2Egd2F5IHRvIGtlZXAgdXAgd2l0aCBuZXcgdmlk
+ZW9zIGZyb20gIA0KeW91ciBmYXZvcml0ZSBjaGFubmVscy4NCg0KVG9kYXksIHdlknJlIGludHJv
+ZHVjaW5nIGZlYXR1cmVzIHRoYXQgd2lsbCBhbGxvdyB5b3UgdG8gc2VlIHRoYXQgR3VpZGUgYWxs
+ICANCm92ZXIgdGhlIHNpdGUuIFlvdZJsbCBhbHNvIGZpbmQgdGhlIEd1aWRlIHdoZXJldmVyIHlv
+dSB3YXRjaCBZb3VUdWJlLCAgDQp3aGV0aGVyIGl0knMgb24geW91ciBtb2JpbGUgcGhvbmUsIHRh
+YmxldCwgZ2FtZSBjb25zb2xlIG9yIGNvbm5lY3RlZCBUVi4gIA0KTm93LCB3ZSByZWNvbW1lbmQg
+bmV3IGNoYW5uZWxzIHlvdSBtaWdodCB3YW50IHRvIGNoZWNrIG91dCwgYW5kIHdlknJlICANCm1h
+a2luZyBpdCBlYXNpZXIgdG8gc2hhcmUgd2hhdCB5b3WScmUgd2F0Y2hpbmcgd2l0aCB5b3VyIGZy
+aWVuZHMgYW5kIHZpY2UgIA0KdmVyc2EuIFdlIHdhbnQgeW91IHRvIG9yZ2FuaXplIFlvdVR1YmUg
+YXJvdW5kIHdoYXQgeW91IGxpa2UgYW5kIGNhcmUgYWJvdXQgIA0KdGhlIG1vc3QsIGFuZCBzdWJz
+Y3JpYmluZyB0byBjaGFubmVscyBpcyB0aGUgYmVzdCB3YXkgdG8gZG8gdGhhdC4NCg0KV2WScmUg
+YWxzbyBnaXZpbmcgWW91VHViZZJzIGxvb2sgYSByZWZyZXNoLiBJbiB0aGUgbmV3IGxheW91dCwg
+dGhlIHZpZGVvICANCmRpc3BsYXkgaXMgY2xlYW5lciBhbmQgbW9yZSBwcm9taW5lbnQsIGFuZCB5
+b3UgY2FuIG5vdyBicm93c2UgZm9yIG90aGVyICANCnZpZGVvcyB3aGlsZSB5b3Ugd2F0Y2guDQoN
+CldlIGhvcGUgeW91IGxpa2UgdGhlIGNoYW5nZXMuIExldCB1cyBrbm93IHdoYXQgeW91IHRoaW5r
+IGJ5IHVzaW5nIHRoZSCTU2VuZCAgDQpGZWVkYmFja5QgbGluayBhdCB0aGUgYm90dG9tIG9mIGV2
+ZXJ5IHBhZ2UuIEFuZCB0aGFua3MgZm9yIGV2ZXJ5dGhpbmeXd2UgIA0KY291bGRuknQgZG8gdGhp
+cyB3aXRob3V0IHlvdS4NCg0KVGhlIFlvdVR1YmUgVGVhbQ0KDQotLS0tLS0tDQqpIDIwMTIgWW91
+VHViZSwgTExDIDkwMSBDaGVycnkgQXZlLCBTYW4gQnJ1bm8sIENBIDk0MDY2DQpZb3UgaGF2ZSBy
+ZWNlaXZlZCB0aGlzIG1hbmRhdG9yeSBlbWFpbCBzZXJ2aWNlIGFubm91bmNlbWVudCB0byB1cGRh
+dGUgeW91ICANCmFib3V0IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXIgWW91VHViZSBwcm9kdWN0
+IG9yIGFjY291bnQuDQo=
+--f46d042f96be3f5ad504d05d3c7c
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<img height=3D"1" width=3D"3" src=3D"http://www.google.com/appserve/mkt/img=
+/5XSfEGYOUKfC3d5Stq21iD.gif">=20
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+        <style type=3D"text/css">
+            body{width:100% !important;} /* Force Hotmail to display emails=
+ at full width */
+            body{-webkit-text-size-adjust:none;} /* Prevent Webkit platform=
+s from changing default text sizes. */
+            /* Reset Styles */
+            body {margin:0; padding:0;}
+            img{border:none; font-size:13px; font-weight:bold; line-height:=
+100%; outline:none; text-decoration:none; text-transform:capitalize;}
+
+            /* Yahoo links */
+            a { color: #1c62b9; text-decoration: none;}
+            a.grey { color: #585858; }
+            .yshortcuts { color: #1c62b9 }
+            .yshortcuts a span { color: #585858 }
+
+            /* Outlook 2007 */
+            table td {border-collapse: collapse; text-align:left;}
+            p { margin-bottom:0; margin:15px 0 0 0;}
+        </style>
+    </head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0">
+
+        <table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"=
+0" cellspacing=3D"0">
+            <tr>
+                <td align=3D"center" valign=3D"top" bgcolor=3D"#f6f6f6">
+                    <center>
+                        <!-- START// HEADER  -->
+                        <table width=3D"600" border=3D"0" align=3D"center" =
+cellpadding=3D"0" cellspacing=3D"0">
+                            <tr>
+                                <td height=3D"20"></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"left" style=3D"text-align:left=
+;">
+
+                                    <!-- YouTube  branding header --> =20
+                                    <table border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"600">
+                                        <tr>
+                                            <td><a target=3D"_blank" href=
+=3D"http://www.youtube.com"><img src=3D"https://youtube-broadcast.appspot.c=
+om/partner/furniture/youtube_logo.gif" width=3D"600" height=3D"60" border=
+=3D"0" alt=3D"YouTube"/></a></td>
+                                        </tr>
+                                    </table>
+                                    <!-- END NEW HEAD -->
+                                    <!-- END // HEADER  -->
+                                </td>
+                            </tr>
+
+                            <!-- END NEW HEAD -->
+
+                            <tr><td height=3D"15"></td></tr>
+                =20
+                            <!-- START // CONTENT -->
+                            <tr>
+                            =09
+                                <td bgcolor=3D"#FFFFFF" style=3D"font-famil=
+y: Arial, sans-serif; font-size: 13px; font-color:#333333; border: 1px soli=
+d #e3e3e3; text-align:center;" >
+	                              <h1 style=3D"font-family: Arial, sans-serif;=
+ font-size: 24px; font-color:#333333; margin: 20px 40px 20px 40px; text-ali=
+gn: center;">YouTube gets a new look </h1>
+                                      <p style=3D"margin:19px 40px 0 40px; =
+text-align: left;">We want you to know we've made some changes at YouTube. =
+</p>
+                                      <p style=3D"margin:19px 40px 0 40px; =
+text-align: left;">You come to YouTube for everything: entertainment, news,=
+ how-to tutorials, live concerts, music, and more. Many of you have learned=
+ the secret to making it even better - find the channels you love and subsc=
+ribe. But it wasn=92t always easy to do that. Last year, we took a step for=
+ward when we introduced the Guide on the homepage=97a way to keep up with n=
+ew videos from your favorite channels. </p>
+                                        <p style=3D"margin:19px 40px 0 40px=
+; text-align: left;">Today, we=92re introducing features that will allow yo=
+u to see that Guide all over the site. You=92ll also find the Guide whereve=
+r you watch YouTube, whether it=92s on your mobile phone, tablet, game cons=
+ole or connected TV. Now, we recommend new channels you might want to check=
+ out, and we're making it easier to share what you=92re watching with your =
+friends and vice versa. We want you to organize YouTube around what you lik=
+e and care about the most, and subscribing to channels is the best way to d=
+o that.</p>
+                                        <p style=3D"margin:19px 40px 20px 4=
+0px; text-align: left;">We=92re also giving YouTube=92s look a refresh. In =
+the new layout, the video display is cleaner and more prominent, and you ca=
+n now browse for other videos while you watch. </p>
+                                         <p style=3D"margin:19px 40px 20px =
+40px; text-align: left;">We hope you like <a href=3D"http://www.youtube.com=
+">the changes</a>.  Let us know what you think by using the "Send Feedback"=
+ link at the bottom of every page. And thanks for everything - we couldn=92=
+t do this without you. </p>
+                                         <p style=3D"margin:19px 40px 20px =
+40px; text-align: left;">The YouTube Team </p>
+                                </td>
+                            </tr>
+                            <!-- END // CONTENT -->
+
+                            <tr><td height=3D"15"></td></tr>
+
+                            <!-- SIGNATURE  -->
+                            <tr>
+                                <td style=3D"text-align:left;">
+
+                                    <table border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"5">
+                                        <tr>
+                                            <td>
+                                                <p style=3D"font-family: Ar=
+ial, sans-serif; color: #666666; font-size: 11px; margin-bottom:0;  margin-=
+top:0;">&copy; 2012 YouTube, LLC 901 Cherry Ave, San Bruno, CA 94066
+												You have received this mandatory email service announcement to =
+update you about important changes to your YouTube product or account.</p><=
+br />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>&nbsp;</p>
+                    </center>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+--f46d042f96be3f5ad504d05d3c7c--

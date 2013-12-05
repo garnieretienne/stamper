@@ -1,0 +1,8 @@
+# IMAP Gmail
+set folder = "imap://localhost:8143"
+set imap_user = "vagrant"
+set imap_pass = "vagrant"
+set my_name = "Etienne Garnier"
+set spoolfile = +INBOX
+set imap_check_subscribed
+set mark_old = no

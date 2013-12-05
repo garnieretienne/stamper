@@ -1,0 +1,1549 @@
+Return-Path:
+  <bounce-mc.us1_449017.1854829-webmail.testing.dev=gmail.com@mail42.atl31.mcdlv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.35.166 with SMTP id i6csp299850oaj;
+        Wed, 6 Nov 2013 11:37:58 -0800 (PST)
+X-Received: by 10.236.100.144 with SMTP id z16mr3580103yhf.9.1383766678715;
+        Wed, 06 Nov 2013 11:37:58 -0800 (PST)
+Received: from mail42.atl31.mcdlv.net (mail42.atl31.mcdlv.net. [205.201.134.42])
+        by mx.google.com with ESMTP id l43si11354694yha.398.2013.11.06.11.37.57
+        for <webmail.testing.dev@gmail.com>;
+        Wed, 06 Nov 2013 11:37:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1854829-webmail.testing.dev=gmail.com@mail42.atl31.mcdlv.net designates 205.201.134.42 as permitted sender) client-ip=205.201.134.42;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1854829-webmail.testing.dev=gmail.com@mail42.atl31.mcdlv.net designates 205.201.134.42 as permitted sender) smtp.mail=bounce-mc.us1_449017.1854829-webmail.testing.dev=gmail.com@mail42.atl31.mcdlv.net;
+       dkim=pass header.i=peter=3Dhtml5weekly.com@mail42.atl31.mcdlv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail42.atl31.mcdlv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=peter=3Dhtml5weekly.com@mail42.atl31.mcdlv.net;
+ bh=wbQ2Re4LLXk8V4EJnCjGJ1+hYdk=;
+ b=A/TrFJKiqx0QhAh6AHDh/AxDM2GUpqV5lkdXAZDJqWo3wxhxF0FLd9cENLuOhXYNIsy0gF4gyYW+
+   Q0bX6B8Ip8OkntukdG92jT/9qIY+1TZhFWEhqGjD0y94R9+UJzRwO3VmKmUWzBDaTv+2k8D7fFvZ
+   O1wcF8p8xCK2wcDDySQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail42.atl31.mcdlv.net;
+ b=mZMylhNGfK6DdI6MeTqsMiLUh09jLumMv5lSq9TZEY/2g0L38gyoUvI8R1+MZWhDOml6+n8zCXho
+   MTb3Nj+r8OQEFXQIXUxqmZUHN0sxMgvmKxdQyDy1kT37vdjBydpd7G528jLCNixyvUNn2bOehxA4
+   6B3C/05cg5oldgGDYfk=;
+Received: from (127.0.0.1) by mail42.atl31.mcdlv.net id hfad9c1mqroi for <webmail.testing.dev@gmail.com>; Wed, 6 Nov 2013 19:07:26 +0000 (envelope-from <bounce-mc.us1_449017.1854829-webmail.testing.dev=gmail.com@mail42.atl31.mcdlv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20HTML5=20and=20Browser=20Technology=20News=20=28Issue=20113=29?=
+From: =?utf-8?Q?HTML5=20Weekly?= <peter@html5weekly.com>
+Reply-To: =?utf-8?Q?HTML5=20Weekly?= <peter@html5weekly.com>
+To: <webmail.testing.dev@gmail.com>
+Date: Wed, 6 Nov 2013 19:07:26 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20131106190658@mail42.atl31.mcdlv.net>
+X-Mailer: MailChimp Mailer - **CID0fa04f5fdcb4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.0fa04f5fdc
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.0fa04f5fdc
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=0fa04f5fdc&e=b4af456f64
+X-MC-User: 0618f6a79d6bb9675f313ceb2
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-0fa04f5fdc-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://html5weekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=07e1174dde&e=b4af456f64&c=0fa04f5fdc>
+Sender: "HTML5 Weekly" <peter=html5weekly.com@mail42.atl31.mcdlv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_758697085"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_758697085
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+HTML5 Weekly - A Weekly HTML5 and Browser Technology Newsletter
+Issue 113 - November  6=2C 2013
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+To unsubscribe: http://html5weekly.us1.list-manage.com/unsubscribe?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64&c=3D0fa04f5fdc
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+from the editor
+---------------
+
+Welcome to issue 113 of HTML5 Weekly. We'll be taking a break next week so
+the next issue will be on Wednesday=2C November 20 :-) - Peter C.
+
+
+featured
+--------
+
+The Pragmatic Bookshelf Releases 2nd Edition of 'HTML5 and CSS3' Book
+http://pragprog.com/book/bhh52e/html5-and-css3
+
+  A second edition of Brian Hogan=E2=80=99s popular Web development book.=
+ A sample <a
+  href=3D"http://www.youtube.com/watch?v=3D4eDl1UOkp18&amp;feature=3Dc4-ov=
+erview&amp;list=3DUUoSneYMkdoA4mV4SipGC94Q">screencast
+  on Web Workers</a> has been released to help promote the book.
+
+Static Showdown: A Hackathon for Static Web Apps (Feb 2014)
+http://www.staticshowdown.com/
+
+WebRTC in the Real World: STUN=2C TURN and Signaling
+http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/
+
+  A beautifully in-depth article by Google=E2=80=99s Sam Dutton.
+
+Welcoming Test the Web Forward to W3C
+http://testthewebforward.org/blog/2013/10/30/welcoming-testtwf-to-w3c.html
+
+
+from our sponsor
+----------------
+
+DreamFactory - Open Source Backend Platform & REST API for HTML5 App Devel=
+opment
+http://www.dreamfactory.com/
+
+  Don=E2=80=99t write server code. We provide backend services and REST AP=
+I for SQL=2C
+  NoSQL=2C BLOBs=2C email=2C users=2C roles=2C SSO=2C OAuth=2C and remote=
+ web services. Get
+  a free account on our website with examples for AngularJS=2C jQuery=2C a=
+nd
+  Sencha Touch.
+
+
+reading
+-------
+
+Creating Non-Rectangular Layouts with CSS Shapes
+http://sarasoueidan.com/blog/css-shapes/index.html
+
+  Only Chrome Canary supports the un-prefixed version of CSS Shapes so far=
+=2C
+  so this is cutting edge but still a helpful view at a future Web
+  technology.
+
+Using CSS Shapes to Enhance Visual Storytelling
+http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelli=
+ng/
+
+Creating an Animated Hero Image with Canvas
+http://flippinawesome.org/2013/11/04/creating-an-animated-hero-image-with-=
+canvas/
+
+  Dave DeHaan details how he and his team created a dynamic=2C animated he=
+ro
+  image using HTML canvas.
+
+Android 4.4 KitKat=2C the Browser and the Chrome WebView
+http://www.mobilexweb.com/blog/android-4-4-kitkat-browser-chrome-webview
+
+  Android 4.4 has made a big change in the OS=E2=80=99 internals for HTML5
+  development: it has replaced its original WebKit-based WebView with mode=
+rn
+  Chromium.
+
+A Look at the Firefox Developer Tools in Firefox 27
+https://hacks.mozilla.org/2013/11/firefox-developer-tools-episode-27-edit-=
+as-html-codemirror-more/
+
+  A look at new features in the Firefox developer tools on Firefox 27
+  (currently in the Aurora release channel)=2C including debugger breaks o=
+n DOM
+  events=2C inspector improvements=2C and the use of CodeMirror.
+
+Mobile Browsers Lag=2C So Mobile HTML5 Apps Suffer
+http://www.infoworld.com/t/html5/mobile-browsers-lag-so-mobile-html5-apps-=
+suffer-230085
+
+  Hardware vendors are to blame for not updating older browsers to properl=
+y
+  leverage HTML5=2C Mozilla=E2=80=99s Christian Heilmann says.
+
+Canvas Blending Now Available On iOS7 and OSX Mavericks
+http://blogs.adobe.com/webplatform/2013/11/01/canvas-blending-availability=
+/
+
+  HTML5 Canvas now supports blending modes in Safari on iOS and in Safari=
+ 6.1
+  and 7.0 on OS X Mavericks=2C joining Chrome and Firefox. IE currently la=
+cks
+  support.
+
+Tinted Images with Multiple Backgrounds
+http://css-tricks.com/tinted-images-multiple-backgrounds/
+
+  A trick you can use to provide a color tint to a background image in pla=
+in
+  CSS.
+
+Text Compression for Web Developers
+http://www.html5rocks.com/en/tutorials/speed/txt-compression/
+
+Internet Explorer 11: WebGL and More
+https://www.scirra.com/blog/125/internet-explorer-11-webgl-and-more
+
+  WebGL support in IE11 makes it a massive improvement over IE10 for HTML5
+  games.
+
+Offline First: Your Next Progressive Enhancement Technique?
+http://www.sitepoint.com/offline-first-next-progressive-enhancement-techni=
+que/
+
+AngularJS Directives: Using HTML5 Web Speech
+http://blog.safaribooksonline.com/2013/10/30/html5-web-speech-angularjs-di=
+rective/
+
+The Back Button Cache =E2=80=93 Taming It with HTML 5
+http://www.sitekickr.com/blog/back-button-browser-cache/
+
+Animated SVG Icons: Using Snap.svg to Animate SVG Icons
+http://tympanus.net/codrops/2013/11/05/animated-svg-icons-with-snap-svg/
+
+The Landscape Of Front-End Development Automation (Slides)
+http://updates.html5rocks.com/2013/11/The-Landscape-Of-Front-end-Developme=
+nt-Automation-Slides
+
+
+watching
+--------
+
+The HTML5 Mobile Challenge: Hybrid or Native?
+http://www.kendoui.com/appchallenge.aspx
+
+  Can you really tell that a hybrid app is a hybrid app? Kendo UI set out=
+ to
+  test this with a variety of developers.
+
+Rendering Without Lumps
+http://www.youtube.com/watch?v=3DcmZqLzPy0XE
+
+  At O=E2=80=99Reilly=E2=80=99s Velocity conference=2C Google=E2=80=99s Ja=
+ke Archibald had a look at
+  how to achieve fast rendering and smooth animation in the browser.
+
+
+code and tools
+--------------
+
+LargeLocalStorage: Large Key-Value Stores in Browsers
+https://github.com/tantaman/LargeLocalStorage
+
+  The only truly cross-browser database is DOMStorage=2C but it has a limi=
+t of
+  5MB. This library provides more storage=2C by using either the FileSyste=
+m
+  API=2C IndexedDB or WebSQL=2C depending on what the current browser supp=
+orts.
+
+Funky.js: HTML5 Camera Video Effects Library
+https://github.com/43081j/funky
+
+  A library that can add effects and transformations to webcam media using
+  WebRTC and CSS filters. There=E2=80=99s a <a
+  href=3D"http://43081j.github.io/funky/">demo.</a>
+
+WebTorrent: BitTorrent in Your Browser over WebRTC
+https://github.com/feross/webtorrent
+
+  A streaming torrent client in your browser=2C powered by webRTC data
+  channels.
+
+
+jobs
+----
+
+Volcanologist? Competitive lumberjack? Oyster harvester? [San Francisco=
+=2C CA]
+http://conqueringit.com/engineer.html
+
+  If you have one of these jobs=E2=80=93you have the coolest job in the wo=
+rld. If you
+  don=E2=80=99t=2C we could use your help unearthing wisdom from the world=
+=E2=80=99s heroes.
+  Your choice.
+
+Web Engineer at Maker Studios (Los Angeles)
+http://www.makerstudios.com/careers/fulltime/web-engineer-all-levels/
+
+  Maker Studios has gathered over 60=2C000 of the largest and most influen=
+tial
+  YouTube channels into a new network model that is disrupting the televis=
+ion
+  industry=2C and the technology group at Maker Studios develops the
+  talent-facing web applications that make this possible at high-scale. If
+  using technologies like Docker=2C NodeJS=2C CircleCI=2C Redis=2C Memcach=
+e=2C MongoDB=2C
+  and CoffeeScript sounds exciting=2C we want you on our team.
+
+Front-End Engineer at Yelp - San Francisco
+http://www.yelp.com/careers?jvi=3DoUOmWfwK=2CJob
+
+  Our front end engineers are the glue between our engineering team and th=
+e
+  more than 117 million people who visit our site every month. Yelp is
+  looking for a front end developer who walks the HTML=2C CSS and JavaScri=
+pt
+  stack with ease. In this role you would do everything from implementing=
+ new
+  UIs and features to battling browser inconsistencies on a daily release
+  cycle.
+
+
+demos
+-----
+
+The Guardian's &quot;NSA Files: Decoded&quot; Feature
+http://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files=
+-surveillance-revelations-decoded
+
+  An excellent piece of journalism presented using a variety of modern Web
+  techniques.
+
+micropolisJS: JavaScript Port of The Original SimCity Game
+http://micropolisjs.graememcc.co.uk/
+
+  A <a
+  href=3D"http://www.graememcc.co.uk/2013/10/27/reticulating-splines/">blo=
+g
+  post</a> describes the background of the port.
+
+Minecraft: A Tiny Voxel Flyby Tribute to Minecraft in 252 Bytes of HTML5
+http://www.p01.org/releases/minicraft/minicraft.htm
+
+The Google Chrome Logo(s) Rendered in Pure CSS
+http://codepen.io/kevinjannis/pen/pyuix
+
+
+last but not least..
+--------------------
+
+Collaboration Tool for Pros
+http://www.dobambam.com/?utm_source=3Dhtml5weekly&utm_campaign=3Dcooperpre=
+ss_bambam_06_11_13&utm_medium=3Dnewsletter
+
+  Designed by professional web developers=2C BamBam! is everything you=E2=
+=80=99ll ever
+  need to run your projects. Integrable with Springloops SVN/Git Source &a=
+mp;
+  Deploy and FREE for teams up to 10 users=2C BamBam! gives you enough pow=
+er to
+  build a spaceship from blueprint to launch. <a
+  href=3D"http://www.dobambam.com/?utm_source=3Dhtml5weekly&amp;utm_campai=
+gn=3Dcooperpress_bambam_06_11_13&amp;utm_medium=3Dnewsletter">Get
+  started now.</a>
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You opted in for HTML5 Weekly at http://html5weekly.com/ to get weekly
+e-mails about HTML5 and related technologies.
+
+You can unsubscribe at: http://html5weekly.us1.list-manage.com/unsubscribe=
+?u=3D0618f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64&c=3D0fa04f5fdc
+
+Our mailing address is: Office 30=2C Lincoln Way=2C Fairfield Enterprise C=
+entre=2C
+Louth=2C Lincs=2C UK=2C LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@html5weekly.com
+if you like.
+--_----------=_MCPart_758697085
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" /=
+>
+<meta name=3D"viewport" content=3D"width=3D400=2C initial-scale=3D1.0" />
+    <title>HTML5 Weekly Issue 113 - November  6=2C 2013</title>
+    <style type=3D"text/css">
+        body {
+            -webkit-text-size-adjust:none;
+            -ms-text-size-adjust:none;
+            margin:0; padding:0;
+            font-family: 'helvetica neue'=2C helvetica=2C arial=2C sans-se=
+rif;
+        }
+        .ExternalClass=2C .ExternalClass p=2C .ExternalClass span=2C .Exte=
+rnalClass font=2C .ExternalClass td=2C .ExternalClass div {line-height: 10=
+0%;}
+        table {border-spacing:0;}
+        table td {border-collapse:collapse;}
+        @media screen and (max-width: 600px) {
+            table[class=3D"container"] {
+                width: 98% !important;
+            }
+            .aright=2C .aright TD {
+                text-align: left !important;
+                float: none;
+            }
+            td[class=3D'block'] { display: block !important; float: none=
+ !important; text-align: left; width: auto; }
+            .aright {
+               padding-top: 8px;
+            }
+            .p14 { padding-left: 0px !important; padding-right: 0px !impor=
+tant; margin-left: 0px !important; margin-right: 0px !important;  }
+            .iimg { display: none; }
+        }
+    </style>
+</head>
+<body style=3D"margin:0; padding:0px;" bgcolor=3D"#ebebeb" leftmargin=3D"0=
+" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0">
+<table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bgc=
+olor=3D"#ebebeb" style=3D"margin-top: 10px">
+  <tr>
+    <td align=3D"center" valign=3D"top" bgcolor=3D"#ebebeb" style=3D"backg=
+round-color: #ebebeb;">
+      <table border=3D"0" width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"container" style=3D"border-collapse: collapse;">
+        <tr>
+            <td style=3D"padding-top: 6px; padding-bottom: 6px; padding-le=
+ft: 0px; padding-right: 0px" class=3D"noarchive">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" class=3D"block" style=3D"font-f=
+amily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px">
+                        </td>
+                        <td align=3D"right" class=3D"block" style=3D"font-=
+family: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px">
+                            <a href=3D"http://html5weekly.us1.list-manage2=
+=2Ecom/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db6cc954a5f&e=3D=
+b4af456f64" style=3D"color: #1173c7">Read this issue on the Web</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+      <table border=3D"0" width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"container" style=3D"border-collapse: collapse; box-shadow: 2px=
+ 2px 10px #bbbbbb">
+        <tr>
+            <td style=3D"padding: 12px; padding-left: 12px; color: #ffffff=
+; padding-right: 12px" bgcolor=3D"#0088cc">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" class=3D"block">
+                            <strong style=3D"font-family: 'helvetica neue'=
+=2C helvetica=2C arial=2C sans-serif; font-size: 28px; font-weight: bold;=
+ color: #ffffff; letter-spacing: -1px;  -webkit-font-smoothing: antialiase=
+d; text-transform: uppercase; text-shadow: 1px 1px 1px #003377">HTML <img=
+ src=3D"https://s3.amazonaws.com/s3.cooperpress.com/h5.png" style=3D"verti=
+cal-align: middle; height: 1.6em" alt=3D"5 - Please enable images? :-)" he=
+ight=3D"50" /> Weekly</strong>
+                        </td>
+                        <td align=3D"right" class=3D"block" style=3D"font-=
+family: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 12px; line=
+-height: 19px; color: #ffffff;">
+                            <strong style=3D"font-size: 14px">Issue 113</s=
+trong><br>November  6=2C 2013
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+       <tr>
+          <td class=3D"container-padding" bgcolor=3D"#ffffff" style=3D"bac=
+kground-color: #ffffff; padding-left: 12px; padding-right: 12px; padding-b=
+ottom: 12px; font-size: 14px; line-height: 20px; font-family: Helvetica=2C=
+ arial=2C sans-serif; color: #333;" align=3D"left">
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">from the editor</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+                <tr><td style=3D"padding: 14px 14px 0px 14px; font-size: 1=
+4px; line-height: 20px" class=3D"p14">Welcome to issue 113 of <em>HTML5 We=
+ekly</em>. We'll be taking a break next week so the next issue will be on=
+ Wednesday=2C November 20 :-) <em>- Peter C.</em></td></tr></table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">featured</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db62f633abe&e=3D=
+b4af456f64" title=3D"pragprog.com/book/bhh52e/html5-and-css3" style=3D"color:=
+ #2518b5; text-decoration: underline; font-weight: 500; ">The Pragmatic Bo=
+okshelf Releases 2nd Edition of 'HTML5 and CSS3' Book</a> <span style=3D"f=
+ont-size: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;<=
+/span>
+A second edition of Brian Hogan=E2=80=99s popular Web development book. A=
+ sample <a href=3D"http://html5weekly.us1.list-manage.com/track/click?u=3D=
+0618f6a79d6bb9675f313ceb2&id=3Df5fb4086d2&e=3Db4af456f64">screencast on W=
+eb Workers</a> has been released to help promote the book.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">The Pragmatic Programmers</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D44184979f3&e=3D=
+b4af456f64" title=3D"www.staticshowdown.com/" style=3D"color: #2518b5; text-de=
+coration: underline; font-weight: 500; ">Static Showdown: A Hackathon for=
+ Static Web Apps (Feb 2014)</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D53dd63067b&e=3D=
+b4af456f64" title=3D"www.html5rocks.com/en/tutorials/webrtc/infrastructure/" s=
+tyle=3D"color: #2518b5; text-decoration: underline; font-weight: 500; ">We=
+bRTC in the Real World: STUN=2C TURN and Signaling</a> <span style=3D"font=
+-size: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;</sp=
+an>
+A beautifully in-depth article by Google=E2=80=99s Sam Dutton.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">HTML5 Rocks</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D051c502688&e=3D=
+b4af456f64" title=3D"testthewebforward.org/blog/2013/10/30/welcoming-testtwf-to=
+-w3c.html" style=3D"color: #2518b5; text-decoration: underline; font-weigh=
+t: 500; ">Welcoming Test the Web Forward to W3C</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Tobie Langel</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">from our sponsor</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D679c0f3b6b&e=3D=
+b4af456f64" title=3D"www.dreamfactory.com/" style=3D"color: #2518b5; text-deco=
+ration: underline; font-weight: 500; ">DreamFactory - Open Source Backend=
+ Platform & REST API for HTML5 App Development</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"color: #333; font-size: 13px; lin=
+e-height: 18px; padding: 1px 14px 0px 14px" class=3D"p14">
+Don=E2=80=99t write server code. We provide backend services and REST API=
+ for SQL=2C NoSQL=2C BLOBs=2C email=2C users=2C roles=2C SSO=2C OAuth=2C a=
+nd remote web services. Get a free account on our website with examples fo=
+r AngularJS=2C jQuery=2C and Sencha Touch.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">DreamFactory</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td valign=3D"top" align=3D"right" style=3D"padding-r=
+ight: 14px; padding-top: 14px;" class=3D"p14">
+                    <a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D226c1b33ae&e=3Db4af456f64" cl=
+ass=3D"iimg"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/1=
+6928/t.png" alt=3D"" width=3D"133" height=3D"100" style=3D"border-color: #=
+1173c7" border=3D"1"></a>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">reading</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da53795e198&e=3D=
+b4af456f64" title=3D"sarasoueidan.com/blog/css-shapes/index.html" style=3D"colo=
+r: #2518b5; text-decoration: underline; font-weight: 500; ">Creating Non-R=
+ectangular Layouts with CSS Shapes</a> <span style=3D"font-size: 13px; lin=
+e-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+Only Chrome Canary supports the un-prefixed version of CSS Shapes so far=
+=2C so this is cutting edge but still a helpful view at a future Web techn=
+ology.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Sara Soueidan</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4bc0664dac&e=3D=
+b4af456f64" title=3D"blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-=
+storytelling/" style=3D"color: #2518b5; text-decoration: underline; font-w=
+eight: 500; ">Using CSS Shapes to Enhance Visual Storytelling</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Adobe Web Platform Team Blog</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D03e156e0a0&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/11/04/creating-an-animated-hero-i=
+mage-with-canvas/" style=3D"color: #2518b5; text-decoration: underline; fo=
+nt-weight: 500; ">Creating an Animated Hero Image with Canvas</a> <span st=
+yle=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #999999">=
+&#8212;</span>
+Dave DeHaan details how he and his team created a dynamic=2C animated hero=
+ image using HTML canvas.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Flippin' Awesome</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd038637464&e=3D=
+b4af456f64" title=3D"www.mobilexweb.com/blog/android-4-4-kitkat-browser-chrome=
+-webview" style=3D"color: #2518b5; text-decoration: underline; font-weight=
+: 500; ">Android 4.4 KitKat=2C the Browser and the Chrome WebView</a> <spa=
+n style=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #9999=
+99">&#8212;</span>
+Android 4.4 has made a big change in the OS=E2=80=99 internals for HTML5 d=
+evelopment: it has replaced its original WebKit-based WebView with modern=
+ Chromium.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Maximiliano Firtman</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D60224848a4&e=3D=
+b4af456f64" title=3D"hacks.mozilla.org/2013/11/firefox-developer-tools-episode=
+-27-edit-as-html-codemirror-more/" style=3D"color: #2518b5; text-decoratio=
+n: underline; font-weight: 500; ">A Look at the Firefox Developer Tools in=
+ Firefox 27</a> <span style=3D"font-size: 13px; line-height: 18px"><span s=
+tyle=3D"color: #999999">&#8212;</span>
+A look at new features in the Firefox developer tools on Firefox 27 (curre=
+ntly in the Aurora release channel)=2C including debugger breaks on DOM ev=
+ents=2C inspector improvements=2C and the use of CodeMirror.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Mozilla Hacks</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc1ce0582fd&e=3D=
+b4af456f64" title=3D"www.infoworld.com/t/html5/mobile-browsers-lag-so-mobile-h=
+tml5-apps-suffer-230085" style=3D"color: #2518b5; text-decoration: underli=
+ne; font-weight: 500; ">Mobile Browsers Lag=2C So Mobile HTML5 Apps Suffer=
+</a> <span style=3D"font-size: 13px; line-height: 18px"><span style=3D"col=
+or: #999999">&#8212;</span>
+Hardware vendors are to blame for not updating older browsers to properly=
+ leverage HTML5=2C Mozilla=E2=80=99s Christian Heilmann says.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">InfoWorld</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1ca8a940c1&e=3D=
+b4af456f64" title=3D"blogs.adobe.com/webplatform/2013/11/01/canvas-blending-ava=
+ilability/" style=3D"color: #2518b5; text-decoration: underline; font-weig=
+ht: 500; ">Canvas Blending Now Available On iOS7 and OSX Mavericks</a> <sp=
+an style=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #999=
+999">&#8212;</span>
+HTML5 Canvas now supports blending modes in Safari on iOS and in Safari 6.=
+1 and 7.0 on OS X Mavericks=2C joining Chrome and Firefox. IE currently la=
+cks support.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Adobe Web Platform Team</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da765b10e11&e=3D=
+b4af456f64" title=3D"css-tricks.com/tinted-images-multiple-backgrounds/" style=
+=3D"color: #2518b5; text-decoration: underline; font-weight: 500; ">Tinted=
+ Images with Multiple Backgrounds</a> <span style=3D"font-size: 13px; line=
+-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+A trick you can use to provide a color tint to a background image in plain=
+ CSS.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">CSS-Tricks</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0ca7a8dbe0&e=3D=
+b4af456f64" title=3D"www.html5rocks.com/en/tutorials/speed/txt-compression/" st=
+yle=3D"color: #2518b5; text-decoration: underline; font-weight: 500; ">Tex=
+t Compression for Web Developers</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">HTML5 Rocks</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd42ffc0ec0&e=3D=
+b4af456f64" title=3D"www.scirra.com/blog/125/internet-explorer-11-webgl-and-mo=
+re" style=3D"color: #2518b5; text-decoration: underline; font-weight: 500;=
+ ">Internet Explorer 11: WebGL and More</a> <span style=3D"font-size: 13px=
+; line-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+WebGL support in IE11 makes it a massive improvement over IE10 for HTML5 g=
+ames.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Scirra</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc9c4f3fb69&e=3D=
+b4af456f64" title=3D"www.sitepoint.com/offline-first-next-progressive-enhanceme=
+nt-technique/" style=3D"color: #2518b5; text-decoration: underline; font-w=
+eight: 500; ">Offline First: Your Next Progressive Enhancement Technique?<=
+/a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">SitePoint</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D83346a85ba&e=3D=
+b4af456f64" title=3D"blog.safaribooksonline.com/2013/10/30/html5-web-speech-ang=
+ularjs-directive/" style=3D"color: #2518b5; text-decoration: underline; fo=
+nt-weight: 500; ">AngularJS Directives: Using HTML5 Web Speech</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Safari Books Online</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D101eb03d45&e=3D=
+b4af456f64" title=3D"www.sitekickr.com/blog/back-button-browser-cache/" style=
+=3D"color: #2518b5; text-decoration: underline; font-weight: 500; ">The Ba=
+ck Button Cache =E2=80=93 Taming It with HTML 5</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">SiteKickr</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd3e10af60c&e=3D=
+b4af456f64" title=3D"tympanus.net/codrops/2013/11/05/animated-svg-icons-with-sn=
+ap-svg/" style=3D"color: #2518b5; text-decoration: underline; font-weight:=
+ 500; ">Animated SVG Icons: Using Snap.svg to Animate SVG Icons</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Codrops</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De9630440e0&e=3D=
+b4af456f64" title=3D"updates.html5rocks.com/2013/11/The-Landscape-Of-Front-end=
+-Development-Automation-Slides" style=3D"color: #2518b5; text-decoration:=
+ underline; font-weight: 500; ">The Landscape Of Front-End Development Aut=
+omation (Slides)</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">HTML5 Rocks</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">watching</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9b6b735cad&e=3D=
+b4af456f64" title=3D"www.kendoui.com/appchallenge.aspx" style=3D"color: #2518b5=
+; text-decoration: underline; font-weight: 500; ">The HTML5 Mobile Challen=
+ge: Hybrid or Native?</a> <span style=3D"font-size: 13px; line-height: 18p=
+x"><span style=3D"color: #999999">&#8212;</span>
+Can you really tell that a hybrid app is a hybrid app? Kendo UI set out to=
+ test this with a variety of developers.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Kendo UI Team</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De6de6cdc9d&e=3D=
+b4af456f64" title=3D"www.youtube.com/watch?v=3DcmZqLzPy0XE" style=3D"color: #25=
+18b5; text-decoration: underline; font-weight: 500; ">Rendering Without Lu=
+mps</a> <span style=3D"font-size: 13px; line-height: 18px"><span style=3D"=
+color: #999999">&#8212;</span>
+At O=E2=80=99Reilly=E2=80=99s Velocity conference=2C Google=E2=80=99s Jake=
+ Archibald had a look at how to achieve fast rendering and smooth animatio=
+n in the browser.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">O'Reilly Velocity </em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">code and tools</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D497114bcac&e=3D=
+b4af456f64" title=3D"github.com/tantaman/LargeLocalStorage" style=3D"color: #2=
+518b5; text-decoration: underline; font-weight: 500; ">LargeLocalStorage:=
+ Large Key-Value Stores in Browsers</a> <span style=3D"font-size: 13px; li=
+ne-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+The only truly cross-browser database is DOMStorage=2C but it has a limit=
+ of 5MB. This library provides more storage=2C by using either the FileSys=
+tem API=2C IndexedDB or WebSQL=2C depending on what the current browser su=
+pports.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">GitHub</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D64e7a6250d&e=3D=
+b4af456f64" title=3D"github.com/43081j/funky" style=3D"color: #2518b5; text-dec=
+oration: underline; font-weight: 500; ">Funky.js: HTML5 Camera Video Effec=
+ts Library</a> <span style=3D"font-size: 13px; line-height: 18px"><span st=
+yle=3D"color: #999999">&#8212;</span>
+A library that can add effects and transformations to webcam media using W=
+ebRTC and CSS filters. There=E2=80=99s a <a href=3D"http://html5weekly.us1=
+=2Elist-manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0463b387e=
+4&e=3Db4af456f64">demo.</a>
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">43081j</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1d9a9cb433&e=3D=
+b4af456f64" title=3D"github.com/feross/webtorrent" style=3D"color: #2518b5; tex=
+t-decoration: underline; font-weight: 500; ">WebTorrent: BitTorrent in You=
+r Browser over WebRTC</a> <span style=3D"font-size: 13px; line-height: 18p=
+x"><span style=3D"color: #999999">&#8212;</span>
+A streaming torrent client in your browser=2C powered by webRTC data chann=
+els.
+</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">jobs</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7d2a03cbdd&e=3D=
+b4af456f64" title=3D"conqueringit.com/engineer.html" style=3D"color: #2518b5;=
+ text-decoration: underline; font-weight: 500; ">Volcanologist? Competitiv=
+e lumberjack? Oyster harvester? [San Francisco=2C CA]</a> <span style=3D"=
+font-size: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;=
+</span>
+If you have one of these jobs=E2=80=93you have the coolest job in the worl=
+d. If you don=E2=80=99t=2C we could use your help unearthing wisdom from t=
+he world=E2=80=99s heroes. Your choice.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">The Conquer Project</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbfc963c0bf&e=3D=
+b4af456f64" title=3D"www.makerstudios.com/careers/fulltime/web-engineer-all-lev=
+els/" style=3D"color: #2518b5; text-decoration: underline; font-weight: 50=
+0; ">Web Engineer at Maker Studios (Los Angeles)</a> <span style=3D"font-s=
+ize: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;</span=
+>
+Maker Studios has gathered over 60=2C000 of the  largest and most influent=
+ial YouTube channels into a new network model that is disrupting the telev=
+ision industry=2C and the technology group at Maker Studios develops the t=
+alent-facing web applications that make this possible at high-scale.  If u=
+sing technologies like Docker=2C NodeJS=2C CircleCI=2C Redis=2C Memcache=
+=2C MongoDB=2C and CoffeeScript sounds exciting=2C we want you on our team=
+=2E
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Maker Studios</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D055f95cf82&e=3D=
+b4af456f64" title=3D"www.yelp.com/careers?jvi=3DoUOmWfwK=2CJob" style=3D"color=
+: #2518b5; text-decoration: underline; font-weight: 500; ">Front-End Engin=
+eer at Yelp - San Francisco</a> <span style=3D"font-size: 13px; line-heigh=
+t: 18px"><span style=3D"color: #999999">&#8212;</span>
+Our front end engineers are the glue between our engineering team and the=
+ more than 117 million people who visit our site every month. Yelp is look=
+ing for a front end developer who walks the HTML=2C CSS and JavaScript sta=
+ck with ease. In this role you would do everything from implementing new U=
+Is and features to battling browser inconsistencies on a daily release cyc=
+le.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">Yelp</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">demos</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De36a602b81&e=3D=
+b4af456f64" title=3D"www.theguardian.com/world/interactive/2013/nov/01/snowden-=
+nsa-files-surveillance-revelations-decoded" style=3D"color: #2518b5; text-=
+decoration: underline; font-weight: 500; ">The Guardian's &quot;NSA Files:=
+ Decoded&quot; Feature</a> <span style=3D"font-size: 13px; line-height: 18=
+px"><span style=3D"color: #999999">&#8212;</span>
+An excellent piece of journalism presented using a variety of modern Web t=
+echniques.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">The Guardian</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2bc2b6b6ba&e=3D=
+b4af456f64" title=3D"micropolisjs.graememcc.co.uk/" style=3D"color: #2518b5; t=
+ext-decoration: underline; font-weight: 500; ">micropolisJS: JavaScript Po=
+rt of The Original SimCity Game</a> <span style=3D"font-size: 13px; line-h=
+eight: 18px"><span style=3D"color: #999999">&#8212;</span>
+A <a href=3D"http://html5weekly.us1.list-manage1.com/track/click?u=3D0618f=
+6a79d6bb9675f313ceb2&id=3D2ccdebd9b3&e=3Db4af456f64">blog post</a> descri=
+bes the background of the port.
+</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D281bb4a1e8&e=3D=
+b4af456f64" title=3D"www.p01.org/releases/minicraft/minicraft.htm" style=3D"co=
+lor: #2518b5; text-decoration: underline; font-weight: 500; ">Minecraft: A=
+ Tiny Voxel Flyby Tribute to Minecraft in 252 Bytes of HTML5</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">p01</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da63f874ed6&e=3D=
+b4af456f64" title=3D"codepen.io/kevinjannis/pen/pyuix" style=3D"color: #2518b5=
+; text-decoration: underline; font-weight: 500; ">The Google Chrome Logo(s=
+) Rendered in Pure CSS</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">CodePen</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 18px; color: #ed4113; margin-top: 20px; border-top: 0px dashed #ccc; pad=
+ding-top: 4px; ">last but not least..</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"padding-bottom: 4px">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 20px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://html5weekly.us1.list-manag=
+e1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da7d2bb016e&e=3D=
+b4af456f64" title=3D"www.dobambam.com/?utm_source=3Dhtml5weekly&utm_campaign=
+=3Dcooperpress_bambam_06_11_13&utm_medium=3Dnewsletter" style=3D"color: #2=
+518b5; text-decoration: underline; font-weight: 500; ">Collaboration Tool=
+ for Pros</a> <span style=3D"font-size: 13px; line-height: 18px"><span sty=
+le=3D"color: #999999">&#8212;</span>
+Designed by professional web developers=2C BamBam! is everything you=E2=80=
+=99ll ever need to run your projects. Integrable with Springloops SVN/Git=
+ Source &amp; Deploy and FREE for teams up to 10 users=2C BamBam! gives yo=
+u enough power to build a spaceship from blueprint to launch. <a href=3D"h=
+ttp://html5weekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f3=
+13ceb2&id=3D189d9241ff&e=3Db4af456f64">Get started now.</a>
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #008800; text-transform:=
+ uppercase;">84kids <span style=3D"font-weight: bold; color: #ed4113">(Spo=
+nsored Item)</span></em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+            <td bgcolor=3D"#ebebeb" style=3D"padding-top: 12px; padding-le=
+ft: 12px; padding-right: 12px; padding-bottom: 12px" class=3D"noarchive">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" width=3D"70%" style=3D"font-fam=
+ily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px; padding=
+-right: 10px; line-height: 14px" class=3D"block" valign=3D"top">Curated by=
+ <a href=3D"http://html5weekly.us1.list-manage.com/track/click?u=3D0618f6a=
+79d6bb9675f313ceb2&id=3Da19eea4e45&e=3Db4af456f64" style=3D"color: #1173c=
+7">Peter Cooper</a> and published by <a href=3D"http://html5weekly.us1.lis=
+t-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7b9c5cc546&e=
+=3Db4af456f64" style=3D"color: #1173c7">Cooper Press</a>.<br>Want to spon=
+sor an issue? See our <a href=3D"http://html5weekly.us1.list-manage.com/tr=
+ack/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db75e7dee1a&e=3Db4af456f64" s=
+tyle=3D"color: #666666">media kit.</a><br><br>
+&copy; 2013 Cooper Press Ltd. <a href=3D"http://html5weekly.us1.list-manag=
+e.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D443850a52f&e=3D=
+b4af456f64" style=3D"color: #666666">Email policy</a> <a href=3D"http://html5we=
+ekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3b=
+e904006b&e=3Db4af456f64" style=3D"color: #666666">Privacy policy</a><br>O=
+ffice 30=2C Fairfield Enterprise Centre=2C Louth=2C LN11 0LS=2C UK
+                        </td>
+                        <td align=3D"right" width=3D"30%" style=3D"font-fa=
+mily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px; line-h=
+eight: 18px" class=3D"block" valign=3D"top">
+                            <a href=3D"http://html5weekly.us1.list-manage2=
+=2Ecom/profile?u=3D0618f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64" s=
+tyle=3D"color: #0088bb; font-weight: normal; text-decoration: underline">U=
+pdate your email address</a><br>or <a href=3D"http://html5weekly.us1.list-=
+manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3D=
+b4af456f64&c=3D0fa04f5fdc" style=3D"color: #1173c7; font-weight: bold; text-d=
+ecoration: underline">unsubscribe here</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<img src=3D"http://html5weekly.us1.list-manage.com/track/open.php?u=3D0618=
+f6a79d6bb9675f313ceb2&id=3D0fa04f5fdc&e=3Db4af456f64" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_758697085--

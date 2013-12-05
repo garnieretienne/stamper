@@ -1,0 +1,929 @@
+Return-Path:
+  <bounce-mc.us1_449017.1854137-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.28.202 with SMTP id d10csp55885oah;
+        Fri, 3 May 2013 03:45:46 -0700 (PDT)
+X-Received: by 10.236.117.107 with SMTP id i71mr8474938yhh.149.1367577946317;
+        Fri, 03 May 2013 03:45:46 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id d47si7157996yhe.180.2013.05.03.03.45.45
+        for <webmail.testing.dev@gmail.com>;
+        Fri, 03 May 2013 03:45:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1854137-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1854137-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1854137-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=EfhWprSbzqA108Bq/33P2kpe9J0=;
+ b=dI9IoIY0h4k5LNUXbdOAUtuWPMACehRPb4iX0hRSnqaGK3UvC5TSxFL4H7cdbJIyEvNEC9mtBAg7
+   0xzR3ee8iNij7MAT5R3pzmmeqVTNGRlse4Y99uzFYcc4VvIR7A3b4qnmFogXQnYFP0mFBJk7F/uj
+   fFhxI7pl8hB4iajb39I=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=h01XZtvYImB5FeDF+DN4VTffxFIBdYAwI7ayWSwSdD+VhaLqiPx5qu5f5v/p55Vv3HRhgqCfATPF
+   LgeaPxZbF7esTLNtiMkZfThvvLplfZyuEYRqEorFhpMA9s5pgk7MftzcbmqoIkyr3Q0VS8jUpqV4
+   F3sOWANOI+LPpFba9BI=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hgealk0ik18b for <webmail.testing.dev@gmail.com>; Fri, 3 May 2013 10:20:50 +0000 (envelope-from <bounce-mc.us1_449017.1854137-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20128?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 3 May 2013 10:20:50 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130503102021@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID8a065d39ebb4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.8a065d39eb
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.8a065d39eb
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=8a065d39eb&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-8a065d39eb-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=8a065d39eb>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1361386773"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1361386773
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #128 - May 3, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D8a065d39eb
+
+Just a quick note to let you know we'll soon be rolling out a new, separat=
+e sister publication aimed at JavaScript beginners, covering entry-level J=
+avaScript tutorials, articles, and tips. No sign up yet but for now we'll=
+ continue to include a mix of content here each week, so be aware there's=
+ a wide range of skill levels represented in our picks. Thanks for reading=
+ :-)
+
+
+--- Featured ---
+
+# Epic Games' Unreal 3 'Citadel' Demo
+http://www.unrealengine.com/html5/
+
+From cooperation between Epic Games and Mozilla comes an impressive Web-ba=
+sed demo of the Unreal Engine 3 3D gaming engine running direct in the bro=
+wser using JavaScript and HTML5 technologies. A very up to date version of=
+ Firefox is recommended to try this (i.e. Aurora or Nightly). Brendan Eich=
+ has written about the background to this previously.
+
+# Author In ES6, Transpile To ES5 As A Build-step: Workflow For Grunt
+http://addyosmani.com/blog/author-in-es6-transpile-to-es5-as-a-build-step-=
+a-workflow-for-grunt/
+
+Addy Osmani looks at two ways in which you can write ECMAScript 6 code rig=
+ht now and have it compiled back to universally runnable ECMAScript 5-comp=
+liant code using Grunt and a couple of handy libraries.
+
+# Intern: A Next-Generation JavaScript Testing Stack
+http://theintern.io/
+
+Feature highlights: runs tests in the browser and on Node.js; integrates w=
+ith SauceLabs and Selenium; lets you use any assertion library (it comes w=
+ith Chai); reports code coverage via Istanbul; supports Travis CI.
+
+
+--- From our Sponsor ---
+
+# Rich data for JavaScript Apps is a Breeze
+http://www.breezejs.com
+
+When a desktop application moves to HTML/JavaScript, the need for rich dat=
+a moves with it. Consider BreezeJS for querying, caching, offline, change=
+ tracking, object graph navigation, and bulk saves. Make it part of your J=
+avaScript client app stack.
+
+
+--- Reading ---
+
+# CDNs Fail, But Your Scripts Don't Have to
+http://www.hanselman.com/blog/CDNsFailButYourScriptsDontHaveToFallbackFrom=
+CDNToLocalJQuery.aspx
+
+Scott Hanselman explains how to fall back from a file hosted by a content=
+ delivery network (CDN) to file on your server.
+
+# The Hikikomori's Guide to JavaScript
+http://killdream.github.io/blog/2013/04/the-hikkikomoris-guide-to-javascri=
+pt/
+
+How to write an application by starting with key components (primitives),=
+ composing them via combinators and finally adding a user interface.
+
+# The MEAN Stack: MongoDB, ExpressJS, AngularJS and Node.js
+http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-=
+angularjs-and
+
+Describes the advantages of this stack and mentions best practices.
+
+# Tern: Code Analysis Engine for JavaScript
+http://marijnhaverbeke.nl/blog/tern.html
+
+Marijn Haverbeke describes how his crowd-financed project Tern works.
+
+# Is This Thing On? (Part 1)
+http://www.icenium.com/community/blog/icenium-team-blog/2013/04/23/is-this=
+-thing-on-part-1
+
+First in a three part series that explores some of the tools available to=
+ detect and manage online/offline connectivity in web and mobile applicati=
+ons.
+
+# JavaScript Array Loops
+http://martinrinehart.com/frontend-engineering/engineers/javascript/arrays=
+/array-loops.html
+
+This article explains that in some (relatively rare) cases, a for-in loop=
+ is the best way of iterating over an array. Not all arguments are equally=
+ compelling, but the article brings up points you may not have considered=
+ before.
+
+# Promise-Based Validation
+http://net.tutsplus.com/tutorials/javascript-ajax/promise-based-validation=
+/
+
+Promises are a pattern for asynchronous programming that has become quite=
+ popular in the JavaScript world. This article applies promises to an old=
+ problem: validating form input.
+
+# Even Better In-Browser Mockups with Node.js
+http://alistapart.com/article/even-better-in-browser-mockups-with-node.js
+
+If you design your application in the browser then Node.js makes it easy t=
+o include the server in that process, resulting in a more complete mockup.=
+ This article introduces the idea, a follow-up article walks through an ex=
+ample.
+
+# Taking Control with Machina.js (Slides)
+http://code.dougneiner.com/presentations/machina/
+
+A slide deck from Doug Neiner that looks into implementing state machines=
+ in JavaScript via the machina.js library.
+
+# The Box2d Benchmark Revisited
+http://j15r.com/blog/2013/04/25/Box2d_Revisited
+
+A comparison of a Box2d-based benchmark run on popular JavaScript engines=
+ from 18 months ago and now. Big performance gains are seen, especially wi=
+th the introduction of asm.js in Firefox Nightly.
+
+# Task Automation with Automaton and Node
+http://flippinawesome.org/2013/04/29/task-automation-with-automaton-and-no=
+de/
+
+Brian Rinaldi walks through how to automate common file system, templating=
+ and command-line tasks for developers using Automaton and Node.
+
+# Writing Custom Yeoman App Generators
+http://yeoman.io/generators.html
+
+Get started with the Yeoman generator system. A generator creates an initi=
+al version of an application, a task that ranges from simple (copying a bo=
+ilerplate project to your application directory) to complex (flexible cust=
+omization, dependency management, etc.).
+
+# How Selections Work in D3.js
+http://bost.ocks.org/mike/selection/
+
+Explains how a core feature of the D3.js data visualization framework is i=
+mplemented: selections.
+
+# Using D3.js and Meteor to Generate Scalable Vector Graphics (SVG)
+http://blog.benmcmahen.com/post/41124327100/using-d3-and-meteor-to-generat=
+e-scalable-vector
+
+# Using =E2=80=9Cthis=E2=80=9D Responsibly
+http://modjs.wordpress.com/2013/05/01/using-this-responsibly/
+
+
+--- Watching ---
+
+# Clojure/ClojureScript: One Language to Rule The Web
+http://www.youtube.com/watch?v=3DEpcNDd8nuYY
+
+Clojure is a modern dynamic language for the JVM, and ClojureScript is the=
+ same language compiled into JavaScript. This presentation describes the l=
+anguages and how ClojureScript is compiled to JavaScript.
+
+# 5 Talks to Learn More About Node.js
+http://blog.modulus.io/five-talks-learn-more-nodejs
+
+
+--- Code, Libraries and Tools ---
+
+# underscore-contrib: Extension Libraries and Proving Ground for Underscor=
+e.js
+http://blog.fogus.me/2013/04/25/announcing-underscore-contrib/
+
+A collection of libraries for Underscore.js that were created with two goa=
+ls in mind: First, to provide functionality that is not needed widely enou=
+gh to be included in Underscore.js proper. Second, to try out functionalit=
+y that might eventually be included with Underscore.js.
+
+# Starling.js: JavaScript Game Engine
+http://typedarray.org/introducing-starling-js/
+
+Starling is a popular ActionScript game engine that was created almost two=
+ years ago. Starling.js is a port of Starling to HTML5. It is based on Can=
+vas, with long-term plans to migrate to WebGL. Starling.js has been writte=
+n in TypeScript, meaning that you can develop for it in either TypeScript=
+ or plain JavaScript.
+
+# ExplainJS: Instant Side-by-Side View of Comments and Code
+http://www.explainjs.com/
+
+Generates code documentation that consists of two columns: the right colum=
+n contains the source code, the left column contains the comments.
+
+# Announcing SunSpider 1.0
+https://www.webkit.org/blog/2364/announcing-sunspider-1-0/
+
+In 2007, the WebKit project released the SunSpider JavaScript benchmark su=
+ite. It has now reached version 1.0.
+
+# observe-shim: A Shim for Object.observe (ECMAScript 7 or Later)
+https://github.com/KapIT/observe-shim/
+
+Object.observe() is a function that has been proposed for a future ECMAScr=
+ipt version. It observes changes to objects and helps with data binding in=
+ user interface frameworks. This project shims Object.observe() on current=
+ browsers.
+
+# Muzzley: A Platform for Turning Smartphones Into Controllers
+http://www.muzzley.com/
+
+A platform that turns a user's smartphone into a gamepad, drawing pad, key=
+board, swipe navigator, or switch which you can then process using JavaScr=
+ipt (Node or browser).
+
+# FPSMeter: Simple Fast and Themable JavaScript FPS Meter
+http://darsa.in/fpsmeter/
+
+# angular-carousel: Mobile-Friendly AngularJS Carousel
+https://github.com/revolunet/angular-carousel
+
+# vr.js: NPAPI Plugin to Expose Fun Virtual Reality Devices to JavaScript
+https://github.com/benvanik/vr.js
+
+# defs.js: Compile ECMAScript 6 =E2=80=9Clet=E2=80=9D and =E2=80=9Cconst=
+=E2=80=9D to ECMAScript 3 Code
+https://github.com/olov/defs
+
+# node-archiver: Create Archives (Zip, Tar) Via Node Streams
+https://github.com/ctalkington/node-archiver
+
+# Backbone.js and Express.js Single Page Application Boilerplate
+https://github.com/alexanderbeletsky/backbone-express-spa
+
+# Caterpillar: Logging System for Node.js
+https://github.com/bevry/caterpillar
+
+# Sublime Text Plugin: Refactoring Javascript Code
+https://github.com/s-a/sublime-text-refactor
+
+
+--- Jobs ---
+
+# Software Engineer - Product at Coursera
+http://javascriptweekly.com/misc/coursera2.html
+
+Coursera is looking for JavaScript/HTML5 experts to build high quality web=
+ applications that bring online courses to our students. As part of our sm=
+all and agile team of software engineers, you will be responsible for arch=
+itecting and implementing the front-end designs, and working with other me=
+mbers on the team to integrate the the application into our platform.
+
+# Software Engineer at Turn (Silicon Valley)
+http://www.turn.com/career-opportunities/applications-engineering-front-en=
+d
+
+Angular, Node, Bootstrap. Big data, machine learning, distributed systems.=
+ If these are technologies you're interested in and you're good with JavaS=
+cript, we'd love to talk to you about joining our front-end applications t=
+eam at Turn.
+
+# DevOps Hipster aka Infrastructure Engineer at Jimdo (Hamburg, Germany)
+http://www.jimdo.com/jobs/devops-hipster/
+
+You understand the hidden potential that lies between development and ops.=
+ You adore automation. In the end, you always drop the adequate DevOps Bor=
+at punchline. You take an interest in and contribute to, the world of open=
+ source - show us what you got!
+
+# Software Developers (JavaScript or Java) =E2=80=93 R&D Positions in Vien=
+na, Austria
+http://www.weblyzard.com/jobs/
+
+
+--- Last but not least.. ---
+
+# Announcing TypeScript 0.9 Early Previews
+http://blogs.msdn.com/b/typescript/archive/2013/04/22/10413065.aspx
+
+Microsoft has published a preview of the next version of TypeScript (a sup=
+erset of JavaScript). Highlights: generics and a rewritten compiler that b=
+etter scales to large projects.
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D8a065d39eb
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_1361386773
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8"></head><body>
+<style type=3D"text/css">
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">This week=
+'s JavaScript news</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3Df623b42dca&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D4768abb54d&e=3Db4af456f64"><img src=3D"http:=
+//javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366=
+" height=3D"69" style=3D"margin-bottom: 0px; border: 0"></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #128 - May 3, 2013</p>
+=09
+=09
+
+
+<p style=3D"margin: 1.2em 0px 1.35em 0px; line-height: 21px; font-size: 14=
+px">Just a quick note to let you know we'll soon be rolling out a new, <em=
+>separate</em> sister publication aimed at JavaScript beginners, covering=
+ entry-level JavaScript tutorials, articles, and tips. No sign up yet but=
+ for now we'll continue to include a mix of content here each week, so be=
+ aware there's a wide range of skill levels represented in our picks. Than=
+ks for reading :-)</p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D07cafd833d&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/10883/thumb=
+_epic.png" width=3D"133" height=3D"100" style=3D"float: right; margin-left=
+: 14px; margin-bottom: 16px; border: 1px solid #1173c7"></a><strong><a hre=
+f=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79=
+d6bb9675f313ceb2&id=3Dabf9d0fe59&e=3Db4af456f64" title=3D"www.unrealengin=
+e.com/html5">Epic Games' Unreal Engine 3 'Citadel' Demo</a></strong><br><s=
+pan style=3D"font-size: 13px; line-height: 19px">
+From cooperation between Epic Games and Mozilla comes an impressive Web-ba=
+sed demo of the Unreal Engine 3 3D gaming engine running direct in the bro=
+wser using JavaScript and HTML5 technologies. A very up to date version of=
+ Firefox is recommended to try this (i.e. Aurora or Nightly). Brendan Eich=
+ has <a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D84d9cbefaa&e=3Db4af456f64">written abou=
+t the background to this</a> previously.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7b6a955838&e=3D=
+b4af456f64" title=3D"addyosmani.com/blog/author-in-es6-transpile-to-es5-as-=
+a-build-step-a-workflow-for-grunt">Author In ES6, Transpile To ES5 As A Bu=
+ild-step: Workflow For Grunt</a></strong><br><span style=3D"font-size: 13p=
+x; line-height: 19px">
+Addy Osmani looks at two ways in which you can write ECMAScript 6 code rig=
+ht now and have it compiled back to universally runnable ECMAScript 5-comp=
+liant code using Grunt and a couple of handy libraries.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De5f5a8b33e&e=3D=
+b4af456f64" title=3D"theintern.io">Intern: A Next-Generation JavaScript Tes=
+ting Stack</a></strong><br><span style=3D"font-size: 13px; line-height: 19=
+px">
+Feature highlights: runs tests in the browser and on Node.js; integrates w=
+ith SauceLabs and Selenium; lets you use any assertion library (it comes w=
+ith Chai); reports code coverage via Istanbul; supports Travis CI.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0bff2820de&e=3D=
+b4af456f64"><img src=3D"http://s3.cooperpress.com.s3.amazonaws.com/newbreeze-125.pn=
+g" width=3D"125" height=3D"125" style=3D"float: right; margin-left: 14px;=
+ margin-bottom: 16px; border: 1px solid #1173c7"></a><strong><a href=3D"ht=
+tp://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3Dfb2f2717ed&e=3Db4af456f64" title=3D"www.breezejs.com">Rich=
+ data for JavaScript Apps is a Breeze</a></strong><br><span style=3D"font-=
+size: 13px; line-height: 19px">When a desktop application moves to HTML/Ja=
+vaScript, the need for rich data moves with it. Consider BreezeJS for quer=
+ying, caching, offline, change tracking, object graph navigation, and bulk=
+ saves. Make it part of your JavaScript client app stack.</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dafb84b8ae1&e=3D=
+b4af456f64" title=3D"www.hanselman.com/blog/CDNsFailButYourScriptsDontHaveT=
+oFallbackFromCDNToLocalJQuery.aspx">CDNs Fail, But Your Scripts Don't Have=
+ to</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+Scott Hanselman explains how to fall back from a file hosted by a content=
+ delivery network (CDN) to file on your server.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D729863e93f&e=3D=
+b4af456f64" title=3D"killdream.github.io/blog/2013/04/the-hikkikomoris-gui=
+de-to-javascript">The Hikikomori's Guide to JavaScript</a></strong><br><sp=
+an style=3D"font-size: 13px; line-height: 19px">
+How to write an application by starting with key components (primitives),=
+ composing them via combinators and finally adding a user interface.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D050699785c&e=3D=
+b4af456f64" title=3D"blog.mongodb.org/post/49262866911/the-mean-stack-mongo=
+db-expressjs-angularjs-and">The MEAN Stack: MongoDB, ExpressJS, AngularJS=
+ and Node.js</a></strong><br><span style=3D"font-size: 13px; line-height:=
+ 19px">
+Describes the advantages of this stack and mentions best practices.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D94d51f3c76&e=3D=
+b4af456f64" title=3D"marijnhaverbeke.nl/blog/tern.html">Tern: Code Analysis=
+ Engine for JavaScript</a></strong><br><span style=3D"font-size: 13px; lin=
+e-height: 19px">
+Marijn Haverbeke describes how his crowd-financed project <a href=3D"http:=
+//javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f=
+313ceb2&id=3Dcba176a32b&e=3Db4af456f64">Tern</a> works.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D110fae13cd&e=3D=
+b4af456f64" title=3D"www.icenium.com/community/blog/icenium-team-blog/2013/=
+04/23/is-this-thing-on-part-1">Is This Thing On? (Part 1)</a></strong><br>=
+<span style=3D"font-size: 13px; line-height: 19px">
+First in a three part series that explores some of the tools available to=
+ detect and manage online/offline connectivity in web and mobile applicati=
+ons.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5a426bf109&e=3D=
+b4af456f64" title=3D"martinrinehart.com/frontend-engineering/engineers/java=
+script/arrays/array-loops.html">JavaScript Array Loops</a></strong><br><sp=
+an style=3D"font-size: 13px; line-height: 19px">
+This article explains that in some (relatively rare) cases, a for-in loop=
+ is the best way of iterating over an array. Not all arguments are equally=
+ compelling, but the article brings up points you may not have considered=
+ before.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D04ab88a531&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/tutorials/javascript-ajax/promise-bas=
+ed-validation">Promise-Based Validation</a></strong><br><span style=3D"fon=
+t-size: 13px; line-height: 19px">
+Promises are a pattern for asynchronous programming that has become quite=
+ popular in the JavaScript world. This article applies promises to an old=
+ problem: validating form input.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6491ba7190&e=3D=
+b4af456f64" title=3D"alistapart.com/article/even-better-in-browser-mockups-=
+with-node.js">Even Better In-Browser Mockups with Node.js</a></strong><br>=
+<span style=3D"font-size: 13px; line-height: 19px">
+If you design your application in the browser then Node.js makes it easy t=
+o include the server in that process, resulting in a more complete mockup.=
+ This article introduces the idea, a <a href=3D"http://javascriptweekly.us=
+1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcd0dcc46=
+9c&e=3Db4af456f64">follow-up article</a> walks through an example.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D011058ffc7&e=3D=
+b4af456f64" title=3D"code.dougneiner.com/presentations/machina">Taking Cont=
+rol with Machina.js (Slides)</a></strong><br><span style=3D"font-size: 13p=
+x; line-height: 19px">
+A slide deck from Doug Neiner that looks into implementing state machines=
+ in JavaScript via the <a href=3D"http://javascriptweekly.us1.list-manage1=
+=2Ecom/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6e1397dc99&e=3D=
+b4af456f64">machina.js</a> library.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc00ded3c6a&e=3D=
+b4af456f64" title=3D"j15r.com/blog/2013/04/25/Box2d_Revisited">The Box2d Be=
+nchmark Revisited</a></strong><br><span style=3D"font-size: 13px; line-hei=
+ght: 19px">
+A comparison of a Box2d-based benchmark run on popular JavaScript engines=
+ from 18 months ago and now. Big performance gains are seen, especially wi=
+th the introduction of asm.js in Firefox Nightly.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfb2e7066ca&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/04/29/task-automation-with-au=
+tomaton-and-node">Task Automation with Automaton and Node</a></strong><br>=
+<span style=3D"font-size: 13px; line-height: 19px">
+Brian Rinaldi walks through how to automate common file system, templating=
+ and command-line tasks for developers using Automaton and Node.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1ccd8e0745&e=3D=
+b4af456f64" title=3D"yeoman.io/generators.html">Writing Custom Yeoman App G=
+enerators</a></strong><br><span style=3D"font-size: 13px; line-height: 19p=
+x">
+Get started with the Yeoman generator system. A generator creates an initi=
+al version of an application, a task that ranges from simple (copying a bo=
+ilerplate project to your application directory) to complex (flexible cust=
+omization, dependency management, etc.).
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da9d674235c&e=3D=
+b4af456f64" title=3D"bost.ocks.org/mike/selection">How Selections Work in D=
+3.js</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+Explains how a core feature of the D3.js data visualization framework is i=
+mplemented: selections.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D743044e502&e=3Db4af456f64" title=3D"blog.benm=
+cmahen.com/post/41124327100/using-d3-and-meteor-to-generate-scalable-vecto=
+r">Using D3.js and Meteor to Generate Scalable Vector Graphics (SVG)</a><b=
+r><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D35043ce4fa&e=3Db4af456f64" title=3D"modjs.wor=
+dpress.com/2013/05/01/using-this-responsibly">Using =E2=80=9Cthis=E2=80=9D=
+ Responsibly</a><br><span style=3D"font-size: 13px; line-height: 19px"></s=
+pan></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd660981acf&e=3D=
+b4af456f64" title=3D"www.youtube.com/watch?v=3DEpcNDd8nuYY">Clojure/Clojur=
+eScript: One Language to Rule The Web</a></strong><br><span style=3D"font-=
+size: 13px; line-height: 19px">
+Clojure is a modern dynamic language for the JVM, and ClojureScript is the=
+ same language compiled into JavaScript. This presentation describes the l=
+anguages and how ClojureScript is compiled to JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D5c22148fe9&e=3Db4af456f64" title=3D"blog.mod=
+ulus.io/five-talks-learn-more-nodejs">5 Talks to Learn More About Node.js<=
+/a><br><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code, Libraries and Tools</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D60b24c2a32&e=3D=
+b4af456f64" title=3D"blog.fogus.me/2013/04/25/announcing-underscore-contrib=
+">underscore-contrib: Extension Libraries and Proving Ground for Underscor=
+e.js</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+A collection of libraries for Underscore.js that were created with two goa=
+ls in mind: First, to provide functionality that is not needed widely enou=
+gh to be included in Underscore.js proper. Second, to try out functionalit=
+y that might eventually be included with Underscore.js.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D391ab32ea3&e=3D=
+b4af456f64" title=3D"typedarray.org/introducing-starling-js">Starling.js: J=
+avaScript Game Engine</a></strong><br><span style=3D"font-size: 13px; line=
+-height: 19px">
+Starling is a popular ActionScript game engine that was created almost two=
+ years ago. Starling.js is a port of Starling to HTML5. It is based on Can=
+vas, with long-term plans to migrate to WebGL. Starling.js has been writte=
+n in TypeScript, meaning that you can develop for it in either TypeScript=
+ or plain JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2480a583ef&e=3D=
+b4af456f64" title=3D"www.explainjs.com">ExplainJS: Instant Side-by-Side Vi=
+ew of Comments and Code</a></strong><br><span style=3D"font-size: 13px; li=
+ne-height: 19px">
+Generates code documentation that consists of two columns: the right colum=
+n contains the source code, the left column contains the comments.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd75cb549ab&e=3D=
+b4af456f64" title=3D"www.webkit.org/blog/2364/announcing-sunspider-1-0">Ann=
+ouncing SunSpider 1.0</a></strong><br><span style=3D"font-size: 13px; line=
+-height: 19px">
+In 2007, the WebKit project released the SunSpider JavaScript benchmark su=
+ite. It has now reached version 1.0.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbb283df691&e=3D=
+b4af456f64" title=3D"github.com/KapIT/observe-shim">observe-shim: A Shim fo=
+r Object.observe (ECMAScript 7 or Later)</a></strong><br><span style=3D"fo=
+nt-size: 13px; line-height: 19px">
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D676223f266&e=3Db4af456f64"><code>Object.obser=
+ve()</code></a> is a function that has been proposed for a future ECMAScri=
+pt version. It observes changes to objects and helps with data binding in=
+ user interface frameworks. This project shims <code>Object.observe()</cod=
+e> on current browsers.
+</span></p>
+
+
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da826edbbe7&e=3D=
+b4af456f64" title=3D"www.muzzley.com">Muzzley: A Platform for Turning Smar=
+tphones Into Controllers</a></strong><br><span style=3D"font-size: 13px; l=
+ine-height: 19px">
+A platform that turns a user's smartphone into a gamepad, drawing pad, key=
+board, swipe navigator, or switch which you can then process using JavaScr=
+ipt (Node or browser).
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Daef08eb994&e=3Db4af456f64" title=3D"darsa.in=
+/fpsmeter">FPSMeter: Simple Fast and Themable JavaScript FPS Meter</a><br>=
+<span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D0e6a36904b&e=3Db4af456f64" title=3D"github.c=
+om/revolunet/angular-carousel">angular-carousel: Mobile-Friendly AngularJS=
+ Carousel</a><br><span style=3D"font-size: 13px; line-height: 19px"></span=
+></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D8e8977ae7c&e=3Db4af456f64" title=3D"github.co=
+m/benvanik/vr.js">vr.js: NPAPI Plugin to Expose Fun Virtual Reality Device=
+s to JavaScript</a><br><span style=3D"font-size: 13px; line-height: 19px">=
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Ddbe417ca98&e=3Db4af456f64" title=3D"github.c=
+om/olov/defs">defs.js: Compile ECMAScript 6 =E2=80=9Clet=E2=80=9D and =E2=
+=80=9Cconst=E2=80=9D to ECMAScript 3 Code</a><br><span style=3D"font-size:=
+ 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D3c217d2e71&e=3Db4af456f64" title=3D"github.co=
+m/ctalkington/node-archiver">node-archiver: Create Archives (Zip, Tar) Via=
+ Node Streams</a><br><span style=3D"font-size: 13px; line-height: 19px"></=
+span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D9b4b9ddcf3&e=3Db4af456f64" title=3D"github.co=
+m/alexanderbeletsky/backbone-express-spa">Backbone.js and Express.js Singl=
+e Page Application Boilerplate</a><br><span style=3D"font-size: 13px; line=
+-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D4684938989&e=3Db4af456f64" title=3D"github.co=
+m/bevry/caterpillar">Caterpillar: Logging System for Node.js</a><br><span=
+ style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7d5a9e6fde&e=3Db4af456f64" title=3D"github.co=
+m/s-a/sublime-text-refactor">Sublime Text Plugin: Refactoring Javascript C=
+ode</a><br><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D76d32edaf6&e=3D=
+b4af456f64" title=3D"javascriptweekly.com/misc/coursera2.html">Software Eng=
+ineer - Product at Coursera</a></strong><br><span style=3D"font-size: 13px=
+; line-height: 19px">
+Coursera is looking for JavaScript/HTML5 experts to build high quality web=
+ applications that bring online courses to our students. As part of our sm=
+all and agile team of software engineers, you will be responsible for arch=
+itecting and implementing the front-end designs, and working with other me=
+mbers on the team to integrate the the application into our platform.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ddc395ddf41&e=3D=
+b4af456f64" title=3D"www.turn.com/career-opportunities/applications-engine=
+ering-front-end">Software Engineer at Turn (Silicon Valley)</a></strong><b=
+r><span style=3D"font-size: 13px; line-height: 19px">Angular, Node, Bootst=
+rap. Big data, machine learning, distributed systems. If these are technol=
+ogies you're interested in and you're good with JavaScript, we'd love to t=
+alk to you about joining our front-end applications team at Turn.</span></=
+p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df0787326ad&e=3D=
+b4af456f64" title=3D"www.jimdo.com/jobs/devops-hipster">DevOps Hipster aka=
+ Infrastructure Engineer at Jimdo (Hamburg, Germany)</a></strong><br><span=
+ style=3D"font-size: 13px; line-height: 19px">You understand the hidden po=
+tential that lies between development and ops. You adore automation. In th=
+e end, you always drop the adequate DevOps Borat punchline. You take an in=
+terest in and contribute to, the world of open source - show us what you g=
+ot!</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D715b3e1f10&e=3Db4af456f64" title=3D"www.webl=
+yzard.com/jobs">Software Developers (JavaScript or Java) =E2=80=93 R&D Pos=
+itions in Vienna, Austria</a><br><span style=3D"font-size: 13px; line-heig=
+ht: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D42794bac3c&e=3D=
+b4af456f64" title=3D"blogs.msdn.com/b/typescript/archive/2013/04/22/104130=
+65.aspx">Announcing TypeScript 0.9 Early Previews</a></strong><br><span st=
+yle=3D"font-size: 13px; line-height: 19px">
+Microsoft has published a preview of the next version of TypeScript (a sup=
+erset of JavaScript). Highlights: generics and a rewritten compiler that b=
+etter scales to large projects.
+</span></p>
+
+
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4d57a9fe6e&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4d=
+9ee1f02b&e=3Db4af456f64">Peter Cooper</a></p>
+
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2f448badd5&e=
+=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3De1d5d918ad&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br>Want to advertise? <a href=3D"http://javascriptweekly.us1.list-mana=
+ge.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd67e049f9a&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br>Want to post a job? <a href=3D"http://javascriptweekly.us1.list-man=
+age2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc6ff5891a9&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br>To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br><a href=3D"http://javascriptwee=
+kly.us1.list-manage1.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D59=
+6bcf37c5&e=3Db4af456f64&c=3D8a065d39eb">Unsubscribe</a> or <a href=3D"http:/=
+/javascriptweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313ceb=
+2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a></p=
+>
+=09</td></tr>
+</table>
+
+</td></tr></table>
+
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D8a065d39eb&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_1361386773--

@@ -1,0 +1,792 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853737-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.23.70 with SMTP id k6csp41849obf;
+        Fri, 4 Jan 2013 05:25:47 -0800 (PST)
+X-Received: by 10.236.145.100 with SMTP id o64mr54084993yhj.44.1357305946988;
+        Fri, 04 Jan 2013 05:25:46 -0800 (PST)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id g33si23294366anp.96.2013.01.04.05.25.45;
+        Fri, 04 Jan 2013 05:25:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853737-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-mc.us1_449017.1853737-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853737-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net; dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=dX/kzz+wGMuRuj6n8FjNO+bDDdc=;
+ b=nOmxvIHaYS4sAfBoUR1L567mW/U9J1ic4ZYHIMnhECv1vTI8c1Oef16ggXYG9DT7BCxW9DX1J3Jw
+   XgGmnrka0o5CDwWBvUSAAKtwTOHEqkMC7Y6ZjTqlNizXUUo/V7lLzNPHo7+cf2h2tYIgCXDTTXLj
+   1ADKYPZy/e/0T4o4XTs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=1atkDb0ZotPGg2uqNkhvGIdvg+ny1wpa9kbqFhI8KlSjnV/bPxZN1a7S5iAu7Lyh7+RO+BRldBem
+   BwbQulOe37Ckr3EIaSVXY/cGTybwe0dneFKEgO8fGEu9f90ekW29vFnhPrgDlHHUzXaRM8LO9WVM
+   BJ11PmPhusFJitp/F0M=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hsrc5k0ik184 for <webmail.testing.dev@gmail.com>; Fri, 4 Jan 2013 13:24:21 +0000 (envelope-from <bounce-mc.us1_449017.1853737-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=2D=20Issue=20111?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 4 Jan 2013 13:24:21 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130104132412@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CIDebb738b1d7b4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.ebb738b1d7
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.ebb738b1d7
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=ebb738b1d7&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-ebb738b1d7-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=ebb738b1d7>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_356702249"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_356702249
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #111 - January 4, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3Debb738b1d7
+
+Welcome to issue 111 of JavaScript Weekly. A bumper issue today to catch u=
+p after the holiday season - we hope you had a good one :-)
+
+
+--- Featured ---
+
+# Results of the 2012 DailyJS JavaScript Developer Survey
+http://dailyjs.com/2012/12/24/javascript-survey-results/
+
+With 2747 responses there are lots of interesting trends to see. 85% of re=
+spondents dig semicolons, Jasmine is the most popular testing library, and=
+ RequireJS is the most popular module loading system.
+
+# Web Platform Doc Sprint Berlin, February 8=E2=80=939, 2013
+http://lanyrd.com/2013/wpds/
+
+Join like-minded contributors and help to document the web platform and im=
+prove the WebPlatform.org user experience.
+
+# ScriptCraft: Program Minecraft in JavaScript
+http://walterhiggins.net/blog/ScriptCraft
+
+Eases the cumbersome edit/compile/reobfuscate/rejar cycle of developing a=
+ Minecraft mod, by letting you write mods in JavaScript.
+
+# Douglas Crockford: =E2=80=9CJava was a colossal failure... JavaScript is=
+ succeeding because it works.=E2=80=9D [Interview]
+http://jaxenter.com/douglas-crockford-java-was-a-colossal-failure-javascri=
+pt-is-succeeding-because-it-works-45928.html
+
+
+--- From our Sponsor ---
+
+# HTML5DevConf April 1-3: Call for Speakers and Pre-Sale Tickets
+http://html5devconf.com/
+
+Presale tickets are open for HTML5DevConf, the world's largest JavaScript=
+ and HTML5 developer conference. We honor our San Francisco grassroots tra=
+dition with a limited number of presale tickets at $65; these will be gone=
+ within days. Interested, accomplished speakers are invited to apply by Ja=
+n 31.
+
+
+--- Reading ---
+
+# Revisiting JavaScript Objects
+http://www.laktek.com/2012/12/29/revisiting-javascript-objects/
+
+Lakshan Perera explains ECMAScript 5 features related to objects: data and=
+ accessor properties, property descriptors, tamper-proofing objects, etc.
+
+# JavaScript Terminology: The Two 'Prototype's
+http://www.2ality.com/2013/01/two-prototypes.html
+
+# Dashing D3.js: Tutorials, Screencasts, and a Newsletter
+http://www.dashingd3js.com/
+
+An excellent set of resources for the popular data visualization framework=
+, D3.js.
+
+# Conditional Loading of Resources with Media Queries
+http://christianheilmann.com/2012/12/19/conditional-loading-of-resources-w=
+ith-mediaqueries/
+
+Christian Heilmann experiments with the idea of using media queries as a b=
+asis for loading specific page assets rather than just styling them.
+
+# Asynchronous Error Handling in JavaScript
+http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-j=
+avascript/
+
+The lessons we=E2=80=99ve been taught as programmers to nicely throw and c=
+atch excep=C2=ADtions don=E2=80=99t apply in asynchronous environments.
+
+# Implementing Push Technology Using Server-Sent Events
+http://jspro.com/apis/implementing-push-technology-using-server-sent-event=
+s/
+
+Server-Sent Events allow servers to notify clients. They are an alternativ=
+e to WebSockets for many tasks.
+
+# JSComplexity.org: Measure the Complexity of Your Source Code
+http://jscomplexity.org/
+
+The site supports four metrics: lines of code, cyclomatic complexity, Hals=
+tead complexity measures and the maintainability index. It computes those=
+ metrics via the complexityReport.js library.
+
+# Building JavaScript Projects with Grunt
+http://ruudud.github.com/2012/12/22/grunt/
+
+Pre-compile templates, minify and concatenate files, etc.
+
+# 10 Vital Aspects of Building a Node.js Application
+https://engineering.gosquared.com/10-vital-aspects-of-building-a-node-js-a=
+pplication
+
+# Session-based Authorization with Socket.IO
+http://howtonode.org/socket-io-auth
+
+# Remy Sharp=E2=80=99s Workflow: Never leaving Chrome DevTools
+http://remysharp.com/2012/12/21/my-workflow-never-having-to-leave-devtools=
+/
+
+
+--- Code and Libraries ---
+
+# Sparky.js: Client-Side Application Scaffold
+http://sparkyjs.com/
+
+Sparky.js is a client-side application scaffold which helps those who want=
+ to have organized structure in their app, but don't want to subscribe to=
+ a particular client-side MVC framework.
+
+# Motio: jQuery Plugin for Sprite-Based Animations and Panning
+http://darsa.in/motio/
+
+# Fay Programming Language: Subset of Haskell
+http://fay-lang.org/
+
+The Fay programming language is a subset of Haskell and includes features=
+ such as static typing, lazy evaluation, purity by default. Fay is compile=
+d to JavaScript.
+
+# controldeck.js: Control HTML5 Presentations with Node.js
+http://dfcb.github.com/controldeck.js/
+
+Use case: remotely control your presentation from a mobile device.
+
+# doT.js: Fast Template Engine
+https://github.com/olado/doT
+
+A fast and concise JavaScript template engine for Node.js and browsers. It=
+ supports partials, custom delimiters and more.
+
+# jQuery.Shapeshift: Dynamic Grid System with Drag and Drop Functionality
+http://mcpants.github.com/jquery.shapeshift/
+
+# setImmediate: Cross-Browser Implementation
+https://github.com/NobleJS/setImmediate
+
+This library shims setImmediate on various platforms. Quote: =E2=80=9CsetI=
+mmediate allows scripts to yield to the browser, executing a given operati=
+on asynchronously, in a manner that is typically more efficient and consum=
+es less power than the usual setTimeout(..., 0) pattern.=E2=80=9D
+
+# MD5-Password-Cracker.js: Crack MD5 Passwords with JavaScript Web Workers
+https://github.com/feross/md5-password-cracker.js
+
+# Numeral.js: Format and Manipulate Numbers
+https://github.com/adamwdraper/Numeral-js
+
+# Dojorama: Single-Page Demo Application Based on Dojo, Twitter Bootstrap=
+ and the History API
+https://github.com/sirprize/dojorama
+
+# GruntStart: Grunt-Enabled Head-Start with H5BP, jQuery, Modernizr and Re=
+spond
+https://github.com/tsvensen/gruntstart
+
+Building blocks to quickly get started with Grunt to create an optimized w=
+ebsite.
+
+# dfatool.js: Data Flow Analysis Tool for JavaScript Code
+https://github.com/pissang/dfatool
+
+What variables are defined in a given scope? What value does a variable ha=
+ve at a given program location? Etc. Written in JavaScript, runs on Node.j=
+s.
+
+# jKit: jQuery-based User Interface Toolkit
+http://jquery-jkit.com/commands/gallery.html
+
+# PhantomJS 1.8 =E2=80=9CBlue Winter Rose=E2=80=9D Released
+http://ariya.ofilabs.com/2012/12/phantomjs-1-8-blue-winter-rose.html
+
+
+--- Watching ---
+
+# Talks To Help You Become A Better Front-End Engineer In 2013
+http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-bett=
+er-front-end-engineer-in-2013/
+
+Addy Osmani unearths a large collection of talks about front-end developme=
+nt topics. Mostly slide decks but some with video too.
+
+# Top 20 Web Conference Talks of 2012
+http://www.netmagazine.com/features/top-20-web-conference-talks-2012
+
+# Web Components: An Introduction
+http://vimeo.com/48054442
+
+Web Components, in concert with the Shadow DOM, enable the encapsulation o=
+f HTML5 user interface elements (video players, social buttons, etc.). Thi=
+s video by T.J. Holowaychuk gives an introduction. Additionally, you can w=
+atch the following two talks from JSConf EU 2012: Divya Manian: Web Compon=
+ents and Angelina Fabbro: Inspector Web and the Mystery of the Shadow DOM
+
+
+--- Jobs ---
+
+# Front-End JavaScript Engineer (jQuery/Backbone/Underscore) at Flite
+http://www.flite.com/careers/open-positions/
+
+We are looking for a top-notch JavaScript Engineer. If you're wanted to bu=
+ild a web platform that is backed by top VCs and used by top-tier clients=
+ like SalesForce, LinkedIn, and P&amp;G, while working with some cutting e=
+dge technology including Node.js, check us out.
+
+# JavaScript / Front-End Remote Contract Work @ RideAmigos
+http://bit.ly/radevapp
+
+# Post a job in a future issue of JavaScript Weekly
+https://cooperpress.com/jobs
+
+
+--- Last but not least ---
+
+# Regexper
+http://www.regexper.com/
+
+A Web-based JavaScript-style regular expression visualization tool.
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3Debb738b1d7
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_356702249
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">JS dev su=
+rvey results, Crockford on JavaScript</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&i=
+d=3D7313cc335b&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D9a99e17444&e=3Db4af456f64"><img src=3D"http:/=
+/javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366"=
+ height=3D"69" style=3D"margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #111 - January 4, 2013</p>
+=09
+=09
+
+
+<p style=3D"margin: 1.2em 0px 1.35em 0px; line-height: 21px; font-size: 14=
+px">Welcome to issue 111 of <em>JavaScript Weekly</em>. A bumper issue tod=
+ay to catch up after the holiday season - we hope you had a good one :-)</=
+p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage1.c=
+om/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9f0479d882&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/8019/thumb=
+_jssurvey.png" width=3D"100" height=3D"75" style=3D"float: right; margin-l=
+eft: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><=
+a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618=
+f6a79d6bb9675f313ceb2&id=3D274f28fe3b&e=3Db4af456f64" title=3D"dailyjs.co=
+m/2012/12/24/javascript-survey-results">Results of the 2012 DailyJS JavaSc=
+ript Developer Survey</a></strong><br /><span style=3D"font-size: 13px">Wi=
+th 2747 responses there are lots of interesting trends to see. 85% of resp=
+ondents dig semicolons, Jasmine is the most popular testing library, and R=
+equireJS is the most popular module loading system.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De5b8c353d9&e=3D=
+b4af456f64" title=3D"lanyrd.com/2013/wpds">Web Platform Doc Sprint Berlin,=
+ February 8=E2=80=939, 2013</a></strong><br /><span style=3D"font-size: 13=
+px">
+Join like-minded contributors and help to document the web platform and im=
+prove the WebPlatform.org user experience.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D83159d5345&e=3D=
+b4af456f64" title=3D"walterhiggins.net/blog/ScriptCraft">ScriptCraft: Prog=
+ram Minecraft in JavaScript</a></strong><br /><span style=3D"font-size: 13=
+px">
+Eases the cumbersome edit/compile/reobfuscate/rejar cycle of developing a=
+ Minecraft mod, by letting you write mods in JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D59baea6213&e=3Db4af456f64" title=3D"jaxenter.=
+com/douglas-crockford-java-was-a-colossal-failure-javascript-is-succeeding=
+-because-it-works-45928.html">Douglas Crockford: =E2=80=9CJava was a colos=
+sal failure... JavaScript is succeeding because it works.=E2=80=9D [Inter=
+view]</a><br /><span style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D768a888fe3&e=3D=
+b4af456f64"><img src=3D"http://s3.cooperpress.com.s3.amazonaws.com/html5devconf_jsw=
+eekly.gif" width=3D"133" height=3D"100" style=3D"float: right; margin-left=
+: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a h=
+ref=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a=
+79d6bb9675f313ceb2&id=3D3a56e6cbf2&e=3Db4af456f64" title=3D"html5devconf.=
+com">HTML5DevConf April 1-3: Call for Speakers and Pre-Sale Tickets</a></s=
+trong><br /><span style=3D"font-size: 13px">Presale tickets are open for H=
+TML5DevConf, the world's largest JavaScript and HTML5 developer conference=
+=2E We honor our San Francisco grassroots tradition with a limited number of=
+ presale tickets at $65; these will be gone within days. Interested, accom=
+plished speakers are invited to apply by Jan 31.</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D16ec7b6f63&e=3D=
+b4af456f64" title=3D"www.laktek.com/2012/12/29/revisiting-javascript-object=
+s">Revisiting JavaScript Objects</a></strong><br /><span style=3D"font-siz=
+e: 13px">
+Lakshan Perera explains ECMAScript 5 features related to objects: data and=
+ accessor properties, property descriptors, tamper-proofing objects, etc.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dae188b9971&e=3Db4af456f64" title=3D"www.2alit=
+y.com/2013/01/two-prototypes.html">JavaScript Terminology: The Two 'Protot=
+ype's</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5be4e28253&e=3D=
+b4af456f64" title=3D"www.dashingd3js.com">Dashing D3.js: Tutorials, Screen=
+casts, and a Newsletter</a></strong><br /><span style=3D"font-size: 13px">
+An excellent set of resources for the popular data visualization framework=
+, D3.js.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De000f36ad8&e=3D=
+b4af456f64" title=3D"christianheilmann.com/2012/12/19/conditional-loading-o=
+f-resources-with-mediaqueries">Conditional Loading of Resources with Media=
+ Queries</a></strong><br /><span style=3D"font-size: 13px">
+Christian Heilmann experiments with the idea of using media queries as a b=
+asis for loading specific page assets rather than just styling them.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D710612b8f4&e=3D=
+b4af456f64" title=3D"ruben.verborgh.org/blog/2012/12/31/asynchronous-error-=
+handling-in-javascript">Asynchronous Error Handling in JavaScript</a></str=
+ong><br /><span style=3D"font-size: 13px">
+The lessons we=E2=80=99ve been taught as programmers to nicely throw and c=
+atch excep=C2=ADtions don=E2=80=99t apply in asynchronous environments.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D128e524b89&e=3D=
+b4af456f64" title=3D"jspro.com/apis/implementing-push-technology-using-serv=
+er-sent-events">Implementing Push Technology Using Server-Sent Events</a><=
+/strong><br /><span style=3D"font-size: 13px">
+Server-Sent Events allow servers to notify clients. They are an alternativ=
+e to WebSockets for many tasks.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc3c08a54d4&e=3D=
+b4af456f64" title=3D"jscomplexity.org">JSComplexity.org: Measure the Comple=
+xity of Your Source Code</a></strong><br /><span style=3D"font-size: 13px"=
+>
+The site supports four metrics: lines of code, cyclomatic complexity, Hals=
+tead complexity measures and the maintainability index. It computes those=
+ metrics via the <a href=3D"http://javascriptweekly.us1.list-manage.com/tr=
+ack/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D586f1352ba&e=3Db4af456f64">c=
+omplexityReport.js</a> library.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc89a88d7e3&e=3D=
+b4af456f64" title=3D"ruudud.github.com/2012/12/22/grunt">Building JavaScrip=
+t Projects with Grunt</a></strong><br /><span style=3D"font-size: 13px">
+Pre-compile templates, minify and concatenate files, etc.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dab848571ea&e=3D=
+b4af456f64" title=3D"engineering.gosquared.com/10-vital-aspects-of-building=
+-a-node-js-application">10 Vital Aspects of Building a Node.js Application=
+</a></strong><br /><span style=3D"font-size: 13px">
+Structure, deployment, configuration, logs, etc.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D4e6141f961&e=3Db4af456f64" title=3D"howtonode=
+=2Eorg/socket-io-auth">Session-based Authorization with Socket.IO</a><br /><=
+span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dc6c03868e0&e=3Db4af456f64" title=3D"remysharp=
+=2Ecom/2012/12/21/my-workflow-never-having-to-leave-devtools">Remy Sharp=E2=
+=80=99s Workflow: Never leaving Chrome DevTools</a><br /><span style=3D"fo=
+nt-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D71a4c441ca&e=3D=
+b4af456f64" title=3D"sparkyjs.com">Sparky.js: Client-Side Application Scaff=
+old</a></strong><br /><span style=3D"font-size: 13px">
+Sparky.js is a client-side application scaffold which helps those who want=
+ to have organized structure in their app, but don't want to subscribe to=
+ a particular client-side MVC framework.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3c5339bdc8&e=3D=
+b4af456f64" title=3D"darsa.in/motio">Motio: jQuery Plugin for Sprite-Based=
+ Animations and Panning</a></strong><br /><span style=3D"font-size: 13px">=
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcf2b2b8e49&e=3D=
+b4af456f64" title=3D"fay-lang.org">Fay Programming Language: Subset of Has=
+kell</a></strong><br /><span style=3D"font-size: 13px">
+The Fay programming language is a subset of Haskell and includes features=
+ such as static typing, lazy evaluation, purity by default. Fay is compile=
+d to JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd39cbbc0fa&e=3D=
+b4af456f64" title=3D"dfcb.github.com/controldeck.js">controldeck.js: Contro=
+l HTML5 Presentations with Node.js</a></strong><br /><span style=3D"font-s=
+ize: 13px">
+Use case: remotely control your presentation from a mobile device.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db1e27a1a92&e=3D=
+b4af456f64" title=3D"github.com/olado/doT">doT.js: Fast Template Engine</a>=
+</strong><br /><span style=3D"font-size: 13px">
+A fast and concise JavaScript template engine for Node.js and browsers. It=
+ supports partials, custom delimiters and more.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D21608839b6&e=3Db4af456f64" title=3D"mcpants.=
+github.com/jquery.shapeshift">jQuery.Shapeshift: Dynamic Grid System with=
+ Drag and Drop Functionality</a><br /><span style=3D"font-size: 13px"></sp=
+an></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D033eb61b9e&e=3D=
+b4af456f64" title=3D"github.com/NobleJS/setImmediate">setImmediate: Cross-B=
+rowser Implementation</a></strong><br /><span style=3D"font-size: 13px">
+This library shims setImmediate on various platforms. Quote: =E2=80=9CsetI=
+mmediate allows scripts to yield to the browser, executing a given operati=
+on asynchronously, in a manner that is typically more efficient and consum=
+es less power than the usual setTimeout(..., 0) pattern.=E2=80=9D
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D23fe05a72c&e=3Db4af456f64" title=3D"github.co=
+m/feross/md5-password-cracker.js">MD5-Password-Cracker.js: Crack MD5 Passw=
+ords with JavaScript Web Workers</a><br /><span style=3D"font-size: 13px">=
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D2e8ef4765a&e=3Db4af456f64" title=3D"github.co=
+m/adamwdraper/Numeral-js">Numeral.js: Format and Manipulate Numbers</a><br=
+ /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D0749d30e39&e=3Db4af456f64" title=3D"github.c=
+om/sirprize/dojorama">Dojorama: Single-Page Demo Application Based on Dojo=
+, Twitter Bootstrap and the History API</a><br /><span style=3D"font-size:=
+ 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D77c28f2c84&e=3D=
+b4af456f64" title=3D"github.com/tsvensen/gruntstart">GruntStart: Grunt-Enab=
+led Head-Start with H5BP, jQuery, Modernizr and Respond</a></strong><br />=
+<span style=3D"font-size: 13px">
+Building blocks to quickly get started with Grunt to create an optimized w=
+ebsite.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2bb897d3a6&e=3D=
+b4af456f64" title=3D"github.com/pissang/dfatool">dfatool.js: Data Flow Anal=
+ysis Tool for JavaScript Code</a></strong><br /><span style=3D"font-size:=
+ 13px">
+What variables are defined in a given scope? What value does a variable ha=
+ve at a given program location? Etc. Written in JavaScript, runs on Node.j=
+s.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D82d63814e0&e=3Db4af456f64" title=3D"jquery-jk=
+it.com/commands/gallery.html">jKit: jQuery-based User Interface Toolkit</a=
+><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Db912845907&e=3Db4af456f64" title=3D"ariya.ofi=
+labs.com/2012/12/phantomjs-1-8-blue-winter-rose.html">PhantomJS 1.8 =E2=80=
+=9CBlue Winter Rose=E2=80=9D Released</a><br /><span style=3D"font-size: 1=
+3px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9eebc69d65&e=3D=
+b4af456f64" title=3D"www.smashingmagazine.com/2012/12/22/talks-to-help-you-=
+become-a-better-front-end-engineer-in-2013">Talks To Help You Become A Bet=
+ter Front-End Engineer In 2013</a></strong><br /><span style=3D"font-size:=
+ 13px">
+Addy Osmani unearths a large collection of talks about front-end developme=
+nt topics. Mostly slide decks but some with video too.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dee14b88b6b&e=3Db4af456f64" title=3D"www.netm=
+agazine.com/features/top-20-web-conference-talks-2012">Top 20 Web Conferen=
+ce Talks of 2012</a><br /><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1b72582d67&e=3D=
+b4af456f64" title=3D"vimeo.com/48054442">Web Components: An Introduction</a=
+></strong><br /><span style=3D"font-size: 13px">
+Web Components, in concert with the Shadow DOM, enable the encapsulation o=
+f HTML5 user interface elements (video players, social buttons, etc.). Thi=
+s video by T.J. Holowaychuk gives an introduction. Additionally, you can w=
+atch the following two talks from JSConf EU 2012: <a href=3D"http://javasc=
+riptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&i=
+d=3Da71c141357&e=3Db4af456f64">Divya Manian: Web Components</a> and <a hr=
+ef=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a7=
+9d6bb9675f313ceb2&id=3D60be55bf4d&e=3Db4af456f64">Angelina Fabbro: Inspec=
+tor Web and the Mystery of the Shadow DOM</a></span></p>
+
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcb86f039ba&e=3D=
+b4af456f64" title=3D"www.flite.com/careers/open-positions">Front-End JavaSc=
+ript Engineer (jQuery/Backbone/Underscore) at Flite</a></strong><br /><spa=
+n style=3D"font-size: 13px">We are looking for a top-notch JavaScript Engi=
+neer. If you're wanted to build a web platform that is backed by top VCs a=
+nd used by top-tier clients like SalesForce, LinkedIn, and P&amp;G, while=
+ working with some cutting edge technology including Node.js, check us out=
+=2E</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db62f7000d5&e=3D=
+b4af456f64" title=3D"bit.ly/radevapp">JavaScript / Front-End Remote Contra=
+ct Work @ RideAmigos</a></strong><br /><span style=3D"font-size: 13px"></s=
+pan></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D40b6c661f3&e=3Db4af456f64" title=3D"cooperpre=
+ss.com/jobs">Post a job in a future issue of JavaScript Weekly</a><br /><s=
+pan style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3b512bc790&e=3D=
+b4af456f64" title=3D"www.regexper.com">Regexper</a></strong><br /><span st=
+yle=3D"font-size: 13px">A Web-based JavaScript-style regular expression vi=
+sualization tool.</span></p>
+
+
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De718ccbcb5&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D04=
+e2b42e1c&e=3Db4af456f64">Peter Cooper</a></p>
+
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D618d2d5fdc&e=
+=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage1.com/track/cl=
+ick?u=3D0618f6a79d6bb9675f313ceb2&id=3D2af75355c2&e=3Db4af456f64">Click h=
+ere to subscribe.</a></span>
+=09<br />Want to advertise? <a href=3D"http://javascriptweekly.us1.list-ma=
+nage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Daa29dee065&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br />Want to post a job? <a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D59b5aae03c&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br />To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br /><a href=3D"http://javascriptw=
+eekly.us1.list-manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D5=
+96bcf37c5&e=3Db4af456f64&c=3Debb738b1d7">Unsubscribe</a> or <a href=3D"http:=
+//javascriptweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313ce=
+b2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a></=
+p>
+=09</td></tr>
+</table>
+
+</td></tr></table>
+
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3Debb738b1d7&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_356702249--

@@ -1,0 +1,47 @@
+Return-Path: <delivery@mx.sailthru.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.114.57.180 with SMTP id j20csp135889ldq;
+        Mon, 8 Oct 2012 06:09:14 -0700 (PDT)
+Received: by 10.224.58.134 with SMTP id g6mr11830999qah.40.1349701754365;
+        Mon, 08 Oct 2012 06:09:14 -0700 (PDT)
+Received: from mta-b.sailthru.com (mta-b.sailthru.com. [64.34.47.140])
+        by mx.google.com with ESMTP id o9si11491832qad.45.2012.10.08.06.09.13;
+        Mon, 08 Oct 2012 06:09:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.47.140 as permitted sender) client-ip=64.34.47.140;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.47.140 as permitted sender) smtp.mail=delivery@mx.sailthru.com; dkim=pass header.i=@techcrunch.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1349701592;
+	s=sailthru; d=techcrunch.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-ID:List-Unsubscribe;
+	bh=TCcd5NE7vk+7TjcsCfb0GIuXa3YY2pYuvaQSsMHza8k=;
+	b=nwYdA+A29zEkij7HYqp3qHZI0CEa3U+iBffmh2+kubo2dnkVJcFq6Qupm7i2qItm
+	6uw8icuy1ItW5zElG3QVSYQT2mvESWSVinxyjZW1QSlpoU1Jop5wyM5axwqx3D+wAFm
+	rwmFtx6jsu5Uj+CdX6v2MogCwcXa/9ZV0q+R7p4M=
+Date: Mon, 8 Oct 2012 13:06:32 +0000 (UTC)
+From: CrunchBase <cbmailer@techcrunch.com>
+To: webmail.testing.dev@gmail.com
+Message-ID: <20121008130632.5072cfd8c0170a954e000006@sailthru.com>
+Subject: Confirm Subscription to the Weekly Digest
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2932473_670455246.1349701592776"
+X-TM-ID: 20121008130632.5072cfd8c0170a954e000006
+X-Info: Message sent by sailthru.com customer CrunchBase
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-IADB-IP: 64.34.47.140
+X-IADB-IP-REVERSE: 140.47.34.64
+X-IADB-URL: http://www.isipp.com/iadb.php
+X-Unsubscribe-Web: http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f5765072cfd8c0170a954e000006/b3bc6408
+List-ID: <tm.3808.7d2abf2d0fa7c3a0c13236910f30bc43.sailthru.com>
+List-Unsubscribe: <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f5765072cfd8c0170a954e000006/b3bc6408>, <mailto:unsubscribe_3808@mx.sailthru.com>
+
+------=_Part_2932473_670455246.1349701592776
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+http://link.crunchbase.com/sc/5072cfd8dc87ac0b4f10f5765072cfd8c0170a954e000006/66faf6ee?lists[]=crunchbase-weekly
+<p><small>If you believe this has been sent to you in error, please safely <a href="http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f5765072cfd8c0170a954e000006/b3bc6408">unsubscribe</a>.</small></p>
+------=_Part_2932473_670455246.1349701592776--
+

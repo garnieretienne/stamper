@@ -1,0 +1,852 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853557-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.85.10 with SMTP id d10csp87853obz;
+        Fri, 19 Oct 2012 06:03:31 -0700 (PDT)
+Received: by 10.58.172.167 with SMTP id bd7mr1545348vec.15.1350651811099;
+        Fri, 19 Oct 2012 06:03:31 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id l4si1424338vcq.91.2012.10.19.06.03.29;
+        Fri, 19 Oct 2012 06:03:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853557-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-mc.us1_449017.1853557-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853557-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net; dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=gayJ+rqeEUGRDtvofWW7fMbg+Qw=;
+ b=ke/JiBDdW/WT/1zv06xsXp8lKOA9Ako+9NOL0XX2Ymhz+4Wf2fzLRKLgaRLNVJHJJRVBUHvRlQi5
+   dkDdhwtFsv+IH2mbq7/ANyaNK9x9yDrKS9DSc/WrYX0hepEiaeVuYqwAwm2O+fo8oyTfGqMK/m5K
+   JD5dCd44Grb228CvJMs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=TZ25A3h0ynqc3sjP6Cgyij8MhQAaTB9j7gyPBPN/lheV+0sMTLwX59X3wOyR6tSjxB33oKzbY1NP
+   aWuLC529NhrHh0ZHKGZePDJKNLOIExZeKEKxN5hhkGY0mxUGPg35nMS/pl08XFd5jqkRY6hPqUi9
+   /z0jOq2JqFXZKt972mc=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hg57q40ik18i for <webmail.testing.dev@gmail.com>; Fri, 19 Oct 2012 12:47:03 +0000 (envelope-from <bounce-mc.us1_449017.1853557-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=2D=20Issue=20101?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 19 Oct 2012 12:47:03 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20121019124643@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID543046f7c6b4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.543046f7c6
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.543046f7c6
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=543046f7c6&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-543046f7c6-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=543046f7c6>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1004226373"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1004226373
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #101 - October 19, 2012
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+To unsubscribe: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D543046f7c6
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+Featured
+--------
+
+Meteor 0.5.0 Released: Authentication, User Accounts and a New Screencast
+http://www.meteor.com/blog/2012/10/17/meteor-050-authentication-user-accou=
+nts-new-screencast
+
+  Meteor is an interesting JavaScript-based platform that's caught a lot o=
+f
+  people's interest lately. One big criticism was its security but this
+  release includes 'everything necessary to build and deploy secure
+  applications using Meteor.' There's a new screencast to watch that shows=
+ it
+  all off, too.
+
+JavaScript Library Poll Results: What Libraries Are We Using?
+http://www.quirksmode.org/blog/archives/2012/10/javascript_libr_1.html
+
+  Peter-Paul Koch shares the results of a poll of 3,350 JavaScript
+  developers' library usage. Unsurprisingly, jQuery is on top, but where's
+  your library of choice?
+
+Celebrating Dart's Birthday with the First Release of the Dart SDK
+http://news.dartlang.org/2012/10/dart-m1-release.html
+
+
+From our Sponsor
+----------------
+
+JavaScript Everywhere Conference
+http://www.jseverywhere.org/
+
+  Join hundreds of JavaScript developers in Silicon Valley on October 26-2=
+7
+  at JS.everywhere(2012). Talks from ebay, Mozilla Labs, PubNub, Red Hat,
+  Telerik, Coursera, Microsoft, Adobe, and MongoLab. Also includes JavaScr=
+ipt
+  lessons for beginners.<br><br><em>$50 discount by using the promo
+  code:</em> JSweekly
+
+
+Reading
+-------
+
+Does JavaScript Need Classes?
+http://www.nczonline.net/blog/2012/10/16/does-javascript-need-classes/
+
+  ECMAScript 6 is going to have direct support for classes, but JavaScript
+  guru Nicholas C Zakas asks if we really need them.
+
+Rendering HTML Templates Obsolete with JavaScript
+https://gist.github.com/3916350
+
+  Jed Schmidt doesn't see much value in client-side HTML templates anymore
+  and ponders the benefits of templates written in JavaScript. With this i=
+n
+  mind, he's built a DOM library called dom-o that unifies markup and styl=
+e
+  into JavaScript syntax.
+
+The Ins and Outs of (JIT) Invalidation
+https://blog.mozilla.org/javascript/2012/10/15/the-ins-and-outs-of-invalid=
+ation/
+
+  Mozilla's Kannan Vijayan presents a technical, but very accessible,
+  overview of 'invalidation', a technique used by JIT compilers (a present=
+ in
+  modern JavaScript engines) to mark compiled code as unusable when
+  conditions in the program change. An enjoyable higher-end read.
+
+ECMAScript 6 in Node.js
+http://dailyjs.com/2012/10/15/preparing-for-esnext/
+
+  Over at DailyJS, Alex Young considers the forthcoming ECMAScript 6 and i=
+ts
+  new features and explains how to use some of its features in Node.js tod=
+ay.
+  For other features, a handy list of shims is given in the comments secti=
+on.
+
+Making Your Library AMD Compliant
+http://javascriptplayground.com/blog/2012/10/making-your-library-amd-compl=
+iant
+
+  The Asynchronous Module Definition (AMD) - as supported by Require.js -=
+ is
+  a popular way to modularize code in JavaScript, pending native support.
+  Here, Jack Franklin covers how to make a JavaScript library AMD complian=
+t
+  and publish it using Jam.
+
+Mozilla Adds Sweetener to JavaScript
+http://www.h-online.com/open/news/item/Mozilla-adds-sweetener-to-JavaScrip=
+t-1729572.html
+
+  We first linked to the preview in JSW #97 but Mozilla's 'Sweet' JavaScri=
+pt
+  syntax macro system is growing up fast. Learn more here.
+
+Try JavaScript Syntax Macros with Sweet.js in the Browser
+http://thecssninja.com/demo/macros/
+
+How to Build a Real-Time Geolocation Service with Node.js
+http://tympanus.net/codrops/2012/10/11/real-time-geolocation-service-with-=
+node-js/
+
+  A tutorial digging into building a real-time app that shows the location=
+s
+  of visitors on an interactive map. Uses Node.js and the HTML5 Geolocatio=
+n
+  API.
+
+Parallel Programming Via River Trail Coming to Firefox
+http://www.2ality.com/2012/10/river-trail-firefox.html
+
+  Work has begun on a Firefox-based implementation of Intel's 'River Trail=
+'
+  idea for functional, parallel programming in JavaScript. Dr. Axel
+  Rauschmayer sums it up (check out the article from his first link if you
+  want a lot more detail).
+
+XKCD/Handdrawn-style Plots in D3.js
+http://dan.iel.fm/xkcd/
+
+JavaScript Animation Tutorial with the Greensock Framework
+http://ahrengot.com/tutorials/greensock-javascript-animation/
+
+  Originally, Greensock was a popular Flash-only animation library but now
+  it's available in JavaScript and this short set of examples with code sh=
+ows
+  off some basic usage.
+
+Totally Testacular (What AngularJS Uses for Testing)
+http://dailyjs.com/2012/10/18/testacular/
+
+  Testacular bills itself as a 'spectacular test runner for JavaScript'. I=
+t's
+  framework agnostic but was primarily built so that AngularJS had a bette=
+r
+  test system. AngularJS has now switched 100% to Testacular so DailyJS's
+  Alex Young takes a deeper look.
+
+Machine Learning and Neural Networks in JavaScript with Encog
+http://www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and=
+-Neural-Networks-wi
+
+  Learn about using the Encog framework to pull off some basic machine
+  learning techniques in JavaScript. Covers simple OCR, genetic algorithms=
+,
+  and neural networks.
+
+How is JavaScript's Array.sort implemented in browsers?
+http://stackoverflow.com/q/234683/3951
+
+  It's good old mergesort for Mozilla but WebKit's engine has a surprise u=
+p
+  its sleeve..
+
+
+Watching
+--------
+
+Yehuda Katz on ECMAScript 6
+http://www.youtube.com/watch?v=3DAkjcxlAuyLI
+
+  The creator of Ember.js reflects on how ES6 (a.k.a. ECMAScript.next) wil=
+l
+  be making things better for JavaScript developers.
+
+Say Hello to Lineman: Tool for Bootstrapping Fat Client Webapp Projects
+http://searls.testdouble.com/2012/10/13/say-hello-to-lineman/
+
+  A short screencast introduction to a new Grunt-based tool for bootstrapp=
+ing
+  fat-client webapp projects. Handles live compilation of templates,
+  CoffeeScript, and Less, provides a development server, minifies CSS and
+  JavaScript, and more.
+
+
+Code and Libraries
+------------------
+
+YUI 3.7.3: Gets Windows 8 Apps and IE 10 Support
+http://www.yuiblog.com/blog/2012/10/17/yui-3-7-3-windows-8-apps-and-ie-10/
+
+  The latest version of YUI is out and adds IE10 and Windows 8 runtimes to
+  its target environments. This post summarizes some of what was involved.
+
+TodoMVC: Helping You Select An MV* Framework
+http://todomvc.com/
+
+  Addy Osmani and Sindre Sorhus's TodoMVC project now has a snazzy new
+  homepage and continues to grow with 12 stable and 30 experimental versio=
+ns
+  of a 'to do' app built using a myriad of JavaScript frameworks.
+
+rsvp.js: Tools for Organizing Asynchronous JS Code
+https://github.com/tildeio/rsvp.js
+
+  Yehuda Katz has released a tiny implementation of Promises/A and a mixin
+  for turning objects into event targets. Works in Node.js and the browser=
+=2E
+
+Fuel UX: Extends Twitter Bootstrap With Extra Lightweight JS Controls
+http://exacttarget.github.com/fuelux/
+
+Kwicks: jQuery Plugin for 'Sexy Sliding Panels'
+http://devsmash.com/projects/kwicks
+
+Postgres Object Relational Map System
+https://github.com/xtuple/orm
+
+  You can embed JavaScript within PostgreSQL using PLV8 and PORMS takes it=
+ a
+  step further by embedding a JavaScript-powered ORM right into the popula=
+r
+  database engine.
+
+node-mruby: Embedding Ruby into Node.js
+https://github.com/tokuhirom/node-mruby
+
+  mruby is a new, embeddable Ruby interpreter and node-mruby makes it
+  possible to embed mruby into Node.js. Currently an experimental prototyp=
+e.
+
+node-jsmin-sourcemap: JSMin With Sourcemaps
+https://github.com/twolfson/node-jsmin-sourcemap
+
+Physics: Port of Processing's Traer Physics Library into JavaScript
+http://jonobr1.github.com/Physics/
+
+
+Jobs
+----
+
+Front-End Engineer at Practically Green (Boston, MA)
+http://www.practicallygreen.com/jobs
+
+  Practically Green is growing rapidly. We have built a beautifully-design=
+ed
+  SAAS platform that's currently shaking up the Fortune 500. We're looking=
+ to
+  expand our engineering team so we can deliver on our mission to help peo=
+ple
+  live healthier, greener lives.
+
+Software Engineer at Square (San Francisco, CA)
+https://squareup.com/jobs?utm_source=3Dnewsletter&utm_medium=3Demail&utm_c=
+ampaign=3Dcooper
+
+  Square is looking for amazing people inspired to reinvent how people pay
+  and get paid. We=E2=80=99re turning everyday transactions into wonderful=
+ and human
+  experiences on both sides of the counter.
+
+JavaScript Developer at dotDigital (Croydon, United Kingdom)
+http://www.dotdigitaljobs.com/
+
+Post a job in next week's JavaScript Weekly
+https://cooperpress.com/jobs
+
+
+Last but not least..
+--------------------
+
+JSMentors: A Friendly Mailing List for JavaScript Discussion
+http://jsmentors.com/
+
+  First linked in JSW #2 (two years ago!) JSMentors is a mailing list that
+  continues to provide a friendly, non-antagonistic environment to ask
+  questions about and discuss JavaScript and browser scripting topics. Has=
+ an
+  enviable set of mentors to help you out so make use of it.
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly
+e-mails about JavaScript and its ancillary technologies.
+
+You can unsubscribe at: http://javascriptweekly.us1.list-manage.com/unsubs=
+cribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D54304=
+6f7c6
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e,
+Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@javascriptweekly=
+=2Ecom
+if you like.
+--_----------=_MCPart_1004226373
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<style type=3D"text/css">
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px), (max-width: 600px) {
+     body {
+          padding: 10px !important;
+     }
+=09#maintable, #toptable {
+=09=09width: auto !important;
+=09}
+}
+</style>
+
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">Meteor 0.=
+5, JS library usage, Dart turns 1, ES6 features in Node.js</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&i=
+d=3Da213c76d02&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D41279d7149&e=3Db4af456f64"><img src=3D"http:/=
+/javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366"=
+ height=3D"69" style=3D"margin-bottom: 0px; border: 0"></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #101 - October 19, 2012</p>
+=09
+=09
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D6f5a30c03c&e=3Db4af456f64" title=3D"www.meteor.com/blog/201=
+2/10/17/meteor-050-authentication-user-accounts-new-screencast">Meteor 0.5=
+=2E0 Released: Authentication, User Accounts and a New Screencast</a></stron=
+g><br><span style=3D"font-size: 13px">
+Meteor is an interesting JavaScript-based platform that's caught a lot of=
+ people's interest lately. One big criticism was its security but this rel=
+ease includes 'everything necessary to build and deploy secure application=
+s using Meteor.' There's a new screencast to watch that shows it all off,=
+ too.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Df3f49b817f&e=3Db4af456f64" title=3D"www.quirksmode.org/blog=
+/archives/2012/10/javascript_libr_1.html">JavaScript Library Poll Results:=
+ What Libraries Are We Using?</a></strong><br><span style=3D"font-size: 13=
+px">
+Peter-Paul Koch shares the results of a poll of 3,350 JavaScript developer=
+s' library usage. Unsurprisingly, jQuery is on top, but where's your libra=
+ry of choice?
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dac2c6c9137&e=3Db4af456f64" title=3D"news.dar=
+tlang.org/2012/10/dart-m1-release.html">Celebrating Dart's Birthday with t=
+he First Release of the Dart SDK</a><br><span style=3D"font-size: 13px"></=
+span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dde45b7652b&e=3D=
+b4af456f64"><img src=3D"http://s3.cooperpress.com.s3.amazonaws.com/jseverywhere.jpg=
+" width=3D"125" height=3D"126" style=3D"float: right; margin-left: 14px; m=
+argin-bottom: 16px; border: 0px solid #1173c7"></a><strong style=3D"font-w=
+eight: normalx"><a href=3D"http://javascriptweekly.us1.list-manage.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da888e951fb&e=3Db4af456f64" ti=
+tle=3D"www.jseverywhere.org">JavaScript Everywhere Conference</a></strong>=
+<br><span style=3D"font-size: 13px">Join hundreds of JavaScript developers=
+ in Silicon Valley on October 26-27 at JS.everywhere(2012). Talks from eba=
+y, Mozilla Labs, PubNub, Red Hat, Telerik, Coursera, Microsoft, Adobe, and=
+ MongoLab. Also includes JavaScript lessons for beginners.<br><br><em>$50=
+ discount by using the promo code:</em> JSweekly</span></p>
+
+
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Daa9ce543c7&e=3Db4af456f64" title=3D"www.nczonline.net/blog/=
+2012/10/16/does-javascript-need-classes">Does JavaScript Need Classes?</a>=
+</strong><br><span style=3D"font-size: 13px">
+ECMAScript 6 is going to have direct support for classes, but JavaScript g=
+uru Nicholas C Zakas asks if we really need them.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D100afbe7d9&e=3Db4af456f64" title=3D"gist.github.com/391635=
+0">Rendering HTML Templates Obsolete with JavaScript</a></strong><br><span=
+ style=3D"font-size: 13px">
+Jed Schmidt doesn't see much value in client-side HTML templates anymore a=
+nd ponders the benefits of templates written in JavaScript. With this in m=
+ind, he's built a DOM library called dom-o that unifies markup and style i=
+nto JavaScript syntax.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D0f01088a23&e=3Db4af456f64" title=3D"blog.mozilla.org/javas=
+cript/2012/10/15/the-ins-and-outs-of-invalidation">The Ins and Outs of (JI=
+T) Invalidation</a></strong><br><span style=3D"font-size: 13px">
+Mozilla's Kannan Vijayan presents a technical, but very accessible, overvi=
+ew of 'invalidation', a technique used by JIT compilers (a present in mode=
+rn JavaScript engines) to mark compiled code as unusable when conditions i=
+n the program change. An enjoyable higher-end read.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3De2da62abcc&e=3Db4af456f64" title=3D"dailyjs.com/2012/10/15/=
+preparing-for-esnext">ECMAScript 6 in Node.js</a></strong><br><span style=
+=3D"font-size: 13px">
+Over at DailyJS, Alex Young considers the forthcoming ECMAScript 6 and its=
+ new features and explains how to use some of its features in Node.js toda=
+y. For other features, a handy list of shims is given in the comments sect=
+ion.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D7dc7e09626&e=3Db4af456f64" title=3D"javascriptplayground.c=
+om/blog/2012/10/making-your-library-amd-compliant">Making Your Library AMD=
+ Compliant</a></strong><br><span style=3D"font-size: 13px">
+The Asynchronous Module Definition (AMD) - as supported by Require.js - is=
+ a popular way to modularize code in JavaScript, pending native support. H=
+ere, Jack Franklin covers how to make a JavaScript library AMD compliant a=
+nd publish it using Jam.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D32dd81195c&e=3Db4af456f64" title=3D"www.h-online.com/open/n=
+ews/item/Mozilla-adds-sweetener-to-JavaScript-1729572.html">Mozilla Adds S=
+weetener to JavaScript</a></strong><br><span style=3D"font-size: 13px">
+We first linked to the preview in JSW #97 but Mozilla's 'Sweet' JavaScript=
+ syntax macro system is growing up fast. Learn more here.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Df468b121ce&e=3Db4af456f64" title=3D"thecssnin=
+ja.com/demo/macros">Try JavaScript Syntax Macros with Sweet.js in the Brow=
+ser</a><br><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D2e3c87fdd8&e=3Db4af456f64" title=3D"tympanus.net/codrops/2=
+012/10/11/real-time-geolocation-service-with-node-js">How to Build a Real-=
+Time Geolocation Service with Node.js</a></strong><br><span style=3D"font-=
+size: 13px">
+A tutorial digging into building a real-time app that shows the locations=
+ of visitors on an interactive map. Uses Node.js and the HTML5 Geolocation=
+ API.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3De30e6aa7f1&e=3Db4af456f64" title=3D"www.2ality.com/2012/10/=
+river-trail-firefox.html">Parallel Programming Via River Trail Coming to F=
+irefox</a></strong><br><span style=3D"font-size: 13px">
+Work has begun on a Firefox-based implementation of Intel's 'River Trail'=
+ idea for functional, parallel programming in JavaScript. Dr. Axel Rauschm=
+ayer sums it up (check out the article from his first link if you want a l=
+ot more detail).
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D8844bf9c02&e=3Db4af456f64" title=3D"dan.iel.f=
+m/xkcd">XKCD/Handdrawn-style Plots in D3.js</a><br><span style=3D"font-siz=
+e: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D256f9ef91a&e=3Db4af456f64" title=3D"ahrengot.com/tutorials=
+/greensock-javascript-animation">JavaScript Animation Tutorial with the Gr=
+eensock Framework</a></strong><br><span style=3D"font-size: 13px">
+Originally, Greensock was a popular Flash-only animation library but now i=
+t's available in JavaScript and this short set of examples with code shows=
+ off some basic usage.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D857f272132&e=3Db4af456f64" title=3D"dailyjs.com/2012/10/18/=
+testacular">Totally Testacular (What AngularJS Uses for Testing)</a></stro=
+ng><br><span style=3D"font-size: 13px">
+Testacular bills itself as a 'spectacular test runner for JavaScript'. It'=
+s framework agnostic but was primarily built so that AngularJS had a bette=
+r test system. AngularJS has now switched 100% to Testacular so DailyJS's=
+ Alex Young takes a deeper look.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D9024a1a8e5&e=3Db4af456f64" title=3D"www.codeproject.com/Ar=
+ticles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi">Machine=
+ Learning and Neural Networks in JavaScript with Encog</a></strong><br><sp=
+an style=3D"font-size: 13px">
+Learn about using the Encog framework to pull off some basic machine learn=
+ing techniques in JavaScript. Covers simple OCR, genetic algorithms, and n=
+eural networks.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D72d40d456a&e=3Db4af456f64" title=3D"stackoverflow.com/q/234=
+683/3951">How is JavaScript's Array.sort implemented in browsers?</a></str=
+ong><br><span style=3D"font-size: 13px">
+It's good old mergesort for Mozilla but WebKit's engine has a surprise up=
+ its sleeve..
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D82eb01ef10&e=3Db4af456f64" title=3D"www.youtube.com/watch?=
+v=3DAkjcxlAuyLI">Yehuda Katz on ECMAScript 6</a></strong><br><span style=
+=3D"font-size: 13px">
+The creator of Ember.js reflects on how ES6 (a.k.a. ECMAScript.next) will=
+ be making things better for JavaScript developers.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3Df08c7bd27b&e=3Db4af456f64" title=3D"searls.testdouble.com/=
+2012/10/13/say-hello-to-lineman">Say Hello to Lineman: Tool for Bootstrapp=
+ing Fat Client Webapp Projects</a></strong><br><span style=3D"font-size: 1=
+3px">
+A short screencast introduction to a new Grunt-based tool for bootstrappin=
+g fat-client webapp projects. Handles live compilation of templates, Coffe=
+eScript, and Less, provides a development server, minifies CSS and JavaScr=
+ipt, and more.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Db7b4230dd6&e=3Db4af456f64" title=3D"www.yuiblog.com/blog/20=
+12/10/17/yui-3-7-3-windows-8-apps-and-ie-10">YUI 3.7.3: Gets Windows 8 App=
+s and IE 10 Support</a></strong><br><span style=3D"font-size: 13px">
+The latest version of YUI is out and adds IE10 and Windows 8 runtimes to i=
+ts target environments. This post summarizes some of what was involved.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D19b2b58d2f&e=3Db4af456f64" title=3D"todomvc.com">TodoMVC: H=
+elping You Select An MV* Framework</a></strong><br><span style=3D"font-siz=
+e: 13px">
+Addy Osmani and Sindre Sorhus's TodoMVC project now has a snazzy new homep=
+age and continues to grow with 12 stable and 30 experimental versions of a=
+ 'to do' app built using a myriad of JavaScript frameworks.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D8e9d352c6b&e=3Db4af456f64" title=3D"github.com/tildeio/rsvp=
+=2Ejs">rsvp.js: Tools for Organizing Asynchronous JS Code</a></strong><br><s=
+pan style=3D"font-size: 13px">
+Yehuda Katz has released a tiny implementation of Promises/A and a mixin f=
+or turning objects into event targets. Works in Node.js and the browser.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D2d8b007169&e=3Db4af456f64" title=3D"exacttar=
+get.github.com/fuelux">Fuel UX: Extends Twitter Bootstrap With Extra Light=
+weight JS Controls</a><br><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7860ee534e&e=3Db4af456f64" title=3D"devsmash.=
+com/projects/kwicks">Kwicks: jQuery Plugin for 'Sexy Sliding Panels'</a><b=
+r><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D0f6d0ccc30&e=3Db4af456f64" title=3D"github.com/xtuple/orm"=
+>Postgres Object Relational Map System</a></strong><br><span style=3D"font=
+-size: 13px">
+You can embed JavaScript within PostgreSQL using PLV8 and PORMS takes it a=
+ step further by embedding a JavaScript-powered ORM right into the popular=
+ database engine.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D16cd9a0f01&e=3Db4af456f64" title=3D"github.com/tokuhirom/no=
+de-mruby">node-mruby: Embedding Ruby into Node.js</a></strong><br><span st=
+yle=3D"font-size: 13px">
+mruby is a new, embeddable Ruby interpreter and node-mruby makes it possib=
+le to embed mruby into Node.js. Currently an experimental prototype.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D020cfa704c&e=3Db4af456f64" title=3D"github.co=
+m/twolfson/node-jsmin-sourcemap">node-jsmin-sourcemap: JSMin With Sourcema=
+ps</a><br><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dcb87596dd8&e=3Db4af456f64" title=3D"jonobr1.=
+github.com/Physics">Physics: Port of Processing's Traer Physics Library in=
+to JavaScript</a><br><span style=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D2ed6f0fd5b&e=3Db4af456f64" title=3D"www.practicallygreen.co=
+m/jobs">Front-End Engineer at Practically Green (Boston, MA)</a></strong><=
+br><span style=3D"font-size: 13px">Practically Green is growing rapidly. W=
+e have built a beautifully-designed SAAS platform that's currently shaking=
+ up the Fortune 500. We're looking to expand our engineering team so we ca=
+n deliver on our mission to help people live healthier, greener lives.</sp=
+an></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Dc47d80c873&e=3Db4af456f64" title=3D"squareup.com/jobs?utm_s=
+ource=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dcooper">Software Engi=
+neer at Square (San Francisco, CA)</a></strong><br><span style=3D"font-siz=
+e: 13px">Square is looking for amazing people inspired to reinvent how peo=
+ple pay and get paid. We=E2=80=99re turning everyday transactions into won=
+derful and human experiences on both sides of the counter.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3Dccbe1dfa3c&e=3Db4af456f64" title=3D"www.dotdigitaljobs.com"=
+>JavaScript Developer at dotDigital (Croydon, United Kingdom)</a></strong>=
+<br><span style=3D"font-size: 13px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; font-size: 15px; line-height: 17px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7a26758aa1&e=3Db4af456f64" title=3D"cooperpre=
+ss.com/jobs">Post a job in next week's JavaScript Weekly</a><br><span styl=
+e=3D"font-size: 13px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 19px; clear:both=
+; font-size: 15px; "><strong style=3D"font-weight: normalx"><a href=3D"htt=
+p://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3D8cef75240f&e=3Db4af456f64" title=3D"jsmentors.com">JSMento=
+rs: A Friendly Mailing List for JavaScript Discussion</a></strong><br><spa=
+n style=3D"font-size: 13px">
+First linked in JSW #2 (two years ago!) JSMentors is a mailing list that c=
+ontinues to provide a friendly, non-antagonistic environment to ask questi=
+ons about and discuss JavaScript and browser scripting topics. Has an envi=
+able set of mentors to help you out so make use of it.
+</span></p>
+
+
+
+
+</td></tr>
+
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<!-- p>You joined <a href=3D"http://javascriptweekly.com/">JavaScript W=
+eekly</a> to get weekly e-mails about JavaScript programming and related t=
+opics. --><p>Want to see more? Check out <a href=3D"http://javascriptweekl=
+y.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc6644=
+8bba9&e=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3D0477cf4f05&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br>Want to advertise? <a href=3D"http://javascriptweekly.us1.list-mana=
+ge2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ddeb1ff1536&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br>Want to post a job? <a href=3D"http://javascriptweekly.us1.list-man=
+age1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2d3f80c06e&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br>To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br><a href=3D"http://javascriptwee=
+kly.us1.list-manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D596=
+bcf37c5&e=3Db4af456f64&c=3D543046f7c6">Unsubscribe</a> or <a href=3D"http://=
+javascriptweekly.us1.list-manage1.com/profile?u=3D0618f6a79d6bb9675f313ceb=
+2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a></p=
+>
+=09</td></tr>
+</table>
+
+</td></tr></table><img src=3D"http://javascriptweekly.us1.list-manage.com/=
+track/open.php?u=3D0618f6a79d6bb9675f313ceb2&id=3D543046f7c6&e=3D=
+b4af456f64" height=3D"1" width=3D"1">
+--_----------=_MCPart_1004226373--

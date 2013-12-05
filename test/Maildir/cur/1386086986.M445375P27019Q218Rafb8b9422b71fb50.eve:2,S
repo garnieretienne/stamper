@@ -1,0 +1,54 @@
+Return-Path: <3xLu0UBAKAJk355HNGML-GHK7IER9HH9E7.5HF@gaia.bounces.google.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.7.226 with SMTP id m2csp208957oba;
+        Tue, 27 Nov 2012 05:10:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3xLu0UBAKAJk355HNGML-GHK7IER9HH9E7.5HF@gaia.bounces.google.com designates 10.43.131.7 as permitted sender) client-ip=10.43.131.7
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of 3xLu0UBAKAJk355HNGML-GHK7IER9HH9E7.5HF@gaia.bounces.google.com designates 10.43.131.7 as permitted sender) smtp.mail=3xLu0UBAKAJk355HNGML-GHK7IER9HH9E7.5HF@gaia.bounces.google.com; dkim=pass header.i=3xLu0UBAKAJk355HNGML-GHK7IER9HH9E7.5HF@gaia.bounces.google.com
+Received: from mr.google.com ([10.43.131.7])
+        by 10.43.131.7 with SMTP id ho7mr17973983icc.5.1354021829029 (num_hops = 1);
+        Tue, 27 Nov 2012 05:10:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:x-notifications:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        bh=BRidpaYdz2mqNFqELWZxBZZgplaHnUT3Bi6wnsFR8JE=;
+        b=R0DcLG0A9l1CLNpuAFQ2oRznEv4FQe/pNkrU4QXsHJRj7jjTZT9uJ2EzaSyUHp00Xe
+         RN51egqngkLRXp3ZvG4i4FacolXcQ360BsIqTiX9769S5Zrv7CSJ0zzivfG8667omJdW
+         cOm4sAeAY65C5SlUofNwosTJL9QBl68surDylxoz2dX1Xi9+i6+sHHcu7DmjkehNaBmu
+         r/Tn6LixeQ/Zn4gOC6funbDfeEyMTXQs3l2J3MisoJPGJVYMtO4ayXMBkP0Xis2QSE0u
+         BBaX0R8Slp5lRKNstnvgbTB/52XDlv/bGaquDmEZdBpR1hux+LU34xCnL/1kOBP3VTbV
+         Ph6A==
+MIME-Version: 1.0
+Received: by 10.43.131.7 with SMTP id ho7mr10801586icc.5.1354021828837; Tue,
+ 27 Nov 2012 05:10:28 -0800 (PST)
+X-Notifications: XEAAAADawTWCqGMOAlUVyFlKRd8E
+Date: Tue, 27 Nov 2012 05:10:21 -0800 (PST)
+Message-ID: <-Fzn5ml8QAqvBUPjYaCZ9w@notifications.google.com>
+Subject: Google Account recovery email address changed
+From: accounts-noreply@google.com
+To: webmail.testing.dev@gmail.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+DQpUaGUgcmVjb3ZlcnkgZW1haWwgYWRkcmVzcyBmb3IgeW91ciBHb29nbGUgQWNjb3VudCAtICAN
+CndlYm1haWwudGVzdGluZy5kZXZAZ21haWwuY29tIC0gd2FzIHJlY2VudGx5IGNoYW5nZWQuIElm
+IHlvdSBtYWRlIHRoaXMgIA0KY2hhbmdlLCB5b3UgZG9uJ3QgbmVlZCB0byBkbyBhbnl0aGluZyBt
+b3JlLg0KDQpJZiB5b3UgZGlkbid0IGNoYW5nZSB5b3VyIGFjY291bnQgcmVjb3ZlcnkgZW1haWwg
+YWRkcmVzcywgc29tZW9uZSBtYXkgaGF2ZSAgDQpicm9rZW4gaW50byB5b3VyIGFjY291bnQuIFZp
+c2l0IHRoaXMgbGluayBmb3IgbW9yZSBpbmZvcm1hdGlvbjoNCmh0dHBzOi8vc3VwcG9ydC5nb29n
+bGUuY29tL2FjY291bnRzL2Jpbi9hbnN3ZXIucHk/YW5zd2VyPTI0NTAyMzYNCg0KSWYgeW91IGFy
+ZSBoYXZpbmcgcHJvYmxlbXMgYWNjZXNzaW5nIHlvdXIgYWNjb3VudCwgYmVnaW4gdGhlIGFjY291
+bnQgIA0KcmVjb3ZlcnkgcHJvY2VzcyBieSBjbGlja2luZyB0aGlzIGxpbms6DQpodHRwczovL2Fj
+Y291bnRzLmdvb2dsZS5jb20vUmVjb3ZlckFjY291bnQ/ZnBPbmx5PTEmc291cmNlPWFuY3JlZSZF
+bWFpbD13ZWJtYWlsLnRlc3RpbmcuZGV2QGdtYWlsLmNvbQ0KDQpJbXBvcnRhbnQgYWNjb3VudCBz
+ZWN1cml0eSB0aXBzOg0KLSBNYWtlIHN1cmUgeW91IHVzZSB5b3VyIHJlY292ZXJ5IGVtYWlsIHJl
+Z3VsYXJseSBzaW5jZSBpdCBjYW4gYmUgdXNlZCB0byAgDQpzZW5kDQogICB5b3UgYW4gZW1haWwg
+dG8gcmVzZXQgeW91ciBwYXNzd29yZCBpZiB5b3UgZ2V0IGxvY2tlZCBvdXQuDQotIEFkZCB5b3Vy
+IG1vYmlsZSBwaG9uZSB0byB5b3VyIGFjY291bnQgc28geW91IGNhbiBlYXNpbHkgcGFzcyBHb29n
+bGUncyAgDQpzZWN1cml0eQ0KICAgbWVhc3VyZXMgYW5kIG1ha2UgaXQgaGFyZCBmb3IgaGlqYWNr
+ZXJzIHRvIGdldCBpbi4NCg0KTm90ZTogVGhpcyBlbWFpbCBhZGRyZXNzIGNhbm5vdCBhY2NlcHQg
+cmVwbGllcy4NCg0KU2luY2VyZWx5LA0KVGhlIEdvb2dsZSBBY2NvdW50cyBUZWFtDQoNCiAgIKkg
+MjAxMiBHb29nbGUgSW5jLiAxNjAwIEFtcGhpdGhlYXRyZSBQYXJrd2F5LCBNb3VudGFpbiBWaWV3
+LCBDQSA5NDA0Mw0KDQpZb3UgaGF2ZSByZWNlaXZlZCB0aGlzIG1hbmRhdG9yeSBlbWFpbCBzZXJ2
+aWNlIGFubm91bmNlbWVudCB0byB1cGRhdGUgeW91ICANCmFib3V0IGltcG9ydGFudCBjaGFuZ2Vz
+IHRvIHlvdXIgR29vZ2xlIHByb2R1Y3Qgb3IgYWNjb3VudC4NCg0K

@@ -1,0 +1,1424 @@
+Return-Path: <delivery@mx.sailthru.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.13.33 with SMTP id e1csp218399oac;
+        Wed, 19 Jun 2013 08:16:23 -0700 (PDT)
+X-Received: by 10.224.42.195 with SMTP id t3mr4247534qae.44.1371654983048;
+        Wed, 19 Jun 2013 08:16:23 -0700 (PDT)
+Received: from mx-aol-a.sailthru.com (mx-aol-a.sailthru.com. [64.34.57.249])
+        by mx.google.com with ESMTP id b14si8481391qcu.14.2013.06.19.08.16.21
+        for <webmail.testing.dev@gmail.com>;
+        Wed, 19 Jun 2013 08:16:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) client-ip=64.34.57.249;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) smtp.mail=delivery@mx.sailthru.com;
+       dkim=pass header.i=@techcrunch.com
+Received: from nyp1-jmailer19.sailthru.pvt (nyp1-jmailer19.sailthru.com [65.39.215.171])
+	by mx-aol-a.sailthru.com (Postfix) with ESMTP id E20D111A2FBC
+	for <webmail.testing.dev@gmail.com>; Wed, 19 Jun 2013 11:16:21 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1371654981;
+	s=sailthru; d=techcrunch.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-ID:List-Unsubscribe;
+	bh=22Hw0o5nik1rA79PpAhx+q5BqjACAwUxO2289OlNfW0=;
+	b=JmXgRzDX30FSEdkI59a2snMHwPh1PuR7bdZwGawKfQJDZhoRmgB0f7lRxgD+DwKz
+	FlVhWRVg17P1ESEp/R00LCnknY14zMrHobmO2VUAFhwEaZ7NUuLbwTPWnVlLXAAyMGB
+	Er0m1S5gpVAfNwO12DKfI+3htQ9DQprmkSanRvVU=
+Date: Wed, 19 Jun 2013 11:16:21 -0400 (EDT)
+From: CrunchBase <cbmailer@techcrunch.com>
+To: webmail.testing.dev@gmail.com
+Message-ID: <20130619151621.1765715.331587@sailthru.com>
+Subject: CrunchBase Daily: Fab, Pindrop Security - June 19, 2013
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4821389_1810683090.1371654981919"
+Precedence: bulk
+X-TM-ID: 20130619151621.1765715.331587
+X-Info: Message sent by sailthru.com customer CrunchBase
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-IADB-IP: 64.34.57.249
+X-IADB-IP-REVERSE: 249.57.34.64
+X-IADB-URL: http://www.isipp.com/iadb.php
+X-Unsubscribe-Web: http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f57611ufn.73ur/c6c2b0c3
+List-ID: <cm.3808.f617ff350bd8d77af5d385808a5758e1.sailthru.com>
+List-Unsubscribe: <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f57611ufn.73ur/c6c2b0c3>, <mailto:unsubscribe_3808@mx.sailthru.com>
+X-rpcampaign: stfqm1765715
+
+------=_Part_4821389_1810683090.1371654981919
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+June 19, 2013
+
+New York-based Fab <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611uf=
+n.73ur/UcHIe8JSe8U2sxCwD115d> raised a $150 million series D round from ret=
+urning investors Andreessen Horowitz <http://link.crunchbase.com/5072cfd8dc=
+87ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2F8ad8>, Atomico <http://link.crunc=
+hbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UXGVEcJSmSVrpByHDd8c3>, DoCoMo=
+ Capital <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcH=
+Ie8JSe8U2sxCxD3d0a>, Lars Hinrichs <http://link.crunchbase.com/5072cfd8dc87=
+ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxCyCa5b2>, Menlo Ventures <http://link.=
+crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxCzDe4fa>, R=
+TP Ventures <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/=
+UcHIe8JSe8U2sxC0Df5fe>, and Pinnacle Ventures <http://link.crunchbase.com/5=
+072cfd8dc87ac0b4f10f57611ufn.73ur/UakXAMJSp7oY9_DLD777a>. New investors inc=
+luded China-based Tencent <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f=
+57611ufn.73ur/UcHIe8JSe8U2sxC1C560d> and Japan-based Itochu <http://link.cr=
+unchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC2C0c4f>. Fou=
+nded in 2010, Fab has fourteen million users and is pre-money valued at $1 =
+billion <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHI=
+e8JSe8U2sxC3C757e>. The online design store, Fab, has raised $321 million o=
+ver 9 funding rounds.
+
+Phone fraud prevention and protection startup Pindrop Security <http://link=
+.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC4D326e> r=
+aised a $11 million venture round led by Andreessen Horowitz <http://link.c=
+runchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2Gb191>, wi=
+th participation from Citi Ventures <http://link.crunchbase.com/5072cfd8dc8=
+7ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC5D649d>, Felicis Ventures <http://li=
+nk.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UVHXom-oDGFomfJeD99a9>=
+, Redpoint <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/U=
+bXh7cJS-nt9OIcvCd52a>, and Webb Investment <http://link.crunchbase.com/5072=
+cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC6Dc01c> Network. Andreessen H=
+orowitz was also the lead investor in a $1 million round in 2012.
+
+In 24 hours, CrunchBase captured $816 million in fundings in 39 rounds=E2=
+=80=A6 and the data keeps rolling in.
+
+Top Funding Rounds
+
+Fab.com <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHI=
+e8JSe8U2sxCwEb5a7>
+
+$150MM / Series-D
+Investors =E2=80=94 Menlo Ventures <http://link.crunchbase.com/5072cfd8dc87=
+ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxCzE2de5> Andreessen Horowitz <http://l=
+ink.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2H25c7=
+> Atomico <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UX=
+GVEcJSmSVrpByHEca89> Pinnacle Ventures <http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f57611ufn.73ur/UakXAMJSp7oY9_DLE82bf> DoCoMo Capital <http://li=
+nk.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxCxEfa5b>=
+ RTP Ventures <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73u=
+r/UcHIe8JSe8U2sxC0Ef65d>
+
+Pindrop Security <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.=
+73ur/UcHIe8JSe8U2sxC4E00d6>
+
+$11MM / Venture Round
+Investors =E2=80=94 Andreessen Horowitz <http://link.crunchbase.com/5072cfd=
+8dc87ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2I849d> Felicis Ventures <http:/=
+/link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UVHXom-oDGFomfJeEb0=
+91> Webb Investment Network <http://link.crunchbase.com/5072cfd8dc87ac0b4f1=
+0f57611ufn.73ur/UcHIe8JSe8U2sxC6E7383> Citi Ventures <http://link.crunchbas=
+e.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC5E70a1>
+
+Triogen Group <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73u=
+r/UcHIe8JSe8U2sxC7Cdb5d>
+
+6.5MM EUR / Venture Round
+Investors =E2=80=94 Wadinko <http://link.crunchbase.com/5072cfd8dc87ac0b4f1=
+0f57611ufn.73ur/UcHIe8JSe8U2sxC8C527f>
+
+ScribbleLive <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur=
+/UcHIe8JSe8U2sxC9Cb5e9>
+Real-Time Content Platform
+
+$8.0MM / Series-B
+Investors =E2=80=94 Summerhill Venture Partners <http://link.crunchbase.com=
+/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC-Caf8d> Export Developme=
+nt Canada <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC_C1cc5> Georgian Partners <http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxDAC7593> Rogers Venture Partners <=
+http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2s=
+xDBCbc3c>
+
+ThousandEyes <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur=
+/UcHIe8JSe8U2sxDCCf945>
+Cloud Monitoring and Troubleshooting
+
+$5.5MM / Venture Round
+Investors =E2=80=94 Sequoia Capital <http://link.crunchbase.com/5072cfd8dc8=
+7ac0b4f10f57611ufn.73ur/UVHXom-oDGFomfJdC8bf6>
+
+Other Fundings GAMEVIL <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576=
+11ufn.73ur/UcHIe8JSe8U2sxDDCd9f4> ($80MM / Private Equity ) HealthSpring <h=
+ttp://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sx=
+DEC61e0> ($3.7MM / Series-B ) Entelo <http://link.crunchbase.com/5072cfd8dc=
+87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxDFC42a8> ($3.5MM / Venture Round ) C=
+apitaine Train <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73=
+ur/UcHIe8JSe8U2sxDGCbe43> (2.5MM EUR / Seed ) ERN <http://link.crunchbase.c=
+om/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxDHC4d1b> ($1.6MM / Seed=
+ ) UroSens <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/U=
+cHIe8JSe8U2sxDIC26f2> (750K GBP / Seed ) Perfectus Biomed <http://link.crun=
+chbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxDJCcd57> (100K =
+GBP / Seed ) Cape Wind <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576=
+11ufn.73ur/UcHIe8JSe8U2sxDKC9035> ($200MM / Series-A ) COMS Interactive <ht=
+tp://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxD=
+LCcb8b> ($21MM / Venture Round )
+More Fundings <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73u=
+r/Ub88KsJS2mvA9VktCedc2>
+<http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbeGosJSFl6h=
+QIP6Ccebd>
+
+Follow Us!
+
+Want to be up-to-date on the latest CrunchBase news and updates? Follow us =
+on Twitter, Facebook and Linkedin to receive the most up-to-date informatio=
+n.
+
+Follow on Twitter <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn=
+.73ur/UbihcsJS9TEojVzYC700b> Follow on Facebook <http://link.crunchbase.com=
+/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbihcsJS9TEojVzaC0337> Subscribe to New=
+sletter <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ub6j=
+PcJS-b7SI3XxC1d03>
+
+If you would no longer like to receive this email update, you can unsubscri=
+be with one click here <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f=
+57611ufn.73ur/c6c2b0c3>.
+
+410 Townsend Street, San Francisco, CA 94107
+=C2=A9 2012 AOL Inc. All rights reserved. Privacy Policy Terms of Service <=
+http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbeGosJSFl6hQ=
+IP7C9825>
+------=_Part_4821389_1810683090.1371654981919
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<!-- head -->
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>CrunchBase Recap</title>
+<!-- style -->
+<style type=3D"text/css">
+/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" mess=
+age */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to d=
+isplay emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmai=
+l to display normal line spacing */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default=
+ text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing be=
+tween tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized=
+ image in Internet Explorer */
+/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:=
+none;}
+table{border-collapse:collapse !important;}
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; wi=
+dth:100% !important;}
+/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+/* =3D=3D=3D=3D=3D=3D Anchors =3D=3D=3D=3D=3D=3D=3D */
+a {
+color: #2992A7;=20
+text-decoration: none !important;
+}
+/* =3D=3D=3D=3D=3D=3D Paragraph Styles =3D=3D=3D=3D=3D=3D */
+p {
+margin: 0;
+line-height: 20px;
+color: #333333 !important;
+font-size: 12px;
+font-family: Arial, 'Helvetica Neue',Helvetica,sans-serif !important;
+padding-bottom: 10px;
+}
+/* =3D=3D=3D=3D=3D=3D Paragraph Styles =3D=3D=3D=3D=3D=3D */
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Page Styles =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D */
+#bodyCell{padding:20px;}
+#templateContainer{/*width:600px;*/ width: 700px;}
+/**
+* @tab Page
+* @section background style
+* @tip Set the background color and top border for your email. You may want=
+ to choose colors that match your company's branding.
+* @theme page
+*/
+body, #bodyTable{
+/*@editable*/ background-color:#EAEAEA;
+}
+/**
+* @tab Page
+* @section background style
+* @tip Set the background color and top border for your email. You may want=
+ to choose colors that match your company's branding.
+* @theme page
+*/
+#bodyCell{
+/*@editable*/ /*border-top:4px solid #BBBBBB;*/
+}
+/**
+* @tab Page
+* @section email border
+* @tip Set the border for your email.
+*/
+#templateContainer{
+/*@editable*/ /*border:1px solid #BBBBBB;*/
+}
+/**
+* @tab Page
+* @section heading 1
+* @tip Set the styling for all first-level headings in your emails. These s=
+hould be the largest of your headings.
+* @style heading 1
+*/
+h1{
+/*@editable*/ color:#202020 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:26px;
+/*@editable*/ font-style:normal;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 2
+* @tip Set the styling for all second-level headings in your emails.
+* @style heading 2
+*/
+h2{
+/*@editable*/ color:#404040 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:20px;
+/*@editable*/ font-style:normal;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 3
+* @tip Set the styling for all third-level headings in your emails.
+* @style heading 3
+*/
+h3{
+/*@editable*/ color:#606060 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:16px;
+/*@editable*/ font-style:italic;
+/*@editable*/ font-weight:normal;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 4
+* @tip Set the styling for all fourth-level headings in your emails. These =
+should be the smallest of your headings.
+* @style heading 4
+*/
+h4{
+/*@editable*/ color:#808080 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:14px;
+/*@editable*/ font-style:italic;
+/*@editable*/ font-weight:normal;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Header Styles =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D */
+/**
+* @tab Header
+* @section preheader style
+* @tip Set the background color and bottom border for your email's preheade=
+r area.
+* @theme header
+*/
+#templatePreheader{
+/*@editable*/ background-color:#333333;
+/*@editable*/ border-bottom:1px solid #BBBBBB;
+}
+/**
+* @tab Header
+* @section preheader text
+* @tip Set the styling for your email's preheader text. Choose a size and c=
+olor that is easy to read.
+*/
+.preheaderContent{
+/*@editable*/ color:#808080;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:10px;
+/*@editable*/ line-height:125%;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Header
+* @section preheader link
+* @tip Set the styling for your email's preheader links. Choose a color tha=
+t helps them stand out from your text.
+*/
+.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Overr=
+ide */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#606060;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+/**
+* @tab Header
+* @section header style
+* @tip Set the background color and borders for your email's header area.
+* @theme header
+*/
+#templateHeader{
+/*@editable*/ /*background-color:#F4F4F4;*/
+/*@editable*/ /*border-top:1px solid #FFFFFF;*/
+/*@editable*/ /*border-bottom:1px solid #CCCCCC;*/
+/*@editable*/ background-color:#333333;
+/*@editable*/ border-bottom:1px solid #BBBBBB;
+}
+/**
+* @tab Header
+* @section header text
+* @tip Set the styling for your email's header text. Choose a size and colo=
+r that is easy to read.
+*/
+.headerContent{
+/*@editable*/ /*color:#505050;*/ color:#FFFFFF;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ /*font-size:20px;*/ font-size:17px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ padding-top:0;
+/*@editable*/ padding-right:0;
+/*@editable*/ padding-bottom:0;
+/*@editable*/ padding-left:0;
+/*@editable*/ text-align:left;
+/*@editable*/ vertical-align:middle;
+}
+/**
+* @tab Header
+* @section header link
+* @tip Set the styling for your email's header links. Choose a color that h=
+elps them stand out from your text.
+*/
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */=
+ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#EB4102;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+#headerImage{
+height:auto;
+max-width:600px;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Column Styles =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D */
+.templateColumnContainer{width:260px;}
+/**
+* @tab Columns
+* @section column style
+* @tip Set the background color and borders for your email's column area.
+*/
+#templateColumns{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-top:1px solid #FFFFFF;
+/*@editable*/ border-bottom:1px solid #CCCCCC;
+}
+/**
+* @tab Columns
+* @section left column text
+* @tip Set the styling for your email's left column content text. Choose a =
+size and color that is easy to read.
+*/
+.leftColumnContent{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:14px;
+/*@editable*/ line-height:150%;
+padding-top:0;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Columns
+* @section left column link
+* @tip Set the styling for your email's left column content links. Choose a=
+ color that helps them stand out from your text.
+*/
+.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Ove=
+rride */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#EB4102;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+/**
+* @tab Columns
+* @section right column text
+* @tip Set the styling for your email's right column content text. Choose a=
+ size and color that is easy to read.
+*/
+.rightColumnContent{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:14px;
+/*@editable*/ line-height:150%;
+padding-top:0;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Columns
+* @section right column link
+* @tip Set the styling for your email's right column content links. Choose =
+a color that helps them stand out from your text.
+*/
+.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail O=
+verride */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#EB4102;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+.leftColumnContent img, .rightColumnContent img{
+display:inline;
+height:auto;
+max-width:260px;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Footer Styles =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D */
+/**
+* @tab Footer
+* @section footer style
+* @tip Set the background color and borders for your email's footer area.
+* @theme footer
+*/
+#templateFooter{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-top:1px solid #FFFFFF;
+}
+/**
+* @tab Footer
+* @section footer text
+* @tip Set the styling for your email's footer text. Choose a size and colo=
+r that is easy to read.
+* @theme footer
+*/
+.footerContent{
+/*@editable*/ color:#808080;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:10px;
+/*@editable*/ line-height:150%;
+padding-top:20px;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Footer
+* @section footer link
+* @tip Set the styling for your email's footer links. Choose a color that h=
+elps them stand out from your text.
+*/
+.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */=
+ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Overrid=
+e */{
+/*@editable*/ color:#606060;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+@media only screen and (max-width: 480px){
+/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !import=
+ant;} /* Prevent Webkit platforms from changing default text sizes */
+html, body{width:100% !important; min-width:100% !important;} /* Prevent iO=
+S Mail from adding padding to the body */
+/* Hide sponsors */
+#sponsors {=20
+width: 0 !important;=20
+}
+#sponsorContent {
+display: none !important;
+}
+/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+#bodyCell{padding:10px !important;}
+/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+/* =3D=3D=3D=3D=3D=3D=3D=3D Page Styles =3D=3D=3D=3D=3D=3D=3D=3D */
+/**
+* @tab Mobile Styles
+* @section template width
+* @tip Make the template fluid for portrait or landscape view adaptability.=
+ If a fluid layout doesn't work for you, set the width to 300px instead.
+*/
+#templateContainer{
+max-width:600px !important;
+/*@editable*/ width:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section heading 1
+* @tip Make the first-level headings larger in size for better readability =
+on small screens.
+*/
+h1{
+/*@editable*/ font-size:24px !important;
+/*@editable*/ line-height:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section heading 2
+* @tip Make the second-level headings larger in size for better readability=
+ on small screens.
+*/
+h2{
+/*@editable*/ font-size:20px !important;
+/*@editable*/ line-height:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section heading 3
+* @tip Make the third-level headings larger in size for better readability =
+on small screens.
+*/
+h3{
+/*@editable*/ font-size:18px !important;
+/*@editable*/ line-height:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section heading 4
+* @tip Make the fourth-level headings larger in size for better readability=
+ on small screens.
+*/
+h4{
+/*@editable*/ font-size:16px !important;
+/*@editable*/ line-height:100% !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D Header Styles =3D=3D=3D=3D=3D=3D=3D=3D */
+#templatePreheader{display:none !important;} /* Hide the template preheader=
+ to save space */
+/**
+* @tab Mobile Styles
+* @section header image
+* @tip Make the main header image fluid for portrait or landscape view adap=
+tability, and set the image's original width as the max-width. If a fluid s=
+etting doesn't work, set the image width to half its original size instead.
+*/
+#headerImage{
+height:auto !important;
+/*@editable*/ max-width:600px !important;
+/*@editable*/ width:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section header text
+* @tip Make the header content text larger in size for better readability o=
+n small screens. We recommend a font size of at least 16px.
+*/
+.headerContent{
+/*@editable*/ /*font-size:20px !important;*/
+font-size: 15px !important;
+/*@editable*/ line-height:125% !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D Column Styles =3D=3D=3D=3D=3D=3D=3D=3D */
+.templateColumnContainer{display:block !important; width:100% !important;}
+/**
+* @tab Mobile Styles
+* @section column image
+* @tip Make the column image fluid for portrait or landscape view adaptabil=
+ity, and set the image's original width as the max-width. If a fluid settin=
+g doesn't work, set the image width to half its original size instead.
+*/
+.columnImage{
+height:auto !important;
+/*@editable*/ max-width:260px !important;
+/*@editable*/ width:100% !important;
+}
+/**
+* @tab Mobile Styles
+* @section left column text
+* @tip Make the left column content text larger in size for better readabil=
+ity on small screens. We recommend a font size of at least 16px.
+*/
+.leftColumnContent{
+/*@editable*/ font-size:16px !important;
+/*@editable*/ line-height:125% !important;
+}
+/**
+* @tab Mobile Styles
+* @section right column text
+* @tip Make the right column content text larger in size for better readabi=
+lity on small screens. We recommend a font size of at least 16px.
+*/
+.rightColumnContent{
+/*@editable*/ font-size:16px !important;
+/*@editable*/ line-height:125% !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D Footer Styles =3D=3D=3D=3D=3D=3D=3D=3D */
+/**
+* @tab Mobile Styles
+* @section footer text
+* @tip Make the body content text larger in size for better readability on =
+small screens.
+*/
+.footerContent{
+/*@editable*/ font-size:14px !important;
+/*@editable*/ line-height:115% !important;
+}
+.footerContent a{display:block !important;} /* Place footer social and util=
+ity links on their own lines, for easier access */
+}
+</style>  <!-- /style -->
+<script type=3D"text/javascript">
+var _gaq =3D _gaq || [];
+_gaq.push(['_setAccount', 'UA-991406-10']);
+_gaq.push(['_setDomainName', 'crunchbase.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga =3D document.createElement('script'); ga.type =3D 'text/javascript';=
+ ga.async =3D true;
+ga.src =3D ('https:' =3D=3D document.location.protocol ? 'https://ssl' : 'h=
+ttp://www') + '.google-analytics.com/ga.js';
+var s =3D document.getElementsByTagName('script')[0]; s.parentNode.insertBe=
+fore(ga, s);
+})();
+</script>
+</head> <!-- /head -->
+<!-- body -->
+<body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0"=
+ offset=3D"0" style=3D"-webkit-font-smoothing: antialiased; font-smoothing:=
+ antialiased; width:100% !important;background:#e2e8e7;-webkit-text-size-ad=
+just:none;">
+<!-- center -->
+<center>
+<!-- main container -->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"100%" width=3D"100%" id=3D"bodyTable">
+<!-- main column -->
+<tr>
+<td align=3D"center" valign=3D"top" id=3D"bodyCell">
+<!-- main template -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"templateContainer" style=3D"padding-left: 10px; padding-right: 10px">
+<!-- header -->
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"background-color: #333333">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"top" class=3D"headerContent" style=3D"padding-top:15px; paddin=
+g-bottom:15px; padding-left:20px; padding-right: 10px">
+<!-- CB recap logo -->
+<img class=3D"cbrecapLogo" src=3D"http://static.crunchbase.com/daily/assets=
+/cb-daily-logo.png" style=3D"float:left; width:175px; border-style: none" /=
+>
+<!-- CB recap date -->
+<span id=3D"cbDate" style=3D"color: #FFFFFF; font-size: 13px; font-weight: =
+normal; line-height: 19px; float: right"> June 19, 2013 </span>
+</td>
+</tr>
+</table>=20
+</td>
+</tr> <!-- /header -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px">&nbsp;=
+</td></tr>
+<!-- forward -->
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"background-color:#FCFCFC; padd=
+ing-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20p=
+x; border-left: 1px solid #E2E2E2; border-right: 1px solid #E2E2E2; border-=
+bottom: 1px solid #D3D3D3">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"background-color:#FCFCFC; border-top: 1px solid #FFFFFF; border-left: =
+1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px soli=
+d #FFFFFF">
+<tr>
+<td valign=3D"top" class=3D"cbForwardText" style=3D"text-align: left; font-=
+size: 12px;
+font-family: Arial, 'Helvetica Neue',Helvetica,sans-serif">
+<p>New York-based <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f1=
+0f57611ufn.73ur/UcHIe8JSe8U2sxCwB506e" style=3D"color: #2992A7; text-decora=
+tion: none; display: inline;">Fab</a> raised a $150 million series D round =
+from returning investors <a href=3D"http://link.crunchbase.com/5072cfd8dc87=
+ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2B7159" style=3D"color: #2992A7; text=
+-decoration: none; display: inline;">Andreessen Horowitz</a>, <a href=3D"ht=
+tp://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UXGVEcJSmSVrpBy=
+HBe699" style=3D"color: #2992A7; text-decoration: none; display: inline;">A=
+tomico</a>, <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f5761=
+1ufn.73ur/UcHIe8JSe8U2sxCxB06fa" style=3D"color: #2992A7; text-decoration: =
+none; display: inline;">DoCoMo Capital</a>, <a href=3D"http://link.crunchba=
+se.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxCyB9c67" style=3D"c=
+olor: #2992A7; text-decoration: none; display: inline;">Lars Hinrichs</a>, =
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxCzB6d63" style=3D"color: #2992A7; text-decoration: none; displa=
+y: inline;">Menlo Ventures</a>, <a href=3D"http://link.crunchbase.com/5072c=
+fd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC0B0127" style=3D"color: #2992A=
+7; text-decoration: none; display: inline;">RTP Ventures</a>, and <a href=
+=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UakXAMJSp=
+7oY9_DLB0845" style=3D"color: #2992A7; text-decoration: none; display: inli=
+ne;">Pinnacle Ventures</a>. New investors included China-based <a href=3D"h=
+ttp://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sx=
+C1B8c17" style=3D"color: #2992A7; text-decoration: none; display: inline;">=
+Tencent</a> and Japan-based <a href=3D"http://link.crunchbase.com/5072cfd8d=
+c87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC2Ba40d" style=3D"color: #2992A7; t=
+ext-decoration: none; display: inline;">Itochu</a>. Founded in 2010, Fab ha=
+s fourteen million users and is <a href=3D"http://link.crunchbase.com/5072c=
+fd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC3B5e61" style=3D"color: #2992A=
+7; text-decoration: none; display: inline;">pre-money valued at $1 billion<=
+/a>. The online design store, Fab, has raised $321 million over 9 funding r=
+ounds.</p><p>Phone fraud prevention and protection startup <a href=3D"http:=
+//link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC4B4=
+036" style=3D"color: #2992A7; text-decoration: none; display: inline;">Pind=
+rop Security</a> raised a $11 million venture round led by <a href=3D"http:=
+//link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UaQC1sJStDbopFV2C1=
+411" style=3D"color: #2992A7; text-decoration: none; display: inline;">Andr=
+eessen Horowitz</a>, with participation from <a href=3D"http://link.crunchb=
+ase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UcHIe8JSe8U2sxC5B8d57" style=3D"=
+color: #2992A7; text-decoration: none; display: inline;">Citi Ventures</a>,=
+ <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/U=
+VHXom-oDGFomfJeB2b0b" style=3D"color: #2992A7; text-decoration: none; displ=
+ay: inline;">Felicis Ventures</a>, <a href=3D"http://link.crunchbase.com/50=
+72cfd8dc87ac0b4f10f57611ufn.73ur/UbXh7cJS-nt9OIcvBac45" style=3D"color: #29=
+92A7; text-decoration: none; display: inline;">Redpoint</a>,
+and <a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73u=
+r/UcHIe8JSe8U2sxC6B029f" style=3D"color: #2992A7; text-decoration: none; di=
+splay: inline;">Webb Investment</a> Network. Andreessen Horowitz was also t=
+he lead investor in a $1 million round in 2012.</p><p>In 24 hours, CrunchBa=
+se captured $816 million in fundings in 39 rounds=E2=80=A6 and the data kee=
+ps rolling in.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /forward -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px">&nbsp;=
+</td></tr>
+<!-- funding rounds -->
+<tr>  <!-- funding rounds column -->
+<td align=3D"center" valign=3D"top" style=3D"border-left: 1px solid #E2E2E2=
+; border-right: 1px solid #E2E2E2; border-bottom: 1px solid #D3D3D3;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"fundingRounds" style=3D"border-top: 1px solid #FFFFFF; border-left: 1p=
+x solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid =
+#FFFFFF">
+<!-- header -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background-color: #f5f5f5; color=
+: #333333; font-size: 17px; font-family:Arial,'Helvetica Neue',Helvetica,sa=
+ns-serif; border-bottom: 1px solid #EAEAEA; padding-top: 15px; padding-bott=
+om: 15px; padding-left: 20px; padding-right: 20px">
+Top Funding Rounds
+</td>
+</tr> <!-- /header -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background-color:#FCFCFC; paddin=
+g-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;=
+">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" valign=3D"top"> <!-- start here -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"fundingRou=
+nds">
+<!-- top ranked item -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<!-- entity -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- entity name -->
+<tr>
+<td align=3D"left" valign=3D"top">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxCwCb965" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; font-size: 20px; font-family:Arial,'Helvetica Neue',Helvetica,=
+sans-serif"> Fab.com </a>
+</td>
+</tr> <!-- /entity name -->
+<!-- entity sectors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; padding-top: 3px=
+; font-size: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;=
+">
+</td>
+</tr> <!-- /entity sectors -->
+<!-- funded amount -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<!-- amount -->
+<td align=3D"left" valign=3D"bottom" style=3D"color: #333333; font-size: 24=
+px; font-weight: bold; font-family:Arial,'Helvetica Neue',Helvetica,sans-se=
+rif; line-height: 33px; whitespace: no-wrap">=20
+$150MM
+<span style=3D"color: #333333; font-size: 17px; font-weight: normal; font-f=
+amily:Arial,'Helvetica Neue',Helvetica,sans-serif; line-height: 26px"> / Se=
+ries-D</span>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /funded amount -->
+<!-- investors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-size: 12px;=
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+Investors &mdash;
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxCzC63c1" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Menlo Ventures</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ua=
+QC1sJStDbopFV2D4c4b" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Andreessen Horowitz</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UX=
+GVEcJSmSVrpByHC6bdf" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Atomico</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ua=
+kXAMJSp7oY9_DLCbb4a" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Pinnacle Ventures</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxCxCe63d" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">DoCoMo Capital</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC0Cd5af" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">RTP Ventures</a>
+</td>
+</tr> <!-- /investors -->
+</table> <!-- /entity -->
+</td>
+</tr> <!-- /top ranked item -->
+<!-- top ranked item -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<!-- entity -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- entity name -->
+<tr>
+<td align=3D"left" valign=3D"top">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC4C16fc" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; font-size: 20px; font-family:Arial,'Helvetica Neue',Helvetica,=
+sans-serif"> Pindrop Security </a>
+</td>
+</tr> <!-- /entity name -->
+<!-- entity sectors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; padding-top: 3px=
+; font-size: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;=
+">
+</td>
+</tr> <!-- /entity sectors -->
+<!-- funded amount -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<!-- amount -->
+<td align=3D"left" valign=3D"bottom" style=3D"color: #333333; font-size: 24=
+px; font-weight: bold; font-family:Arial,'Helvetica Neue',Helvetica,sans-se=
+rif; line-height: 33px; whitespace: no-wrap">=20
+$11MM
+<span style=3D"color: #333333; font-size: 17px; font-weight: normal; font-f=
+amily:Arial,'Helvetica Neue',Helvetica,sans-serif; line-height: 26px"> / Ve=
+nture Round</span>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /funded amount -->
+<!-- investors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-size: 12px;=
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+Investors &mdash;
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ua=
+QC1sJStDbopFV2Ef08a" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Andreessen Horowitz</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UV=
+HXom-oDGFomfJeCd54e" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Felicis Ventures</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC6C4415" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Webb Investment Network<=
+/a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC5C5375" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Citi Ventures</a>
+</td>
+</tr> <!-- /investors -->
+</table> <!-- /entity -->
+</td>
+</tr> <!-- /top ranked item -->
+<!-- top ranked item -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<!-- entity -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- entity name -->
+<tr>
+<td align=3D"left" valign=3D"top">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC7Bff60" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; font-size: 20px; font-family:Arial,'Helvetica Neue',Helvetica,=
+sans-serif"> Triogen Group </a>
+</td>
+</tr> <!-- /entity name -->
+<!-- entity sectors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; padding-top: 3px=
+; font-size: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;=
+">
+</td>
+</tr> <!-- /entity sectors -->
+<!-- funded amount -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<!-- amount -->
+<td align=3D"left" valign=3D"bottom" style=3D"color: #333333; font-size: 24=
+px; font-weight: bold; font-family:Arial,'Helvetica Neue',Helvetica,sans-se=
+rif; line-height: 33px; whitespace: no-wrap">=20
+6.5MM EUR
+<span style=3D"color: #333333; font-size: 17px; font-weight: normal; font-f=
+amily:Arial,'Helvetica Neue',Helvetica,sans-serif; line-height: 26px"> / Ve=
+nture Round</span>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /funded amount -->
+<!-- investors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-size: 12px;=
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+Investors &mdash;
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC8B10b4" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Wadinko</a>
+</td>
+</tr> <!-- /investors -->
+</table> <!-- /entity -->
+</td>
+</tr> <!-- /top ranked item -->
+<!-- top ranked item -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<!-- entity -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- entity name -->
+<tr>
+<td align=3D"left" valign=3D"top">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC9B4668" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; font-size: 20px; font-family:Arial,'Helvetica Neue',Helvetica,=
+sans-serif"> ScribbleLive </a>
+</td>
+</tr> <!-- /entity name -->
+<!-- entity sectors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; padding-top: 3px=
+; font-size: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;=
+">
+Real-Time Content Platform
+</td>
+</tr> <!-- /entity sectors -->
+<!-- funded amount -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<!-- amount -->
+<td align=3D"left" valign=3D"bottom" style=3D"color: #333333; font-size: 24=
+px; font-weight: bold; font-family:Arial,'Helvetica Neue',Helvetica,sans-se=
+rif; line-height: 33px; whitespace: no-wrap">=20
+$8.0MM
+<span style=3D"color: #333333; font-size: 17px; font-weight: normal; font-f=
+amily:Arial,'Helvetica Neue',Helvetica,sans-serif; line-height: 26px"> / Se=
+ries-B</span>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /funded amount -->
+<!-- investors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-size: 12px;=
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+Investors &mdash;
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC-B0102" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Summerhill Venture Partn=
+ers</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxC_B79d2" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Export Development Canad=
+a</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDABf08c" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Georgian Partners</a>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDBBc5c6" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Rogers Venture Partners<=
+/a>
+</td>
+</tr> <!-- /investors -->
+</table> <!-- /entity -->
+</td>
+</tr> <!-- /top ranked item -->
+<!-- top ranked item -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<!-- entity -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- entity name -->
+<tr>
+<td align=3D"left" valign=3D"top">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDCBbc8a" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; font-size: 20px; font-family:Arial,'Helvetica Neue',Helvetica,=
+sans-serif"> ThousandEyes </a>
+</td>
+</tr> <!-- /entity name -->
+<!-- entity sectors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; padding-top: 3px=
+; font-size: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;=
+">
+Cloud Monitoring and Troubleshooting
+</td>
+</tr> <!-- /entity sectors -->
+<!-- funded amount -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<!-- amount -->
+<td align=3D"left" valign=3D"bottom" style=3D"color: #333333; font-size: 24=
+px; font-weight: bold; font-family:Arial,'Helvetica Neue',Helvetica,sans-se=
+rif; line-height: 33px; whitespace: no-wrap">=20
+$5.5MM
+<span style=3D"color: #333333; font-size: 17px; font-weight: normal; font-f=
+amily:Arial,'Helvetica Neue',Helvetica,sans-serif; line-height: 26px"> / Ve=
+nture Round</span>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /funded amount -->
+<!-- investors -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-size: 12px;=
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+Investors &mdash;
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UV=
+HXom-oDGFomfJdBa709" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline; padding-right: 10px">Sequoia Capital</a>
+</td>
+</tr> <!-- /investors -->
+</table> <!-- /entity -->
+</td>
+</tr> <!-- /top ranked item -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px; border=
+-bottom: 1px solid #EAEAEA">&nbsp;</td></tr>
+<!-- other items -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<!-- header -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"color: #333333; font-weight: nor=
+mal; font-size: 17px; font-family:Arial,'Helvetica Neue',Helvetica,sans-ser=
+if; padding-top: 20px; padding-bottom: 15px">Other Fundings</td>
+</tr> <!-- /header -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDDB1f1c" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">GAMEVIL</a>
+(<span style=3D"font-weight: bold">$80MM</span> / Private Equity )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDEB593b" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">HealthSpring</a>
+(<span style=3D"font-weight: bold">$3.7MM</span> / Series-B )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDFB2e22" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">Entelo</a>
+(<span style=3D"font-weight: bold">$3.5MM</span> / Venture Round )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDGB6167" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">Capitaine Train</a>
+(<span style=3D"font-weight: bold">2.5MM EUR</span> / Seed )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDHB03ad" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">ERN</a>
+(<span style=3D"font-weight: bold">$1.6MM</span> / Seed )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDIB1edb" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">UroSens</a>
+(<span style=3D"font-weight: bold">750K GBP</span> / Seed )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDJBbc93" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">Perfectus Biomed</a>
+(<span style=3D"font-weight: bold">100K GBP</span> / Seed )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDKB34da" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">Cape Wind</a>
+(<span style=3D"font-weight: bold">$200MM</span> / Series-A )
+</td>
+</tr> <!-- /lower ranked item -->
+<!-- lower ranked item -->
+<tr style=3D"font-size: 14px">
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom: 10px; font-size:=
+ 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; white-space=
+: no-wrap">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Uc=
+HIe8JSe8U2sxDLBe523" style=3D"color: #2992A7; text-decoration: none; font-w=
+eight: bold; display: inline;">COMS Interactive</a>
+(<span style=3D"font-weight: bold">$21MM</span> / Venture Round )
+</td>
+</tr> <!-- /lower ranked item -->
+</table>
+</td>
+</tr> <!-- /other items -->
+<!-- more fundings button -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top: 15px; padding-botto=
+m: 10px">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ub=
+88KsJS2mvA9VktB6b1b" style=3D"color: #FFFFFF; font-size: 14px; background-c=
+olor: #2992A7; display: inline; padding-top: 10px; padding-bottom: 10px; pa=
+dding-left: 15px; padding-right: 15px; font-family:Arial,'Helvetica Neue',H=
+elvetica,sans-serif; text-decoration: none; font-weight: bold">More Funding=
+s <img class=3D"arrow" src=3D"http://static.crunchbase.com/daily/assets/arr=
+ow.png" style=3D"border-style: none"/></a>
+</td>
+</tr> <!-- /more fundings button -->
+</table>
+</td>
+<!-- sponsors -->
+<td id=3D"sponsors" align=3D"left" valign=3D"top" style=3D"background-color=
+:#FCFCFC; max-width: 215px; padding-left: 20px">
+<!-- sponsors here -->
+<table id=3D"sponsorContent" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0">
+<tbody>
+<tr>
+<td class=3D"sponsorlogo" style=3D"float:right"><a href=3D"http://link.crun=
+chbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbeGosJSFl6hQIP6B42ef" style=
+=3D"text-decoration: none"><img src=3D"http://static.crunchbase.com/daily/a=
+ssets/ad_joinme_160x600_20130531.jpg" style=3D"border-style: none" /></a></=
+td>
+</tr>
+</tbody>
+</table>
+</td> <!-- /sponsors -->
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td> <!-- /funding rounds column -->
+</tr> <!-- /funding rounds -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px">&nbsp;=
+</td></tr>
+<!-- sharing -->
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"border-left: 1px solid #E2E2E2=
+; border-right: 1px solid #E2E2E2; border-bottom: 1px solid #D3D3D3;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"sharing" style=3D"border-top: 1px solid #FFFFFF; border-left: 1px soli=
+d #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFF=
+F; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif">
+<!-- header -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background-color: #f5f5f5; color=
+: #333333; font-size: 17px; border-bottom: 1px solid #EAEAEA; padding-top: =
+15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px">
+Follow Us!
+</td>
+</tr> <!-- /header -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background-color:#FCFCFC; paddin=
+g-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px"=
+>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"font-size: 12px; padding-bottom:=
+ 20px; color: #333333; width: 100%">
+Want to be up-to-date on the latest CrunchBase news and updates? Follow us =
+on Twitter, Facebook and Linkedin to receive the most up-to-date informatio=
+n.
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"font-family:Arial,'Helvetica Neu=
+e',Helvetica,sans-serif; color: #333333; width: 100%">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<!-- Twitter -->
+<td align=3D"left" valign=3D"top" style=3D"padding-right: 2px; width: 30%;"=
+>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ub=
+ihcsJS9TEojVzYB9145" style=3D"text-decoration: none; float: left"><img src=
+=3D"http://static.crunchbase.com/daily/assets/icon_30x30_twitter.png" href=
+=3D"http://www.twitter.com/crunchbase" style=3D"float: left; padding-right:=
+ 10px; border-style: none" /><span style=3D"float:left; font-size: 12px; pa=
+dding-top: 8px; padding-bottom: 8px; color: #333333">Follow on Twitter</spa=
+n></a>
+</td>
+<!-- Facebook -->
+<td align=3D"left" valign=3D"top" style=3D"padding-right: 2px; width: 30%">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ub=
+ihcsJS9TEojVzaB72b6" style=3D"text-decoration: none; float: left"><img src=
+=3D"http://static.crunchbase.com/daily/assets/icon_30x30_facebook.png" href=
+=3D"http://www.facebook.com/crunchbase" style=3D"float: left; padding-right=
+: 10px; border-style: none"/><span style=3D"float:left; font-size: 12px; pa=
+dding-top: 8px; padding-bottom: 8px; color: #333333">Follow on Facebook</sp=
+an></a>
+</td>
+<!-- Newsletter -->
+<td align=3D"left" valign=3D"top" style=3D"width: 30%">
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/Ub=
+6jPcJS-b7SI3XxB5895" style=3D"text-decoration: none; float: left"><img src=
+=3D"http://static.crunchbase.com/daily/assets/icon_30x30_email.png" href=3D=
+"#{subscribe link}" style=3D"float: left; padding-right: 10px; border-style=
+: none" /><span style=3D"float:left; font-size: 12px; padding-top: 8px; pad=
+ding-bottom: 8px; color: #333333">Subscribe to Newsletter</span></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr> <!-- /sharing -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px">&nbsp;=
+</td></tr>
+<!-- unsubscribe -->
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"cbUnsubscribe" style=3D"font-siz=
+e: 12px; font-family:Arial,'Helvetica Neue',Helvetica,sans-serif; padding-t=
+op: 10px; padding-bottom: 20px">
+If you would no longer like to receive this email update, you can <a href=
+=3D"http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f57611ufn.73ur/c6c2b0=
+c3" style=3D"color: #2992A7; font-weight: bold; text-decoration: none">unsu=
+bscribe with one click here</a>.
+</td>
+</tr> <!-- /unsubscribe -->
+<tr><td valign=3D"top" class=3D"cbSpacer" style=3D"margin-top: 20px">&nbsp;=
+</td></tr>
+<!-- contact -->
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"font-size: 12px; font-family:Ari=
+al,'Helvetica Neue',Helvetica,sans-serif; line-height: 20px">
+<a href=3D "http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/U=
+K85UiuoakEnrrNoB9683" style=3D"text-decoration: none"> <img src=3D"http://s=
+tatic.crunchbase.com/daily/assets/bottom-logo.png" style=3D"margin-bottom: =
+5px; display: block; border-style: none" /></a>
+410 Townsend Street, San Francisco, CA 94107<br/>
+=C2=A9 2012 AOL Inc. All rights reserved. <a href=3D"http://link.crunchbase=
+.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbeGosJSFl6hQIP7B21d9" style=3D"col=
+or: #2992A7; font-weight: bold; text-decoration: none">Privacy Policy <a hr=
+ef=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UbeGosJ=
+SFl6hQIP8B918d" style=3D"color: #2992A7; font-weight: bold; text-decoration=
+: none">Terms of Service</a>
+</td>
+</tr> <!-- /contact -->
+</table> <!-- /main template -->
+</td>
+</tr> <!-- /main column -->
+</table> <!-- /main container -->
+</center> <!-- /center -->
+</body> <!-- /body -->
+</html>
+<a href=3D"http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611ufn.73ur/UB=
+ghaqgv-c4CZNdSA8afd"><img src=3D"http://link.crunchbase.com/img/5072cfd8dc8=
+7ac0b4f10f57611ufn.73ur/26ed5a3a.gif" alt=3D"" border=3D"0" /></a> <!-- tra=
+ck opens via Sailthru -->
+
+------=_Part_4821389_1810683090.1371654981919--
+

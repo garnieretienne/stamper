@@ -1,0 +1,1422 @@
+Return-Path:
+  <bounce-mc.us1_449017.1854661-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.250.135 with SMTP id zc7csp88312obc;
+        Fri, 13 Sep 2013 06:48:21 -0700 (PDT)
+X-Received: by 10.49.39.39 with SMTP id m7mr25120488qek.60.1379080101277;
+        Fri, 13 Sep 2013 06:48:21 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id x3si8274419qed.30.1969.12.31.16.00.00;
+        Fri, 13 Sep 2013 06:48:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1854661-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1854661-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1854661-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=PXMdKYQtXl/6HjNcLIKWh7Rd0FM=;
+ b=yJhBLNuKIIdb+fN6UH9Ktc1ArJo1gACgHNcLyWg5cO1vPtw0OpN2f4tfPNKI9G8H1MMSDteDihcz
+   Xu4ocUC6UmSGzjzbF5gaKcpkEXWKhEeaojxep3eEeZAFwR1pP4Z9omO2d1DbRCEiavEfyrB1KZMs
+   ffp4I2e9+WetLNjq0Qw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=qrmrWbguiepb/MF4HXV+NZGRHZClaKOD9aMrdkTnMtdY+8kpsyao3F3biORrQ+MzchhX7HW80k1r
+   0PFV+eq8YcMUE6CO5HD+w43n8zIM7PyMcoutpOb0AZOTtZf/KQY7d9ppfVZF6bduXAtLmhhyW8y6
+   4m4e2a8hSSMj64A+VBE=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id h6cbqa174bkt for <webmail.testing.dev@gmail.com>; Fri, 13 Sep 2013 12:50:51 +0000 (envelope-from <bounce-mc.us1_449017.1854661-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20147?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 13 Sep 2013 12:50:51 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130913125039@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID2adc280365b4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.2adc280365
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.2adc280365
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=2adc280365&e=b4af456f64
+X-MC-User: 0618f6a79d6bb9675f313ceb2
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-2adc280365-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=2adc280365>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_869058330"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_869058330
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #147 - September 13=2C 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D2adc280365
+
+
+--- Featured ---
+
+# The O'Reilly Fluent Conference 2014 Call for Proposals Is Open
+http://fluentconf.com/fluent2014/public/cfp/286
+
+We=E2=80=99re back in San Francisco in March 2014 with the third Fluent=2C=
+ a conference dedicated to the Web Platform=2C JavaScript=2C and related t=
+echnologies. With almost 1200 attendees this year=2C Fluent is one of the=
+ leading events in the space and the CFP ends on September 30. Come and su=
+bmit a talk or workshop.
+
+# A Crowd-Funded Reboot for Eloquent JavaScript
+https://eloquentjavascript.net/2nd_edition/
+
+Eloquent JavaScript by Marijn Haverbeke is both one of the most popular fr=
+ee JavaScript tutorials and JavaScript books and Marijn now wants to produ=
+ce a newly written second edition and invites everyone to chip in on certa=
+in areas of its development.
+
+
+--- From our Sponsor ---
+
+# Your mobile website shouldn't look like an 8th grade HTML5 project.
+http://bdconf.com/html5
+
+Send your developers &amp; designers to BDConf for 2 days of education=2C=
+ inspiration and peer networking as it relates to mobile website strategy=
+=2C code=2C UI/UX &amp; design. 8th graders can make sites for your compet=
+itor. You=E2=80=99re better than that. Code BNACMA2 saves $100 on registra=
+tion.
+
+
+--- Reading ---
+
+# Understanding ECMAScript 6 Arrow Functions
+http://www.nczonline.net/blog/2013/09/10/understanding-ecmascript-6-arrow-=
+functions/
+
+One of the most interesting new parts of ECMAScript 6 are 'arrow' function=
+s. Luckily we have Nicholas C Zakas here to give us a run through of how t=
+hey work and how to use them.
+
+# D3 on AngularJS
+http://www.ng-newsletter.com/posts/d3-on-angular.html
+
+D3 is a popular library for manipulating and rendering document-based data=
+ through HTML=2C SVG=2C and CSS=2C but combining D3 and Angular can be tri=
+cky. This post shares a variety of approaches.
+
+# Anti-Pattern: Putting Data in Prototype Properties
+http://www.2ality.com/2013/09/data-in-prototypes.html
+
+Axel explains why it may seem like a good idea to put data in prototype pr=
+operties but actually isn=E2=80=99t.
+
+# Rough Notes on the jQuery Conference Austin Talks
+https://gist.github.com/neildahlke/6509891
+
+jQuery Conference Austin was on earlier this week and Neil Dahlke has take=
+n some basic notes from each session.
+
+# Getting Started With Node.js=2C Express=2C MongoDB
+http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+Billed as =E2=80=98the dead-simple step-by-step guide for front-end develo=
+pers to getting up and running with Node.js=2C Express=2C Jade=2C and Mong=
+oDB=E2=80=99=2C it=E2=80=99s an extensive step-by-step tutorial. As seen i=
+n Node Weekly issue #3.
+
+# The Beginner's Guide to three.js
+http://blog.teamtreehouse.com/the-beginners-guide-to-three-js
+
+A step by step guide to using three.js to create a 3D logo backed by WebGL=
+=2E
+
+# Promise Patterns
+http://modernjavascript.blogspot.com/2013/09/promise-patterns.html
+
+Promises can make it easier to implement common asynchronous patterns with=
+ callbacks. Rhys shows off some uses.
+
+# Five Helpful Tips When Using RequireJS
+http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs
+
+RequireJS=2C a =E2=80=9CJavaScript file and module loader=E2=80=9D=2C is a=
+ powerful way to organize=2C manage=2C build and load JavaScript in your a=
+pp=2C and here Jim Cowart shares five tips he really wished he=E2=80=99d k=
+nown sooner rather than later about using it.
+
+# Creating Custom Filters in jQuery
+http://flippinawesome.org/2013/09/09/creating-custom-filters-in-jquery/
+
+Aurelio De Rosa shows the new and old ways of creating and using custom fi=
+lters for DOM elements in jQuery.
+
+# Using Node.js and WebSockets to Build a Chat Service
+http://net.tutsplus.com/tutorials/javascript-ajax/using-node-js-and-websoc=
+kets-to-build-a-chat-service/
+
+# Getting to Know Mutation Observers
+http://dev.opera.com/articles/view/mutation-observers-tutorial/
+
+Sometimes you may need to know when the DOM node tree has changed or if a=
+ view has been loaded or unloaded. Mutation observers allow you to do this=
+ asynchronously=2C are defined by the DOM Level 4 spec=2C and are availabl=
+e in the latest versions of Opera=2C Chrome and Firefox.
+
+# A Cleaner Backbone Mixin Strategy
+http://kevindew.me/post/60797105836/a-cleaner-backbone-mixin-strategy
+
+# Retro Game Music using Web Audio and Band.js
+http://flippinawesome.org/2013/09/09/retro-game-music-using-web-audio-and-=
+band-js/
+
+Brian Rinaldi shows how the Band.js library creates 8-bit game music using=
+ JavaScript and the Web Audio API by recreating music from Zelda.
+
+# Mocking Server Dependencies in JavaScript and AngularJS
+http://flippinawesome.org/2013/09/09/mocking-server-dependencies-in-javasc=
+ript-and-angularjs/
+
+Cliff Meyers walks through how to mock server side dependencies to simplif=
+y local development of SPA=E2=80=99s through a sample application.
+
+# Auto-Ignoring Library Code While Debugging in Chrome
+http://www.divshot.com/blog/tips-and-tricks/ignoring-library-code-while-de=
+bugging-in-chrome/
+
+
+--- Code=2C Libraries and Tools ---
+
+# Hapi: A Server Framework for Node.js
+http://spumko.github.io/
+
+A rich framework for building web applications and services. hapi is a sim=
+ple to use configuration-centric framework with built-in support for input=
+ validation=2C caching=2C authentication=2C and other essential facilities=
+=2E
+
+# CLNDR.js: A Better jQuery Calendar Plugin
+http://kylestetz.github.io/CLNDR/
+
+# Falcon.js: Structure for Knockout.js
+http://stoodder.github.io/falconjs/
+
+Falcon.js adds structure to knockout.js by incorporating models=2C collect=
+ions=2C and views=2C to make developing single page apps a breeze. Extensi=
+ve documentation.
+
+# Formbuilder.js: An Interface for Users to Build Forms
+http://dobtco.github.io/formbuilder/
+
+A graphical interface for letting users build their own webforms. Think Wu=
+foo or Google Forms=2C but as a component that can be integrated into your=
+ application. It returns a structured JSON representation of your form to=
+ use as you wish.
+
+# FilmRoll: A jQuery Carousel
+http://straydogstudio.github.io/film_roll/
+
+A lightweight carousel that focuses on one item=2C centering it in the vie=
+w. There are so many of these but this one is quite slick.
+
+# New Adobe Generator for Photoshop CC uses Node.js for Scripting
+http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator=
+-for-photoshop-cc.html
+
+# Advanced jQuery Boilerplate: jQuery Plugin to Create Scalable jQuery Plu=
+gins=2C Fast
+https://github.com/elclanrs/advanced-jquery-boilerplate
+
+# MurmurHash3.js: A JS Implementation of MurmurHash3's Hashing Algorithms
+https://github.com/karanlyons/murmurHash3.js
+
+# favico.js: Make A Use of Your Favicon with Badges=2C Images or Videos
+http://lab.ejci.net/favico.js/
+
+
+--- Jobs ---
+
+# Sr. JavaScript Engineer (San Francisco - SOMA)
+http://www.krux.com/pro/who_we_are/careers/javascript_guru/
+
+Want to solve some the world's hardest JavaScript problems using the lates=
+t technologies for a well funded Big Data company? Join a successful and t=
+alented team that's experiencing extraordinary growth=2C and help us pave=
+ the road to the future in Big Data.
+
+# A well-funded startup with a seasoned team needs you
+http://www.jobscore.com/jobs/orchestrate/front-end-engineer/c9z_0ag2qr46YD=
+iGakhP3Q
+
+Go ahead=2C click the link=2C it could change everything.
+
+# Post a job in a future issue of JavaScript Weekly
+https://cooperpress.com/jobs
+
+
+--- Last but not least.. ---
+
+# Join Hack Reactor's Elite S.F. Programming Bootcamp
+http://hackreactor.com/?utm_source=3Djsweekly&utm_medium=3Demail&utm_term=
+=3Dsept&utm_content=3Djsweekly&utm_campaign=3Djsweekly
+
+Hack Reactor has developed a CS degree for the 21st century. We=E2=80=99ve=
+ achieved a 98% hiring rate and 110k average starting salaries for our stu=
+dents=2C as well as coverage in Wired and TechCrunch magazine.
+
+# Espruino: JavaScript for Things
+http://www.kickstarter.com/projects/48651611/espruino-javascript-for-thing=
+s
+
+Espruino is a small computer that anyone can use to control things around=
+ them. Its JavaScript interpreter gives you instant feedback so that you c=
+an experiment and develop whatever your level of experience. It=E2=80=99s=
+ currently doing very well on Kickstarter and has passed its funding goal.
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D2adc280365
+
+Our mailing address is: Office 30=2C Lincoln Way=2C Fairfield Enterprise C=
+entre=2C Louth=2C Lincs=2C UK=2C LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_869058330
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" /=
+>
+<meta name=3D"viewport" content=3D"width=3D400=2C initial-scale=3D1.0" />
+    <title>JavaScript Weekly Issue 147 - September 13=2C 2013</title>
+    <style type=3D"text/css">
+        body {
+            -webkit-text-size-adjust:none;
+            -ms-text-size-adjust:none;
+            margin:0; padding:0;
+            font-family: 'helvetica neue'=2C helvetica=2C arial=2C sans-se=
+rif;
+        }
+        .ExternalClass=2C .ExternalClass p=2C .ExternalClass span=2C .Exte=
+rnalClass font=2C .ExternalClass td=2C .ExternalClass div {line-height: 10=
+0%;}
+        table {border-spacing:0;}
+        table td {border-collapse:collapse;}
+        @media screen and (max-width: 600px) {
+            table[class=3D"container"] {
+                width: 98% !important;
+            }
+            .aright=2C .aright TD {
+                text-align: left !important;
+                float: none;
+            }
+            td[class=3D'block'] { display: block !important; float: none=
+ !important; text-align: left; width: auto; }
+            .aright {
+               padding-top: 8px;
+            }
+            .p14 { padding-left: 0px !important; padding-right: 0px !impor=
+tant; margin-left: 0px !important; margin-right: 0px !important;  }
+            .iimg { display: none; }
+        }
+    </style>
+</head>
+<body style=3D"margin:0; padding:0px;" bgcolor=3D"#ffffff" leftmargin=3D"0=
+" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0">
+<table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bgc=
+olor=3D"#ffffff" style=3D"margin-top: 10px">
+  <tr>
+    <td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" style=3D"backg=
+round-color: #ffffff;">
+      <table border=3D"0" width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"container" style=3D"border-collapse: collapse;">
+        <tr>
+            <td style=3D"padding-top: 6px; padding-bottom: 6px; " class=3D=
+"noarchive">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" class=3D"block" style=3D"font-f=
+amily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px">
+                            O'Reilly Fluent 2014 CFP=2C Eloquent JavaScrip=
+t crowdfunding
+                        </td>
+                        <td align=3D"right" class=3D"block" style=3D"font-=
+family: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px">
+                            <a href=3D"http://javascriptweekly.us1.list-ma=
+nage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De5122f7140&e=3D=
+b4af456f64" style=3D"color: #009999">Read this issue on the Web</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+      <table border=3D"0" width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"container" style=3D"border-collapse: collapse;">
+        <tr>
+            <td style=3D"padding: 12px; padding-left: 12px; color: #ffffff=
+; padding-right: 12px" bgcolor=3D"#00aaac">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" class=3D"block">
+                            <strong style=3D"font-family: 'helvetica neue'=
+=2C helvetica=2C arial=2C sans-serif; font-size: 29px; font-weight: 500; c=
+olor: #ffffff; letter-spacing: 0px;">JavaScript Weekly</strong>
+                        </td>
+                        <td align=3D"right" class=3D"block" style=3D"font-=
+family: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 13px; line=
+-height: 20px; color: #ffffff">
+                            <strong style=3D"font-size: 14px">Issue 147</s=
+trong><br>September 13=2C 2013
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+       <tr>
+          <td class=3D"container-padding" bgcolor=3D"#ffffff" style=3D"bac=
+kground-color: #ffffff; padding-left: 12px; padding-right: 12px; padding-b=
+ottom: 12px; font-size: 14px; line-height: 20px; font-family: Helvetica=2C=
+ arial=2C sans-serif; color: #333;" align=3D"left">
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">Featured</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D92e4bf8c1c&e=3D=
+b4af456f64" title=3D"fluentconf.com/fluent2014/public/cfp/286" style=3D"co=
+lor: #00d; text-decoration: underline; ">The O'Reilly Fluent Conference 20=
+14 Call for Proposals Is Open</a> <span style=3D"font-size: 13px; line-hei=
+ght: 18px"><span style=3D"color: #999999">&#8212;</span>
+We=E2=80=99re back in San Francisco in March 2014 with the third Fluent=2C=
+ a conference dedicated to the Web Platform=2C JavaScript=2C and related t=
+echnologies. With almost 1200 attendees this year=2C Fluent is one of the=
+ leading events in the space and the CFP ends on September 30. Come and su=
+bmit a talk or workshop.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">O'Reilly Media</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db35db86b3c&e=3D=
+b4af456f64" title=3D"eloquentjavascript.net/2nd_edition/" style=3D"color:=
+ #00d; text-decoration: underline; ">A Crowd-Funded Reboot for Eloquent Ja=
+vaScript</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"color: #333; font-size: 13px; lin=
+e-height: 18px; padding: 1px 14px 0px 14px" class=3D"p14">
+Eloquent JavaScript by Marijn Haverbeke is both one of the most popular fr=
+ee JavaScript tutorials <em>and</em> JavaScript books and Marijn now wants=
+ to produce a newly written second edition and invites everyone to chip in=
+ on certain areas of its development.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Marijn Haverbeke</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td valign=3D"top" align=3D"right" style=3D"padding-r=
+ight: 14px; padding-top: 14px;" class=3D"p14">
+                    <a href=3D"http://javascriptweekly.us1.list-manage1.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D05ce23d349&e=3D=
+b4af456f64" class=3D"iimg"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/im=
+age/14658/125.png" alt=3D"" width=3D"125" height=3D"125" style=3D"border-c=
+olor: #00bbbb" border=3D"1"></a>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">From our Sponsor</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2f0088a80c&e=3D=
+b4af456f64" title=3D"bdconf.com/html5" style=3D"color: #00d; text-decorati=
+on: underline; ">Your mobile website shouldn't look like an 8th grade HTML=
+5 project.</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"color: #333; font-size: 13px; lin=
+e-height: 18px; padding: 1px 14px 0px 14px" class=3D"p14">
+Send your developers &amp; designers to BDConf for 2 days of education=2C=
+ inspiration and peer networking as it relates to mobile website strategy=
+=2C code=2C UI/UX &amp; design. 8th graders can make sites for your compet=
+itor. You=E2=80=99re better than that. Code BNACMA2 saves $100 on registra=
+tion.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Breaking Development Conference</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td valign=3D"top" align=3D"right" style=3D"padding-r=
+ight: 14px; padding-top: 14px;" class=3D"p14">
+                    <a href=3D"http://javascriptweekly.us1.list-manage.com=
+/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D37d0696df4&e=3Db4af456f64=
+" class=3D"iimg"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/ima=
+ge/13080/125.jpg" alt=3D"" width=3D"125" height=3D"125" style=3D"border-co=
+lor: #00bbbb" border=3D"1"></a>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">Reading</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8c3312b537&e=3D=
+b4af456f64" title=3D"www.nczonline.net/blog/2013/09/10/understanding-ecmas=
+cript-6-arrow-functions/" style=3D"color: #00d; text-decoration: underline=
+; ">Understanding ECMAScript 6 Arrow Functions</a> <span style=3D"font-siz=
+e: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+One of the most interesting new parts of ECMAScript 6 are 'arrow' function=
+s. Luckily we have Nicholas C Zakas here to give us a run through of how t=
+hey work and how to use them.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Nicholas C Zakas</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6bba4549de&e=3D=
+b4af456f64" title=3D"www.ng-newsletter.com/posts/d3-on-angular.html" style=
+=3D"color: #00d; text-decoration: underline; ">D3 on AngularJS</a> <span s=
+tyle=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #999999"=
+>&#8212;</span>
+D3 is a popular library for manipulating and rendering document-based data=
+ through HTML=2C SVG=2C and CSS=2C but combining D3 and Angular can be tri=
+cky. This post shares a variety of approaches.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">ng-newsletter</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1dc038421d&e=3D=
+b4af456f64" title=3D"www.2ality.com/2013/09/data-in-prototypes.html" style=
+=3D"color: #00d; text-decoration: underline; ">Anti-Pattern: Putting Data=
+ in Prototype Properties</a> <span style=3D"font-size: 13px; line-height:=
+ 18px"><span style=3D"color: #999999">&#8212;</span>
+Axel explains why it may seem like a good idea to put data in prototype pr=
+operties but actually isn=E2=80=99t.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Axel Rauschmayer</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da9235232f2&e=3D=
+b4af456f64" title=3D"gist.github.com/neildahlke/6509891" style=3D"color: #=
+00d; text-decoration: underline; ">Rough Notes on the jQuery Conference Au=
+stin Talks</a> <span style=3D"font-size: 13px; line-height: 18px"><span st=
+yle=3D"color: #999999">&#8212;</span>
+jQuery Conference Austin was on earlier this week and Neil Dahlke has take=
+n some basic notes from each session.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Neil Dahlke</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D35990f301b&e=3D=
+b4af456f64" title=3D"cwbuecheler.com/web/tutorials/2013/node-express-mongo=
+/" style=3D"color: #00d; text-decoration: underline; ">Getting Started Wit=
+h Node.js=2C Express=2C MongoDB</a> <span style=3D"font-size: 13px; line-h=
+eight: 18px"><span style=3D"color: #999999">&#8212;</span>
+Billed as <em>=E2=80=98the dead-simple step-by-step guide for front-end de=
+velopers to getting up and running with Node.js=2C Express=2C Jade=2C and=
+ MongoDB=E2=80=99</em>=2C it=E2=80=99s an extensive step-by-step tutorial.=
+ <em>As seen in <a href=3D"http://javascriptweekly.us1.list-manage2.com/tr=
+ack/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8e5aca3a9c&e=3Db4af456f64">N=
+ode Weekly issue #3.</a></em>
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Christopher Buecheler</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2fb7dbe58c&e=3D=
+b4af456f64" title=3D"blog.teamtreehouse.com/the-beginners-guide-to-three-=
+js" style=3D"color: #00d; text-decoration: underline; ">The Beginner's Gui=
+de to three.js</a> <span style=3D"font-size: 13px; line-height: 18px"><spa=
+n style=3D"color: #999999">&#8212;</span>
+A step by step guide to using three.js to create a 3D logo backed by WebGL=
+=2E
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Treehouse Blog</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc1f0620d2d&e=3D=
+b4af456f64" title=3D"modernjavascript.blogspot.com/2013/09/promise-patter=
+ns.html" style=3D"color: #00d; text-decoration: underline; ">Promise Patte=
+rns</a> <span style=3D"font-size: 13px; line-height: 18px"><span style=3D"=
+color: #999999">&#8212;</span>
+Promises can make it easier to implement common asynchronous patterns with=
+ callbacks. Rhys shows off some uses.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Rhys Brett-Bowen</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1638d195ed&e=3D=
+b4af456f64" title=3D"tech.pro/blog/1561/five-helpful-tips-when-using-requ=
+irejs" style=3D"color: #00d; text-decoration: underline; ">Five Helpful Ti=
+ps When Using RequireJS</a> <span style=3D"font-size: 13px; line-height: 1=
+8px"><span style=3D"color: #999999">&#8212;</span>
+RequireJS=2C a =E2=80=9CJavaScript file and module loader=E2=80=9D=2C is a=
+ powerful way to organize=2C manage=2C build and load JavaScript in your a=
+pp=2C and here Jim Cowart shares five tips he really wished he=E2=80=99d k=
+nown sooner rather than later about using it.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Tech.pro</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dea67aa864a&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/09/09/creating-custom-filters=
+-in-jquery/" style=3D"color: #00d; text-decoration: underline; ">Creating=
+ Custom Filters in jQuery</a> <span style=3D"font-size: 13px; line-height:=
+ 18px"><span style=3D"color: #999999">&#8212;</span>
+Aurelio De Rosa shows the new and old ways of creating and using custom fi=
+lters for DOM elements in jQuery.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Flippin' Awesome</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9e5427b1aa&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/tutorials/javascript-ajax/using-node=
+-js-and-websockets-to-build-a-chat-service/" style=3D"color: #00d; text-de=
+coration: underline; ">Using Node.js and WebSockets to Build a Chat Servic=
+e</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Nettuts+</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D20c3cd37cb&e=3D=
+b4af456f64" title=3D"dev.opera.com/articles/view/mutation-observers-tutor=
+ial/" style=3D"color: #00d; text-decoration: underline; ">Getting to Know=
+ Mutation Observers</a> <span style=3D"font-size: 13px; line-height: 18px"=
+><span style=3D"color: #999999">&#8212;</span>
+Sometimes you may need to know when the DOM node tree has changed or if a=
+ view has been loaded or unloaded. Mutation observers allow you to do this=
+ asynchronously=2C are defined by the DOM Level 4 spec=2C and are availabl=
+e in the latest versions of Opera=2C Chrome and Firefox.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Dev.Opera</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D25152a6a04&e=3D=
+b4af456f64" title=3D"kevindew.me/post/60797105836/a-cleaner-backbone-mixin=
+-strategy" style=3D"color: #00d; text-decoration: underline; ">A Cleaner B=
+ackbone Mixin Strategy</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">El Kev</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Daf11a76b8a&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/09/09/retro-game-music-using-=
+web-audio-and-band-js/?" style=3D"color: #00d; text-decoration: underline;=
+ ">Retro Game Music using Web Audio and Band.js</a> <span style=3D"font-si=
+ze: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212;</span>
+Brian Rinaldi shows how the Band.js library creates 8-bit game music using=
+ JavaScript and the Web Audio API by recreating music from Zelda.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Flippin' Awesome</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da5722b133f&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/09/09/mocking-server-dependen=
+cies-in-javascript-and-angularjs/?" style=3D"color: #00d; text-decoration:=
+ underline; ">Mocking Server Dependencies in JavaScript and AngularJS</a>=
+ <span style=3D"font-size: 13px; line-height: 18px"><span style=3D"color:=
+ #999999">&#8212;</span>
+Cliff Meyers walks through how to mock server side dependencies to simplif=
+y local development of SPA=E2=80=99s through a sample application.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Flippin' Awesome</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De6a011bae4&e=3D=
+b4af456f64" title=3D"www.divshot.com/blog/tips-and-tricks/ignoring-library=
+-code-while-debugging-in-chrome/" style=3D"color: #00d; text-decoration: u=
+nderline; ">Auto-Ignoring Library Code While Debugging in Chrome</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Divshot</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">Code=2C Libraries and Tools</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Deb27d752eb&e=3D=
+b4af456f64" title=3D"spumko.github.io/" style=3D"color: #00d; text-decora=
+tion: underline; ">Hapi: A Server Framework for Node.js</a> <span style=3D=
+"font-size: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212=
+;</span>
+A rich framework for building web applications and services. hapi is a sim=
+ple to use configuration-centric framework with built-in support for input=
+ validation=2C caching=2C authentication=2C and other essential facilities=
+=2E
+</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D21d5494429&e=3D=
+b4af456f64" title=3D"kylestetz.github.io/CLNDR/" style=3D"color: #00d; tex=
+t-decoration: underline; ">CLNDR.js: A Better jQuery Calendar Plugin</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ded99f3cf86&e=3D=
+b4af456f64" title=3D"stoodder.github.io/falconjs/" style=3D"color: #00d;=
+ text-decoration: underline; ">Falcon.js: Structure for Knockout.js</a> <s=
+pan style=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #99=
+9999">&#8212;</span>
+Falcon.js adds structure to knockout.js by incorporating models=2C collect=
+ions=2C and views=2C to make developing single page apps a breeze. Extensi=
+ve documentation.
+</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D797891579d&e=3D=
+b4af456f64" title=3D"dobtco.github.io/formbuilder/" style=3D"color: #00d;=
+ text-decoration: underline; ">Formbuilder.js: An Interface for Users to B=
+uild Forms </a> <span style=3D"font-size: 13px; line-height: 18px"><span s=
+tyle=3D"color: #999999">&#8212;</span>
+A graphical interface for letting users build their own webforms. Think Wu=
+foo or Google Forms=2C but as a component that can be integrated into your=
+ application. It returns a structured JSON representation of your form to=
+ use as you wish.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Department of Better Technology</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D89363fec40&e=3D=
+b4af456f64" title=3D"straydogstudio.github.io/film_roll/" style=3D"color:=
+ #00d; text-decoration: underline; ">FilmRoll: A jQuery Carousel</a> <span=
+ style=3D"font-size: 13px; line-height: 18px"><span style=3D"color: #99999=
+9">&#8212;</span>
+A lightweight carousel that focuses on one item=2C centering it in the vie=
+w. There are so many of these but this one is quite slick.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">StrayDogStudio</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df409d3a4c2&e=3D=
+b4af456f64" title=3D"blogs.adobe.com/photoshopdotcom/2013/09/introducing-a=
+dobe-generator-for-photoshop-cc.html" style=3D"color: #00d; text-decoratio=
+n: underline; ">New Adobe Generator for Photoshop CC uses Node.js for Scri=
+pting</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Adobe Photoshop Blog</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc292179934&e=3D=
+b4af456f64" title=3D"github.com/elclanrs/advanced-jquery-boilerplate" sty=
+le=3D"color: #00d; text-decoration: underline; ">Advanced jQuery Boilerpla=
+te: jQuery Plugin to Create Scalable jQuery Plugins=2C Fast</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D65ed62673d&e=3D=
+b4af456f64" title=3D"github.com/karanlyons/murmurHash3.js" style=3D"color=
+: #00d; text-decoration: underline; ">MurmurHash3.js: A JS Implementation=
+ of MurmurHash3's Hashing Algorithms</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dff32d80178&e=3D=
+b4af456f64" title=3D"lab.ejci.net/favico.js/" style=3D"color: #00d; text-d=
+ecoration: underline; ">favico.js: Make A Use of Your Favicon with Badges=
+=2C Images or Videos</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Miroslav Magda</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">Jobs</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De08fe6e439&e=3D=
+b4af456f64" title=3D"www.krux.com/pro/who_we_are/careers/javascript_guru/"=
+ style=3D"color: #00d; text-decoration: underline; ">Sr. JavaScript Engine=
+er (San Francisco - SOMA)</a> <span style=3D"font-size: 13px; line-height:=
+ 18px"><span style=3D"color: #999999">&#8212;</span> Want to solve some th=
+e world's hardest JavaScript problems using the latest technologies for a=
+ well funded Big Data company? Join a successful and talented team that's=
+ experiencing extraordinary growth=2C and help us pave the road to the fut=
+ure in Big Data.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Krux</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D50719cbe51&e=3D=
+b4af456f64" title=3D"www.jobscore.com/jobs/orchestrate/front-end-engineer=
+/c9z_0ag2qr46YDiGakhP3Q" style=3D"color: #00d; text-decoration: underline;=
+ ">A well-funded startup with a seasoned team needs you</a> <span style=3D=
+"font-size: 13px; line-height: 18px"><span style=3D"color: #999999">&#8212=
+;</span> Go ahead=2C click the link=2C it could change everything.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Orchestrate</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df38ec7115f&e=3D=
+b4af456f64" title=3D"cooperpress.com/jobs" style=3D"color: #00d; text-deco=
+ration: underline; ">Post a job in a future issue of JavaScript Weekly</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09 <div style=3D"font-weight: bold; font-size: 18px; line-height=
+: 24px; color: #00aaac; border-bottom: 2px solid #00aaac; margin-top: 18px=
+; ;">Last but not least..</div>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D34f80f1478&e=3D=
+b4af456f64" title=3D"hackreactor.com/?utm_source=3Djsweekly&utm_medium=3D=
+email&utm_term=3Dsept&utm_content=3Djsweekly&utm_campaign=3Djsweekly" styl=
+e=3D"color: #00d; text-decoration: underline; ">Join Hack Reactor's Elite=
+ S.F. Programming Bootcamp</a> <span style=3D"font-size: 13px; line-height=
+: 18px"><span style=3D"color: #999999">&#8212;</span>
+Hack Reactor has developed a CS degree for the 21st century. We=E2=80=99ve=
+ achieved a 98% hiring rate and 110k average starting salaries for our stu=
+dents=2C as well as coverage in Wired and TechCrunch magazine.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Hack Reactor <span style=3D"font-weight: bold; color: #00aaac"=
+>(Sponsored Item)</span></em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=
+=3D"">
+                <tr><td style=3D"font-family: Helvetica=2C arial=2C sans-s=
+erif; " valign=3D"top">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">
+                        <tr>
+                            <td style=3D"font-family: Helvetica=2C arial=
+=2C sans-serif; font-size: 15px; line-height: 22px; padding: 14px 14px 0px=
+ 14px" class=3D"p14">
+                              <a href=3D"http://javascriptweekly.us1.list-=
+manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7a2a9b39cf&e=3D=
+b4af456f64" title=3D"www.kickstarter.com/projects/48651611/espruino-javas=
+cript-for-things" style=3D"color: #00d; text-decoration: underline; ">Espr=
+uino: JavaScript for Things</a> <span style=3D"font-size: 13px; line-heigh=
+t: 18px"><span style=3D"color: #999999">&#8212;</span>
+Espruino is a small computer that anyone can use to control things around=
+ them. Its JavaScript interpreter gives you instant feedback so that you c=
+an experiment and develop whatever your level of experience. It=E2=80=99s=
+ currently doing very well on Kickstarter and has passed its funding goal.
+</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"font-size: 12px; line-height: 16p=
+x; padding: 1px 14px 0px 14px" class=3D"p14">
+                              <em style=3D"color: #009999; text-transform:=
+ uppercase">Kickstarter</em>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+            <td bgcolor=3D"#ffffff" style=3D"padding-top: 12px; padding-le=
+ft: 12px; padding-right: 12px; padding-bottom: 12px" class=3D"noarchive">
+                <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"left">
+                    <tr>
+                        <td align=3D"left" width=3D"70%" style=3D"font-fam=
+ily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px; padding=
+-right: 10px; line-height: 14px" class=3D"block" valign=3D"top">
+                            Published by <a href=3D"http://javascriptweekl=
+y.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9176=
+3c143e&e=3Db4af456f64" style=3D"color: #009999">Cooper Press</a>.<br>Want=
+ to sponsor an issue? See our <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5b3b2ce48a&e=3D=
+b4af456f64" style=3D"color: #666666">media kit.</a><br><br>
+&copy; 2013 Cooper Press Ltd. <a href=3D"http://javascriptweekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D624c2013d5&e=3D=
+b4af456f64" style=3D"color: #666666">Email policy</a> <a href=3D"http://ja=
+vascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313c=
+eb2&id=3Dfe2542727a&e=3Db4af456f64" style=3D"color: #666666">Privacy poli=
+cy</a><br>Office 30=2C Fairfield Enterprise Centre=2C Louth=2C LN11 0LS=2C=
+ UK
+                        </td>
+                        <td align=3D"right" width=3D"30%" style=3D"font-fa=
+mily: verdana=2C helvetica=2C arial=2C sans-serif; font-size: 11px; line-h=
+eight: 18px" class=3D"block" valign=3D"top">
+                            <a href=3D"http://javascriptweekly.us1.list-ma=
+nage2.com/profile?u=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3D=
+b4af456f64" style=3D"color: #009999; font-weight: normal; text-decoration: underli=
+ne">Update your email address</a><br>or <a href=3D"http://javascriptweekly=
+=2Eus1.list-manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf=
+37c5&e=3Db4af456f64&c=3D2adc280365" style=3D"color: #009999; font-weight: bo=
+ld; text-decoration: underline">unsubscribe here</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D2adc280365&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body>
+</html>
+--_----------=_MCPart_869058330--

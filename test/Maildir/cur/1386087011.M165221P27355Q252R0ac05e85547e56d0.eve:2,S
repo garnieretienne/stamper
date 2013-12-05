@@ -1,0 +1,1392 @@
+Return-Path:
+  <bounce-mc.us1_1832689.2557033-webmail.testing.dev=gmail.com@mail50.us1.rsgsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.23.70 with SMTP id k6csp88299obf;
+        Fri, 18 Jan 2013 08:43:53 -0800 (PST)
+X-Received: by 10.236.176.41 with SMTP id a29mr10578333yhm.17.1358527433033;
+        Fri, 18 Jan 2013 08:43:53 -0800 (PST)
+Received: from mail50.us1.rsgsv.net (mail50.us1.rsgsv.net. [69.20.90.50])
+        by mx.google.com with ESMTP id y25si5852657yhk.153.2013.01.18.08.43.52;
+        Fri, 18 Jan 2013 08:43:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_1832689.2557033-webmail.testing.dev=gmail.com@mail50.us1.rsgsv.net designates 69.20.90.50 as permitted sender) client-ip=69.20.90.50;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_1832689.2557033-webmail.testing.dev=gmail.com@mail50.us1.rsgsv.net designates 69.20.90.50 as permitted sender) smtp.mail=bounce-mc.us1_1832689.2557033-webmail.testing.dev=gmail.com@mail50.us1.rsgsv.net;
+       dkim=pass header.i=kale=3Dhackernewsletter.com@mail50.us1.rsgsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail50.us1.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=kale=3Dhackernewsletter.com@mail50.us1.rsgsv.net;
+ bh=8i+GSHf5BQLf4RGY1QNfT2RTDso=;
+ b=uELuFOKyGPEhvg7yf7kk4a4vglHn63U333I8GPj5uu/poneb0kjRof7F/J29Q3yChc8OQoUHD9mM
+   NuKPa/nfn+EEREWQ/hfHe9lDL2MOgPaRAeVKitkZzYpI/cM4c0d1x2mXEo9+ruCu2zqjbhjA2Ai0
+   Ib4Rvq3XAtdbPdzkbjM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail50.us1.rsgsv.net;
+ b=zoC3UphJDB1mf2wr29at8ZJxgaPPGMYy9O1ksWIoZDXx+QM3gRlrUYFR+lY71rAujoI0WqE/t3k5
+   hZ5ZHHXOw8/3Ho3bcP/iA5bYWFeJqfdTz/fx7iWitWUsyfGmmgj65WFbQpGhAB4mTXkgdGnjl/25
+   8Ok0Z80XbBAN08o3S/c=;
+Received: from (127.0.0.1) by mail50.us1.rsgsv.net (PowerMTA(TM) v3.5r16) id hv5tsg0lj3gf for <webmail.testing.dev@gmail.com>; Fri, 18 Jan 2013 16:39:43 +0000 (envelope-from <bounce-mc.us1_1832689.2557033-webmail.testing.dev=gmail.com@mail50.us1.rsgsv.net>)
+Subject: =?utf-8?Q?Hacker=20Newsletter=20=2D=20Issue=20#132?=
+From: =?utf-8?Q?Kale=20Davis?= <kale@hackernewsletter.com>
+Reply-To: =?utf-8?Q?Kale=20Davis?= <kale@hackernewsletter.com>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 18 Jan 2013 16:39:43 +0000
+Message-ID: <faa8eb4ef3a111cef92c4f3d4ef6ba7199a.20130118162427@mail50.us1.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID3708ff07fbef6ba7199a**
+X-Campaign: mailchimpfaa8eb4ef3a111cef92c4f3d4.3708ff07fb
+X-campaignid: mailchimpfaa8eb4ef3a111cef92c4f3d4.3708ff07fb
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=faa8eb4ef3a111cef92c4f3d4&id=3708ff07fb&e=ef6ba7199a
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-faa8eb4ef3a111cef92c4f3d4-3708ff07fb-ef6ba7199a@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://hackernewsletter.us1.list-manage.com/unsubscribe?u=faa8eb4ef3a111cef92c4f3d4&id=e505c88a2e&e=ef6ba7199a&c=3708ff07fb>
+Sender: "Kale Davis" <kale=hackernewsletter.com@mail50.us1.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1842258646"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1842258646
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+HACKER NEWSLETTER
+Issue #132 - January 18, 2013
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Rather view it in your browser?
+http://us1.campaign-archive2.com/?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D3708f=
+f07fb&e=3Def6ba7199a
+
+
+There are a thousand hacking at the branches of evil to one who is strikin=
+g at the root. -Henry David Thoreau
+
+---
+
+Hello.
+
+A bit late this morning as I'm recovering from a 1100 mile road-trip throu=
+gh lots of snow and rain.
+
+-Kale
+=3D=3D=3D
+Complimentary Downloads - http://launchbit.com/taz/163-2693-ef6ba7199a
+
+7 Days of Complimentary Downloads: 50,000+ Motion Backgrounds, Video Clips, Production Music Tracks, Sound Effects, Special Effects and More.<br />(<a href=3D"http://launchbit.com/sp/6-163/">Sponsor this newsletter</a>)
+=3D=3D=3D
+Featured
+--------
+  Reddit cofounder Aaron Swartz commits suicide
+  http://tech.mit.edu/V132/N61/swartz.html
+  Comments: http://news.ycombinator.com/item?id=3D5046845
+
+  Prosecutor as bully
+  http://lessig.tumblr.com/post/40347463044/prosecutor-as-bully
+  Comments: http://news.ycombinator.com/item?id=3D5048301
+
+  Official Statement from the family and partner of Aaron Swartz
+  http://rememberaaronsw.tumblr.com/post/40372208044/official-statement-fr=
+om-the-family-and-partner-of-aaron
+  Comments: http://news.ycombinator.com/item?id=3D5049225
+
+  If I get hit by a truck...
+  http://www.aaronsw.com/2002/continuity
+  Comments: http://news.ycombinator.com/item?id=3D5048085
+
+  I conceal my identity the same way Aaron was indicted for
+  http://erratasec.blogspot.com/2013/01/i-conceal-my-identity-same-way-aar=
+on.html
+  Comments: http://news.ycombinator.com/item?id=3D5066915
+
+
+
+Selected Articles
+-----------------
+  I want the world to scroll this way.
+  http://www.magicscroll.net/ScrollTheWeb.html
+  Comments: http://news.ycombinator.com/item?id=3D5043388
+
+  A Beautifully Designed Guide to Advanced HTML/CSS
+  http://learn.shayhowe.com/advanced-html-css/
+  Comments: http://news.ycombinator.com/item?id=3D5054716
+
+  What I wish I knew before moving to San Francisco
+  http://jasonevanish.com/2013/01/17/25-things-i-wish-i-knew-before-moving=
+-to-san-francisco/
+  Comments: http://news.ycombinator.com/item?id=3D5073439
+
+  Introducing Graph Search
+  https://www.facebook.com/about/graphsearch
+  Comments: http://news.ycombinator.com/item?id=3D5061888
+
+  US employee 'outsourced job to China'
+  http://www.bbc.co.uk/news/technology-21043693
+  Comments: http://news.ycombinator.com/item?id=3D5066813
+
+  iOS Development Tips If You're Just starting Out
+  http://stuartkhall.com/posts/ios-development-tips-i-would-want-if-i-was-=
+starting-out-today
+  Comments: http://news.ycombinator.com/item?id=3D5065089
+
+  Pinboard Co-Prosperity Winners
+  http://blog.pinboard.in/2013/01/pinboard_co_prosperity_winners/
+  Comments: http://news.ycombinator.com/item?id=3D5056635
+
+  Akin's Laws of Spacecraft Design
+  http://spacecraft.ssl.umd.edu/old_site/academics/akins_laws.html
+  Comments: http://news.ycombinator.com/item?id=3D5057507
+
+  'We thought we'd sell 1,000': The inside story of the Raspberry Pi
+  http://www.zdnet.com/we-thought-wed-sell-1000-the-inside-story-of-the-ra=
+spberry-pi-7000009718/
+  Comments: http://news.ycombinator.com/item?id=3D5074334
+
+  Message in a Binary Bottle
+  http://cabel.me/2013/01/11/message-in-a-binary-bottle/
+  Comments: http://news.ycombinator.com/item?id=3D5045694
+
+
+
+New Startups
+------------
+  Introducing HelloSign for Gmail (YCw11)
+  https://www.hellosign.com/gmail
+  Comments: http://news.ycombinator.com/item?id=3D5067676
+
+  Squash
+  http://squash.io/
+  Comments: http://news.ycombinator.com/item?id=3D5066728
+
+  Branch
+  http://branch.com/
+  Comments: http://news.ycombinator.com/item?id=3D5055672
+
+  WikiCancel - A Subscription, Contract, and Account Cancellation Guide
+  http://wikicancel.org/index.php?title=3DMain_Page
+  Comments: http://news.ycombinator.com/item?id=3D5070857
+
+  Alias.sh: for finding, sharing and storing bash aliases
+  http://alias.sh/?hn
+  Comments: http://news.ycombinator.com/item?id=3D5053370
+
+  Show HN: Draft =E2=80=93 A Design Feedback Tool for Designers &amp; Smal=
+l Teams
+  https://www.draftapp.co
+  Comments: http://news.ycombinator.com/item?id=3D5066355
+
+
+
+Code
+----
+  My Top Sublime Text 2 Plugins
+  http://www.henriquebarroso.com/my-top-10sublime-2-plugins/
+  Comments: http://news.ycombinator.com/item?id=3D5069542
+
+  SSH client in Google Chrome : Secure Shell by Google
+  https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhom=
+pbnflcldabbghjo
+  Comments: http://news.ycombinator.com/item?id=3D5071477
+
+  JQuery 1.9 has been released
+  http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migra=
+te-final-released/
+  Comments: http://news.ycombinator.com/item?id=3D5060835
+
+  An open source Linux client for Google Drive
+  https://github.com/Grive/grive
+  Comments: http://news.ycombinator.com/item?id=3D5074347
+
+  Gooo - The anti-magic Go lang web framework
+  https://github.com/aaronlifton/Gooo
+  Comments: http://news.ycombinator.com/item?id=3D5057108
+
+
+
+Design
+------
+  A Tech Company's Annual Report Done Beautifully
+  http://mailchimp.com/2012/
+  Comments: http://news.ycombinator.com/item?id=3D5060552
+
+  Hack Design - An easy to follow design course for programmers
+  http://hackdesign.org/
+  Comments: http://news.ycombinator.com/item?id=3D5045528
+
+  Dynamically generate HTML/CSS for forms, icons, buttons
+  http://livetools.uiparade.com/
+  Comments: http://news.ycombinator.com/item?id=3D5065811
+
+
+
+Books
+-----
+  Our Django Book is Launched
+  http://pydanny.com/our-django-book-is-launched.html
+  Comments: http://news.ycombinator.com/item?id=3D5074026
+
+  Aaron Swartz: The Book That Changed My Life
+  http://www.aaronsw.com/weblog/epiphany
+  Comments: http://news.ycombinator.com/item?id=3D5061916
+
+  5 Design Books Every Hacker Should Read
+  http://davidmckinney.com/blog/2013/1/15/the-best-5-design-books
+  Comments: http://news.ycombinator.com/item?id=3D5058583
+
+  Land Book - The best and most inspiring landing pages
+  http://www.land-book.com/
+  Comments: http://news.ycombinator.com/item?id=3D5067305
+
+
+
+Wikipedia
+---------
+  Jonathan James
+  http://en.wikipedia.org/wiki/Jonathan_James
+  Comments: http://news.ycombinator.com/item?id=3D5049881
+
+  The If-by-whiskey fallacy
+  http://en.wikipedia.org/wiki/If-by-whiskey
+  Comments: http://news.ycombinator.com/item?id=3D5066721
+
+  Emmy Noether
+  https://en.wikipedia.org/wiki/Emmy_noether
+  Comments: http://news.ycombinator.com/item?id=3D5059341
+
+
+
+Videos
+------
+  A Mysterious Patch Of Light Shows Up In The North Dakota Dark
+  http://www.npr.org/blogs/krulwich/2013/01/16/169511949/a-mysterious-patc=
+h-of-light-shows-up-in-the-north-dakota-dark
+  Comments: http://news.ycombinator.com/item?id=3D5072332
+
+  How Japanese Kids Learn To Multiply
+  http://www.magicalmaths.org/how-japanese-kids-learn-to-multiply/
+  Comments: http://news.ycombinator.com/item?id=3D5054618
+
+  I sent a balloon up to capture 360x180 degree imagery/video from ~100k f=
+t.
+  http://robotrising.org/2013/01/operation-stratosphere-conclusion/
+  Comments: http://news.ycombinator.com/item?id=3D5072469
+
+
+
+Job Threads
+-----------
+  What If Cars Were Rented Like We Hire Programmers?
+  http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-=
+we-hire-programmers.html
+  Comments: http://news.ycombinator.com/item?id=3D5068413
+
+  Becoming A Boss
+  http://www.avc.com/a_vc/2013/01/becoming-a-boss.html
+  Comments: http://news.ycombinator.com/item?id=3D5060867
+
+  Riddles have no place in job interviews
+  http://asserttrue.blogspot.com/2013/01/riddles-have-no-place-in-job-inte=
+rviews.html
+  Comments: http://news.ycombinator.com/item?id=3D5073928
+
+  Y Combinator Startups Job Board: http://news.ycombinator.com/jobs
+
+  UseTheSource Job Board: http://jobs.usethesource.com
+
+
+__END__
+
+
+Did I miss something? Click reply or let me know via Twitter:
+http://twitter.com/kale
+
+You opted in for Hacker Newsletter at http://www.hackernewsletter.com to g=
+et a weekly curated list of the best articles from the Hacker News site.
+
+Copyright 2013 Kale Davis
+PO BOX 605
+Scarborough, Maine 04070
+
+Hacker Newsletter is not affiliated with Y Combinator in anyway.
+
+Unsubscribe from this list: http://hackernewsletter.us1.list-manage.com/un=
+subscribe?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De505c88a2e&e=3Def6ba7199a&c=3D3=
+708ff07fb
+Udate subscription preferences: http://hackernewsletter.us1.list-manage1.c=
+om/profile?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De505c88a2e&e=3Def6ba7199a
+
+Email Marketing Powered by MailChimp
+http://www.mailchimp.com/monkey-rewards/?utm_source=3Dfreemium_newsletter&=
+utm_medium=3Demail&utm_campaign=3Dmonkey_rewards&aid=3Dfaa8eb4ef3a111cef92=
+c4f3d4&afl=3D1
+--_----------=_MCPart_1842258646
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+
+<!-- Facebook sharing information tags -->
+<meta property=3D"og:title" content=3D"Hacker Newsletter - Issue #132">
+
+<title>Hacker Newsletter - Issue #132</title>
+<style type=3D"text/css">
+  /* Client-specific Styles */
+  #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" b=
+utton. */
+  body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{wi=
+dth:100%;} /* Force Hotmail to display emails at full width */
+  body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from ch=
+anging default text sizes. */
+
+  /* Reset Styles */
+  body{margin:0; padding:0;}
+  img{border:0; height:auto; line-height:100%; outline:none; text-decorati=
+on:none;}
+  table td{border-collapse:collapse;}
+  #backgroundTable{height:100% !important; margin:0; padding:0; width:100%=
+ !important;}
+
+  /* Template Styles */
+
+  /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/=
+\/\/\/\/\/\ */
+
+  body, #backgroundTable{
+    background-color:#FAFAFA;
+  }
+
+  #templateContainer{
+    border: 1px solid #DDDDDD;
+  }
+
+  h1, .h1{
+    color:#202020;
+    display:block;
+    font-family:Arial;
+    font-size:34px;
+    font-weight:bold;
+    line-height:100%;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+
+  h2, .h2{
+    color:#202020;
+    display:block;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    line-height:100%;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+
+  h3, .h3{
+    color:#202020;
+    display:block;
+    font-family:Arial;
+    font-size:26px;
+    font-weight:bold;
+    line-height:100%;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+
+  h4, .h4{
+    color:#202020;
+    display:block;
+    font-family:Arial;
+    font-size:22px;
+    font-weight:bold;
+    line-height:100%;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+
+  ul{
+    padding-left: 20px;
+    font-size: 13px;
+  }
+
+  /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\=
+ */
+
+  #templatePreheader{
+    background-color:#FAFAFA;
+  }
+
+  .preheaderContent div{
+    color:#505050;
+    font-family:Arial;
+    font-size:10px;
+    line-height:100%;
+    text-align:left;
+  }
+
+  .preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo!=
+ Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Overr=
+ide */{
+    color:#336699;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+
+  /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+  #templateHeader{
+    background-color:#FFFFFF;
+    border-bottom:0;
+  }
+
+  .headerContent{
+    color:#202020;
+    font-family:Arial;
+    font-size:34px;
+    font-weight:bold;
+    line-height:100%;
+    padding:0;
+    text-align:center;
+    vertical-align:middle;
+  }
+
+  .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override=
+ */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#336699;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+
+  #headerImage{
+    height:auto;
+    max-width:410px !important;
+    margin: 10px;
+  }
+
+  /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\=
+ */
+
+  #templateContainer, .bodyContent{
+    background-color:#FFFFFF;
+  }
+
+  .bodyContent div{
+    color:#505050;
+    font-family:Arial;
+    font-size:14px;
+    line-height:150%;
+    text-align:left;
+  }
+
+  .bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Over=
+ride */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+    color:#336699;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+
+  .bodyContent img{
+    display:inline;
+    height:auto;
+  }
+
+  /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+  #templateFooter{
+    background-color:#ccc;
+    border-top:0;
+  }
+
+  .footerContent div{
+    color:#000;
+    font-family:Arial;
+    font-size:12px;
+    line-height:125%;
+    text-align:left;
+  }
+
+  .footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail=
+ Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+  }
+
+  .footerContent img{
+    display:inline;
+  }
+
+  #social{
+    background-color:#FAFAFA;
+    border:0;
+  }
+
+  #social div{
+    text-align:center;
+  }
+
+  #utility{
+    border:0;
+  }
+
+  #utility div{
+    text-align:center;
+  }
+
+  #monkeyRewards img{
+    max-width:190px;
+  }
+</style>
+</head>
+<body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0=
+" offset=3D"0" style=3D"-webkit-text-size-adjust: none;margin: 0;padding:=
+ 0;background-color: #FAFAFA;width: 100% !important;">
+<center>
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%"=
+ width=3D"100%" id=3D"backgroundTable" style=3D"margin: 0;padding: 0;backg=
+round-color: #FAFAFA;height: 100% !important;width: 100% !important;">
+    <tr>
+      <td align=3D"center" valign=3D"top" style=3D"border-collapse: collap=
+se;">
+        <!-- // Begin Template Preheader \\ -->
+        <table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"=
+480" id=3D"templatePreheader" style=3D"background-color: #FAFAFA;">
+          <tr>
+            <td valign=3D"top" class=3D"preheaderContent" style=3D"border-=
+collapse: collapse;">
+
+              <!-- // Begin Module: Standard Preheader \ -->
+              <table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" wid=
+th=3D"100%">
+                <tr>
+                  <td valign=3D"top" style=3D"border-collapse: collapse;">
+                    <div mc:edit=3D"std_preheader_content_2013-3" style=3D=
+"color: #505050;font-family: Arial;font-size: 10px;line-height: 100%;text-=
+align: left;">
+                      There are a thousand hacking at the branches of evil=
+ to one who is striking at the root. -Henry David Thoreau
+                    </div>
+                  </td>
+                  <!--
+ -->
+                  <td valign=3D"top" width=3D"190" style=3D"border-collaps=
+e: collapse;">
+                    <div mc:edit=3D"std_preheader_links" style=3D"color: #=
+505050;font-family: Arial;font-size: 10px;line-height: 100%;text-align: le=
+ft;">
+                      Is this email not displaying correctly?<br><a href=
+=3D"http://us1.campaign-archive2.com/?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D3=
+708ff07fb&e=3Def6ba7199a" target=3D"_blank" style=3D"color: #336699;font-wei=
+ght: normal;text-decoration: underline;">View it in your browser</a>.
+                    </div>
+                  </td>
+                  <!--
+ -->
+                </tr>
+              </table>
+              <!-- // End Module: Standard Preheader \ -->
+            </td>
+          </tr>
+        </table>
+        <!-- // End Template Preheader \\ -->
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"4=
+80" id=3D"templateContainer" style=3D"border: 1px solid #DDDDDD;background=
+-color: #FFFFFF;">
+          <tr>
+            <td align=3D"center" valign=3D"top" style=3D"border-collapse:=
+ collapse;">
+              <!-- // Begin Template Header \\ -->
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"480" id=3D"templateHeader" style=3D"background-color: #FFFFFF;border-=
+bottom: 0;">
+
+                <tr>
+                  <td class=3D"headerContent" style=3D"border-collapse: co=
+llapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold=
+;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
+                    <!-- // Begin Module: Standard Header Image \\ -->
+                    <img src=3D"http://www.hackernewsletter.com/images/log=
+o.png" style=3D"max-width: 400px;padding-top: 10px;border: 0;height: auto;=
+line-height: 100%;outline: none;text-decoration: none;" id=3D"headerImage=
+ campaign-icon">
+                    <p style=3D"margin:0;padding:0; margin-bottom:-15;"><s=
+pan style=3D"font-size: 11px; color: #5F5F5F">&bull; Issue #132 - January=
+ 18, 2013 &bull;</span></p>
+                    <!-- // End Module: Standard Header Image \\ -->
+                  </td>
+                </tr>
+              </table>
+              <!-- // End Template Header \\ -->
+            </td>
+          </tr>
+          <tr>
+            <td align=3D"center" valign=3D"top" style=3D"border-collapse:=
+ collapse;">
+              <!-- // Begin Template Body \\ -->
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"480" id=3D"templateBody">
+                <tr>
+                  <td valign=3D"top" class=3D"bodyContent" style=3D"border=
+-collapse: collapse;background-color: #FFFFFF;">
+                    <!-- // Begin Module: Standard Content \\ -->
+                    <table border=3D"0" cellpadding=3D"20" cellspacing=3D"=
+0" width=3D"100%">
+                      <tr>
+                        <td valign=3D"top" style=3D"border-collapse: colla=
+pse;">
+                          <div mc:edit=3D"std_content_2013-3" style=3D"col=
+or: #505050;font-family: Arial;font-size: 14px;line-height: 150%;text-alig=
+n: left;">
+                            <h2 class=3D"h2" style=3D"line-height: 1.0em;f=
+ont-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;border-bo=
+ttom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: block;f=
+ont-family: Arial;margin-right: 0;margin-left: 0;text-align: left;"># Hell=
+o</h2>
+
+                            <p>A bit late this morning as I'm recovering f=
+rom a 1100 mile road-trip through lots of snow and rain. <i>@<a href=3D"ht=
+tp://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111ce=
+f92c4f3d4&id=3D65fbb001e3&e=3Def6ba7199a" style=3D"color: #336699;font-we=
+ight: normal;text-decoration: underline;">Kale</a></i></p>
+                            <h2 class=3D"h2" style=3D"line-height: 1.0em;f=
+ont-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;border-bo=
+ttom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: block;f=
+ont-family: Arial;margin-right: 0;margin-left: 0;text-align: left;"># Our=
+ Sponsor</h2>
+                            <p>
+                              <a href=3D"http://launchbit.com/taz/163-2693-ef6ba7199a" s=
+tyle=3D"color: #336699;font-weight: normal;text-decoration: underline;"><i=
+mg style=3D"float: left;margin-right: 14px;margin-bottom: 16px;border: 0;h=
+eight: auto;line-height: 100%;outline: none;text-decoration: none;display:=
+ inline;" src=3D"http://launchbit.com/taz-i/2693-9719a06f8bb6a291fad05d638d0c595ebdb6bfbb-text.gif"></a>
+                              <a href=3D"http://launchbit.com/taz/163-2693-ef6ba7199a" s=
+tyle=3D"color: #336699; font-weight: normal; text-decoration: underline;">=
+Complimentary Downloads</a> 7 Days of Complimentary Downloads: 50,000+ Motion Backgrounds, Video Clips, Production Music Tracks, Sound Effects, Special Effects and More.<br />(<a href=3D"http://launchbit.com/sp/6-163/">Sponsor this newsletter</a>) <img style=3D"float: clear;border: 0=
+;height: auto;line-height: 100%;outline: none;text-decoration: none;displa=
+y: inline;" src=3D"http://launchbit.com/taz-pixel/163-2693-ef6ba7199a">
+                            </p>
+                            <!-- Feature -->
+
+                              <h2 class=3D"h2" style=3D"line-height: 1.0em=
+;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;border-=
+bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;clear: both;di=
+splay: block;font-family: Arial;margin-right: 0;margin-left: 0;text-align:=
+ left;"># Aaron Swartz</h2>
+
+                              <p>HN was <a href=3D"http://hackernewsletter=
+=2Eus1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D9d1e7a=
+46f0&e=3Def6ba7199a" style=3D"color: #336699;font-weight: normal;text-dec=
+oration: underline;">filled</a> with the sad news of the loss of Aaron Swa=
+rtz this week, who I've linked to many times on Hacker Newsletter.</p>
+
+                              <ul style=3D"list-style-type: square;margin-=
+left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                  <li>
+                                    <a style=3D"color: #0033CC;text-decora=
+tion: underline;font-weight: normal;" title=3D"2065 points and 545 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D0b96b8f179&e=3Def6ba7199a">Reddit cofounder A=
+aron Swartz commits suicide</a>
+                                    <span style=3D"font-size: 10px;">(<a s=
+tyle=3D"color: #505050;text-decoration: none;font-weight: normal;" href=3D=
+"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a11=
+1cef92c4f3d4&id=3D679d35648b&e=3Def6ba7199a">tech.mit.edu</a>) <a style=
+=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" href=
+=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3=
+a111cef92c4f3d4&id=3Dc6bad60822&e=3Def6ba7199a">comments</a></span>
+                                    </li>
+
+                                  <li>
+                                    <a style=3D"color: #0033CC;text-decora=
+tion: underline;font-weight: normal;" title=3D"1177 points and 260 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3D13bf39216a&e=3Def6ba7199a">Prosecutor as bul=
+ly</a>
+                                    <span style=3D"font-size: 10px;">(<a s=
+tyle=3D"color: #505050;text-decoration: none;font-weight: normal;" href=3D=
+"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a11=
+1cef92c4f3d4&id=3Dd4d94b3d84&e=3Def6ba7199a">lessig.tumblr.com</a>) <a st=
+yle=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" hre=
+f=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4e=
+f3a111cef92c4f3d4&id=3De0a9f7f33a&e=3Def6ba7199a">comments</a></span>
+                                    </li>
+
+                                  <li>
+                                    <a style=3D"color: #0033CC;text-decora=
+tion: underline;font-weight: normal;" title=3D"670 points and 143 comments=
+" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8=
+eb4ef3a111cef92c4f3d4&id=3Dc180c0fa3d&e=3Def6ba7199a">Official Statement=
+ from the family and partner of Aaron Swartz</a>
+                                    <span style=3D"font-size: 10px;">(<a s=
+tyle=3D"color: #505050;text-decoration: none;font-weight: normal;" href=3D=
+"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a11=
+1cef92c4f3d4&id=3Dc8dcdac43f&e=3Def6ba7199a">rememberaaronsw.tumblr.com</=
+a>) <a style=3D"color: #0033CC;text-decoration: underline;font-weight: nor=
+mal;" href=3D"http://hackernewsletter.us1.list-manage2.com/track/click?u=
+=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De242d0383f&e=3Def6ba7199a">comments</a>=
+</span>
+                                    </li>
+
+                                  <li>
+                                    <a style=3D"color: #0033CC;text-decora=
+tion: underline;font-weight: normal;" title=3D"640 points and 50 comments"=
+ href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8e=
+b4ef3a111cef92c4f3d4&id=3Dcd053bbcba&e=3Def6ba7199a">If I get hit by a tr=
+uck...</a>
+                                    <span style=3D"font-size: 10px;">(<a s=
+tyle=3D"color: #505050;text-decoration: none;font-weight: normal;" href=3D=
+"http://hackernewsletter.us1.list-manage2.com/track/click?u=3Dfaa8eb4ef3a1=
+11cef92c4f3d4&id=3D3e4958038f&e=3Def6ba7199a">aaronsw.com</a>) <a style=
+=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" href=
+=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef=
+3a111cef92c4f3d4&id=3D5c9329543a&e=3Def6ba7199a">comments</a></span>
+                                    </li>
+
+                                  <li>
+                                    <a style=3D"color: #0033CC;text-decora=
+tion: underline;font-weight: normal;" title=3D"396 points and 246 comments=
+" href=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D504b15b850&e=3Def6ba7199a">I conceal my ident=
+ity the same way Aaron was indicted for</a>
+                                    <span style=3D"font-size: 10px;">(<a s=
+tyle=3D"color: #505050;text-decoration: none;font-weight: normal;" href=3D=
+"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a1=
+11cef92c4f3d4&id=3D9686e80e0e&e=3Def6ba7199a">erratasec.blogspot.com</a>)=
+ <a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal=
+;" href=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3D43ad18c6bc&e=3Def6ba7199a">comments</a></spa=
+n>
+                                    </li>
+
+                                </ul>
+
+
+                              <!-- Selected Articles -->
+
+                                <h2 class=3D"h2" style=3D"line-height: 1.0=
+em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;borde=
+r-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;clear: both;=
+display: block;font-family: Arial;margin-right: 0;margin-left: 0;text-alig=
+n: left;"># Selected Articles</h2>
+
+                                <ul style=3D"list-style-type: square;margi=
+n-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"799 points and 292 commen=
+ts" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3Dacb817d848&e=3Def6ba7199a">I want the world=
+ to scroll this way.</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3Dc73eef232c&e=3Def6ba7199a">magicscroll.net</a>) <=
+a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal;"=
+ href=3D"http://hackernewsletter.us1.list-manage2.com/track/click?u=3Dfaa8=
+eb4ef3a111cef92c4f3d4&id=3Dfa37ed3c8d&e=3Def6ba7199a">comments</a></span>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"611 points and 98 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D8f0e1bca18&e=3Def6ba7199a">A Beautifully Desi=
+gned Guide to Advanced HTML/CSS</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3De887da78a3&e=3Def6ba7199a">learn.shayhowe.com</a>=
+) <a style=3D"color: #0033CC;text-decoration: underline;font-weight: norma=
+l;" href=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Df=
+aa8eb4ef3a111cef92c4f3d4&id=3D4aa82bffdf&e=3Def6ba7199a">comments</a></sp=
+an>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"538 points and 512 commen=
+ts" href=3D"http://hackernewsletter.us1.list-manage2.com/track/click?u=3Df=
+aa8eb4ef3a111cef92c4f3d4&id=3D7ece61dc22&e=3Def6ba7199a">What I wish I kn=
+ew before moving to San Francisco</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3D97a23828e7&e=3Def6ba7199a">jasonevanish.com</a>)=
+ <a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal=
+;" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D0eada7c444&e=3Def6ba7199a">comments</a></span=
+>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"375 points and 249 commen=
+ts" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3D8ad0ce4290&e=3Def6ba7199a">Introducing Graph=
+ Search</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage2.com/track/click?u=3Dfaa8eb=
+4ef3a111cef92c4f3d4&id=3D1c2f73a647&e=3Def6ba7199a">facebook.com</a>) <a=
+ style=3D"color: #0033CC;text-decoration: underline;font-weight: normal;"=
+ href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8e=
+b4ef3a111cef92c4f3d4&id=3De7c6b73d22&e=3Def6ba7199a">comments</a></span>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"355 points and 179 commen=
+ts" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3D5ece245cb1&e=3Def6ba7199a">US employee 'outs=
+ourced job to China'</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3D7e4f3d85b8&e=3Def6ba7199a">bbc.co.uk</a>) <a styl=
+e=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" href=
+=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3=
+a111cef92c4f3d4&id=3D08f91530de&e=3Def6ba7199a">comments</a></span>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"273 points and 101 commen=
+ts" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3Dfc2896c10e&e=3Def6ba7199a">iOS Development T=
+ips If You're Just starting Out</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb=
+4ef3a111cef92c4f3d4&id=3D5cd2295843&e=3Def6ba7199a">stuartkhall.com</a>)=
+ <a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal=
+;" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D6c3e38babc&e=3Def6ba7199a">comments</a></span=
+>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"137 points and 43 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D97657e6d04&e=3Def6ba7199a">Pinboard Co-Prospe=
+rity Winners</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3Dbda4650742&e=3Def6ba7199a">blog.pinboard.in</a>)=
+ <a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal=
+;" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3Da50a7ae337&e=3Def6ba7199a">comments</a></span=
+>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"125 points and 25 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3Dde76dedc6e&e=3Def6ba7199a">Akin's Laws of Spa=
+cecraft Design</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3D68f0a11ed0&e=3Def6ba7199a">spacecraft.ssl.umd.edu=
+</a>) <a style=3D"color: #0033CC;text-decoration: underline;font-weight: n=
+ormal;" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=
+=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Db5b0b90188&e=3Def6ba7199a">comments</a>=
+</span>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"124 points and 90 comment=
+s" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa=
+8eb4ef3a111cef92c4f3d4&id=3D0585181bc0&e=3Def6ba7199a">'We thought we'd s=
+ell 1,000': The inside story of the Raspberry Pi</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3Db24dbdc443&e=3Def6ba7199a">zdnet.com</a>) <a styl=
+e=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" href=
+=3D"http://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef=
+3a111cef92c4f3d4&id=3Db671b62a35&e=3Def6ba7199a">comments</a></span>
+                                      </li>
+
+                                    <li>
+                                      <a style=3D"color: #0033CC;text-deco=
+ration: underline;font-weight: normal;" title=3D"102 points and 1 comments=
+" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8=
+eb4ef3a111cef92c4f3d4&id=3Ddd5182b1ff&e=3Def6ba7199a">Message in a Binary=
+ Bottle</a>
+                                      <span style=3D"font-size: 10px;"><br=
+>(<a style=3D"color: #505050;text-decoration: none;font-weight: normal;" h=
+ref=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4=
+ef3a111cef92c4f3d4&id=3D044acc2bd3&e=3Def6ba7199a">cabel.me</a>) <a style=
+=3D"color: #0033CC;text-decoration: underline;font-weight: normal;" href=
+=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3=
+a111cef92c4f3d4&id=3Dd2be2e1a6f&e=3Def6ba7199a">comments</a></span>
+                                      </li>
+
+                                  </ul>
+
+
+                                <!-- Ask HN -->
+
+
+                                <!-- Classics -->
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Classics</h2>
+
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+                                    <li><a style=3D"color: #0033CC;text-de=
+coration: underline;font-weight: normal;" href=3D"http://hackernewsletter.=
+us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Da50d22=
+ea67&e=3Def6ba7199a">Aaron Swartz's blog posts from the past</a></li>
+
+                                    <li><a style=3D"color: #0033CC;text-de=
+coration: underline;font-weight: normal;" href=3D"http://hackernewsletter.=
+us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Da8a1afc=
+0bd&e=3Def6ba7199a">Stuff</a> <a style=3D"color: #0033CC;text-decoration:=
+ underline;font-weight: normal; font-size: 10px" href=3D"http://hackernews=
+letter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=
+=3Dd96b08779f&e=3Def6ba7199a">comments</a></li>
+
+                                    <li><a style=3D"color: #0033CC;text-de=
+coration: underline;font-weight: normal;" href=3D"http://hackernewsletter.=
+us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De5bf824=
+45f&e=3Def6ba7199a">Reddit to go dark on Jan 18 to protest SOPA</a> <a st=
+yle=3D"color: #0033CC;text-decoration: underline;font-weight: normal; font=
+-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.com/track/cli=
+ck?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D8d0c5255b3&e=3Def6ba7199a">comments=
+</a></li>
+
+                                  </ul>
+
+                                <!-- Startups/Projects -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Recently Launched</h2>
+
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Da1422=
+bc48c&e=3Def6ba7199a">Introducing HelloSign for Gmail</a> <a style=3D"col=
+or: #0033CC;text-decoration: underline;font-weight: normal; font-size: 10p=
+x" href=3D"http://hackernewsletter.us1.list-manage2.com/track/click?u=3Dfa=
+a8eb4ef3a111cef92c4f3d4&id=3D09a1e2e888&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D6a572=
+62ecf&e=3Def6ba7199a">Squash</a> <a style=3D"color: #0033CC;text-decorati=
+on: underline;font-weight: normal; font-size: 10px" href=3D"http://hackern=
+ewsletter.us1.list-manage2.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&i=
+d=3Dd3ef4d706a&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage2.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D7cfd=
+cd9af3&e=3Def6ba7199a">Branch</a> <a style=3D"color: #0033CC;text-decorat=
+ion: underline;font-weight: normal; font-size: 10px" href=3D"http://hacker=
+newsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&=
+id=3Da5ae3a42f6&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D61189=
+aa08e&e=3Def6ba7199a">WikiCancel - A Subscription, Contract, and Account=
+ Cancellation Guide</a> <a style=3D"color: #0033CC;text-decoration: underl=
+ine;font-weight: normal; font-size: 10px" href=3D"http://hackernewsletter.=
+us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D946cf29=
+288&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D1ba62=
+c9e3c&e=3Def6ba7199a">Alias.sh: for finding, sharing and storing bash ali=
+ases</a> <a style=3D"color: #0033CC;text-decoration: underline;font-weight=
+: normal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage=
+=2Ecom/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dbdb9267971&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dda46d=
+41453&e=3Def6ba7199a">Draft =E2=80=93 A Design Feedback Tool for Designer=
+s &amp; Small Teams</a> <a style=3D"color: #0033CC;text-decoration: underl=
+ine;font-weight: normal; font-size: 10px" href=3D"http://hackernewsletter.=
+us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dc602420=
+317&e=3Def6ba7199a">comments</a></li>
+
+                                  </ul>
+
+
+                                <!-- Code -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Code &amp; Dev Tools</h2>
+
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Db8ba0=
+5fb05&e=3Def6ba7199a">My Top Sublime Text 2 Plugins</a> <a style=3D"color=
+: #0033CC;text-decoration: underline;font-weight: normal; font-size: 10px"=
+ href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8e=
+b4ef3a111cef92c4f3d4&id=3Dd3c2c03cae&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dc7e86=
+312b5&e=3Def6ba7199a">SSH client in Google Chrome : Secure Shell by Googl=
+e</a> <a style=3D"color: #0033CC;text-decoration: underline;font-weight: n=
+ormal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.co=
+m/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Ded83bb03d1&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Ddc6d=
+6fb9dc&e=3Def6ba7199a">JQuery 1.9 has been released</a> <a style=3D"color=
+: #0033CC;text-decoration: underline;font-weight: normal; font-size: 10px"=
+ href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8e=
+b4ef3a111cef92c4f3d4&id=3D2c4b0999e7&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dc6c76=
+edb84&e=3Def6ba7199a">An open source Linux client for Google Drive</a> <a=
+ style=3D"color: #0033CC;text-decoration: underline;font-weight: normal; f=
+ont-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.com/track/=
+click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dbec95c23e5&e=3Def6ba7199a">comme=
+nts</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D45d24=
+a59fb&e=3Def6ba7199a">Gooo - The anti-magic Go lang web framework</a> <a=
+ style=3D"color: #0033CC;text-decoration: underline;font-weight: normal; f=
+ont-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.com/track/=
+click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D6824953ec2&e=3Def6ba7199a">comme=
+nts</a></li>
+
+                                  </ul>
+
+
+                                <!-- Design -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Design</h2>
+
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dd49c0=
+219ca&e=3Def6ba7199a">A Tech Company's Annual Report Done Beautifully</a>=
+ <a style=3D"color: #0033CC;text-decoration: underline;font-weight: normal=
+; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.com/tra=
+ck/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dbff7175fbd&e=3Def6ba7199a">co=
+mments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dfa6cc=
+f17f5&e=3Def6ba7199a">Hack Design - An easy to follow design course for p=
+rogrammers</a> <a style=3D"color: #0033CC;text-decoration: underline;font-=
+weight: normal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-=
+manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D4b760614cd&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dbb53=
+06dabe&e=3Def6ba7199a">Dynamically generate HTML/CSS for forms, icons, bu=
+ttons</a> <a style=3D"color: #0033CC;text-decoration: underline;font-weigh=
+t: normal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manag=
+e.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D0f65eb41e0&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                  </ul>
+
+
+                                <!-- Other -->
+
+
+                                <!-- Books -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Books</h2>
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage2.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D1faa=
+2c3e06&e=3Def6ba7199a">Our Django Book is Launched</a> <a style=3D"color:=
+ #0033CC;text-decoration: underline;font-weight: normal; font-size: 10px"=
+ href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8e=
+b4ef3a111cef92c4f3d4&id=3D69c350af1e&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D6a17d=
+77e70&e=3Def6ba7199a">Aaron Swartz: The Book That Changed My Life</a> <a=
+ style=3D"color: #0033CC;text-decoration: underline;font-weight: normal; f=
+ont-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.com/track/=
+click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D8c801c5a66&e=3Def6ba7199a">comme=
+nts</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De7c28=
+1f803&e=3Def6ba7199a">Design Books Every Hacker Should Read</a> <a style=
+=3D"color: #0033CC;text-decoration: underline;font-weight: normal; font-si=
+ze: 10px" href=3D"http://hackernewsletter.us1.list-manage2.com/track/click=
+?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D633eae4ffb&e=3Def6ba7199a">comments</=
+a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dd254=
+63c430&e=3Def6ba7199a">Land Book - The best and most inspiring landing pa=
+ges</a> <a style=3D"color: #0033CC;text-decoration: underline;font-weight:=
+ normal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.=
+com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dce9a433b52&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                  </ul>
+
+
+                                <!-- Wikipedia -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Wikipedia</h2>
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D427bf=
+dace7&e=3Def6ba7199a">The If-by-whiskey fallacy</a> <a style=3D"color: #0=
+033CC;text-decoration: underline;font-weight: normal; font-size: 10px" hre=
+f=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef=
+3a111cef92c4f3d4&id=3Dbc33fa9dac&e=3Def6ba7199a">comments</a></li>
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D0d320=
+8545c&e=3Def6ba7199a">Jonathan James</a> <a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal; font-size: 10px" href=3D"http:/=
+/hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92=
+c4f3d4&id=3D7c0e65f48b&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D46eef=
+6720b&e=3Def6ba7199a">Emmy Noether</a> <a style=3D"color: #0033CC;text-de=
+coration: underline;font-weight: normal; font-size: 10px" href=3D"http://h=
+ackernewsletter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f=
+3d4&id=3D46cded1698&e=3Def6ba7199a">comments</a></li>
+
+                                  </ul>
+
+
+                                <!-- Video -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Videos</h2>
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D46a2=
+b07750&e=3Def6ba7199a">A Mysterious Patch Of Light In The North Dakota Da=
+rk</a> <a style=3D"color: #0033CC;text-decoration: underline;font-weight:=
+ normal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage.=
+com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D65402ba794&e=3D=
+ef6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Db2785=
+af64e&e=3Def6ba7199a">How Japanese Kids Learn To Multiply</a> <a style=3D=
+"color: #0033CC;text-decoration: underline;font-weight: normal; font-size:=
+ 10px" href=3D"http://hackernewsletter.us1.list-manage.com/track/click?u=
+=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D2e904db55b&e=3Def6ba7199a">comments</a>=
+</li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D7ad56=
+4525b&e=3Def6ba7199a">I sent a balloon up to capture 360x180 degree image=
+ry/video from ~100k ft.</a> <a style=3D"color: #0033CC;text-decoration: un=
+derline;font-weight: normal; font-size: 10px" href=3D"http://hackernewslet=
+ter.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D55a=
+5834bc5&e=3Def6ba7199a">comments</a></li>
+
+                                  </ul>
+
+
+                                <!-- Job -->
+
+                                  <h2 class=3D"h2" style=3D"line-height: 1=
+=2E0em;font-weight: bold;color: #000;margin-bottom: 4px;padding-top: 4px;bor=
+der-bottom: 2px solid #ff3300;margin-top: 1.5em;font-size: 18px;display: b=
+lock;font-family: Arial;margin-right: 0;margin-left: 0;text-align: left;">=
+# Job Threads</h2>
+                                  <ul style=3D"list-style-type: square;mar=
+gin-left: 0px;font-size: 14px;padding-left: 20px;">
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D75684=
+7bc39&e=3Def6ba7199a">What If Cars Were Rented Like We Hire Programmers?<=
+/a> <a style=3D"color: #0033CC;text-decoration: underline;font-weight: nor=
+mal; font-size: 10px" href=3D"http://hackernewsletter.us1.list-manage1.com=
+/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Df3888633de&e=3Def6ba7199a=
+">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage2.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Dfc0e=
+3ee2f0&e=3Def6ba7199a">Becoming A Boss</a> <a style=3D"color: #0033CC;tex=
+t-decoration: underline;font-weight: normal; font-size: 10px" href=3D"http=
+://hackernewsletter.us1.list-manage1.com/track/click?u=3Dfaa8eb4ef3a111cef=
+92c4f3d4&id=3Df914774f82&e=3Def6ba7199a">comments</a></li>
+
+                                      <li><a style=3D"color: #0033CC;text-=
+decoration: underline;font-weight: normal;" href=3D"http://hackernewslette=
+r.us1.list-manage.com/track/click?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Db23b5=
+dda53&e=3Def6ba7199a">Riddles have no place in job interviews</a> <a styl=
+e=3D"color: #0033CC;text-decoration: underline;font-weight: normal; font-s=
+ize: 10px" href=3D"http://hackernewsletter.us1.list-manage1.com/track/clic=
+k?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3Db56f495567&e=3Def6ba7199a">comments<=
+/a></li>
+
+                                  </ul>
+
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- // End Module: Standard Content \\ -->
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // End Template Body \\ -->
+                </td>
+              </tr>
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"border-collap=
+se: collapse;">
+                  <!-- // Begin Template Footer \\ -->
+                  <table border=3D"0" cellpadding=3D"10" cellspacing=3D"0"=
+ width=3D"480" id=3D"templateFooter" style=3D"background-color: #ccc;borde=
+r-top: 0;">
+                    <tr>
+                      <td valign=3D"top" class=3D"footerContent" style=3D"=
+border-collapse: collapse;">
+                        <!-- // Begin Module: Standard Footer \\ -->
+                        <table border=3D"0" cellpadding=3D"10" cellspacing=
+=3D"0" width=3D"100%">
+                          <tr>
+                            <td valign=3D"top" style=3D"border-collapse: c=
+ollapse;">
+                              <div mc:edit=3D"std_footer_2013-3" style=3D"=
+color: #000;font-family: Arial;font-size: 12px;line-height: 125%;text-alig=
+n: left;">
+                                This issue went out to 14,296 subscribers.=
+ Did you miss last weeks issue? <a rel=3D"nofollow" target=3D"_blank" href=
+=3D"http://us1.campaign-archive1.com/?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D4=
+bdad5a11b" class=3D"list-recent">Hacker Newsletter - Issue #131</a>.
+                                <br><br>
+ You opted in for Hacker Newsletter at http://www.hackernewsletter.com to=
+ get a weekly curated list of the best articles from the Hacker News site.
+                                <br><br>
+                                Copyright &copy; 2013 Kale Davis<br>
+                                PO BOX 605 Scarborough, Maine 04070<br><br=
+>
+                                Hacker Newsletter is not affiliated with Y=
+ Combinator in anyway.
+                                <br><br>
+                                <a href=3D"http://hackernewsletter.us1.lis=
+t-manage.com/unsubscribe?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De505c88a2e&e=
+=3Def6ba7199a&c=3D3708ff07fb">Unsubscribe</a> or <a href=3D"http://hackernew=
+sletter.us1.list-manage1.com/profile?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De5=
+05c88a2e&e=3Def6ba7199a">Update your subscription preferences</a>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td valign=3D"middle" id=3D"utility" style=3D"=
+border-collapse: collapse;border: 0;">
+                              <div mc:edit=3D"monkeyrewards" style=3D"colo=
+r: #000;font-family: Arial;font-size: 12px;line-height: 125%;text-align: c=
+enter;">
+                                <a href=3D"http://www.mailchimp.com/monkey=
+-rewards/?utm_source=3Dfreemium_newsletter&utm_medium=3Demail&utm_campaign=
+=3Dmonkey_rewards&aid=3Dfaa8eb4ef3a111cef92c4f3d4&afl=3D1"><img src=3D"htt=
+p://cdn-images.mailchimp.com/monkey_rewards/MC_MonkeyReward_07.png" border=
+=3D"0" alt=3D"Email Marketing Powered by MailChimp" title=3D"MailChimp Ema=
+il Marketing" width=3D"172" height=3D"56"></a>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- // End Module: Standard Footer \\ -->
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // End Template Footer \\ -->
+                </td>
+              </tr>
+            </table>
+            <br>
+          </td>
+        </tr>
+      </table>
+    </center>
+<img src=3D"http://hackernewsletter.us1.list-manage.com/track/open.php?u=
+=3Dfaa8eb4ef3a111cef92c4f3d4&id=3D3708ff07fb&e=3Def6ba7199a" height=3D"1"=
+ width=3D"1"></body>
+</html>
+--_----------=_MCPart_1842258646--

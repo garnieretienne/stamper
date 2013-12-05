@@ -1,0 +1,761 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853961-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.85.73 with SMTP id f9csp109508oaz;
+        Fri, 15 Mar 2013 04:37:14 -0700 (PDT)
+X-Received: by 10.224.42.19 with SMTP id q19mr5017230qae.15.1363347433847;
+        Fri, 15 Mar 2013 04:37:13 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id d67si7524748yhn.84.2013.03.15.04.37.12;
+        Fri, 15 Mar 2013 04:37:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853961-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1853961-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853961-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=PQJpbouAwxGb6mb6kvUyu6cUVbk=;
+ b=chcw45sYTQO4rceK4ZFKBgtvYBVNbhN+EakSUwFXY/18+l1cxT3WUs7DTyxFlx0TSzIUHP6PjS0W
+   eE6PZl04oIIt+Xgrf6OcdvD07tKAOrnCMQmRUSMpj1MQxSYFGyAayM5U+6uAUE+Drm8NC1sT6uYX
+   JxnDweY/AoqBXvMReW0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=u5KXuJixoT8qJvknIV3zDmBv6hhkr0VHOJU3s2jhohDmBQyrUH3spOaBUbqmE6zfYCj4QIyZTb3C
+   EokeCFEo2RT4u7gO0HuxiECi5CwPw5hUV/ZK4gm1eimOBRMBWqvyxTkq/YPEl/wIbe5UkzQtXPG4
+   BjMTJ8oTpnlNhJ4RtU8=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id h8c3ui0ik18l for <webmail.testing.dev@gmail.com>; Fri, 15 Mar 2013 11:16:48 +0000 (envelope-from <bounce-mc.us1_449017.1853961-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20121?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 15 Mar 2013 11:16:48 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130315111637@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CIDa8652539fcb4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.a8652539fc
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.a8652539fc
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=a8652539fc&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-a8652539fc-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=a8652539fc>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_789559261"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_789559261
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #121 - March 15, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3Da8652539fc
+
+
+--- Featured ---
+
+# Node v0.10.0 (Stable) Released
+http://blog.nodejs.org/2013/03/11/node-v0-10-0-stable/
+
+Highlights: Streams2 =E2=80=93 unified, more pluggable stream handling; do=
+mains group I/O operations and allow you to be notified of errors in callb=
+acks and event emitters; more predictable scheduling of process.nextTick=
+=E2=80=99s callbacks; more predictable and stable latency due to handling=
+ garbage collection differently; numerous bug fixes. Bert Belder has also=
+ written a What's New in Node 0.10 post describing what=E2=80=99s new in t=
+his version.
+
+# New Working Draft of ECMAScript 6 Available
+http://wiki.ecmascript.org/doku.php?id=3Dharmony:specification_drafts#curr=
+ent_working_draft
+
+
+--- From our Sponsor ---
+
+# Are you a mobile web developer?
+http://bdconf.com/html5
+
+No? Front-end developers ARE mobile developers. Don't think so? Prepare to=
+ be left behind. BDConf is all about the latest in mobile web design &amp;=
+ development... while at the same time sharpens your existing front-end sk=
+ills. Join us. You'll see.
+
+
+--- Reading ---
+
+# Getting Into Ember.js
+http://net.tutsplus.com/tutorials/javascript-ajax/getting-into-ember-js/
+
+Over at NetTuts+, Microsoft's Rey Bango presents a fine introduction to Em=
+ber.js's core concepts.
+
+# The Strategy Design Pattern in JavaScript
+http://sokolmichael.com/posts/2013-03-08-strategy-design-pattern-in-javasc=
+ript
+
+The Strategy design pattern involves coding against an abstract API so tha=
+t different concrete implementations can be used. For example, the abstrac=
+t API might be =E2=80=9Cauthentication=E2=80=9D, the concrete implementati=
+ons might be =E2=80=9Cauthentication via Twitter, Google, Facebook, etc.=
+=E2=80=9D. This blog post explores the Strategy pattern in JavaScript.
+
+# Using Google's Closure to Compile and Verify Your JavaScript
+http://coreymaynard.com/blog/using-googles-closure-to-compile-and-verify-y=
+our-j/
+
+The Google Closure Compiler is a tool for delivering more efficient JavaSc=
+ript: It merges files, removes dead code and minimizes code (by striping o=
+ut comments, and compressing variable and function names). It also verifie=
+s syntax, variable references and types and warns about common anti-patter=
+ns. This blog post explains how to use it.
+
+# A Subtle Difference Between Window Properties and Global Variables
+http://tobyho.com/2013/03/13/window-prop-vs-global-var/
+
+Setting window.foo is not always the same as creating a global variable fo=
+o.
+
+# ECMAScript 6 and Spread Operator
+http://ariya.ofilabs.com/2013/03/es6-and-spread-operator.html
+
+ECMAScript 6 will have an operator for =E2=80=9Cspreading=E2=80=9D an arra=
+y into a function, method or constructor call (turning the array elements=
+ into arguments). This blog post explains how it works.
+
+# JavaScript Asynchronous Architectures: Events vs. Promises
+http://www.joezimjs.com/javascript/javascript-asynchronous-architectures-e=
+vents-vs-promises/
+
+# Inter-Window Messaging Using localStorage
+http://bens.me.uk/2013/localstorage-inter-window-messaging
+
+If users have opened multiple tabs with your web application, you can use=
+ localStorage to communicate between them. This post explains how.
+
+# AngularJS for jQuery Developers
+http://blog.artlogic.com/2013/03/06/angularjs-for-jquery-developers/
+
+# What=E2=80=99s The Difference Between Currying and Partial Application?
+http://raganwald.com/2013/03/07/currying-and-partial-application.html
+
+Further reading: blog posts by Ben Alman and Axel Rauschmayer on this topi=
+c.
+
+# Tracking Down A Memory Leak in Node.js and Socket.IO
+http://jpallen.net/2013/03/08/tracking-down-a-memory-leak-in-node-js-and-s=
+ocket-io/
+
+J.P. Allen recounts how he tracked down a memory leak that affects everyon=
+e running Node.js 0.8 and Socket.IO over HTTPS. He also mentions a fix.
+
+
+--- Releases ---
+
+# Meteor 0.5.8: Security Fix, AppCache, DB Transforms, New Deps
+http://www.meteor.com/blog/2013/03/13/meteor-058-security-fix-appcache-db-=
+transforms-new-deps
+
+This release limits certain client database updates, adds AppCache support=
+, improves the low-level Deps facility, and adds support for literate coff=
+eescript and Meetup OAuth logins.
+
+# YUI 3.9.0 Released
+http://www.yuiblog.com/blog/2013/03/13/announcing-yui-3-9-0/
+
+# What=E2=80=99s New in NetBeans 7.3: HTML5!
+http://www.sitepoint.com/netbeans-73-html5-support/
+
+Oracle recently released version 7.3 of its free NetBeans IDE and it now h=
+as full support for HTML5, CSS and JavaScript. For example: an HTML projec=
+t wizard which allows you to select popular boilerplate templates and Java=
+Script frameworks; a lightweight internal server; an embedded WebKit brows=
+er; Chrome integration; responsive web design facilities; etc.
+
+
+--- Code and Libraries ---
+
+# Sails.js: Rails-Like MVC Framework for Node.js
+http://balderdashy.github.com/sails/
+
+Sails.js helps with building custom, enterprise-grade Node.js apps. It is=
+ designed to resemble the MVC architecture from frameworks like Ruby on Ra=
+ils, but with support for the more modern, data-oriented style of web app=
+ development. It's especially good for building realtime features like cha=
+t.
+
+# Formula.js: JavaScript Implementations of Spreadsheet Formula Functions
+http://stoic.com/formula/
+
+Implements most formula functions supported by Microsoft Excel 2013 and Go=
+ogle Spreadsheets. Dependencies: jStat, Lo-Dash, Moment.js, Numeral.js, Nu=
+meric JavaScript, Undercore.string. An npm package and an AMD module are u=
+nder development.
+
+# FieldState: Minimise Your DOM Logic for Form Field Control
+http://www.mitya.co.uk/fieldState/
+
+A powerful, mini, HTML5 attributes-based API for responsively controlling=
+ the required/available states of form fields.
+
+# Piping: Live Code Reloading On Node.js Without External Scripts
+https://github.com/mdlawson/piping
+
+Piping enables live code reloading in your Node.js app by simply requiring=
+ a library (as opposed to existing solutions where you have to start Node.=
+js from an external script).
+
+# Epoxy.js : Elegant Data Binding for Backbone
+http://epoxyjs.org/
+
+Adds data binding to Backbone. Key features: computed model attributes, de=
+clarative view bindings, automated dependency mapping, automatic view upda=
+tes.
+
+# Abba: JavaScript A/B Testing
+http://blog.alexmaccaw.com/abba
+
+Run two different versions of a web site, find out how it affects conversi=
+on rates. Comes with a self-hosting server, requires Ruby 1.9.3 and Mongo.
+
+# Countable.js: Live Word Counting in JavaScript
+http://radlikewhoa.github.com/Countable/
+
+Countable adds live counting of paragraphs, words and characters to an HTM=
+L element. It is small and does not need any libraries.
+
+# Pixi.js: A Fast HTML 5 2D Rendering Engine That Uses WebGL with Canvas F=
+allback
+https://github.com/GoodBoyDigital/pixi.js
+
+The aim of this project is to provide a fast lightweight 2D library that w=
+orks across all devices. It leans on WebGL for performance but requires no=
+ prior knowledge of it. There's a blog post that explains more and a demo=
+ game to enjoy.
+
+# Runnable: Run Server-Side Code and Discover APIs in Your Browser
+http://runnable.com/
+
+This service lets you create usage examples for your framework or API so t=
+hat people can try them out live in their browser. Works for either client=
+-side or server-side (Node.js) code.
+
+
+--- Jobs ---
+
+# Front-End Brainiac at VividCortex
+https://vividcortex.com/jobs.html
+
+Your mission: build visualization/analysis UI for a monitoring and analysi=
+s system. You'll use Angular, D3, Testacular, and CSS/HTML5. It's complex,=
+ real-time, and you'll handle 3.5 trillion data points per day. Is that en=
+ough of a challenge for you?
+
+# Javascript Guru (San Francisco, CA)
+http://www.krux.com/pro/who_we_are/careers/javascript_guru/
+
+If you like hard problems, enjoy working with cutting-edge technologies, a=
+nd have a good sense of usability, adventure and humor, Krux could offer y=
+ou your dream job.
+
+# Senior Software Engineer (Front End) at Gigwalk.com (San Francisco)
+http://gigwalk.com/careers/seniorFrontEnd
+
+Gigwalk is reinventing what it means to find work in a mobile world. We ar=
+e looking for talented folks who want to be a part of building a great com=
+pany. Must have HTML/5, CSS/3, Javascript (jQuery, but not only jQuery), a=
+nd a love for API's.
+
+
+--- Last but not least.. ---
+
+# Ember.JS Gets an Official Discussion Forum
+http://discuss.emberjs.com/
+
+Built upon the Ember.js-powered Discourse forum software, it already seems=
+ to be quite popular.
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage1.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3Da8652539fc
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_789559261
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">This week=
+'s JavaScript news</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3Dd12150021b&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D02877fba54&e=3Db4af456f64"><img src=3D"http:/=
+/javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366"=
+ height=3D"69" style=3D"margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #121 - March 15, 2013</p>
+=09
+=09
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D20d4662a14&e=3D=
+b4af456f64" title=3D"blog.nodejs.org/2013/03/11/node-v0-10-0-stable">Node v=
+0.10.0 (Stable) Released</a></strong><br /><span style=3D"font-size: 13px;=
+ line-height: 19px">
+Highlights: Streams2 =E2=80=93 unified, more pluggable stream handling; do=
+mains group I/O operations and allow you to be notified of errors in callb=
+acks and event emitters; more predictable scheduling of process.nextTick=
+=E2=80=99s callbacks; more predictable and stable latency due to handling=
+ garbage collection differently; numerous bug fixes. Bert Belder has also=
+ written a <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cl=
+ick?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc0c144ef5b&e=3Db4af456f64">What's=
+ New in Node 0.10 post</a> describing what=E2=80=99s new in this version.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D43867aed6c&e=3D=
+b4af456f64" title=3D"wiki.ecmascript.org/doku.php?id=3Dharmony:specificatio=
+n_drafts#current_working_draft">New Working Draft of ECMAScript 6 Availabl=
+e</a></strong><br /><span style=3D"font-size: 13px; line-height: 19px">
+Includes bulletpoints of the key changes.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db82d570581&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/8618/thumb_=
+BDconf-2.gif" width=3D"133" height=3D"100" style=3D"float: right; margin-l=
+eft: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><=
+a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Da53e0aff3e&e=3Db4af456f64" title=3D"bdconf.co=
+m/html5">Are you a mobile web developer?</a></strong><br /><span style=3D"=
+font-size: 13px; line-height: 19px">
+No? Front-end developers ARE mobile developers. Don't think so? Prepare to=
+ be left behind. <a href=3D"http://javascriptweekly.us1.list-manage1.com/t=
+rack/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D545cf96921&e=3Db4af456f64">=
+BDConf</a> is all about the latest in mobile web design &amp; development.=
+=2E. while at the same time sharpens your existing front-end skills. Join us=
+=2E You'll see.
+</span></p>
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd2ae6524b1&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/tutorials/javascript-ajax/getting-in=
+to-ember-js">Getting Into Ember.js</a></strong><br /><span style=3D"font-s=
+ize: 13px; line-height: 19px">
+Over at NetTuts+, Microsoft's Rey Bango presents a fine introduction to Em=
+ber.js's core concepts.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D95e06e7e69&e=3D=
+b4af456f64" title=3D"sokolmichael.com/posts/2013-03-08-strategy-design-patt=
+ern-in-javascript">The Strategy Design Pattern in JavaScript</a></strong><=
+br /><span style=3D"font-size: 13px; line-height: 19px">
+The Strategy design pattern involves coding against an abstract API so tha=
+t different concrete implementations can be used. For example, the abstrac=
+t API might be =E2=80=9Cauthentication=E2=80=9D, the concrete implementati=
+ons might be =E2=80=9Cauthentication via Twitter, Google, Facebook, etc.=
+=E2=80=9D. This blog post explores the Strategy pattern in JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df9a6695913&e=3D=
+b4af456f64" title=3D"coreymaynard.com/blog/using-googles-closure-to-compil=
+e-and-verify-your-j">Using Google's Closure to Compile and Verify Your Jav=
+aScript</a></strong><br /><span style=3D"font-size: 13px; line-height: 19p=
+x">
+The Google Closure Compiler is a tool for delivering more efficient JavaSc=
+ript: It merges files, removes dead code and minimizes code (by striping o=
+ut comments, and compressing variable and function names). It also verifie=
+s syntax, variable references and types and warns about common anti-patter=
+ns. This blog post explains how to use it.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfbb2829697&e=3D=
+b4af456f64" title=3D"tobyho.com/2013/03/13/window-prop-vs-global-var">A Sub=
+tle Difference Between Window Properties and Global Variables</a></strong>=
+<br /><span style=3D"font-size: 13px; line-height: 19px">
+Setting <code>window.foo</code> is not always the same as creating a globa=
+l variable <code>foo</code>.
+</span></p>
+
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfe0b8f9a7f&e=3D=
+b4af456f64" title=3D"ariya.ofilabs.com/2013/03/es6-and-spread-operator.html=
+">ECMAScript 6 and Spread Operator</a></strong><br /><span style=3D"font-s=
+ize: 13px; line-height: 19px">
+ECMAScript 6 will have an operator for =E2=80=9Cspreading=E2=80=9D an arra=
+y into a function, method or constructor call (turning the array elements=
+ into arguments). This blog post explains how it works.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D4c85acdd14&e=3Db4af456f64" title=3D"www.joezi=
+mjs.com/javascript/javascript-asynchronous-architectures-events-vs-promise=
+s">JavaScript Asynchronous Architectures: Events vs. Promises</a><br /><sp=
+an style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db25b6a4a2d&e=3D=
+b4af456f64" title=3D"bens.me.uk/2013/localstorage-inter-window-messaging">=
+Inter-Window Messaging Using localStorage</a></strong><br /><span style=3D=
+"font-size: 13px; line-height: 19px">
+If users have opened multiple tabs with your web application, you can use=
+ localStorage to communicate between them. This post explains how.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7dd05d1a25&e=3Db4af456f64" title=3D"blog.artl=
+ogic.com/2013/03/06/angularjs-for-jquery-developers">AngularJS for jQuery=
+ Developers</a><br /><span style=3D"font-size: 13px; line-height: 19px"></=
+span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D28ac2d0736&e=3D=
+b4af456f64" title=3D"raganwald.com/2013/03/07/currying-and-partial-applicat=
+ion.html">What=E2=80=99s The Difference Between Currying and Partial Appli=
+cation?</a></strong><br /><span style=3D"font-size: 13px; line-height: 19p=
+x">
+Further reading: blog posts by <a href=3D"http://javascriptweekly.us1.list=
+-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4fab1627f9&e=3D=
+b4af456f64">Ben Alman</a> and <a href=3D"http://javascriptweekly.us1.list=
+-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7e68bd0f23&e=3D=
+b4af456f64">Axel Rauschmayer</a> on this topic.</span></p>
+
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D57b8afaa5a&e=3D=
+b4af456f64" title=3D"jpallen.net/2013/03/08/tracking-down-a-memory-leak-in-=
+node-js-and-socket-io">Tracking Down A Memory Leak in Node.js and Socket.I=
+O</a></strong><br /><span style=3D"font-size: 13px; line-height: 19px">
+J.P. Allen recounts how he tracked down a memory leak that affects everyon=
+e running Node.js 0.8 and Socket.IO over HTTPS. He also mentions a fix.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Releases</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc72607e972&e=3D=
+b4af456f64" title=3D"www.meteor.com/blog/2013/03/13/meteor-058-security-fix=
+-appcache-db-transforms-new-deps">Meteor 0.5.8: Security Fix, AppCache, DB=
+ Transforms, New Deps</a></strong><br /><span style=3D"font-size: 13px; li=
+ne-height: 19px">
+This release limits certain client database updates, adds AppCache support=
+, improves the low-level Deps facility, and adds support for literate coff=
+eescript and Meetup OAuth logins.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D6aba080375&e=3Db4af456f64" title=3D"www.yuibl=
+og.com/blog/2013/03/13/announcing-yui-3-9-0">YUI 3.9.0 Released</a><br /><=
+span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3dd4e4b31d&e=3D=
+b4af456f64" title=3D"www.sitepoint.com/netbeans-73-html5-support">What=E2=
+=80=99s New in NetBeans 7.3: HTML5!</a></strong><br /><span style=3D"font-=
+size: 13px; line-height: 19px">
+Oracle recently released version 7.3 of its free NetBeans IDE and it now h=
+as full support for HTML5, CSS and JavaScript. For example: an HTML projec=
+t wizard which allows you to select popular boilerplate templates and Java=
+Script frameworks; a lightweight internal server; an embedded WebKit brows=
+er; Chrome integration; responsive web design facilities; etc.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbc36b289a2&e=3D=
+b4af456f64" title=3D"balderdashy.github.com/sails">Sails.js: Rails-Like MVC=
+ Framework for Node.js</a></strong><br /><span style=3D"font-size: 13px; l=
+ine-height: 19px">
+Sails.js helps with building custom, enterprise-grade Node.js apps. It is=
+ designed to resemble the MVC architecture from frameworks like Ruby on Ra=
+ils, but with support for the more modern, data-oriented style of web app=
+ development. It's especially good for building realtime features like cha=
+t.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc325d359d5&e=3D=
+b4af456f64" title=3D"stoic.com/formula">Formula.js: JavaScript Implementati=
+ons of Spreadsheet Formula Functions</a></strong><br /><span style=3D"font=
+-size: 13px; line-height: 19px">
+Implements most formula functions supported by Microsoft Excel 2013 and Go=
+ogle Spreadsheets. Dependencies: jStat, Lo-Dash, Moment.js, Numeral.js, Nu=
+meric JavaScript, Undercore.string. An npm package and an AMD module are u=
+nder development.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2f1f567e63&e=3D=
+b4af456f64" title=3D"www.mitya.co.uk/fieldState">FieldState: Minimise Your=
+ DOM Logic for Form Field Control</a></strong><br /><span style=3D"font-si=
+ze: 13px; line-height: 19px">
+A powerful, mini, HTML5 attributes-based API for responsively controlling=
+ the required/available states of form fields.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Daa03488389&e=3D=
+b4af456f64" title=3D"github.com/mdlawson/piping">Piping: Live Code Reloadin=
+g On Node.js Without External Scripts</a></strong><br /><span style=3D"fon=
+t-size: 13px; line-height: 19px">
+Piping enables live code reloading in your Node.js app by simply requiring=
+ a library (as opposed to existing solutions where you have to start Node.=
+js from an external script).
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D885286087f&e=3D=
+b4af456f64" title=3D"epoxyjs.org">Epoxy.js : Elegant Data Binding for Backb=
+one</a></strong><br /><span style=3D"font-size: 13px; line-height: 19px">
+Adds data binding to Backbone. Key features: computed model attributes, de=
+clarative view bindings, automated dependency mapping, automatic view upda=
+tes.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D809f7c147d&e=3D=
+b4af456f64" title=3D"blog.alexmaccaw.com/abba">Abba: JavaScript A/B Testin=
+g</a></strong><br /><span style=3D"font-size: 13px; line-height: 19px">
+Run two different versions of a web site, find out how it affects conversi=
+on rates. Comes with a self-hosting server, requires Ruby 1.9.3 and Mongo.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D972a56cbf8&e=3D=
+b4af456f64" title=3D"radlikewhoa.github.com/Countable">Countable.js: Live=
+ Word Counting in JavaScript</a></strong><br /><span style=3D"font-size: 1=
+3px; line-height: 19px">
+Countable adds live counting of paragraphs, words and characters to an HTM=
+L element. It is small and does not need any libraries.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D617b603553&e=3D=
+b4af456f64" title=3D"github.com/GoodBoyDigital/pixi.js">Pixi.js: A Fast HT=
+ML 5 2D Rendering Engine That Uses WebGL with Canvas Fallback</a></strong>=
+<br /><span style=3D"font-size: 13px; line-height: 19px">
+The aim of this project is to provide a fast lightweight 2D library that w=
+orks across all devices. It leans on WebGL for performance but requires no=
+ prior knowledge of it. There's <a href=3D"http://javascriptweekly.us1.lis=
+t-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db766e86d24&e=
+=3Db4af456f64">a blog post</a> that explains more and <a href=3D"http://j=
+avascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313c=
+eb2&id=3D11b50045cf&e=3Db4af456f64">a demo game to enjoy.</a>
+</span></p>
+
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De74076d13a&e=3D=
+b4af456f64" title=3D"runnable.com">Runnable: Run Server-Side Code and Disco=
+ver APIs in Your Browser</a></strong><br /><span style=3D"font-size: 13px;=
+ line-height: 19px">
+This service lets you create usage examples for your framework or API so t=
+hat people can try them out live in their browser. Works for either client=
+-side or server-side (Node.js) code.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dee504e02ac&e=3D=
+b4af456f64" title=3D"vividcortex.com/jobs.html">Front-End Brainiac at Vivid=
+Cortex</a></strong><br /><span style=3D"font-size: 13px; line-height: 19px=
+">Your mission: build visualization/analysis UI for a monitoring and analy=
+sis system. You'll use Angular, D3, Testacular, and CSS/HTML5. It's comple=
+x, real-time, and you'll handle 3.5 trillion data points per day. Is that=
+ enough of a challenge for you?</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df0d7c4d064&e=3D=
+b4af456f64" title=3D"www.krux.com/pro/who_we_are/careers/javascript_guru">=
+Javascript Guru (San Francisco, CA)</a></strong><br /><span style=3D"font-=
+size: 13px; line-height: 19px">If you like hard problems, enjoy working wi=
+th cutting-edge technologies, and have a good sense of usability, adventur=
+e and humor, Krux could offer you your dream job.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5b7d39cada&e=3D=
+b4af456f64" title=3D"gigwalk.com/careers/seniorFrontEnd">Senior Software En=
+gineer (Front End) at Gigwalk.com (San Francisco)</a></strong><br /><span=
+ style=3D"font-size: 13px; line-height: 19px">Gigwalk is reinventing what=
+ it means to find work in a mobile world. We are looking for talented folk=
+s who want to be a part of building a great company. Must have HTML/5, CSS=
+/3, Javascript (jQuery, but not only jQuery), and a love for API's.</span>=
+</p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De38a0107ac&e=3D=
+b4af456f64" title=3D"discuss.emberjs.com">Ember.JS Gets an Official Discuss=
+ion Forum</a></strong><br /><span style=3D"font-size: 13px; line-height: 1=
+9px">
+Built upon the Ember.js-powered Discourse forum software, it already seems=
+ to be quite popular.
+</span></p>
+
+
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage1.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dff01c28ad3&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D04=
+48fe62ae&e=3Db4af456f64">Peter Cooper</a></p>
+
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6f2d5494d9&e=
+=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3Db83f81283e&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br />Want to advertise? <a href=3D"http://javascriptweekly.us1.list-ma=
+nage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df1c6c66813&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br />Want to post a job? <a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df19b64295d&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br />To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br /><a href=3D"http://javascriptw=
+eekly.us1.list-manage1.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D=
+596bcf37c5&e=3Db4af456f64&c=3Da8652539fc">Unsubscribe</a> or <a href=3D"http=
+://javascriptweekly.us1.list-manage1.com/profile?u=3D0618f6a79d6bb9675f313=
+ceb2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a>=
+</p>
+=09</td></tr>
+</table>
+
+</td></tr></table>
+
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3Da8652539fc&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_789559261--

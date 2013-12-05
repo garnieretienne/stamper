@@ -1,0 +1,1182 @@
+Return-Path:
+  <bounce-mc.us1_449017.1853657-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.182.7.226 with SMTP id m2csp22390oba;
+        Wed, 5 Dec 2012 09:21:46 -0800 (PST)
+Received: by 10.49.74.198 with SMTP id w6mr22369785qev.57.1354728106479;
+        Wed, 05 Dec 2012 09:21:46 -0800 (PST)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id gj3si4928230qab.92.2012.12.05.09.21.45;
+        Wed, 05 Dec 2012 09:21:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1853657-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-mc.us1_449017.1853657-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1853657-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net; dkim=pass header.i=peter=3Dhtml5weekly.com@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=peter=3Dhtml5weekly.com@mail259.us2.mcsv.net;
+ bh=EH9I9y6FooINCPDvWRTpVk7g7Kw=;
+ b=K66XacX5ZHpBP7i6y5GkETV30HLgMrqvwkt8WAHpbAl4A7tju8GA5hFhGwd6t4D+DEbxgmhCTThL
+   E8xLXUjrGAB3T9LkTsYENt12nuSJw5lAKGYnhGkG3G8NcjJW02vZvXCpwqP4t4OsCurSwWG7E/XQ
+   lXGe1RCVoVwhnpI0fsg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=GMEDpUUs/lpnhnsirDHrKKqS265okuveIQ2xYraegEPE7bC1ZTgQJedGySjcp8K6L/+e1dY+1lWO
+   kTQDIyRVoP7cQi3Cc4Tg6RZfILpnvwBwNrFTqNcvouDrl+ZLOS0vGWeDouY9YSabbeOBB30BAaC+
+   DXB8/6y4Qwj0P2D5hNw=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hnu1ak0ik188 for <webmail.testing.dev@gmail.com>; Wed, 5 Dec 2012 17:11:21 +0000 (envelope-from <bounce-mc.us1_449017.1853657-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20HTML5=20and=20Browser=20Technology=20News=20=28Issue=2066=29?=
+From: =?utf-8?Q?HTML5=20Weekly?= <peter@html5weekly.com>
+Reply-To: =?utf-8?Q?HTML5=20Weekly?= <peter@html5weekly.com>
+To: <webmail.testing.dev@gmail.com>
+Date: Wed, 5 Dec 2012 17:11:21 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20121205171101@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CIDe4bc966a6db4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.e4bc966a6d
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.e4bc966a6d
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=e4bc966a6d&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-e4bc966a6d-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://html5weekly.us1.list-manage1.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=07e1174dde&e=b4af456f64&c=e4bc966a6d>
+Sender: "HTML5 Weekly" <peter=html5weekly.com@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1933452355"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1933452355
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+HTML5 Weekly - A Weekly HTML5 and Browser Technology Newsletter
+Issue 66 - December  5, 2012
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+To unsubscribe: http://html5weekly.us1.list-manage1.com/unsubscribe?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64&c=3De4bc966a6d
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+featured
+--------
+
+IE10 Grabs 0.51% Market Share, Firefox Passes 20% Again, Chrome Dips
+http://thenextweb.com/apps/2012/12/01/ie10-grabs-0-51-market-share-firefox=
+-passes-20-again-chrome-loses-users-third-month-in-a-row/
+
+  The latest browser market share numbers from The Next Web and Net
+  Applications.
+
+Notch's Minecraft-style Experiment on JSFiddle
+http://jsfiddle.net/uzMPU/
+
+  Minecraft's creator, Notch, has created a tiny Minecraft-themed JavaScri=
+pt
+  and Canvas demo. The most interesting part for me is how he created the
+  textures in such a short amount of code. A video about how it works is i=
+n
+  the 'watching' section of this issue.
+
+Firefox Gets Social with Facebook using the new 'Social API'
+https://blog.mozilla.org/blog/2012/12/03/firefox-gets-social-w-facebook/
+
+
+from our sponsor
+----------------
+
+Building the Atari Arcade with CreateJS
+http://atari.com/arcade/developers/building-atari-createjs
+
+  A teardown of how Atari, Microsoft and Adobe collaborated to build the
+  stunning HTML5-based Atari Arcade. A followup article <a
+  href=3D"http://atari.com/arcade/developers/building-html5-games-atari-ar=
+cade">digs
+  right into how to build your own HTML5 game</a> with CreateJS. There's a=
+lso
+  <a href=3D"http://www.youtube.com/embed/J6QXRFuUSZs">a short 4 minute vi=
+deo
+  giving a feel</a> for what was involved.
+
+
+reading
+-------
+
+5 APIs That Will Transform The Web in 2013
+http://blog.alexmaccaw.com/the-next-web
+
+  Stripe's Alex MacCaw covers CSS Custom Filters, Autocomplete API, Google
+  Chrome Apps, ECMAScript 6, and Web Components.
+
+HTML5 Video Bumpers
+http://24ways.org/2012/html5-video-bumpers/
+
+  To launch the popular 24 ways web developers' advent calendar, Drew
+  McLellan shows us how to dynamically add 'bumpers' to HTML5 videos (i.e.
+  other videos that play before and/or after the main content).
+
+Introduction to the HTML5 Datalist Element
+http://davidwalsh.name/datalist
+
+  A handy way to add supporting data to an input field. Somehow I had no i=
+dea
+  about this but it's supported in IE 10, Firefox, Chrome and Opera.
+
+W3C Web Performance: Continuing Performance Investments
+http://blogs.msdn.com/b/ie/archive/2012/11/27/w3c-web-performance-continui=
+ng-performance-investments.aspx
+
+  A quick summary of what the W3C Web Performance working group have been
+  talking about and are now focusing on. "Prerendering" seems like the nex=
+t
+  step on from prefetching.
+
+How to Directly Upload Files to Amazon S3 From Your Client Side Web App
+http://codeartists.com/post/36892733572/how-to-directly-upload-files-to-am=
+azon-s3-from-your
+
+  Now that Amazon's S3 storage service supports CORS (Cross Origin Resourc=
+e
+  Sharing), it's possible to upload things directly to S3 from the browser
+  (though a server side aspect is introduced for request signing, for
+  security).
+
+Using CSS3's Substring Matching Attribute Selectors
+http://blog.teamtreehouse.com/css3-substring-matching-attribute-selectors
+
+How to Record Audio in Chrome With Native HTML5 APIs
+http://codeartists.com/post/36746402258/how-to-record-audio-in-chrome-with=
+-native-html5-apis
+
+  It seems Chrome's new Flash player can have some audio recording issues,=
+ so
+  here's a tutorial demonstrating how to use the Web Audio API and
+  getUserMedia to record audio in a more native fashion.
+
+IE 10 Web Performance Quick Check on Windows 7
+http://ariya.ofilabs.com/2012/11/ie-10-web-performance-quick-check.html
+
+Draft IETF Spec for HTTP 2.0's SPDY Protocol
+http://tools.ietf.org/html/draft-ietf-httpbis-http2-00
+
+  A draft of a new spec for the SPDY protocol that forms the base of HTTP
+  2.0. Look in our 'watching' section for a more accessible presentation
+  about this technology.
+
+Using Inline SVGs With HTML5
+http://net.tutsplus.com/tutorials/html-css-techniques/using-inline-svgs-wi=
+th-html5/
+
+Is localStorage Performance A Problem?
+http://calendar.perfplanet.com/2012/is-localstorage-performance-a-problem/
+
+Desktop Apps: The Final Frontier for HTML5
+http://www.kendoui.com/blogs/teamblog/posts/12-12-04/desktop_apps_the_fina=
+l_frontier_for_html5.aspx
+
+The WebRTC Announcements Week
+http://bloggeek.me/webrtc-announcements/
+
+  Tsahi Levent-Levi sums up some of the announcements from last week's Web=
+RTC
+  Conference &amp; Expo which he believes is now the WebRTC conference of
+  record.
+
+
+watching
+--------
+
+SPDY and the Road Towards HTTP 2.0
+http://www.youtube.com/watch?v=3DSWQdSEferz8
+
+  A talk from HTML5 Dev Conf by Google's Ilya Grigorik. He really knows hi=
+s
+  stuff and is always good to watch.
+
+Making Things With Maths
+https://www.youtube.com/watch?v=3DONN3jBly364
+
+  Steven Wittens demonstrates why and how technologies like Canvas and Web=
+GL
+  can get us thinking more about using math when putting dynamic
+  visualizations together.
+
+HTML5 Air Hockey with Canvas, CreateJS and Node.js
+http://www.youtube.com/watch?v=3DloJzkIfFpgQ
+
+  No code yet but it looks pretty smooth to play. A lot of potential with
+  ideas like this.
+
+How Notch's JS Experiment Generates Its Textures in Code
+http://www.youtube.com/watch?v=3DWaZvDCmlERc
+
+
+code and tools
+--------------
+
+Noduino: Control Arduino with Node.js, WebSockets and HTML5
+http://semu.github.com/noduino/
+
+  A flexible JavaScript and Node.js framework for accessing basic Arduino
+  controls from webapps using HTML5 and Socket.IO.
+
+HTML_CodeSniffer: Bookmarklet To Check HTML Code Meets Standards
+http://squizlabs.github.com/HTML_CodeSniffer/
+
+  Comes ready with a set of 3 standards that enforce the Web Content
+  Accessibility Guidelines (WCAG) 2.0.
+
+HTML5 Flash Warning Fix for YouTube
+https://chrome.google.com/webstore/detail/html5-flash-warning-fix-f/ipdkok=
+hdeppifjgcmhbfgmjmdllfpkln
+
+  A Chrome extension to automatically replace the Flash warning message on
+  YouTube with an HTML5 version of the video if you have Flash disabled.
+
+nativeColorPicker: Polyfill for HTML5's 'color' Input Type on Internet Exp=
+lorer
+https://github.com/dciccale/nativeColorPicker
+
+css3-github-ribbon: A CSS3 GitHub Ribbon for your GitHub-based Projects
+https://github.com/dciccale/css3-github-ribbon
+
+PhantomCSS: Automated Visual Regression Testing
+https://github.com/Huddle/PhantomCSS
+
+
+jobs
+----
+
+Lead Front End Web Developer
+http://www.summitbusinessmedia.com/lead-front-end-web-developer/
+
+  Summit Business Media is seeking a Lead Front End Developer who will man=
+age
+  our client side architecture as well as a team of frontend developers. T=
+he
+  Developer will work closely with design, backend, infrastructure, and
+  project management teams to deliver engaging applications.
+
+User interface engineer in Amsterdam. Join our small team on a mission.
+http://www.nouncy.com/careers?utm_source=3Djsweekly&utm_medium=3Demail&utm=
+_campaign=3Dcareerspush1
+
+  We believe that web apps can be delightful. Do you have experience with
+  MVC-style UI programming for the web or other platforms? Do you love new
+  cool stuff like CoffeeScript, AngularJS and modern browsers? Read our st=
+ory
+  after the click.
+
+Blazing Cloud is looking for software artisans
+http://blog.blazingcloud.net/2012/11/13/artisanal-software-developers-need=
+ed/
+
+  to join us in handcrafting beautiful mobile experiences. We are looking=
+ for
+  people who believe in a whole product-approach and agile development
+  practices, and have a strong sense of quality.
+
+Node.js developer for an open source project at Zendesk [San Francisco]
+http://www.zendesk.com/company/careers?jvi=3DoHiWWfwB,Job
+
+
+demos
+-----
+
+Dr. Mojo by MojoTech
+http://www.mojotech.com/dr_mojo
+
+  A Dr. Mario-style game created using HTML5 and Canvas technologies by
+  MojoTech. Has a pretty authentic retro feel to it.
+
+Dune 2 Online: Ported from DOS to the Web with Emscripten
+http://play-dune.com/atreides/
+
+  Another great demonstration of how powerful Alon Zakai's Emscripten
+  LLVM-to-JavaScript compiler is getting.
+
+
+last but not least..
+--------------------
+
+O'Reilly Fluent 2013 CFP Closes in 5 Days; Submit Your Talk Now
+http://fluentconf.com/fluent2013
+
+  I'm a co-chair of Fluent, an O'Reilly conference dedicated to Web browse=
+r
+  technology with a focus on JavaScript and HTML5. We've already lined up
+  some great speakers including Lea Verou, Brendan Eich, and Estelle Weyl=
+ but
+  would love to have more proposals to consider :-)
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You opted in for HTML5 Weekly at http://html5weekly.com/ to get weekly
+e-mails about HTML5 and related technologies.
+
+You can unsubscribe at: http://html5weekly.us1.list-manage1.com/unsubscrib=
+e?u=3D0618f6a79d6bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64&c=3De4bc966a6=
+d
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e,
+Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@html5weekly.com
+if you like.
+--_----------=_MCPart_1933452355
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+=09
+<style>
+=09html { margin: 0 }
+=09body { font-family: "Helvetica Neue", Helvetica, Ubuntu, arial, sans-se=
+rif; margin: 0 }
+=09H2, DIV.item A { -webkit-font-smoothing: antialiased; }
+=09@media only screen and (max-device-width: 480px), (max-width: 600px) {
+=09  #maintable { width: auto !important }
+=09=09.item IMG { display: none !important }
+=09=09#header { max-width: 100% !important; width: auto !important }
+=09}
+</style>
+
+<table width=3D"100%" cellpadding=3D"12" cellspacing=3D"0">
+=09<tr><td bgcolor=3D"#eeeeee">
+=09
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" w=
+idth=3D"600" id=3D"maintable" style=3D"font-family: 'Helvetica Neue', helv=
+etica, arial, sans-serif; margin-top: 6px">
+  <tr><td width=3D"100%" colspan=3D"2">
+    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" class=3D"noa=
+rchive"><tr><td width=3D"60%" valign=3D"bottom"><div style=3D"color: #3333=
+33;font-size: 11px;font-family: Tahoma, helvetica, arial, sans-serif; marg=
+in-bottom: 8px">Browser share numbers, Firefox's Social API, Minecraft4k</=
+div></td><td valign=3D"bottom" width=3D"40%" align=3D"right"><div style=3D=
+"font-size: 11px; text-align: right; margin-bottom: 8px"><a href=3D"http:/=
+/html5weekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb=
+2&id=3D43aaa60cb7&e=3Db4af456f64" style=3D"color: #1173c7">Read this on t=
+he Web</a> or <a href=3D"http://html5weekly.us1.list-manage.com/track/clic=
+k?u=3D0618f6a79d6bb9675f313ceb2&id=3D4c389b8a67&e=3Db4af456f64" style=3D"=
+color: #1173c7">see the archive</a></div></td></tr></table>
+  </td></tr>
+=09<tr bgcolor=3D"#1173c7"><td align=3D"left">
+=09=09=09<a href=3D"http://html5weekly.us1.list-manage.com/track/click?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3Df8de646ab0&e=3Db4af456f64"><img src=3D"=
+http://html5weekly.com/images/headert.png" alt=3D"HTML5 Weekly: Your weekl=
+y dose of HTML5 and browser technology news" width=3D"250" height=3D"70" i=
+d=3D"header" style=3D"margin-bottom: 0px; border: 0" /></a>
+=09</td><td align=3D"right">
+=09=09<div style=3D"font-size: 26px; color: #fff; margin-right: 8px">#66</=
+div>
+=09=09<div style=3D"font-size: 13px; color: #cdf; margin-right: 8px; margi=
+n-top: 2px">December  5, 2012</div>
+=09</td></tr>
+=09<tr bgcolor=3D"#ffffff"><td colspan=3D"2">
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee;  font-size: 16p=
+x; ">featured</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D86ca087ac2&e=3Db4af456f64" tit=
+le=3D"thenextweb.com/apps/2012/12/01/ie10-grabs-0-51-market-share-firefox-=
+passes-20-again-chrome-loses-users-third-month-in-a-row/" style=3D"font-si=
+ze: 14px; font-weight: bold; font-size: 15px; color: #1173c7; display: blo=
+ck; margin-bottom: 1px; line-height: 20px; margin-bottom: 2px">IE10 Grabs=
+ 0.51% Market Share, Firefox Passes 20% Again, Chrome Dips</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+The latest browser market share numbers from The Next Web and Net Applicat=
+ions.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc726eeb891&e=3Db4af456f64" tit=
+le=3D"jsfiddle.net/uzMPU/" style=3D"font-size: 14px; font-weight: bold; fo=
+nt-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; line-he=
+ight: 20px; margin-bottom: 2px">Notch's Minecraft-style Experiment on JSFi=
+ddle</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Minecraft's creator, Notch, has created a tiny Minecraft-themed JavaScript=
+ and Canvas demo. The most interesting part for me is how he created the t=
+extures in such a short amount of code. A video about how it works is in t=
+he 'watching' section of this issue.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D97a59608fd&e=3Db4af456f64" tit=
+le=3D"blog.mozilla.org/blog/2012/12/03/firefox-gets-social-w-facebook/" st=
+yle=3D"font-size: 14px;  color: #1173c7; display: block; margin-bottom: 1p=
+x; line-height: 20px; margin-bottom: 2px">Firefox Gets Social with Faceboo=
+k using the new 'Social API'</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">from our sponsor</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09<a href=3D"http://html5weekly.us1.list-manage1.com/track/cl=
+ick?u=3D0618f6a79d6bb9675f313ceb2&id=3D1978d71ae7&e=3Db4af456f64"><img sr=
+c=3D"http://s3.amazonaws.com/nlga/uploads/item/image/7599/thumb_atari-ie-m=
+icrosoft.png" width=3D"133" height=3D"100" style=3D"float: right; margin-l=
+eft: 14px; margin-bottom: 12px; border: 1px solid #61a3d7" /></a>
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9016ec0769&e=3Db4af456f64" tit=
+le=3D"atari.com/arcade/developers/building-atari-createjs" style=3D"font-s=
+ize: 14px; font-weight: bold; font-size: 15px; color: #1173c7; display: bl=
+ock; margin-bottom: 1px; line-height: 20px; margin-bottom: 2px">Building t=
+he Atari Arcade with CreateJS</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A teardown of how Atari, Microsoft and Adobe collaborated to build the stu=
+nning HTML5-based Atari Arcade. A followup article <a href=3D"http://html5=
+weekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D=
+7134137840&e=3Db4af456f64">digs right into how to build your own HTML5 ga=
+me</a> with CreateJS. There's also <a href=3D"http://html5weekly.us1.list-=
+manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8c734e4ffa&e=3D=
+b4af456f64">a short 4 minute video giving a feel</a> for what was involved=
+=2E
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">reading</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5d8af1d2ba&e=3Db4af456f64" tit=
+le=3D"blog.alexmaccaw.com/the-next-web" style=3D"font-size: 14px; font-wei=
+ght: bold; font-size: 15px; color: #1173c7; display: block; margin-bottom:=
+ 1px; line-height: 20px; margin-bottom: 2px">5 APIs That Will Transform Th=
+e Web in 2013</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Stripe's Alex MacCaw covers CSS Custom Filters, Autocomplete API, Google C=
+hrome Apps, ECMAScript 6, and Web Components.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage2.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D392d66d8d3&e=3Db4af456f64" ti=
+tle=3D"24ways.org/2012/html5-video-bumpers/" style=3D"font-size: 14px; fon=
+t-weight: bold; font-size: 15px; color: #1173c7; display: block; margin-bo=
+ttom: 1px; line-height: 20px; margin-bottom: 2px">HTML5 Video Bumpers</a><=
+/div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+To launch the popular 24 ways web developers' advent calendar, Drew McLell=
+an shows us how to dynamically add 'bumpers' to HTML5 videos (i.e. other v=
+ideos that play before and/or after the main content).
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0474b640c2&e=3Db4af456f64" tit=
+le=3D"davidwalsh.name/datalist" style=3D"font-size: 14px; font-weight: bol=
+d; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; li=
+ne-height: 20px; margin-bottom: 2px">Introduction to the HTML5 Datalist El=
+ement</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A handy way to add supporting data to an input field. Somehow I had no ide=
+a about this but it's supported in IE 10, Firefox, Chrome and Opera.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc3689186ba&e=3Db4af456f64" tit=
+le=3D"blogs.msdn.com/b/ie/archive/2012/11/27/w3c-web-performance-continuin=
+g-performance-investments.aspx" style=3D"font-size: 14px; font-weight: bol=
+d; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; li=
+ne-height: 20px; margin-bottom: 2px">W3C Web Performance: Continuing Perfo=
+rmance Investments</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A quick summary of what the W3C Web Performance working group have been ta=
+lking about and are now focusing on. "Prerendering" seems like the next st=
+ep on from prefetching.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D97473ff18e&e=3Db4af456f64" tit=
+le=3D"codeartists.com/post/36892733572/how-to-directly-upload-files-to-ama=
+zon-s3-from-your" style=3D"font-size: 14px; font-weight: bold; font-size:=
+ 15px; color: #1173c7; display: block; margin-bottom: 1px; line-height: 20=
+px; margin-bottom: 2px">How to Directly Upload Files to Amazon S3 From You=
+r Client Side Web App</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Now that Amazon's S3 storage service supports CORS (Cross Origin Resource=
+ Sharing), it's possible to upload things directly to S3 from the browser=
+ (though a server side aspect is introduced for request signing, for secur=
+ity).
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df2c3486b8b&e=3Db4af456f64" ti=
+tle=3D"blog.teamtreehouse.com/css3-substring-matching-attribute-selectors"=
+ style=3D"font-size: 14px;  color: #1173c7; display: block; margin-bottom:=
+ 1px; line-height: 20px; margin-bottom: 2px">Using CSS3's Substring Matchi=
+ng Attribute Selectors</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9b7ab91597&e=3Db4af456f64" tit=
+le=3D"codeartists.com/post/36746402258/how-to-record-audio-in-chrome-with-=
+native-html5-apis" style=3D"font-size: 14px; font-weight: bold; font-size:=
+ 15px; color: #1173c7; display: block; margin-bottom: 1px; line-height: 20=
+px; margin-bottom: 2px">How to Record Audio in Chrome With Native HTML5 AP=
+Is</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+It seems Chrome's new Flash player can have some audio recording issues, s=
+o here's a tutorial demonstrating how to use the Web Audio API and getUser=
+Media to record audio in a more native fashion.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da3fbcdec91&e=3Db4af456f64" tit=
+le=3D"ariya.ofilabs.com/2012/11/ie-10-web-performance-quick-check.html" st=
+yle=3D"font-size: 14px;  color: #1173c7; display: block; margin-bottom: 1p=
+x; line-height: 20px; margin-bottom: 2px">IE 10 Web Performance Quick Chec=
+k on Windows 7</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Ddbcf0f2aef&e=3Db4af456f64" tit=
+le=3D"tools.ietf.org/html/draft-ietf-httpbis-http2-00" style=3D"font-size:=
+ 14px; font-weight: bold; font-size: 15px; color: #1173c7; display: block;=
+ margin-bottom: 1px; line-height: 20px; margin-bottom: 2px">Draft IETF Spe=
+c for HTTP 2.0's SPDY Protocol</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A draft of a new spec for the SPDY protocol that forms the base of HTTP 2.=
+0. Look in our 'watching' section for a more accessible presentation about=
+ this technology.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3ea955d546&e=3Db4af456f64" ti=
+tle=3D"net.tutsplus.com/tutorials/html-css-techniques/using-inline-svgs-wi=
+th-html5/" style=3D"font-size: 14px;  color: #1173c7; display: block; marg=
+in-bottom: 1px; line-height: 20px; margin-bottom: 2px">Using Inline SVGs W=
+ith HTML5</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5dd306edba&e=3Db4af456f64" tit=
+le=3D"calendar.perfplanet.com/2012/is-localstorage-performance-a-problem/"=
+ style=3D"font-size: 14px;  color: #1173c7; display: block; margin-bottom:=
+ 1px; line-height: 20px; margin-bottom: 2px">Is localStorage Performance A=
+ Problem?</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8432f00523&e=3Db4af456f64" tit=
+le=3D"www.kendoui.com/blogs/teamblog/posts/12-12-04/desktop_apps_the_final=
+_frontier_for_html5.aspx" style=3D"font-size: 14px;  color: #1173c7; displ=
+ay: block; margin-bottom: 1px; line-height: 20px; margin-bottom: 2px">Desk=
+top Apps: The Final Frontier for HTML5</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcd574d3590&e=3Db4af456f64" tit=
+le=3D"bloggeek.me/webrtc-announcements/" style=3D"font-size: 14px; font-we=
+ight: bold; font-size: 15px; color: #1173c7; display: block; margin-bottom=
+: 1px; line-height: 20px; margin-bottom: 2px">The WebRTC Announcements Wee=
+k</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Tsahi Levent-Levi sums up some of the announcements from last week's WebRT=
+C Conference &amp; Expo which he believes is now the WebRTC conference of=
+ record.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">watching</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2bc664e1e6&e=3Db4af456f64" ti=
+tle=3D"www.youtube.com/watch?v=3DSWQdSEferz8" style=3D"font-size: 14px; fo=
+nt-weight: bold; font-size: 15px; color: #1173c7; display: block; margin-b=
+ottom: 1px; line-height: 20px; margin-bottom: 2px">SPDY and the Road Towar=
+ds HTTP 2.0</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A talk from HTML5 Dev Conf by Google's Ilya Grigorik. He really knows his=
+ stuff and is always good to watch.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D384a9ec939&e=3Db4af456f64" ti=
+tle=3D"www.youtube.com/watch?v=3DONN3jBly364" style=3D"font-size: 14px; fo=
+nt-weight: bold; font-size: 15px; color: #1173c7; display: block; margin-b=
+ottom: 1px; line-height: 20px; margin-bottom: 2px">Making Things With Math=
+s</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Steven Wittens demonstrates why and how technologies like Canvas and WebGL=
+ can get us thinking more about using math when putting dynamic visualizat=
+ions together.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df2f51849d4&e=3Db4af456f64" tit=
+le=3D"www.youtube.com/watch?v=3DloJzkIfFpgQ" style=3D"font-size: 14px; fon=
+t-weight: bold; font-size: 15px; color: #1173c7; display: block; margin-bo=
+ttom: 1px; line-height: 20px; margin-bottom: 2px">HTML5 Air Hockey with Ca=
+nvas, CreateJS and Node.js</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+No code yet but it looks pretty smooth to play. A lot of potential with id=
+eas like this.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage2.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5be4ab5ba1&e=3Db4af456f64" ti=
+tle=3D"www.youtube.com/watch?v=3DWaZvDCmlERc" style=3D"font-size: 14px;  c=
+olor: #1173c7; display: block; margin-bottom: 1px; line-height: 20px; marg=
+in-bottom: 2px">How Notch's JS Experiment Generates Its Textures in Code</=
+a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">code and tools</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1315b55acb&e=3Db4af456f64" ti=
+tle=3D"semu.github.com/noduino/" style=3D"font-size: 14px; font-weight: bo=
+ld; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; l=
+ine-height: 20px; margin-bottom: 2px">Noduino: Control Arduino with Node.j=
+s, WebSockets and HTML5</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A flexible JavaScript and Node.js framework for accessing basic Arduino co=
+ntrols from webapps using HTML5 and Socket.IO.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D98a5da04ed&e=3Db4af456f64" tit=
+le=3D"squizlabs.github.com/HTML_CodeSniffer/" style=3D"font-size: 14px; fo=
+nt-weight: bold; font-size: 15px; color: #1173c7; display: block; margin-b=
+ottom: 1px; line-height: 20px; margin-bottom: 2px">HTML_CodeSniffer: Bookm=
+arklet To Check HTML Code Meets Standards</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Comes ready with a set of 3 standards that enforce the Web Content Accessi=
+bility Guidelines (WCAG) 2.0.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D3f7d5cd5ec&e=3Db4af456f64" tit=
+le=3D"chrome.google.com/webstore/detail/html5-flash-warning-fix-f/ipdkokhd=
+eppifjgcmhbfgmjmdllfpkln" style=3D"font-size: 14px; font-weight: bold; fon=
+t-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; line-hei=
+ght: 20px; margin-bottom: 2px">HTML5 Flash Warning Fix for YouTube</a></di=
+v>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A Chrome extension to automatically replace the Flash warning message on Y=
+ouTube with an HTML5 version of the video if you have Flash disabled.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8b3b387f25&e=3Db4af456f64" tit=
+le=3D"github.com/dciccale/nativeColorPicker" style=3D"font-size: 14px;  co=
+lor: #1173c7; display: block; margin-bottom: 1px; line-height: 20px; margi=
+n-bottom: 2px">nativeColorPicker: Polyfill for HTML5's 'color' Input Type=
+ on Internet Explorer</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D50dbdd21fc&e=3Db4af456f64" ti=
+tle=3D"github.com/dciccale/css3-github-ribbon" style=3D"font-size: 14px; =
+ color: #1173c7; display: block; margin-bottom: 1px; line-height: 20px; ma=
+rgin-bottom: 2px">css3-github-ribbon: A CSS3 GitHub Ribbon for your GitHub=
+-based Projects</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D08e501aa89&e=3Db4af456f64" tit=
+le=3D"github.com/Huddle/PhantomCSS" style=3D"font-size: 14px;  color: #117=
+3c7; display: block; margin-bottom: 1px; line-height: 20px; margin-bottom:=
+ 2px">PhantomCSS: Automated Visual Regression Testing</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">jobs</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D14d026febc&e=3Db4af456f64" tit=
+le=3D"www.summitbusinessmedia.com/lead-front-end-web-developer/" style=3D"=
+font-size: 14px; font-weight: bold; font-size: 15px; color: #1173c7; displ=
+ay: block; margin-bottom: 1px; line-height: 20px; margin-bottom: 2px">Lead=
+ Front End Web Developer</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">Summit Bu=
+siness Media is seeking a Lead Front End Developer who will manage our cli=
+ent side architecture as well as a team of frontend developers. The Develo=
+per will work closely with design, backend, infrastructure, and project ma=
+nagement teams to deliver engaging applications. </div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcb40050c42&e=3Db4af456f64" tit=
+le=3D"www.nouncy.com/careers?utm_source=3Djsweekly&utm_medium=3Demail&utm_=
+campaign=3Dcareerspush1" style=3D"font-size: 14px; font-weight: bold; font=
+-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; line-heig=
+ht: 20px; margin-bottom: 2px">User interface engineer in Amsterdam. Join o=
+ur small team on a mission.</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">We believ=
+e that web apps can be delightful. Do you have experience with MVC-style U=
+I programming for the web or other platforms? Do you love new cool stuff l=
+ike CoffeeScript, AngularJS and modern browsers? Read our story after the=
+ click.</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcce594e655&e=3Db4af456f64" tit=
+le=3D"blog.blazingcloud.net/2012/11/13/artisanal-software-developers-neede=
+d/" style=3D"font-size: 14px; font-weight: bold; font-size: 15px; color: #=
+1173c7; display: block; margin-bottom: 1px; line-height: 20px; margin-bott=
+om: 2px">Blazing Cloud is looking for software artisans</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">to join u=
+s in handcrafting beautiful mobile experiences. We are looking for people=
+ who believe in a whole product-approach and agile development practices,=
+ and have a strong sense of quality.</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D94fc5d2d99&e=3Db4af456f64" tit=
+le=3D"www.zendesk.com/company/careers?jvi=3DoHiWWfwB,Job" style=3D"font-si=
+ze: 14px;  color: #1173c7; display: block; margin-bottom: 1px; line-height=
+: 20px; margin-bottom: 2px">Node.js developer for an open source project a=
+t Zendesk [San Francisco]</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px"></div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">demos</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09<a href=3D"http://html5weekly.us1.list-manage2.com/track/cl=
+ick?u=3D0618f6a79d6bb9675f313ceb2&id=3Df1329fb929&e=3Db4af456f64"><img sr=
+c=3D"http://s3.amazonaws.com/nlga/uploads/item/image/7578/thumb_drmario.pn=
+g" width=3D"133" height=3D"100" style=3D"float: right; margin-left: 14px;=
+ margin-bottom: 12px; border: 1px solid #61a3d7" /></a>
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1ce8664a69&e=3Db4af456f64" tit=
+le=3D"www.mojotech.com/dr_mojo" style=3D"font-size: 14px; font-weight: bol=
+d; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; li=
+ne-height: 20px; margin-bottom: 2px">Dr. Mojo by MojoTech</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+A Dr. Mario-style game created using HTML5 and Canvas technologies by Mojo=
+Tech. Has a pretty authentic retro feel to it.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6012a2b99e&e=3Db4af456f64" ti=
+tle=3D"play-dune.com/atreides/" style=3D"font-size: 14px; font-weight: bol=
+d; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px; li=
+ne-height: 20px; margin-bottom: 2px">Dune 2 Online: Ported from DOS to the=
+ Web with Emscripten</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+Another great demonstration of how powerful Alon Zakai's Emscripten LLVM-t=
+o-JavaScript compiler is getting.
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<p style=3D"line-height:1.0em; clear: right; font-weight: bold=
+; font-weight: 500; color: #1173c7; color: #ed4113;  margin-bottom: 4px; p=
+adding: 12px 12px 0px 12px; border-top: 1px solid #eeeeee; margin-top: 1.5=
+em; font-size: 16px; ">last but not least..</p>
+=09=09=09
+=09=09=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09    <div style=3D"display: block; clear: right; margin: 18px 12px; p=
+adding: 0px 0px; line-height:1.4em; font-size: 14px; " class=3D"item">
+=09=09=09=09=09
+=09=09=09=09=09<div><a href=3D"http://html5weekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4aa5b799bd&e=3Db4af456f64" ti=
+tle=3D"fluentconf.com/fluent2013" style=3D"font-size: 14px; font-weight: b=
+old; font-size: 15px; color: #1173c7; display: block; margin-bottom: 1px;=
+ line-height: 20px; margin-bottom: 2px">O'Reilly Fluent 2013 CFP Closes in=
+ 5 Days; Submit Your Talk Now</a></div>
+=09=09=09=09=09<div style=3D"font-size: 12px; line-height: 19px">
+I'm a co-chair of Fluent, an O'Reilly conference dedicated to Web browser=
+ technology with a focus on JavaScript and HTML5. We've already lined up s=
+ome great speakers including Lea Verou, Brendan Eich, and Estelle Weyl but=
+ would love to have more proposals to consider :-)
+</div>
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09
+=09=09
+
+=09=09<div style=3D"border-top: 5px solid #eeeeee; font-size: 13px; color:=
+ #666; line-height: 19px; clear: right" class=3D"noarchive">
+=09=09=09<div style=3D"margin: 12px">
+=09=09=09=09<strong><a href=3D"http://html5weekly.us1.list-manage.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D934f35ad8a&e=3Db4af456f64" sty=
+le=3D"color: #ed4113">HTML5 Weekly</a> is published by <a href=3D"http://h=
+tml5weekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3D59f964e7f1&e=3Db4af456f64" style=3D"color: #ed4113">Cooper Press</a>=
+=2E</strong> <strong>Not a subscriber yet? <a href=3D"http://html5weekly.us1=
+=2Elist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D9219a3b1ac=
+&e=3Db4af456f64" style=3D"color: #ed4113">Subscribe here.</a></strong><br=
+ />
+=09=09=09<!-- You opted in to HTML5 Weekly at <a href=3D"http://html5weekl=
+y.com/" style=3D"color: #ed4113">HTML5Weekly.com</a> to get weekly e-mails
+=09=09=09about HTML 5 and related browser technologies.<br /><br /> --><st=
+rong>Want to advertise or list a job?</strong> View <a href=3D"http://html=
+5weekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D4694fab44b&e=3Db4af456f64" style=3D"color: #ed4113">our media kit</a>=
+ for info or <a href=3D"http://html5weekly.us1.list-manage.com/track/click=
+?u=3D0618f6a79d6bb9675f313ceb2&id=3Dafe7cd086f&e=3Db4af456f64" style=3D"c=
+olor: #ed4113">place a job listing directly here</a>.<br /><br /><a href=
+=3D"http://html5weekly.us1.list-manage1.com/unsubscribe?u=3D0618f6a79d6bb9=
+675f313ceb2&id=3D07e1174dde&e=3Db4af456f64&c=3De4bc966a6d">Unsubscribe</a> |=
+ <a href=3D"http://html5weekly.us1.list-manage.com/profile?u=3D0618f6a79d6=
+bb9675f313ceb2&id=3D07e1174dde&e=3Db4af456f64">Change your e-mail address.</=
+a>
+=09=09=09<br /><br />Street address: Office 30, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 0LS
+=09=09=09</div>
+=09=09</div>
+  </td></tr>
+</table>
+
+</td></tr></table>
+
+</font><img src=3D"http://html5weekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3De4bc966a6d&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_1933452355--

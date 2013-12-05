@@ -1,0 +1,361 @@
+Return-Path: <delivery@mx.sailthru.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.85.73 with SMTP id f9csp75712oaz;
+        Thu, 21 Mar 2013 10:46:50 -0700 (PDT)
+X-Received: by 10.220.91.17 with SMTP id k17mr14809557vcm.36.1363888010205;
+        Thu, 21 Mar 2013 10:46:50 -0700 (PDT)
+Received: from mx-aol-b.sailthru.com (mx-aol-b.sailthru.com. [64.34.57.250])
+        by mx.google.com with ESMTP id hl10si6861975vdb.65.2013.03.21.10.46.48;
+        Thu, 21 Mar 2013 10:46:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.250 as permitted sender) client-ip=64.34.57.250;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.250 as permitted sender) smtp.mail=delivery@mx.sailthru.com;
+       dkim=pass header.i=@techcrunch.com
+Received: from nyp1-jmailer15.sailthru.com (nyp1-jmailer15.sailthru.com [65.39.215.167])
+	by mx-aol-b.sailthru.com (Postfix) with ESMTP id CF0F3485D20
+	for <webmail.testing.dev@gmail.com>; Thu, 21 Mar 2013 13:45:24 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1363887924;
+	s=sailthru; d=techcrunch.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-ID:List-Unsubscribe;
+	bh=2GxGvPk/t0j2cpIxFgC1mK50zx1OHaX0q2hcZ1/UBNY=;
+	b=mxicf8Pdie4pGKKavAP2vxdYyyH1P0sF9FrKRs/nwkD/SJMN2Ba4RKGOSiE/76VD
+	yhQrvvcK3yyQ++FgIJImb3gA/watr3L15ZgiprBhluOiLgl4dBN9OvPuKnCjB3Zrr6S
+	Osl7mcE4BvakBun5+M53KNVXDR/jF7aic7r3o6zE=
+Date: Thu, 21 Mar 2013 13:45:24 -0400 (EDT)
+From: CrunchBase <mailer@crunchbase.com>
+To: webmail.testing.dev@gmail.com
+Message-ID: <20130321174524.1533061.142302@sailthru.com>
+Subject: Visualizing CrunchBase with Wikisway
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9775548_1739507404.1363887924834"
+Precedence: bulk
+X-TM-ID: 20130321174524.1533061.142302
+X-Info: Message sent by sailthru.com customer CrunchBase
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-IADB-IP: 64.34.57.250
+X-IADB-IP-REVERSE: 250.57.34.64
+X-IADB-URL: http://www.isipp.com/iadb.php
+X-Unsubscribe-Web: http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576wux1.31su/e6fde153
+List-ID: <cm.3808.5f5d37c7784e7431f532b403fd20aa36.sailthru.com>
+List-Unsubscribe: <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576wux1.31su/e6fde153>, <mailto:unsubscribe_3808@mx.sailthru.com>
+X-rpcampaign: stfqm1533061
+
+------=_Part_9775548_1739507404.1363887924834
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlh=
+e4uC4420> Thursday Mar 21, 2013
+
+Visualizing CrunchBase with Wikisway <http://link.crunchbase.com/5072cfd8dc=
+87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4vD2dc0>
+Wikisway just announced the latest version of their CrunchBase visualizatio=
+n tool allowing anyone to quickly see the connections between companies, pe=
+ople, and investors. Built on the CrunchBase API, we're thrilled to welcome=
+ Wikisway to the CrunchBase Developer Spotlight Program <http://link.crunch=
+base.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4wCb3d7> and belie=
+ve this is a great example of tools that can be built on our dataset. Husto=
+n Hedinger has a great writeup on our blog <http://link.crunchbase.com/5072=
+cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4vE66ff> with more details.
+
+We're Hiring! Developers, Designers, and Content Admins... <http://link.cru=
+nchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4xD7300>
+CrunchBase is used by millions of consumers, analysts, and investors every =
+month to track what's happening in the fast-paced world of tech startups, a=
+nd we're growing. The key to our continued success is building a robust and=
+ scalable system that can capture and reflect the complex relationships amo=
+ngst participants in the industry. Sound exciting? It does to us. Check out=
+ our current openings. <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576=
+wux1.31su/UUpQUCuoalIlhe4xEcfce>
+To forward this newsletter to a friend, click here <http://link.crunchbase.=
+com/forward/5072cfd8dc87ac0b4f10f576wux1.31su/867ed309> =C2=BB
+
+If you do not want to receive this, you can unsubscribe with one click here=
+ <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576wux1.31su/e6fde153>=
+.
+
+TechCrunch <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UT=
+jsv2-oYFM8P6a-C6d58>
+410 Townsend Street, San Francisco, CA 94107
+
+=C2=A9 2012 AOL Inc. All rights reserved. Privacy Policy <http://link.crunc=
+hbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/Tbc0FWjEFi33iYBPC4ae9> Terms of=
+ Service <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UDRv=
+8qgvtQYAsa_pC0575>
+------=_Part_9775548_1739507404.1363887924834
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0018)http://amrt.in/tc/ -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CrunchBase Developer News</title>
+<style>
+@media only screen and (max-device-width: 480px) {
+div[class=".tempsponsor] {margin: 0 17px;color: #000; padding-right:10px; font:normal 11px 'helvetica neue',helvetica,arial,sans-serif; color:#acacac;}
+table[class="hide"], img[class="hide"], td[class="hide"] {
+display: none !important;
+}
+td[class="content"] {
+width: 320px !important;
+}
+h2 {
+font-size: 34px !important;
+line-height: 37px !important;
+}
+h3 {
+color: #457177;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h4 {
+color: #222222 !important;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h5 {
+font-size: 40px !important;
+}
+h2[class="company-name"],
+h2[class="company-name"] a,
+span[class="company-name"],
+span[class="company-name"] a,
+strong[class="company-name"],
+strong[class="company-name"] a,
+strong[class="exec-name"],
+strong[class="exec-name"] a
+{
+font-size: 34px !important;
+line-height: 40px !important;
+}
+h3[class="company-type"],
+h3[class="company-type"] a,
+span[class="company-type"],
+span[class="company-type"] a 
+{
+color: #777777;
+font-size: 26px !important;
+line-height: 36px !important;
+}
+h4[class="company-revenue"],
+h4[class="company-revenue"] a {
+color: #222222 !important;
+font-size: 24px !important;
+line-height: 36px !important;
+}
+a {
+color: #000000;
+text-decoration: none;
+}
+a[class="header"] {
+color: #ffffff;
+text-decoration:none;
+}
+td[class="sectionheader"] {
+font-size: 20px !important;
+line-height: 24px !important;
+padding: 10px 10px !important;
+}
+td[class="row"] {
+/*		border-bottom: 4px solid #e5e5e5 !important;*/
+padding: 10px 10px !important;
+}
+img[class="double"] {
+border: 4px solid #4d7e84 !important;
+height: 96px !important;
+margin-right: 40px !important;
+margin-bottom: 20px !important;
+width: 96px !important;
+}
+td[class="additional"] {
+font-size: 40px !important;
+line-height: 48px !important;
+padding: 10px 10px !important;
+}
+td[class="footer"] {
+font-size: 34px !important;
+line-height: 37px !important;
+padding: 0 30px;
+}
+p[class="footer-text"] {
+font-size: 24px !important;
+line-height: 3px !important;
+}
+p[class="footer-text"] a {
+text-decoration:underline !important;
+font-size: 24px !important;
+line-height: 3px !important;
+}
+img[class="footerimg"] {
+width: 147px !important;
+}
+img[class="cblogo"] {
+float: left !important;
+padding-left:16px !important;
+width: 260px !important;
+}
+td[class="taglinemobile"] {
+background-color: #000000 !important;
+color: #ffffff !important;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 40px !important;
+padding: 20px 30px 10px !important;
+text-align: left !important;
+}
+p[class="right"] {
+float: left !important;
+}
+h3[class="mainheadline"] {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 32px !important;
+line-height: 40px !important;
+text-align: left !important;
+}
+td[class="news-item"] {
+font-size:30px !important;
+line-height:36px !important;
+}
+p[class="company-listing"] {
+font-size:24px !important;
+line-height:36px !important;
+}
+p[class="see-more-link"] {
+font-size:28px !important;
+line-height:36px !important;
+}
+p[class="forward-link"] {
+font-size:28px !important;
+line-height:24px !important;
+}
+table[class="container"] {
+width:656px !important;
+margin:0 auto !important;
+}
+}
+</style>
+</head>
+<body bgcolor="#e2e8e7" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing: antialiased;width:100% !important;background:#e2e8e7;-webkit-text-size-adjust:none;">
+<table class="container" width="656" height="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#e2e8e7" style="margin:0 auto; background:#e2e8e7 url('i/bg_header_banner.png') top center no-repeat;">
+<tbody>
+<tr>
+<td class="hide"></td>
+<td class="content" style="text-align: center; padding: 10px 8px 10px 8px; width:656px; background:#f1f2f2 url('i/bg_header_banner.png') top center repeat-x; border-bottom:1px solid #ced1d0;"><!-- Header -->
+<!-- Header -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4uB0402"><img class="cwlogo" src="http://www.crunchbase.com/images/crunchbase_news.png" style="float:left;" /></a>
+</td>
+<td class="hide" style="color:#333333;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;padding-right:5px;">
+<span style="float:right;font-size:14px;line-height:18px;">Thursday Mar 21, 2013</span>
+</td>
+</tr>
+</table>
+</td>
+<td class="hide"></td>
+</tr>
+<tr>
+<td class="hide"></td>
+<td style="padding-top: 0px;" bgcolor="#ffffff">
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class="sectionheader" bgcolor="#2f8090" style="background:#2f8090; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:10px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,arial,sans-serif; text-transform:uppercase;">
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4vB6487" class="header" target="_blank" style="color:#ffffff;text-decoration:none;">Visualizing CrunchBase with Wikisway</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+Wikisway just announced the latest version of their CrunchBase visualization tool allowing anyone to quickly see the connections between companies, people, and investors.  Built on the CrunchBase API, we're thrilled to welcome Wikisway to the <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4wB872b"> CrunchBase Developer Spotlight Program</a> and believe this is a great example of tools that can be built on our dataset.  Huston Hedinger has a great <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4vC186e">writeup on our blog</a> with more details.
+</td>								
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class="sectionheader" bgcolor="#2f8090" style="background:#2f8090; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:10px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,arial,sans-serif; text-transform:uppercase;">
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4xB9f19" class="header" target="_blank" style="color:#ffffff;text-decoration:none;">We're Hiring! Developers, Designers, and Content Admins...</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+CrunchBase is used by millions of consumers, analysts, and investors every month to track what's happening in the fast-paced world of tech startups, and we're growing. The key to our continued success is building a robust and scalable system that can capture and reflect the complex relationships amongst participants in the industry. Sound exciting? It does to us. <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UUpQUCuoalIlhe4xC9028">Check out our current openings.</a>
+</td>								
+</tr>
+</table>
+</td>
+</tr>					
+</tbody>
+</table>
+<!-- End: News items -->							
+<!-- Begin: Forward bar -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td style="padding:0 20px 10px 20px; color:#000000; font:normal 14px/12px 'helvetica neue',helvetica,arial,sans-serif;">
+<p class="forward-link" style="margin:0; padding:0; font-size:14px; font-weight: normal; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 20px;">To forward this newsletter to a friend, <a href="http://link.crunchbase.com/forward/5072cfd8dc87ac0b4f10f576wux1.31su/867ed309" style="text-decoration:none; font-weight:bold; color:#0567a5 !important;">click here</a> <span style="color:#449d50;">&raquo;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Forward bar -->
+</td>
+<td class="hide"></td>
+</tr>
+<tr>
+<td class="hide"></td>
+<td bgcolor="#ffffff" style="padding:14px 20px 14px 20px; border-bottom:3px solid #cbd0cf;">
+<!-- Begin: Footer -->
+<p class="footer-text" style="margin:0; padding:20px 0 25px 0; border-top:3px solid #e5e5e5; color:#777777; font:normal 11px/18px 'helvetica neue',helvetica,arial,sans-serif;"> If you do not want to receive this, you can <a href="http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576wux1.31su/e6fde153" style="color:#777777">unsubscribe with one click here</a>.</p>							
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UTjsv2-oYFM8P6a-B9437"><img src="http://www.crunchbase.com/images/crunchbase_logo.png" alt="TechCrunch" width="112" class="footerimg" style="width:112px; padding-bottom:15px;"></a></td>
+</tr>
+<tr>
+<td style="font:normal 11px/12px 'helvetica neue',helvetica,arial,sans-serif; color:#777777;">
+<p class="footer-text" style="margin:0; padding:0;">410 Townsend Street, San Francisco, CA 94107</p>
+<p class="footer-text" style="margin:0; padding:5px 0 0 0;"> &copy; 2012 AOL Inc. All rights reserved. <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/Tbc0FWjEFi33iYBPBa5c7" style="color:#777777">Privacy Policy</a> <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UDRv8qgvtQYAsa_pB7585" style="color:#777777">Terms of Service</a> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Footer -->
+</td>
+<td class="hide"></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576wux1.31su/UBghaqgv-c4CZNdSAfaed"><img src="http://link.crunchbase.com/img/5072cfd8dc87ac0b4f10f576wux1.31su/569181b0.gif" alt="" border="0" /></a>
+------=_Part_9775548_1739507404.1363887924834--
+

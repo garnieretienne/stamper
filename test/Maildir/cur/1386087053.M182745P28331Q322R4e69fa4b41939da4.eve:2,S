@@ -1,0 +1,955 @@
+Return-Path: <delivery@mx.sailthru.com>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.22.132 with SMTP id d4csp68316oaf;
+        Mon, 3 Jun 2013 10:22:03 -0700 (PDT)
+X-Received: by 10.236.91.239 with SMTP id h75mr3859064yhf.39.1370280123368;
+        Mon, 03 Jun 2013 10:22:03 -0700 (PDT)
+Received: from mx-aol-a.sailthru.com (mx-aol-a.sailthru.com. [64.34.57.249])
+        by mx.google.com with ESMTP id r68si30056903yhd.272.2013.06.03.10.22.02
+        for <webmail.testing.dev@gmail.com>;
+        Mon, 03 Jun 2013 10:22:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) client-ip=64.34.57.249;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of delivery@mx.sailthru.com designates 64.34.57.249 as permitted sender) smtp.mail=delivery@mx.sailthru.com;
+       dkim=pass header.i=@techcrunch.com
+Received: from nyp1-jmailer18.sailthru.pvt (nyp1-jmailer18.sailthru.com [65.39.215.170])
+	by mx-aol-a.sailthru.com (Postfix) with ESMTP id 2371D11A321C
+	for <webmail.testing.dev@gmail.com>; Mon,  3 Jun 2013 13:22:02 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1370280122;
+	s=sailthru; d=techcrunch.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-ID:List-Unsubscribe;
+	bh=Gzhc1uzwagof3FTluRX50qEKivsiMn2yqRz63Hn/bvo=;
+	b=w9Pl0lixRh+9/WOjbXtJ70Eth9pBrIH/64UKJsysi598dLt1ZgRI1T6/BYXs8hKL
+	QCd0VPYuu+/sS3msoZHFF3vMiNiX0snwerkrWeLqOgk8vAEv9U5jbgVKgFdGVWHf58j
+	bnJDv8k2A/uiP4vz5LXn5vYM43mCZxafrIXck3/Q=
+Date: Mon, 3 Jun 2013 13:22:02 -0400 (EDT)
+From: CrunchBase <cbmailer@techcrunch.com>
+To: webmail.testing.dev@gmail.com
+Message-ID: <20130603172202.1727945.312312@sailthru.com>
+Subject: Datapipe raised $236M, Bausch & Lomb was acquired, and more
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6526362_1388908412.1370280122133"
+Precedence: bulk
+X-TM-ID: 20130603172202.1727945.312312
+X-Info: Message sent by sailthru.com customer CrunchBase
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-IADB-IP: 64.34.57.249
+X-IADB-IP-REVERSE: 249.57.34.64
+X-IADB-URL: http://www.isipp.com/iadb.php
+X-Unsubscribe-Web: http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576111ah.6ozc/e130f3d9
+List-ID: <cm.3808.5f5d37c7784e7431f532b403fd20aa36.sailthru.com>
+List-Unsubscribe: <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576111ah.6ozc/e130f3d9>, <mailto:unsubscribe_3808@mx.sailthru.com>
+X-rpcampaign: stfqm1727945
+
+------=_Part_6526362_1388908412.1370280122133
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Fundings, Acquisitions, and Exec Moves for Monday, Jun 3, 2013
+
+<http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UZ0qHMJSQ51c=
+tnHqD41ec>
+
+Top Funding Rounds
+ Datapipe <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Ua=
+yup8JSOcjIc0eQAf259>
+
+Network/Hosting / application management and hosting
+
+$236M /=20
+Investors =E2=80=94  <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611=
+1ah.6ozc/Uayup8JSOcjIc0eQAf259> Ophthotech <http://link.crunchbase.com/5072=
+cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DGAe032>
+
+BioTech
+
+$175M / Series C
+Investors =E2=80=94  Novo A/S <http://link.crunchbase.com/5072cfd8dc87ac0b4=
+f10f576111ah.6ozc/UakXAMJSp7oY9_DHAfd19>    <http://link.crunchbase.com/507=
+2cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DGAe032> Videology <http://li=
+nk.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DIA195a>
+
+Advertising / Online Video Ad Network
+
+$60M / Series D
+Investors =E2=80=94  Catalyst Investors <http://link.crunchbase.com/5072cfd=
+8dc87ac0b4f10f576111ah.6ozc/UJf-tpSOQP8Q3ASxA563b>    New Enterprise Associ=
+ates <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UIV7nCM=
+Rw0KeFBzzA576f>    Valhalla Partners <http://link.crunchbase.com/5072cfd8dc=
+87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DJAc284>    Comcast Ventures <http:/=
+/link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DKA14=
+89>    Pinnacle Ventures <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f5=
+76111ah.6ozc/UakXAMJSp7oY9_DLA1553>    <http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DIA195a> Roku <http://link.crunchb=
+ase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DMAc91f>
+
+Consumer Electronics/Devices / Home Digital Media Electronics
+
+$60M / Series F
+Investors =E2=80=94  Fidelity <http://link.crunchbase.com/5072cfd8dc87ac0b4=
+f10f576111ah.6ozc/UakXAMJSp7oY9_DNA7a7a>    Hearst Corporation <http://link=
+.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DOAce07>  =
+  BSkyB <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakX=
+AMJSp7oY9_DPA8fde>    News Corporation <http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DQAc828>    <http://link.crunchbas=
+e.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DMAc91f>   GT Advanc=
+ed Technologies <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6=
+ozc/UakXAMJSp7oY9_DRAa2f2> ($50.2M / )
+
+ Qumra Capital <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6o=
+zc/UakXAMJSp7oY9_DSAb0e8> ($40M / Series A)
+
+ Panasas <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uay=
+up8JSOcjIc0eSA5a7b> ($25.2M / Series F)
+
+ Myntra <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UKBY=
+LcgKV98n0kj5A75f1> ($25M / Series A)
+
+ TuneIn <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakX=
+AMJSp7oY9_DTAad04> ($25M / )
+
+ Flexenclosure <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6o=
+zc/UakXAMJSp7oY9_DUAcafa> ($24M / Series A)
+
+ <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UZ0qHMJSQ51=
+ctnHqEa08a>
+See More Fundings <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah=
+.6ozc/UBnfKKgvhH0S6fP9Cc68f> =E2=86=92
+
+Top Acquisitions  Bausch & Lomb <http://link.crunchbase.com/5072cfd8dc87ac0=
+b4f10f576111ah.6ozc/UKBYLcgKV98n0kkBA9819> acquired by Valeant Pharmaceutic=
+als International <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah=
+.6ozc/UakXAMJSp7oY9_DYAc500> for $8.7B BioTech  <http://link.crunchbase.com=
+/5072cfd8dc87ac0b4f10f576111ah.6ozc/UKBYLcgKV98n0kkBA9819> Lender Processin=
+g Services <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/U=
+akXAMJSp7oY9_DZAa455> acquired by Fidelity National Financial <http://link.=
+crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DaAdb9a> fo=
+r $2.9B Software  <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah=
+.6ozc/UakXAMJSp7oY9_DZAa455> Omthera Pharmaceuticals <http://link.crunchbas=
+e.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DbA1b96> acquired by=
+ AstraZeneca <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc=
+/UakXAMJSp7oY9_DcA654a> for $443M BioTech / Clinical Stage BioPharma Compan=
+y  <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp=
+7oY9_DbA1b96> Okairos <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f5761=
+11ah.6ozc/UakXAMJSp7oY9_DdA56ee> acquired by GlaxoSmithKline <http://link.c=
+runchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DeAf94d> for=
+ $325M BioTech / bio-pharmaceutical company  <http://link.crunchbase.com/50=
+72cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DdA56ee>    Apriso <#> (Dass=
+ault Systemes <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6oz=
+c/UakXAMJSp7oY9_DfA8938>)
+
+ JouleX <#> (Cisco <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111a=
+h.6ozc/UGXaBs7OBKrZtv8uA1f70>)
+
+ RedCloud Security <#> (Avigilon Corporation  <http://link.crunchbase.com/5=
+072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eUAfb01>)
+
+ Dominion Gas <#> (Praxair <http://link.crunchbase.com/5072cfd8dc87ac0b4f10=
+f576111ah.6ozc/UM58rCuoDte06sclAb5a9>)
+
+ Gallop Solution <#> (Cigniti Technologies <http://link.crunchbase.com/5072=
+cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eVA2100>)
+
+ ShopWell <#> (HarvestMark <http://link.crunchbase.com/5072cfd8dc87ac0b4f10=
+f576111ah.6ozc/Uayup8JSOcjIc0eWA0b56>)
+
+See More Acquisitions <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f5761=
+11ah.6ozc/UBnfKKgvhH0S6fP-Ce3ac> =E2=86=92
+
+Executive Moves=20
+Alissa Reiter <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6oz=
+c/UakXAMJSp7oY9_DiA5320> joined beRecruited <http://link.crunchbase.com/507=
+2cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DjA4e0c> as VP Marketing.=20
+Nick Pahade <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/=
+Uayup8JSOcjIc0eYA57ad> joined Poptent <http://link.crunchbase.com/5072cfd8d=
+c87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eZA49f6> as CEO.=20
+Kristian Segerstrale <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f57611=
+1ah.6ozc/UakXAMJSp7oY9_DkA141a> joined Supercell <http://link.crunchbase.co=
+m/5072cfd8dc87ac0b4f10f576111ah.6ozc/UXGVEcJSmSVrpByGAdbc6> as Board Member=
+.=20
+David Caplan <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc=
+/Uayup8JSOcjIc0eaAeab7> joined SolveBio <http://link.crunchbase.com/5072cfd=
+8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ebA0b60> as Co-Founder.=20
+Lex Mustafin <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc=
+/UakXAMJSp7oY9_DlAb98c> joined AbbeyPost <http://link.crunchbase.com/5072cf=
+d8dc87ac0b4f10f576111ah.6ozc/UWIWrMJS3iuZqWyxAd6e9> as CTO & Co-Founder.=20
+Sundeep Peechu <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6o=
+zc/UakXAMJSp7oY9_DmAf8c8> joined Appurify <http://link.crunchbase.com/5072c=
+fd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DnAbcdd> as Board observer.=20
+Karim Faris <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/=
+UakXAMJSp7oY9_DoAfad1> joined Appurify <http://link.crunchbase.com/5072cfd8=
+dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DnAbcdd> as Board member.=20
+Laurent Moisi <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6oz=
+c/Uayup8JSOcjIc0ecA0127> joined Chefday <http://link.crunchbase.com/5072cfd=
+8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0edAdd51> as Cofounder & COO.=20
+Graeme Johnstone <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.=
+6ozc/Uayup8JSOcjIc0eeA960b> joined Referee Career <http://link.crunchbase.c=
+om/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0efA3c24> as CEO.=20
+Stephen Findlay <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6=
+ozc/UakXAMJSp7oY9_DpA3683> joined Invrep <http://link.crunchbase.com/5072cf=
+d8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DqAb2d1> as CEO.=20
+James Bottom <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc=
+/Uayup8JSOcjIc0egA5e64> joined HipTraveler <http://link.crunchbase.com/5072=
+cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ehA618b> as COO.=20
+Phillip Buckendorf <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111a=
+h.6ozc/UakXAMJSp7oY9_DrAa213> joined GoodTime <http://link.crunchbase.com/5=
+072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DsA9721> as CEO.=20
+Jay Harrison <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc=
+/Uayup8JSOcjIc0eiA4957> joined SMLR <http://link.crunchbase.com/5072cfd8dc8=
+7ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ejAaa83> as Founder.=20
+Peter Scarf <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/=
+Uayup8JSOcjIc0ekAc758> joined Newzulu Australia <http://link.crunchbase.com=
+/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0elA0ec0> as co-Founder.=
+=20
+Alexander Hartman <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah=
+.6ozc/UazOLMJSsKg_rbdRA336e> joined Newzulu Australia <http://link.crunchba=
+se.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0elA0ec0> as co-Foun=
+der.=20
+Mark Jobs <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Ua=
+yup8JSOcjIc0enA8198> joined FileDir <http://link.crunchbase.com/5072cfd8dc8=
+7ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eoAabbf> as Founder.=20
+Arnaud Leymet <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6oz=
+c/Uayup8JSOcjIc0epA9408> joined SonetIN <http://link.crunchbase.com/5072cfd=
+8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eqA9b7b> as CTO.=20
+Matko Bregovic <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6o=
+zc/Uayup8JSOcjIc0erA9658> joined CoreVPS <http://link.crunchbase.com/5072cf=
+d8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0esAe452> as Founder. See More Ex=
+ecutive Moves <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6oz=
+c/UBnfKKgvhH0S6fP_Cd300> =C2=BB
+
+To forward this newsletter to a friend, click here <http://link.crunchbase.=
+com/forward/5072cfd8dc87ac0b4f10f576111ah.6ozc/2524e27a> =C2=BB
+
+If you do not want to receive this, you can unsubscribe with one click here=
+ <http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576111ah.6ozc/e130f3d9=
+>.
+
+TechCrunch
+410 Townsend Street, San Francisco, CA 94107
+
+=C2=A9 2012 AOL Inc. All rights reserved. Privacy Policy <http://link.crunc=
+hbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Tbc0FWjEFi33iYBPCc773> Terms o=
+f Service <http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UD=
+Rv8qgvtQYAsa_pC50b0>
+------=_Part_6526362_1388908412.1370280122133
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0018)http://amrt.in/tc/ -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CrunchBase Weekly</title>
+<style>
+@media only screen and (max-device-width: 480px) {
+div[class=".tempsponsor] {margin: 0 17px;color: #000; padding-right:10px; font:normal 11px 'helvetica neue',helvetica,arial,sans-serif; color:#acacac;}
+table[class="hide"], img[class="hide"], td[class="hide"] {
+display: none !important;
+}
+td[class="content"] {
+width: 320px !important;
+}
+h2 {
+font-size: 34px !important;
+line-height: 37px !important;
+}
+h3 {
+color: #457177;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h4 {
+color: #222222 !important;
+font-size: 26px !important;
+line-height: 31px !important;
+}
+h5 {
+font-size: 40px !important;
+}
+h2[class="company-name"],
+h2[class="company-name"] a,
+span[class="company-name"],
+span[class="company-name"] a,
+strong[class="company-name"],
+strong[class="company-name"] a,
+strong[class="exec-name"],
+strong[class="exec-name"] a
+{
+font-size: 34px !important;
+line-height: 40px !important;
+}
+h3[class="company-type"],
+h3[class="company-type"] a,
+span[class="company-type"],
+span[class="company-type"] a 
+{
+color: #777777;
+font-size: 26px !important;
+line-height: 36px !important;
+}
+h4[class="company-revenue"],
+h4[class="company-revenue"] a {
+color: #222222 !important;
+font-size: 24px !important;
+line-height: 36px !important;
+}
+a {
+color: #000000;
+text-decoration: none;
+}
+td[class="sectionheader"] {
+font-size: 20px !important;
+line-height: 24px !important;
+padding: 10px 10px !important;
+}
+td[class="row"] {
+/*		border-bottom: 4px solid #e5e5e5 !important;*/
+padding: 10px 10px !important;
+}
+img[class="double"] {
+border: 4px solid #4d7e84 !important;
+height: 96px !important;
+margin-right: 40px !important;
+margin-bottom: 20px !important;
+width: 96px !important;
+}
+td[class="additional"] {
+font-size: 40px !important;
+line-height: 48px !important;
+padding: 10px 10px !important;
+}
+td[class="footer"] {
+font-size: 34px !important;
+line-height: 37px !important;
+padding: 0 30px;
+}
+p[class="footer-text"] {
+font-size: 24px !important;
+line-height: 36px !important;
+}
+p[class="footer-text"] a {
+text-decoration:underline !important;
+font-size: 24px !important;
+line-height: 36px !important;
+}
+img[class="footerimg"] {
+width: 147px !important;
+}
+img[class="cblogo"] {
+float: left !important;
+padding-left:16px !important;
+width: 260px !important;
+}
+td[class="taglinemobile"] {
+background-color: #000000 !important;
+color: #ffffff !important;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 40px !important;
+padding: 20px 30px 10px !important;
+text-align: left !important;
+}
+p[class="right"] {
+float: left !important;
+}
+h3[class="mainheadline"] {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+display: block !important;
+font-size: 32px !important;
+line-height: 40px !important;
+text-align: left !important;
+}
+td[class="news-item"] {
+font-size:30px !important;
+line-height:36px !important;
+}
+p[class="company-listing"] {
+font-size:24px !important;
+line-height:36px !important;
+}
+p[class="see-more-link"] {
+font-size:28px !important;
+line-height:36px !important;
+}
+p[class="forward-link"] {
+font-size:28px !important;
+line-height:24px !important;
+}
+table[class="container"] {
+width:656px !important;
+margin:0 auto !important;
+}
+}
+</style>
+</head>
+<body bgcolor="#e2e8e7" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing: antialiased;width:100% !important;background:#e2e8e7;-webkit-text-size-adjust:none;">
+<table class="container" width="656" height="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#e2e8e7" style="margin:0 auto; background:#e2e8e7 url('i/bg_header_banner.png') top center no-repeat;">
+<tbody>
+<tr>
+<td class="hide"></td>
+<td class="content" style="text-align: center; padding: 10px 8px 10px 8px; width:656px; background:#f1f2f2 url('i/bg_header_banner.png') top center repeat-x; border-bottom:1px solid #ced1d0;"><!-- Header -->
+<!-- Header -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img class="cwlogo" src="http://www.crunchbase.com/images/crunchbase_weekly.png" style="float:left;width: 250px;" />
+</td>
+<td class="hide" style="color:#333333;font-size:12px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;padding-right:5px;">
+<span style="float:right;">Fundings, Acquisitions, and Exec Moves for Monday, Jun 3, 2013</span>
+</td>
+</tr>
+</table>
+</td>
+<td class="hide"></td>
+</tr>
+<tr>
+<td class="hide"></td>
+<td style="padding-top: 0px;" bgcolor="#ffffff">
+<!-- Begin: Sponsor -->
+<table cellpadding="0" cellspacing="0" border="0" style="padding:14px 20px;">
+<tbody>
+<tr>
+<td class="sponsorlogo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UZ0qHMJSQ51ctnHqB6742"><img src="http://crunchbaseblog.files.wordpress.com/2013/05/ad_joinme_213x35_20130531.png?w=430" width="215" height="35"></a></td>
+</tr>
+</tbody>
+</table>
+<!-- Begin: News items -->
+<table width="100%">
+<tbody>				
+<!-- Begin: Section 1 header -->			
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-11px;">
+<tbody>
+<tr>
+<td class="sectionheader" bgcolor="#2f8090" style="background:#2f8090; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:10px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,arial,sans-serif; text-transform:uppercase;">Top Funding Rounds</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- End: Section 1 header -->			
+<!-- Begin: Touts with Ad -->
+<tr valign="top">
+<td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td>
+<!-- Begin: Tout Column -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<!-- Begin: Touts -->
+<!-- Begin: Section 1 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td>
+<h2 class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eQAf259" style="text-decoration:none;color:#0567a5 !important;font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;">Datapipe</a></h2>
+<h3 class="company-type" style="color:#777777 !important; font:normal 13px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 0 0 0; margin:0;">Network/Hosting / application management and hosting</h3>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 16px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 2px 0 0; margin:0;">$236M / </h4>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:4px 2px 0 0; margin:0;">
+Investors &mdash;
+</h4>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eQAf259"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0002/1889/21889v9-max-150x50.png" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 1 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td>
+<h2 class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DGAe032" style="text-decoration:none;color:#0567a5 !important;font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;">Ophthotech</a></h2>
+<h3 class="company-type" style="color:#777777 !important; font:normal 13px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 0 0 0; margin:0;">BioTech</h3>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 16px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 2px 0 0; margin:0;">$175M / Series C</h4>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:4px 2px 0 0; margin:0;">
+Investors &mdash;
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DHAfd19" style="text-decoration:none;color: #0567a5">Novo A/S</a> &nbsp; 
+</h4>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DGAe032"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0006/9859/69859v1-max-150x50.jpg" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 1 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td>
+<h2 class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DIA195a" style="text-decoration:none;color:#0567a5 !important;font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;">Videology</a></h2>
+<h3 class="company-type" style="color:#777777 !important; font:normal 13px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 0 0 0; margin:0;">Advertising / Online Video Ad Network</h3>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 16px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 2px 0 0; margin:0;">$60M / Series D</h4>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:4px 2px 0 0; margin:0;">
+Investors &mdash;
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UJf-tpSOQP8Q3ASxA563b" style="text-decoration:none;color: #0567a5">Catalyst Investors</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UIV7nCMRw0KeFBzzA576f" style="text-decoration:none;color: #0567a5">New Enterprise Associates</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DJAc284" style="text-decoration:none;color: #0567a5">Valhalla Partners</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DKA1489" style="text-decoration:none;color: #0567a5">Comcast Ventures</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DLA1553" style="text-decoration:none;color: #0567a5">Pinnacle Ventures</a> &nbsp; 
+</h4>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DIA195a"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0003/7218/37218v5-max-150x50.png" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 1 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td>
+<h2 class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DMAc91f" style="text-decoration:none;color:#0567a5 !important;font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; padding:0; margin:0;">Roku</a></h2>
+<h3 class="company-type" style="color:#777777 !important; font:normal 13px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 0 0 0; margin:0;">Consumer Electronics/Devices / Home Digital Media Electronics</h3>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 16px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:2px 2px 0 0; margin:0;">$60M / Series F</h4>
+<h4 class="company-revenue" style="color:#222222 !important; font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif; padding:4px 2px 0 0; margin:0;">
+Investors &mdash;
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DNA7a7a" style="text-decoration:none;color: #0567a5">Fidelity</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DOAce07" style="text-decoration:none;color: #0567a5">Hearst Corporation</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DPA8fde" style="text-decoration:none;color: #0567a5">BSkyB</a> &nbsp; 
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DQAc828" style="text-decoration:none;color: #0567a5">News Corporation</a> &nbsp; 
+</h4>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DMAc91f"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0001/8931/18931v1-max-150x50.png" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- End: Section 1 Featured -->
+<tr>
+<td class="additional" style="padding:14px 20px 14px 20px;color: #333333; font-size: 14px; font-weight: bold; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 18px; padding:14px 20px 0 20px;">
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DRAa2f2">GT Advanced Technologies</a></strong> ($50.2M / )</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DSAb0e8">Qumra Capital</a></strong> ($40M / Series A)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eSA5a7b">Panasas</a></strong> ($25.2M / Series F)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UKBYLcgKV98n0kj5A75f1">Myntra</a></strong> ($25M / Series A)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DTAad04">TuneIn</a></strong> ($25M / )</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DUAcafa">Flexenclosure</a></strong> ($24M / Series A)</p>
+</td>
+</tr>													
+<!-- End: Touts -->
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Tout Column -->
+</td>
+<!-- Begin: 160x600 Ad Unit -->
+<td width="180">
+<div class="ad160x600" style="width:160px; padding:14px 20px 14px 0;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UZ0qHMJSQ51ctnHqC1c70"><img src="http://crunchbaseblog.files.wordpress.com/2013/05/ad_joinme_160x600_20130531.jpg?w=240" width="160" height="600" border="0" alt="Advertisement"></a></div>
+<!-- End: 160x600 Ad Unit -->						
+</td>
+<!-- End: 160x600 Ad Unit -->
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- End: Touts with Ad -->
+<tr>
+<td class="row" style="padding:14px 20px 14px 20px;">
+<p class="see-more-link" style="margin:0; font:bold 14px/18px 'helvetica neue',helvetica,arial,sans-serif;color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UBnfKKgvhH0S6fP9B68f6">See More Fundings</a> &rarr;</p>
+</td>
+</tr>
+<!-- Begin: Section 2 header -->			
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class="sectionheader" bgcolor="#2f8090" style="background:#2f8090; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:10px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,arial,sans-serif; text-transform:uppercase;">Top Acquisitions</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- End: Section 2 header -->			
+<!-- Begin: Section 2 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UKBYLcgKV98n0kkBA9819" style="padding:0 0 7px 0; text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Bausch & Lomb</a> <span style="font-weight:normal;color:#222222;">acquired by </span><span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DYAc500" style="text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Valeant Pharmaceuticals International</a></span> <span style="font-weight:normal;color:#222222;">for $8.7B</span>
+<br><span class="company-type" style="color:#777777 !important; font:normal 13px/20px 'helvetica neue',helvetica,arial,sans-serif;">BioTech</span>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UKBYLcgKV98n0kkBA9819"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0010/9094/109094v1-max-150x50.png" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 2 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DZAa455" style="padding:0 0 7px 0; text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Lender Processing Services</a> <span style="font-weight:normal;color:#222222;">acquired by </span><span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DaAdb9a" style="text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Fidelity National Financial</a></span> <span style="font-weight:normal;color:#222222;">for $2.9B</span>
+<br><span class="company-type" style="color:#777777 !important; font:normal 13px/20px 'helvetica neue',helvetica,arial,sans-serif;">Software</span>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DZAa455"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0005/5346/55346v1-max-150x50.jpg" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 2 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DbA1b96" style="padding:0 0 7px 0; text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Omthera Pharmaceuticals</a> <span style="font-weight:normal;color:#222222;">acquired by </span><span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DcA654a" style="text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">AstraZeneca</a></span> <span style="font-weight:normal;color:#222222;">for $443M</span>
+<br><span class="company-type" style="color:#777777 !important; font:normal 13px/20px 'helvetica neue',helvetica,arial,sans-serif;">BioTech / Clinical Stage BioPharma Company</span>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DbA1b96"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0008/2359/82359v2-max-150x50.jpg" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Begin: Section 2 Featured -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tr valign="top">
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DdA56ee" style="padding:0 0 7px 0; text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">Okairos</a> <span style="font-weight:normal;color:#222222;">acquired by </span><span class="company-name" style="color:#0567a5 !important; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif;"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DeAf94d" style="text-decoration:none; font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;">GlaxoSmithKline</a></span> <span style="font-weight:normal;color:#222222;">for $325M</span>
+<br><span class="company-type" style="color:#777777 !important; font:normal 13px/20px 'helvetica neue',helvetica,arial,sans-serif;">BioTech / bio-pharmaceutical company</span>
+</td>
+<td align="right" class="company-logo"><a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DdA56ee"><img class="hide" src="http://www.crunchbase.com/assets/images/resized/0010/1873/101873v1-max-150x50.jpg" style="float: right; margin: 0 0 0 10px;" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- End: Section 2 Featured -->
+<!-- Begin: Section 2 List -->
+<tr>
+<td class="additional" style="color: #333333; font-size: 14px; font-weight: bold; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 18px; padding:14px 20px 0 20px;">
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#"> Apriso</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DfA8938" style="text-decoration:none;color:#0567a5;">Dassault Systemes</a>)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#">JouleX</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UGXaBs7OBKrZtv8uA1f70" style="text-decoration:none;color:#0567a5;">Cisco</a>)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#">RedCloud Security</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eUAfb01" style="text-decoration:none;color:#0567a5;">Avigilon Corporation </a>)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#">Dominion Gas</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UM58rCuoDte06sclAb5a9" style="text-decoration:none;color:#0567a5;">Praxair</a>)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#">Gallop Solution</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eVA2100" style="text-decoration:none;color:#0567a5;">Cigniti Technologies</a>)</p>
+<p class="company-listing" style="margin:0; padding:0 0 4px 0; font:normal 14px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;"><strong class="company-name-small" style="color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="#">ShopWell</a></strong> (<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eWA0b56" style="text-decoration:none;color:#0567a5;">HarvestMark</a>)</p>
+</td>
+</tr>
+<!-- End: Section 2 List -->
+<tr>
+<td class="row" style="padding:14px 20px 14px 20px;">
+<p class="see-more-link" style="margin:0; font:bold 14px/18px 'helvetica neue',helvetica,arial,sans-serif;color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UBnfKKgvhH0S6fP-B2338">See More Acquisitions</a> &rarr;</p>
+</td>
+</tr>
+<!-- Begin: Section 3 header -->			
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-11px;margin-top:15px;">
+<tbody>
+<tr>
+<td class="sectionheader" bgcolor="#2f8090" style="background:#2f8090; border-left:7px solid #5eacbb; border-bottom:1px solid #bfbfbf; padding:10px 18px; color:#ffffff; font:bold 14px/12px 'helvetica neue',helvetica,arial,sans-serif; text-transform:uppercase;">Executive Moves</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<!-- End: Section 3 header -->			
+<!-- Begin: Section 3 List -->
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DiA5320">Alissa Reiter</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DjA4e0c">beRecruited</a></strong> as VP Marketing.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eYA57ad">Nick Pahade</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eZA49f6">Poptent</a></strong> as CEO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DkA141a">Kristian Segerstrale</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UXGVEcJSmSVrpByGAdbc6">Supercell</a></strong> as Board Member.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eaAeab7">David Caplan</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ebA0b60">SolveBio</a></strong> as Co-Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DlAb98c">Lex Mustafin</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UWIWrMJS3iuZqWyxAd6e9">AbbeyPost</a></strong> as CTO & Co-Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DmAf8c8">Sundeep Peechu</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DnAbcdd">Appurify</a></strong> as Board observer.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DoAfad1">Karim Faris</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DnAbcdd">Appurify</a></strong> as Board member.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ecA0127">Laurent Moisi</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0edAdd51">Chefday</a></strong> as Cofounder & COO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eeA960b">Graeme Johnstone</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0efA3c24">Referee Career</a></strong> as CEO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DpA3683">Stephen Findlay</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DqAb2d1">Invrep</a></strong> as CEO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0egA5e64">James Bottom</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ehA618b">HipTraveler</a></strong> as COO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DrAa213">Phillip Buckendorf</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UakXAMJSp7oY9_DsA9721">GoodTime</a></strong> as CEO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eiA4957">Jay Harrison</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ejAaa83">SMLR</a></strong> as Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0ekAc758">Peter Scarf</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0elA0ec0">Newzulu Australia</a></strong> as co-Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UazOLMJSsKg_rbdRA336e">Alexander Hartman</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0elA0ec0">Newzulu Australia</a></strong> as co-Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0enA8198">Mark Jobs</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eoAabbf">FileDir</a></strong> as Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0epA9408">Arnaud Leymet</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0eqA9b7b">SonetIN</a></strong> as CTO.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<tr>
+<td class="row" style="padding:14px 20px 0 20px;">
+<table width="100%" style="padding-bottom:10px; border-bottom:1px solid #e5e5e5;">
+<tbody>
+<tr>
+<td class="news-item" style="padding:0 0 7px 0; font:normal 15px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#222222;">
+<strong class="exec-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0erA9658">Matko Bregovic</a></strong> joined <strong class="company-name" style="font:bold 17px/20px 'helvetica neue',helvetica,arial,sans-serif !important; color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Uayup8JSOcjIc0esAe452">CoreVPS</a></strong> as Founder.
+</td>
+</tr>
+</tbody>
+</table>							
+</td>
+</tr>
+<!-- End: Section 3 List -->
+<!-- Begin: Section 3 List -->
+<tr>
+<td style="padding:14px 20px 14px 20px;">
+<p class="see-more-link" style="margin:0; font:bold 14px/18px 'helvetica neue',helvetica,arial,sans-serif;color:#0567a5 !important;"><a style="text-decoration:none; color:#0567a5 !important;" href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UBnfKKgvhH0S6fP_B118d">See More Executive Moves</a> &raquo;</p>
+</td>
+</tr>
+<!-- End: Section 3 List -->
+</tbody>
+</table>
+<!-- End: News items -->							
+<!-- Begin: Forward bar -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td style="padding:0 20px 10px 20px; color:#000000; font:normal 14px/12px 'helvetica neue',helvetica,arial,sans-serif;">
+<p class="forward-link" style="margin:0; padding:0; font-size:14px; font-weight: normal; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 20px;">To forward this newsletter to a friend, <a href="http://link.crunchbase.com/forward/5072cfd8dc87ac0b4f10f576111ah.6ozc/2524e27a" style="text-decoration:none; font-weight:bold; color:#0567a5 !important;">click here</a> <span style="color:#449d50;">&raquo;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Forward bar -->
+</td>
+<td class="hide"></td>
+</tr>
+<tr>
+<td class="hide"></td>
+<td bgcolor="#ffffff" style="padding:14px 20px 14px 20px; border-bottom:3px solid #cbd0cf;">
+<!-- Begin: Footer -->
+<p class="footer-text" style="margin:0; padding:20px 0 25px 0; border-top:3px solid #e5e5e5; color:#777777; font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif;"> If you do not want to receive this, you can <a href="http://link.crunchbase.com/oc/5072cfd8dc87ac0b4f10f576111ah.6ozc/e130f3d9" style="color:#777777">unsubscribe with one click here</a>.</p>							
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td><img src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png" alt="TechCrunch" width="112" class="footerimg" style="width:112px; padding-bottom:15px;"></td>
+</tr>
+<tr>
+<td style="font:normal 12px/18px 'helvetica neue',helvetica,arial,sans-serif; color:#777777;">
+<p class="footer-text" style="margin:0; padding:0;">410 Townsend Street, San Francisco, CA 94107</p>
+<p class="footer-text" style="margin:0; padding:5px 0 0 0;"> &copy; 2012 AOL Inc. All rights reserved. <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/Tbc0FWjEFi33iYBPB1492" style="color:#777777">Privacy Policy</a> <a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UDRv8qgvtQYAsa_pBd6c2" style="color:#777777">Terms of Service</a> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End: Footer -->
+</td>
+<td class="hide"></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+<a href="http://link.crunchbase.com/5072cfd8dc87ac0b4f10f576111ah.6ozc/UBghaqgv-c4CZNdSA9fbd"><img src="http://link.crunchbase.com/img/5072cfd8dc87ac0b4f10f576111ah.6ozc/2e95789c.gif" alt="" border="0" /></a>
+------=_Part_6526362_1388908412.1370280122133--
+

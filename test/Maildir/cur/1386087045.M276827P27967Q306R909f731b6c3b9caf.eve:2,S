@@ -1,0 +1,909 @@
+Return-Path:
+  <bounce-mc.us1_449017.1854109-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.28.202 with SMTP id d10csp60600oah;
+        Fri, 26 Apr 2013 10:05:10 -0700 (PDT)
+X-Received: by 10.224.55.140 with SMTP id u12mr41754865qag.77.1366995910161;
+        Fri, 26 Apr 2013 10:05:10 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id gc8si9771077qab.115.2013.04.26.10.05.09
+        for <webmail.testing.dev@gmail.com>;
+        Fri, 26 Apr 2013 10:05:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1854109-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1854109-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1854109-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=OdEqGU3pS+6y0kuV5rViHL2025U=;
+ b=PWjjCihhMLjAPH2XvRFoO5beSOV4irOiYh0fRd/YjJT/uoKYdmrqa5tqsR9MgQkqGItysMKWSsr9
+   Dwgv6vZQd1XGSC6r+NqQTisAJD6Fdd77KO1hztJ/90QIbWTMwR05MjGCj8Ou6bi51eCZoMuNJ0Zy
+   b3iI6LaRHq9GVLQ75qc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=G7SDmanC+yHZ1gzaZ7PU9xLjTnyb2fzOD6l9rQMh6s1fsIlWPzM7GpvDHTdjUBpDKO1Tmv+UqQKq
+   FXSlKjJ2UZ/5ACDzuYtTQkWvnvWmaFS9fowH4m0OPl0MdsqiTr8MBPVgAwAbci+uungX6oYZpLwI
+   gbFJLJevjKs5GXj+Dxk=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hfapsc0ik18i for <webmail.testing.dev@gmail.com>; Fri, 26 Apr 2013 16:40:25 +0000 (envelope-from <bounce-mc.us1_449017.1854109-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20127?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 26 Apr 2013 16:40:25 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130426164006@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID16d4b805d9b4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.16d4b805d9
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.16d4b805d9
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=16d4b805d9&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-16d4b805d9-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage2.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=16d4b805d9>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_115312313"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_115312313
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #127 - April 26, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage2.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D16d4b805d9
+
+
+--- Featured ---
+
+# Nicholas C. Zakas On =E2=80=9CMaintainable JavaScript=E2=80=9D
+http://www.youtube.com/watch?v=3Dc-kav7Tf834
+
+Zakas=E2=80=99 talk at the Fluent 2012 conference is about best practices=
+ for keeping your JavaScript code maintainable.
+
+# Meet The Connect Framework
+http://net.tutsplus.com/tutorials/javascript-ajax/meet-the-connect-framewo=
+rk/
+
+An introduction to T.J. Holowaychuk=E2=80=99s Connect, an extensible HTTP=
+ server framework for Node.js.
+
+# jQuery 1.9 and 2.0: Present and Future
+http://www.slideshare.net/rworth/j-query2-19610459
+
+A slide deck by Richard Worth, executive director of the jQuery Foundation=
+, that outlines some of the vision behind jQuery 2.0 and asserts that the=
+ jQuery team will continue to support jQuery 1.x for as long as IE 6, 7 an=
+d 8 are relevant.
+
+# EmberFest: An Ember.js Event in Munich, Germany over August 28-30
+http://emberfest.eu/
+
+
+--- From our Sponsor ---
+
+# New Relic is hard at work on their Node.js Agent
+http://try.newrelic.com/nodejs
+
+Are you a proud member of the Node.js community? Do you wish you had a way=
+ to monitor and improve the performance of your app? Well, you're in luck.=
+ We have extremely talented monkeys in the back room tinkering away at bui=
+lding the only Node.js APM solution. It's almost ready so make sure you le=
+t us know who you are so you can be first in line.
+
+
+--- Reading ---
+
+# JavaScript Hoisting Explained
+http://www.kenneth-truyers.net/2013/04/20/javascript-hoisting-explained/
+
+JavaScript hoists variable declarations and function declarations. This bl=
+og post explains what that means.
+
+# I Know jQuery. Now What?
+http://remysharp.com/2013/04/19/i-know-jquery-now-what/
+
+Remy Sharp explains that jQuery was initially a life saver, but browsers h=
+ave come a long way and now natively support many common tasks (via queryS=
+electorAll, classList, dataset, etc.).
+
+# JavaScript Best Practices
+http://www.codeproject.com/Articles/580165/JavaScript-Best-Practices
+
+Rules for good JavaScript code: use =3D=3D=3D, write semicolons, etc.
+
+# JavaScript Objects: Inherited A Mess
+http://davidwalsh.name/javascript-objects
+
+First in a series of three blog posts, in which Kyle Simpson explains Java=
+Script inheritance via its core: objects linked in prototype chains.
+
+# LevelDB and Node: What Is LevelDB Anyway?
+http://dailyjs.com/2013/04/19/leveldb-and-node-1/
+
+First in a series of three articles about using LevelDB on Node.js. LevelD=
+B is an open-source, dependency-free, embedded key/value data store, writt=
+en in C++. It can be installed for use on Node.js via npm.
+
+# =E2=80=9CRename=E2=80=9D Refactoring for JavaScript Code
+http://ariya.ofilabs.com/2013/04/rename-refactoring-for-javascript-code.ht=
+ml
+
+Shows how to use parsing and analysis libraries to rename a variable in Ja=
+vaScript code.
+
+# The BackboneJS Way of Thinking
+http://www.to-string.com/2013/04/20/the-backbonejs-way-of-thinking/
+
+# Lessons Learned in Building Plugins for Backbone.js by Derick Bailey
+https://leanpub.com/building-backbone-plugins
+
+# Optimize (Concatenate and Minify) RequireJS Projects
+http://www.webdeveasy.com/optimize-requirejs-projects/
+
+This article explains how to use the RequireJS Optimizer. RequireJS projec=
+ts usually consist of many small modules. As you need one HTTP request per=
+ module, loading all of them takes time. RequireJS Optimizer helps rectify=
+ this.
+
+# Closure Cheat Sheet
+http://www.closurecheatsheet.com/
+
+Web site with quick reference material for Google=E2=80=99s Closure librar=
+y.
+
+# Checking for undefined: =3D=3D=3D Versus typeof Versus Falsiness
+http://www.2ality.com/2013/04/check-undefined.html
+
+Explains several ways of checking for undefined and what can go wrong.
+
+# Modern Ember.js Application Workflow with Yeoman and Mocha
+http://tech.pro/tutorial/1249/modern-emberjs-application-workflow-with-yeo=
+man-and-mocha
+
+A tutorial for generating the skeleton of an app, building it, running it,=
+ testing it, etc.
+
+# Writing Reusable AngularJS Components with Bower
+http://briantford.com/blog/angular-bower.html
+
+# Constructors in JavaScript
+http://designpepper.com/blog/drips/constructors-in-javascript
+
+# Code Organization in Large AngularJS and JavaScript Applications
+http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascri=
+pt
+
+
+--- Releases ---
+
+# DHTMLX 3.6
+http://www.dhtmlx.com/blog/?p=3D1897
+
+JavaScript library that provides a suite of rich UI components.
+
+# Node v0.10.5 (Stable)
+http://blog.nodejs.org/2013/04/23/node-v0-10-5-stable/
+
+# YUI 3.10.0
+http://www.yuiblog.com/blog/2013/04/24/yui-3-10-0-released/
+
+
+--- Code and Libraries ---
+
+# jQuery Builder: Creating A Custom Version of jQuery
+http://projects.jga.me/jquery-builder/
+
+The jQuery Builder lets you create a custom version of jQuery by removing=
+ the parts you don=E2=80=99t need. For example, your app might not need to=
+ make Ajax requests. The jQuery Builder is available in an online version=
+ and a command line version.
+
+# Hoodie: A Node + CouchDB Framework for Frontend-Only Web Apps
+http://hood.ie/
+
+Stores data locally first and syncs it in the background when possible, wi=
+th a backend based on Node.js and CouchDB.
+
+# Airbnb Engineering Open-Sources Rendr
+http://nerds.airbnb.com/weve-open-sourced-rendr
+
+Rendr is a library for running Backbone.js apps on both client and server.=
+ Use cases include: serving fully assembled pages to search engines, pre-r=
+endering pages on the server for slower clients and executing apps on the=
+ server if clients don=E2=80=99t run JavaScript.
+
+# TraceGL: A JavaScript Codeflow Visualization and Debugging Tool Using We=
+bGL
+http://badassjs.com/post/48702496345/tracegl-a-javascript-codeflow-visuali=
+zation-and
+
+TraceGL has two innovative features: First, it doesn=E2=80=99t step throug=
+h code, it visualizes its execution from a bird=E2=80=99s eye view with th=
+e option of zooming in. Second, it uses WebGL to draw its user interface.
+
+# SocialFeed.js: Generate A Social Feed in JavaScript
+https://github.com/mikaelbr/SocialFeed.js
+
+Create a feed with your latest interactions on different social media. Cur=
+rently supports GitHub, YouTube video uploads, Disqus, RSS feeds, Deliciou=
+s.
+
+# JavaScript Linting Git Pre-Commit Script
+http://jt.io/2013/git-pre-commit-js-lint-script/
+
+# rrule.js: Library for Working with Recurrence Rules for Calendar Dates
+http://jkbr.github.io/rrule/
+
+Supports recurrence rules as defined in the iCalendar RFC. Lets you parse=
+ and serialize those rules from/to natural language.
+
+# Fuse.js: Lightweight Fuzzy-Search
+http://kiro.me/projects/fuse.html
+
+A lightweight, fast way to search through a list of items, and allow mispe=
+llings.
+
+# Debug.js: Automatic Globals Detection in JavaScript
+http://blog.jetienne.com/blog/2013/04/23/debug-dot-js-global-detection/
+
+Among other features, the debug.js library supports automatic detection of=
+ global variables. It does so by periodically examining the global object=
+ (window in browsers). Additionally, debug.js can log where those variable=
+s are used.
+
+# Omni.js: Framework for Real-Time Web Apps
+https://github.com/Mashlol/omni
+
+A Node.js-based server keeps data in sync between clients. Integrates with=
+ Backbone.js.
+
+# Sample Application with Backbone.js and Twitter Bootstrap: Updated and I=
+mproved
+http://coenraets.org/blog/2013/04/sample-application-with-backbone-js-and-=
+twitter-bootstrap-updated-and-improved/
+
+# ScriptCraft: A Minecraft Mod That Lets You Build Using JavaScript
+https://github.com/rupl/ScriptCraft
+
+# ArgueJS: Optional Parameters, Default Values and Type-Checking for Your=
+ Methods
+https://github.com/zvictor/ArgueJs
+
+# Keydrown: A JavaScript Key State Handler for Web Apps
+http://jeremyckahn.github.io/keydrown/
+
+
+--- Jobs ---
+
+# Software Developer - Rocky Mountain Elk Foundation
+http://www.rmef.org/Jobs/SoftwareDeveloper.aspx
+
+Use your software development skills to provide tools and support to the v=
+olunteers and members of the Rocky Mountain Elk Foundation.  Join our smal=
+l team in Missoula, Montana in the development and maintenance of website,=
+ custom applications, and databases.
+
+# iOS Software Engineer at Coursera
+http://javascriptweekly.com/misc/coursera1.html
+
+Coursera is seeking iOS developers to build the future of mobile education=
+=2E Working in a small team of engineers and designers, you will bring a com=
+pelling classroom experience to the touchscreen. You will be responsible f=
+or the design and architecture of mobile applications from the ground up.
+
+# Javascript Developer for a High Traffic Hotel Search Engine. (Charlottes=
+ville, VA)
+http://www-labs.roomkey.com/jobs/javascript-developer.html
+
+Roomkey.com requires a talented Javascript developer to act as tech lead o=
+n our front end re-architecture project. Single-page JS app. Backbone.js,=
+ node.js. Great start-up environment. 14 million visits/month - your work=
+ will be seen!
+
+
+--- Last but not least.. ---
+
+# /Reg(exp){2}lained/: Demystifying Regular Expressions
+http://www.youtube.com/watch?v=3DEkluES9Rvak
+
+Lea Verou gave a great 45 minute presentation at O'Reilly Fluent digging i=
+nto the world of regular expressions. As a commenter on YouTube said: "Bet=
+ween the excellent presentation and the accompanying RegExp playground, I=
+ don't think there=EF=BB=BF could be a better way to learn regular express=
+ions."
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage2.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D16d4b805d9
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_115312313
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8" /></head><body>
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">This week=
+'s JavaScript news</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3Db3776d0a37&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D36cabb983f&e=3Db4af456f64"><img src=3D"http:=
+//javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366=
+" height=3D"69" style=3D"margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #127 - April 26, 2013</p>
+=09
+=09
+
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0c909cd544&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/10647/thumb=
+_zakas.png" width=3D"100" height=3D"75" style=3D"float: right; margin-left=
+: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a h=
+ref=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a=
+79d6bb9675f313ceb2&id=3D042de95152&e=3Db4af456f64" title=3D"www.youtube.c=
+om/watch?v=3Dc-kav7Tf834">Nicholas C. Zakas On =E2=80=9CMaintainable JavaS=
+cript=E2=80=9D</a></strong><br /><span style=3D"font-size: 13px; line-heig=
+ht: 19px">
+Zakas=E2=80=99 talk at the Fluent 2012 conference is about best practices=
+ for keeping your JavaScript code maintainable.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1b56a3f603&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/tutorials/javascript-ajax/meet-the-co=
+nnect-framework">Meet The Connect Framework</a></strong><br /><span style=
+=3D"font-size: 13px; line-height: 19px">
+An introduction to T.J. Holowaychuk=E2=80=99s Connect, an extensible HTTP=
+ server framework for Node.js.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd26739946b&e=3D=
+b4af456f64" title=3D"www.slideshare.net/rworth/j-query2-19610459">jQuery 1.=
+9 and 2.0: Present and Future</a></strong><br /><span style=3D"font-size:=
+ 13px; line-height: 19px">
+A slide deck by Richard Worth, executive director of the jQuery Foundation=
+, that outlines some of the vision behind jQuery 2.0 and asserts that the=
+ jQuery team will continue to support jQuery 1.x for as long as IE 6, 7 an=
+d 8 are relevant.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dfc27977b7c&e=3Db4af456f64" title=3D"emberfes=
+t.eu">EmberFest: An Ember.js Event in Munich, Germany over August 28-30</a=
+><br /><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage1.c=
+om/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6a97b53efa&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/9169/thumb=
+125_newrelic.png" width=3D"125" height=3D"125" style=3D"float: right; marg=
+in-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><stro=
+ng><a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D=
+0618f6a79d6bb9675f313ceb2&id=3D80ae42c35d&e=3Db4af456f64" title=3D"try.ne=
+wrelic.com/nodejs">New Relic is hard at work on their Node.js Agent</a></s=
+trong><br /><span style=3D"font-size: 13px; line-height: 19px">Are you a p=
+roud member of the Node.js community? Do you wish you had a way to monitor=
+ and improve the performance of your app? Well, you're in luck. We have ex=
+tremely talented monkeys in the back room tinkering away at building the o=
+nly Node.js APM solution. It's almost ready so make sure you let us know w=
+ho you are so you can be first in line.
+</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D88b3ae9b12&e=3D=
+b4af456f64" title=3D"www.kenneth-truyers.net/2013/04/20/javascript-hoisting=
+-explained">JavaScript Hoisting Explained</a></strong><br /><span style=3D=
+"font-size: 13px; line-height: 19px">
+JavaScript <i>hoists</i> variable declarations and function declarations.=
+ This blog post explains what that means.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D78f9152ed3&e=3D=
+b4af456f64" title=3D"remysharp.com/2013/04/19/i-know-jquery-now-what">I Kn=
+ow jQuery. Now What?</a></strong><br /><span style=3D"font-size: 13px; lin=
+e-height: 19px">
+Remy Sharp explains that jQuery was initially a life saver, but browsers h=
+ave come a long way and now natively support many common tasks (via <code>=
+querySelectorAll</code>, <code>classList</code>, dataset, etc.).
+</span></p>
+
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D751e4484b7&e=3D=
+b4af456f64" title=3D"www.codeproject.com/Articles/580165/JavaScript-Best-Pr=
+actices">JavaScript Best Practices</a></strong><br /><span style=3D"font-s=
+ize: 13px; line-height: 19px">
+Rules for good JavaScript code: use =3D=3D=3D, write semicolons, etc.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Db21d5d1b10&e=3D=
+b4af456f64" title=3D"davidwalsh.name/javascript-objects">JavaScript Objects=
+: Inherited A Mess</a></strong><br /><span style=3D"font-size: 13px; line-=
+height: 19px">
+First in a series of three blog posts, in which Kyle Simpson explains Java=
+Script inheritance via its core: objects linked in prototype chains.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da270c8dc79&e=3D=
+b4af456f64" title=3D"dailyjs.com/2013/04/19/leveldb-and-node-1">LevelDB an=
+d Node: What Is LevelDB Anyway?</a></strong><br /><span style=3D"font-size=
+: 13px; line-height: 19px">
+First in a series of three articles about using LevelDB on Node.js. LevelD=
+B is an open-source, dependency-free, embedded key/value data store, writt=
+en in C++. It can be installed for use on Node.js via npm.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D24d231c025&e=3D=
+b4af456f64" title=3D"ariya.ofilabs.com/2013/04/rename-refactoring-for-javas=
+cript-code.html">=E2=80=9CRename=E2=80=9D Refactoring for JavaScript Code<=
+/a></strong><br /><span style=3D"font-size: 13px; line-height: 19px">
+Shows how to use parsing and analysis libraries to rename a variable in Ja=
+vaScript code.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D02e9f3b9e8&e=3D=
+b4af456f64" title=3D"www.to-string.com/2013/04/20/the-backbonejs-way-of-th=
+inking">The BackboneJS Way of Thinking</a></strong><br /><span style=3D"fo=
+nt-size: 13px; line-height: 19px">
+A high-level overview of the framework.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfff2ce047a&e=3D=
+b4af456f64" title=3D"leanpub.com/building-backbone-plugins">Lessons Learned=
+ in Building Plugins for Backbone.js by Derick Bailey</a></strong><br /><s=
+pan style=3D"font-size: 13px; line-height: 19px">
+An e-book on LeanPub.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd4924175da&e=3D=
+b4af456f64" title=3D"www.webdeveasy.com/optimize-requirejs-projects">Optimi=
+ze (Concatenate and Minify) RequireJS Projects</a></strong><br /><span sty=
+le=3D"font-size: 13px; line-height: 19px">
+This article explains how to use the RequireJS Optimizer. RequireJS projec=
+ts usually consist of many small modules. As you need one HTTP request per=
+ module, loading all of them takes time. RequireJS Optimizer helps rectify=
+ this.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5a6671b7b2&e=3D=
+b4af456f64" title=3D"www.closurecheatsheet.com">Closure Cheat Sheet</a></s=
+trong><br /><span style=3D"font-size: 13px; line-height: 19px">
+Web site with quick reference material for Google=E2=80=99s <a href=3D"htt=
+p://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675=
+f313ceb2&id=3D6939994ac1&e=3Db4af456f64">Closure</a> library.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6c888daabb&e=3D=
+b4af456f64" title=3D"www.2ality.com/2013/04/check-undefined.html">Checking=
+ for undefined: =3D=3D=3D Versus typeof Versus Falsiness</a></strong><br /=
+><span style=3D"font-size: 13px; line-height: 19px">
+Explains several ways of checking for <code>undefined</code> and what can=
+ go wrong.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7c55eb9ba1&e=3D=
+b4af456f64" title=3D"tech.pro/tutorial/1249/modern-emberjs-application-wor=
+kflow-with-yeoman-and-mocha">Modern Ember.js Application Workflow with Yeo=
+man and Mocha</a></strong><br /><span style=3D"font-size: 13px; line-heigh=
+t: 19px">
+A tutorial for generating the skeleton of an app, building it, running it,=
+ testing it, etc.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D116db1888c&e=3Db4af456f64" title=3D"briantfor=
+d.com/blog/angular-bower.html">Writing Reusable AngularJS Components with=
+ Bower</a><br /><span style=3D"font-size: 13px; line-height: 19px"></span>=
+</p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dfadd9242f8&e=3Db4af456f64" title=3D"designpep=
+per.com/blog/drips/constructors-in-javascript">Constructors in JavaScript<=
+/a><br /><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Dd3215bd879&e=3Db4af456f64" title=3D"cliffmeye=
+rs.com/blog/2013/4/21/code-organization-angularjs-javascript">Code Organiz=
+ation in Large AngularJS and JavaScript Applications</a><br /><span style=
+=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Releases</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4aade3b82a&e=3D=
+b4af456f64" title=3D"www.dhtmlx.com/blog/?p=3D1897">DHTMLX 3.6</a></strong>=
+<br /><span style=3D"font-size: 13px; line-height: 19px">
+JavaScript library that provides a suite of rich UI components.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D961cc96c97&e=3Db4af456f64" title=3D"blog.node=
+js.org/2013/04/23/node-v0-10-5-stable">Node v0.10.5 (Stable)</a><br /><spa=
+n style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D9c7a6e8017&e=3Db4af456f64" title=3D"www.yuibl=
+og.com/blog/2013/04/24/yui-3-10-0-released">YUI 3.10.0</a><br /><span styl=
+e=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7c9316a7bf&e=3D=
+b4af456f64" title=3D"projects.jga.me/jquery-builder">jQuery Builder: Creati=
+ng A Custom Version of jQuery</a></strong><br /><span style=3D"font-size:=
+ 13px; line-height: 19px">
+The jQuery Builder lets you create a custom version of jQuery by removing=
+ the parts you don=E2=80=99t need. For example, your app might not need to=
+ make Ajax requests. The jQuery Builder is available in an online version=
+ and a command line version.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De4ba30a49b&e=3D=
+b4af456f64" title=3D"hood.ie">Hoodie: A Node + CouchDB Framework for Fronte=
+nd-Only Web Apps</a></strong><br /><span style=3D"font-size: 13px; line-he=
+ight: 19px">
+Stores data locally first and syncs it in the background when possible, wi=
+th a backend based on Node.js and CouchDB.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Decc770cd5b&e=3D=
+b4af456f64" title=3D"nerds.airbnb.com/weve-open-sourced-rendr">Airbnb Engi=
+neering Open-Sources Rendr</a></strong><br /><span style=3D"font-size: 13p=
+x; line-height: 19px">
+Rendr is a library for running Backbone.js apps on both client and server.=
+ Use cases include: serving fully assembled pages to search engines, pre-r=
+endering pages on the server for slower clients and executing apps on the=
+ server if clients don=E2=80=99t run JavaScript.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc495e77b6a&e=3D=
+b4af456f64" title=3D"badassjs.com/post/48702496345/tracegl-a-javascript-cod=
+eflow-visualization-and">TraceGL: A JavaScript Codeflow Visualization and=
+ Debugging Tool Using WebGL</a></strong><br /><span style=3D"font-size: 13=
+px; line-height: 19px">
+TraceGL has two innovative features: First, it doesn=E2=80=99t step throug=
+h code, it visualizes its execution from a bird=E2=80=99s eye view with th=
+e option of zooming in. Second, it uses WebGL to draw its user interface.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df3e4fa5f44&e=3D=
+b4af456f64" title=3D"github.com/mikaelbr/SocialFeed.js">SocialFeed.js: Gene=
+rate A Social Feed in JavaScript</a></strong><br /><span style=3D"font-siz=
+e: 13px; line-height: 19px">
+Create a feed with your latest interactions on different social media. Cur=
+rently supports GitHub, YouTube video uploads, Disqus, RSS feeds, Deliciou=
+s.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd43077dd28&e=3D=
+b4af456f64" title=3D"jt.io/2013/git-pre-commit-js-lint-script">JavaScript L=
+inting Git Pre-Commit Script</a></strong><br /><span style=3D"font-size: 1=
+3px; line-height: 19px">
+Run JSHint before every Git commit.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df425b6b77d&e=3D=
+b4af456f64" title=3D"jkbr.github.io/rrule">rrule.js: Library for Working w=
+ith Recurrence Rules for Calendar Dates</a></strong><br /><span style=3D"f=
+ont-size: 13px; line-height: 19px">
+Supports recurrence rules as defined in the <a href=3D"http://javascriptwe=
+ekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8=
+18f2d013d&e=3Db4af456f64">iCalendar RFC</a>. Lets you parse and serialize=
+ those rules from/to natural language.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D4af96358bb&e=3D=
+b4af456f64" title=3D"kiro.me/projects/fuse.html">Fuse.js: Lightweight Fuzzy=
+-Search</a></strong><br /><span style=3D"font-size: 13px; line-height: 19p=
+x">A lightweight, fast way to search through a list of items, and allow mi=
+spellings.</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7cf98f2c83&e=3D=
+b4af456f64" title=3D"blog.jetienne.com/blog/2013/04/23/debug-dot-js-global=
+-detection">Debug.js: Automatic Globals Detection in JavaScript</a></stron=
+g><br /><span style=3D"font-size: 13px; line-height: 19px">
+Among other features, the debug.js library supports automatic detection of=
+ global variables. It does so by periodically examining the global object=
+ (<code>window</code> in browsers). Additionally, debug.js can log where t=
+hose variables are used.
+</span></p>
+
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D051bbd0fd6&e=3D=
+b4af456f64" title=3D"github.com/Mashlol/omni">Omni.js: Framework for Real-=
+Time Web Apps</a></strong><br /><span style=3D"font-size: 13px; line-heigh=
+t: 19px">
+A Node.js-based server keeps data in sync between clients. Integrates with=
+ Backbone.js.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D2a2dceed8b&e=3Db4af456f64" title=3D"coenraets=
+=2Eorg/blog/2013/04/sample-application-with-backbone-js-and-twitter-bootstra=
+p-updated-and-improved">Sample Application with Backbone.js and Twitter Bo=
+otstrap: Updated and Improved</a><br /><span style=3D"font-size: 13px; lin=
+e-height: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D70b88d1f05&e=3Db4af456f64" title=3D"github.co=
+m/rupl/ScriptCraft">ScriptCraft: A Minecraft Mod That Lets You Build Using=
+ JavaScript</a><br /><span style=3D"font-size: 13px; line-height: 19px"></=
+span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3Dccb4ce3a87&e=3Db4af456f64" title=3D"github.c=
+om/zvictor/ArgueJs">ArgueJS: Optional Parameters, Default Values and Type-=
+Checking for Your Methods</a><br /><span style=3D"font-size: 13px; line-he=
+ight: 19px"></span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D7ef46e9ad4&e=3Db4af456f64" title=3D"jeremycka=
+hn.github.io/keydrown">Keydrown: A JavaScript Key State Handler for Web Ap=
+ps</a><br /><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dcdaff83d03&e=3D=
+b4af456f64" title=3D"www.rmef.org/Jobs/SoftwareDeveloper.aspx">Software Dev=
+eloper - Rocky Mountain Elk Foundation</a></strong><br /><span style=3D"fo=
+nt-size: 13px; line-height: 19px">Use your software development skills to=
+ provide tools and support to the volunteers and members of the Rocky Moun=
+tain Elk Foundation.  Join our small team in Missoula, Montana in the deve=
+lopment and maintenance of website, custom applications, and databases.</s=
+pan></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D70688e88fb&e=3D=
+b4af456f64" title=3D"javascriptweekly.com/misc/coursera1.html">iOS Softwar=
+e Engineer at Coursera</a></strong><br /><span style=3D"font-size: 13px; l=
+ine-height: 19px">
+Coursera is seeking iOS developers to build the future of mobile education=
+=2E Working in a small team of engineers and designers, you will bring a com=
+pelling classroom experience to the touchscreen. You will be responsible f=
+or the design and architecture of mobile applications from the ground up.
+</span></p>
+
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D529c50eb4a&e=3D=
+b4af456f64" title=3D"www-labs.roomkey.com/jobs/javascript-developer.html">=
+Javascript Developer for a High Traffic Hotel Search Engine. (Charlottesvi=
+lle, VA)</a></strong><br /><span style=3D"font-size: 13px; line-height: 19=
+px">Roomkey.com requires a talented Javascript developer to act as tech le=
+ad on our front end re-architecture project. Single-page JS app. Backbone.=
+js, node.js. Great start-up environment. 14 million visits/month - your wo=
+rk will be seen!</span></p>
+
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://javascriptweekly.us1.list-manage.co=
+m/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D495858bcc7&e=3D=
+b4af456f64"><img src=3D"http://s3.amazonaws.com/nlga/uploads/item/image/10523/thumb=
+_regex.png" width=3D"133" height=3D"100" style=3D"float: right; margin-lef=
+t: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a=
+ href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D0618f=
+6a79d6bb9675f313ceb2&id=3D82c569f2da&e=3Db4af456f64" title=3D"www.youtube=
+=2Ecom/watch?v=3DEkluES9Rvak">/Reg(exp){2}lained/: Demystifying Regular Expr=
+essions</a></strong><br /><span style=3D"font-size: 13px; line-height: 19p=
+x">
+Lea Verou gave a great 45 minute presentation at O'Reilly Fluent digging i=
+nto the world of regular expressions. As a commenter on YouTube said: <em>=
+"Between the excellent presentation and the accompanying RegExp playground=
+, I don't think there=EF=BB=BF could be a better way to learn regular expr=
+essions."</em>
+</span></p>
+
+
+
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Da1bec2fbcf&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd=
+2c54e450a&e=3Db4af456f64">Peter Cooper</a></p>
+
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D45e6c08009&e=
+=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3D3752ec7685&e=3Db4af456f64">Click he=
+re to subscribe.</a></span>
+=09<br />Want to advertise? <a href=3D"http://javascriptweekly.us1.list-ma=
+nage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D656e2288c1&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br />Want to post a job? <a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D52941df99a&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br />To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2012 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br /><a href=3D"http://javascriptw=
+eekly.us1.list-manage2.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D=
+596bcf37c5&e=3Db4af456f64&c=3D16d4b805d9">Unsubscribe</a> or <a href=3D"http=
+://javascriptweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313c=
+eb2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a><=
+/p>
+=09</td></tr>
+</table>
+
+</td></tr></table>
+
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D16d4b805d9&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_115312313--

@@ -1,0 +1,840 @@
+Return-Path:
+  <bounce-mc.us1_449017.1854493-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>
+Delivered-To: webmail.testing.dev@gmail.com
+Received: by 10.76.86.231 with SMTP id s7csp372021oaz;
+        Fri, 2 Aug 2013 06:29:24 -0700 (PDT)
+X-Received: by 10.224.4.135 with SMTP id 7mr11662225qar.19.1375450164246;
+        Fri, 02 Aug 2013 06:29:24 -0700 (PDT)
+Received: from mail259.us2.mcsv.net (mail259.us2.mcsv.net. [173.231.138.196])
+        by mx.google.com with ESMTP id dt7si3897069qeb.42.2013.08.02.06.29.23
+        for <webmail.testing.dev@gmail.com>;
+        Fri, 02 Aug 2013 06:29:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us1_449017.1854493-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) client-ip=173.231.138.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us1_449017.1854493-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net designates 173.231.138.196 as permitted sender) smtp.mail=bounce-mc.us1_449017.1854493-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net;
+       dkim=pass header.i=jsw=3Dpeterc.org@mail259.us2.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail259.us2.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=jsw=3Dpeterc.org@mail259.us2.mcsv.net;
+ bh=cb9NRnT1LeBmZqiuepybWgnssuw=;
+ b=pWpPtGsC5X3A9/IZAx1P2ENJ/H51Z0OKZmDZEqUUnSfynJFNE3dcQdYjVuIgxdfI3pP1ryiZA6gI
+   W7tNsaUT3pbYtI68SRR6VDqHvEB1mUUKfFZKArIP4pmbo3WmtAd2DT+MP7eP2cIi6+dasOeawMdB
+   xYbBOxr8/VfcQKUQxks=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail259.us2.mcsv.net;
+ b=P9ePjSKSMh5FMW26NXr619CMxn0mSnHP8t9UhrYI5MYZxoDwjS2lSiSSC3AF37MipN69qkwHYZUT
+   zIMu4+/TbWnswwwgGEAXMBqnOLw8k6Gr0nL2GzMBgkYPgXlbFYpoNY/tvHI8mV+fKoC7BlUaZZn2
+   WAz1orQJUk6II9SzwIk=;
+Received: from (127.0.0.1) by mail259.us2.mcsv.net (PowerMTA(TM) v3.5r16) id hveq380ik18u for <webmail.testing.dev@gmail.com>; Fri, 2 Aug 2013 12:59:00 +0000 (envelope-from <bounce-mc.us1_449017.1854493-webmail.testing.dev=gmail.com@mail259.us2.mcsv.net>)
+Subject: =?utf-8?Q?This=20Week=27s=20JavaScript=20News=20=E2=80=93=20Issue=20141?=
+From: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+Reply-To: =?utf-8?Q?JavaScript=20Weekly?= <jsw@peterc.org>
+To: <webmail.testing.dev@gmail.com>
+Date: Fri, 2 Aug 2013 12:59:00 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2b4af456f64.20130802125848@mail259.us2.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID8b8574fe6fb4af456f64**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.8b8574fe6f
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.8b8574fe6f
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=8b8574fe6f&e=b4af456f64
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-0618f6a79d6bb9675f313ceb2-8b8574fe6f-b4af456f64@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://javascriptweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=596bcf37c5&e=b4af456f64&c=8b8574fe6f>
+Sender: "JavaScript Weekly" <jsw=peterc.org@mail259.us2.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1211414704"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1211414704
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+JavaScript Weekly - A Weekly JavaScript Newsletter
+Issue #141 - August  2, 2013
+Unsubscribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D8b8574fe6f
+
+
+--- Featured ---
+
+# 8 JSConf US 2013 Videos Released
+http://www.youtube.com/playlist?list=3DPL37ZVnwpeshF7AHpbZt33aW0brYJyNftx
+
+Includes talks such as
+=E2=80=9CAI.js: Robots with Brains!=E2=80=9D by Raquel V=C3=A8lez,
+=E2=80=9CJavaScript Masterclass=E2=80=9D by Angelina Fabbro and
+=E2=80=9CLessons from the experimental edge of technology=E2=80=9D by Remy=
+ Sharp.
+
+# Writing a Command Line Utility using Node
+http://flippinawesome.org/2013/07/29/writing-a-command-line-utility-using-=
+node/
+
+Jonathan Fielding goes step by step through the process of building your o=
+wn command line utility using Node.
+
+# ECMAScript 6 Modules: The Future Is Now
+http://www.2ality.com/2013/07/es6-modules.html
+
+Explains how modules work in ECMAScript 6 (the next version of JavaScript)=
+, then describes tools that allow you to already use them now.
+
+
+--- From our Sponsor ---
+
+# Retargeting on Facebook?
+http://launchbit.com/taz/133-3463-b4af456f64
+
+Get more sales and conversions with Facebook retargeting. Try it free for 14 days. Set up takes just minutes!<br />(<a href=3D"http://launchbit.com/sp/33-133/">Sponsor this newsletter</a>)
+
+
+--- Events ---
+
+# ng-conf 2014: The World's First Angular Conference
+http://www.ng-conf.org/
+
+Takes place in Salt Lake City, Utah over January 16-17, 2014. Currently th=
+ey're just taking e-mail addresses of anyone who's interested in attending=
+ or speaking.
+
+# jQuery Conference Austin: September 10=E2=80=9311 2013 - Austin, TX
+http://events.jquery.org/2013/austin/
+
+Bocoup is also doing a training Mon Sep. 9 before the conference. They are=
+ offering 50$ off tickets for JavaScript Weekly readers using the code JSW=
+KLY50.
+
+# The Great British Node Conference =E2=80=93 London, 8th October 2013
+http://greatbritishnodeconf.co.uk/
+
+
+--- Reading ---
+
+# Creating a 3D Game with Three.js and WebGL
+http://buildnewgames.com/webgl-threejs/
+
+Nikhil Suresh presents a practical introduction to creating a 3D scene in=
+ the browser using WebGL through the popular Three.js library. He then add=
+s some simple bat and ball gameplay.
+
+# Checking in Front-End Dependencies
+http://addyosmani.com/blog/checking-in-front-end-dependencies/
+
+Should you add the dependencies installed by your package manager to sourc=
+e control? This article by Addy Osmani walks though the options for Bower.
+
+# Introduction To Photoshop Scripting [with JavaScript]
+http://www.smashingmagazine.com/2013/07/25/introduction-to-photoshop-scrip=
+ting/
+
+# Profile-Guided JavaScript Optimization
+http://ariya.ofilabs.com/2013/07/profile-guided-javascript-optimization.ht=
+ml
+
+Profile-guided optimization is a technique where a compiler uses test runs=
+ with representative input data to determine how to best compile a program=
+=2E
+This blog post shows how to use that technique when manually optimizing Ja=
+vaScript code.
+
+# Creating Multi-Step Forms with jQuery and Promin
+http://flippinawesome.org/2013/07/29/creating-multi-step-forms-with-jquery=
+-and-promin/
+
+Tim Severien shows how the Promin plugin for jQuery to easily create user-=
+friendly multi-step forms.
+
+# The Basics of Using ui-router with AngularJS
+http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-an=
+gularjs/
+
+URL routers keep the URL of a web app in sync with its user interface stat=
+e. This blog post describes a new URL router for AngularJS.
+
+# Working with Shadow DOM
+http://blog.teamtreehouse.com/working-with-shadow-dom
+
+An introduction to Shadow DOM, one of the building blocks of Web Component=
+s, the work-in-progress HTML5 standard for custom widgets.
+
+# AngularJS-backed SVGs
+http://gaslight.co/blog/angular-backed-svgs
+
+For simple charts, you may not need a full-fledged SVG library, AngularJS=
+=E2=80=99s built-in capabilities may be enough.
+
+# AngularJS Best Practices
+http://www.jacopretorius.net/2013/07/angularjs-best-practices.html
+
+Stick to the canonical project directory structure, use dependency injecti=
+on, etc.
+
+# 11 Resources to Get You Up to Speed in Ember.js
+http://net.tutsplus.com/tutorials/javascript-ajax/resources-to-get-you-up-=
+to-speed-in-ember-js/
+
+# Using PhantomJS WebServer
+http://benjaminbenben.com/2013/07/28/phantomjs-webserver/
+
+With PhantomJS, you can let a real web browser (without a graphical user i=
+nterface) evaluate pages (including JavaScript). This article shows how to=
+ write PhantomJS-based web apps that process evaluated pages and serve the=
+ results to clients. For example: the final HTML of dynamic web pages, scr=
+eenshots, etc. Such web apps are easily deployed to Heroku.
+
+# A Guide to Writing Backbone Apps At Coursera
+http://blog.pamelafox.org/2013/07/a-guide-to-writing-backbone-apps-at.html
+
+# OOP is Not Your Hammer
+http://html5hub.com/oop-is-not-your-hammer/
+
+John Hann explains that (plain) Object-Oriented Programming (OOP) is not a=
+lways the best solution and looks at two alternatives: events and Aspect-O=
+riented Programming (AOP).
+
+# Handlebars.js: A Behind the Scenes Look
+http://net.tutsplus.com/tutorials/javascript-ajax/handlebars-js-a-behind-t=
+he-scenes-look/
+
+# AngularJS in 60 Minutes [PDF]
+http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_=
+May2013.pdf
+
+Dan Wahlin has transcribed his talk to a PDF file.
+
+# Interview With Chris Williams
+http://net.tutsplus.com/articles/interview-with-chris-williams/
+
+Rey Bango interviews Chris Williams (founder and organizer of JSConf), wit=
+h topics ranging from the history and goals of JSConf to robotics.
+
+# How Do I =E2=80=9CThink in AngularJS=E2=80=9D If I Have A jQuery Backgro=
+und?
+http://stackoverflow.com/q/14994391/3951
+
+
+--- Watching ---
+
+# Tutorial: Writing A Native Windows 8.1 App in TypeScript
+http://www.youtube.com/watch?v=3DmPljRj4IS3w
+
+# JavaScript Testing with Jasmine in 7 Minutes
+http://blog.codeship.io/2013/07/30/testing-tuesday-16-javascript-testing-w=
+ith-jasmine.html
+
+
+--- Code and Libraries ---
+
+# jspm: Frictionless Browser Package Management
+http://jspm.io/
+
+Comprises two components. First, JSPM loader lets you load three module fo=
+rmats: ECMAScript 6 modules, AMD, CommonJS. Second, JSPM CDN lets you load=
+ npm packages and modules on GitHub without installing them locally.
+
+# The NoFlo Visual Development Environment for JavaScript
+http://www.kickstarter.com/projects/noflo/noflo-development-environment
+
+We linked to NoFlo, a flow based programming tool for Node, back in issue=
+ 87 and it has continued to mature. Flow Based Programming is a paradigm w=
+here the logic of an application is designed in a visual graph and the tea=
+m are now trying to raise money to build a full visual development environ=
+ment on Kickstarter (more perspective from the team). If they reach their=
+ stretch goals, they may cover Objective C and Java too.
+
+# throat: Throttle A Collection of Promise-Returning Functions
+https://github.com/ForbesLindesay/throat
+
+Control how many promise-returning functions should be executed concurrent=
+ly.
+
+# Grunt-Notify: Automatic Notifications When Grunt Tasks Fail
+https://github.com/dylang/grunt-notify
+
+Tired of continusously jumping back to the command line to see if and why=
+ grunt task fail such as JSHint? Add grunt-notify to your Gruntfile and it=
+ will provide automatic notifications in OS X, Windows, and Linux.
+
+# Overload: Simple Way to Overload JavaScript Functions
+https://github.com/mariusGundersen/Overload
+
+A library to perform multiple dispatch: When a given (generic) function is=
+ called, you can trigger one of several implementations, depending on the=
+ number and type of the arguments.
+
+# Handlebars-Helpers: An Extensive Library of 100+ Handlebars Helpers
+https://github.com/assemble/handlebars-helpers
+
+# Alert: Play Alert Sounds in The Browser
+https://github.com/azer/alert
+
+# Table-to-JSON: jQuery Plugin That Converts HTML Tables to JavaScript Obj=
+ects
+http://lightswitch05.github.io/table-to-json/
+
+# Bindr: Small JavaScript Dependency Injection Framework
+http://jcreamer898.github.io/bindr/
+
+# Transit: Smooth CSS Transitions and Transformations for jQuery
+http://ricostacruz.com/jquery.transit/
+
+# iCheck: Super Customized Checkboxes and Radio Buttons for jQuery and Zep=
+to
+http://damirfoy.com/iCheck/
+
+
+--- Jobs ---
+
+# Senior Javascript Engineer @ Spotify NYC
+https://www.spotify.com/us/jobs/view/oRxtXfwy/
+
+We=E2=80=99re looking for incredible, senior Javascript Engineers to join=
+ our team in NYC. If you=E2=80=99re the right one for us, you have expert=
+ knowledge of developing rich applications using Javascript and love worki=
+ng with other web technologies like HTML5 and CSS3.
+
+# JavaScript expert wanted at YouNeedABudget.com (Remote position)
+http://www.youneedabudget.com/blog/2013/we-need-a-full-time-javascript-fro=
+nt-end-developer/
+
+We write beautiful personal finance software called "You Need a Budget" (Y=
+NAB). Now we're moving it to the web! Come work with our small, passionate=
+ team to make this app our best work yet! (You can work from home, no matt=
+er where home is.)
+
+# Front End Developer at Booking.com in Amsterdam, the Netherlands
+http://www.booking.com/jobs.en-us.html?sid=3D6347b93357e576d55321f73612402=
+f55;dcid=3D1;st=3Ddetails;job_id=3D12341
+
+Are you interested in building the best accommodation website used by mill=
+ions of customers? Do you have solid experience developing with HTML/CSS/J=
+S? Booking.com is looking for an experienced Front End Developer. Learn mo=
+re about us in this video.
+
+# Post a job in a future issue of JavaScript Weekly
+https://cooperpress.com/jobs
+
+
+--- Last but not least.. ---
+
+# Automate your release process
+http://www.red-gate.com/delivery/deployment-manager/?utm_source=3Djavascri=
+ptweekly&utm_medium=3Ddisplayemail&utm_content=3Dtotal_deployment_v2_m1&ut=
+m_campaign=3Ddeploymentmanager&utm_term=3Demail-20676
+
+Get fast, repeatable deployments at your fingertips with Red Gate=E2=80=99=
+s Deployment Manager. Ship your .NET apps, services, and databases in a si=
+ngle process, see the status of your environments on the shared dashboard,=
+ and manage all your deployments in one place. Get started now.
+
+
+--
+
+Editor: Dr. Axel Rauschmayer
+Publisher in Chief: Peter Cooper
+
+You opted in for JavaScript Weekly at http://javascriptweekly.com/ to get=
+ weekly e-mails about JavaScript and its ancillary technologies.
+
+Unsubcribe at: http://javascriptweekly.us1.list-manage.com/unsubscribe?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D596bcf37c5&e=3Db4af456f64&c=3D8b8574fe6f
+
+Our mailing address is: Office 30, Lincoln Way, Fairfield Enterprise Centr=
+e, Louth, Lincs, UK, LN11 9EJ.
+
+You can also e-mail the list maintainer directly at peter@cooperpress.com=
+ if you like.
+--_----------=_MCPart_1211414704
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8"></head><body>
+<style type=3D"text/css">
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+=09html { padding: 0px; margin: 0px; }
+  body { padding: 0px !important; }
+  #maintable, #toptable { width: 320px !important; }
+}
+</style>
+<table style=3D"font-family: 'helvetica neue', helvetica, arial, sans-seri=
+f;" width=3D"100%" cellpadding=3D"8" cellspacing=3D"0"><tr>
+=09<td bgcolor=3D"#ffffff">
+=09  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er" id=3D"toptable" width=3D"600"><tr><td align=3D"left">
+=09=09=09<p class=3D"smaller header" style=3D"color: #000000;font-size: 11=
+px;font-family: Tahoma, helvetica, arial, sans-serif; margin: 0">This week=
+'s JavaScript news</p>
+=09=09</td><td align=3D"right">
+=09=09=09<p class=3D"smaller header" style=3D"font-size: 11px;font-family:=
+ Tahoma, helvetica, arial, sans-serif; margin: 0"><a href=3D"http://javasc=
+riptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&=
+id=3D09022f7f04&e=3Db4af456f64" style=3D"color: #3399aa;">Read this issue=
+ on the Web</a></p>
+=09=09</td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"maintable" align=3D"center" style=3D"font-family: 'helvetica neue', he=
+lvetica, arial, sans-serif; margin-top: 3px">
+=09<tr bgcolor=3D"#00aaac"><td>
+<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3De9e22329f9&e=3Db4af456f64"><img src=3D"http:=
+//javascriptweekly.com/jslogo3.gif" alt=3D"JavaScript Weekly" width=3D"366=
+" height=3D"69" style=3D"margin-bottom: 0px; border: 0"></a>
+</td></tr>
+<tr bgcolor=3D"#ffffff"><td>
+=09<p style=3D"color: #0aa; font-weight: bold; font-size: 15px; margin-bot=
+tom: 0; padding: 0 0px; margin-top: 3px">Issue #141 - August  2, 2013</p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Featured</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbcd435601f&e=3D=
+b4af456f64" title=3D"www.youtube.com/playlist?list=3DPL37ZVnwpeshF7AHpbZt33=
+aW0brYJyNftx">8 JSConf US 2013 Videos Released</a></strong><br><span style=
+=3D"font-size: 13px; line-height: 19px">
+Includes talks such as
+=E2=80=9C<a href=3D"http://javascriptweekly.us1.list-manage.com/track/clic=
+k?u=3D0618f6a79d6bb9675f313ceb2&id=3D9c4df97c10&e=3Db4af456f64">AI.js: Ro=
+bots with Brains!</a>=E2=80=9D by Raquel V=C3=A8lez,
+=E2=80=9C<a href=3D"http://javascriptweekly.us1.list-manage.com/track/clic=
+k?u=3D0618f6a79d6bb9675f313ceb2&id=3D409e101abf&e=3Db4af456f64">JavaScrip=
+t Masterclass</a>=E2=80=9D by Angelina Fabbro and
+=E2=80=9C<a href=3D"http://javascriptweekly.us1.list-manage2.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3D17fdfd4af5&e=3Db4af456f64">Lessons=
+ from the experimental edge of technology</a>=E2=80=9D by Remy Sharp.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D88ab270719&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/07/29/writing-a-command-line-=
+utility-using-node">Writing a Command Line Utility using Node</a></strong>=
+<br><span style=3D"font-size: 13px; line-height: 19px">
+Jonathan Fielding goes step by step through the process of building your o=
+wn command line utility using Node.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6b21366af7&e=3D=
+b4af456f64" title=3D"www.2ality.com/2013/07/es6-modules.html">ECMAScript 6=
+ Modules: The Future Is Now</a></strong><br><span style=3D"font-size: 13px=
+; line-height: 19px">
+Explains how modules work in ECMAScript 6 (the next version of JavaScript)=
+, then describes tools that allow you to already use them now.
+</span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">From our Sponsor</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><a href=3D"http://launchbit.com/taz/133-3463-b4af456f64"><img src=
+=3D"http://launchbit.com/taz-i/3463-bec100c9a6a60bac72c858bceadcfc4b17adade3-text.png" width=3D"90" height=3D"90" style=3D"float: right; ma=
+rgin-left: 14px; margin-bottom: 4px; border: 1px solid #1173c7"></a><stron=
+g><a href=3D"http://launchbit.com/taz/133-3463-b4af456f64?utm_source=3Djavascriptweekly&=
+utm_medium=3Demail" title=3D"http://launchbit.com/taz/133-3463-b4af456f64">=
+Retargeting on Facebook?</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">=
+Get more sales and conversions with Facebook retargeting. Try it free for 14 days. Set up takes just minutes!<br />(<a href=3D"http://launchbit.com/sp/33-133/">Sponsor this newsletter</a>) <img src=3D"http://launchbit.com/taz-pixel/133-3463-b4af456f64"></span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Events</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D60aeb9aff1&e=3D=
+b4af456f64" title=3D"www.ng-conf.org">ng-conf 2014: The World's First Angul=
+ar Conference</a></strong><br><span style=3D"font-size: 13px; line-height:=
+ 19px">
+Takes place in Salt Lake City, Utah over January 16-17, 2014. Currently th=
+ey're just taking e-mail addresses of anyone who's interested in attending=
+ or speaking.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D17776f98e6&e=3D=
+b4af456f64" title=3D"events.jquery.org/2013/austin">jQuery Conference Aust=
+in: September 10=E2=80=9311 2013 - Austin, TX</a></strong><br><span style=
+=3D"font-size: 13px; line-height: 19px">
+Bocoup is also doing a training Mon Sep. 9 before the conference. They are=
+ offering 50$ off tickets for JavaScript Weekly readers using the code <co=
+de>JSWKLY50</code>.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D74cb91c0af&e=3Db4af456f64" title=3D"greatbrit=
+ishnodeconf.co.uk">The Great British Node Conference =E2=80=93 London, 8th=
+ October 2013</a><br><span style=3D"font-size: 13px; line-height: 19px"></=
+span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Reading</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D22172f2db3&e=3D=
+b4af456f64" title=3D"buildnewgames.com/webgl-threejs">Creating a 3D Game wi=
+th Three.js and WebGL</a></strong><br><span style=3D"font-size: 13px; line=
+-height: 19px">
+Nikhil Suresh presents a practical introduction to creating a 3D scene in=
+ the browser using WebGL through the popular Three.js library. He then add=
+s some simple bat and ball gameplay.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D2844e5d454&e=3D=
+b4af456f64" title=3D"addyosmani.com/blog/checking-in-front-end-dependencie=
+s">Checking in Front-End Dependencies</a></strong><br><span style=3D"font-=
+size: 13px; line-height: 19px">
+Should you add the dependencies installed by your package manager to sourc=
+e control? This article by Addy Osmani walks though the options for Bower.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D8e53c49406&e=3Db4af456f64" title=3D"www.smash=
+ingmagazine.com/2013/07/25/introduction-to-photoshop-scripting">Introducti=
+on To Photoshop Scripting [with JavaScript]</a><br><span style=3D"font-si=
+ze: 13px; line-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3De121d4edef&e=3D=
+b4af456f64" title=3D"ariya.ofilabs.com/2013/07/profile-guided-javascript-op=
+timization.html">Profile-Guided JavaScript Optimization</a></strong><br><s=
+pan style=3D"font-size: 13px; line-height: 19px">
+Profile-guided optimization is a technique where a compiler uses test runs=
+ with representative input data to determine how to best compile a program=
+=2E
+This blog post shows how to use that technique when manually optimizing Ja=
+vaScript code.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Deb4d7b61a1&e=3D=
+b4af456f64" title=3D"flippinawesome.org/2013/07/29/creating-multi-step-for=
+ms-with-jquery-and-promin">Creating Multi-Step Forms with jQuery and Promi=
+n</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+Tim Severien shows how the Promin plugin for jQuery to easily create user-=
+friendly multi-step forms.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8d7dcaf0bf&e=3D=
+b4af456f64" title=3D"joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-r=
+outer-with-angularjs">The Basics of Using ui-router with AngularJS</a></st=
+rong><br><span style=3D"font-size: 13px; line-height: 19px">
+URL routers keep the URL of a web app in sync with its user interface stat=
+e. This blog post describes a new URL router for AngularJS.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dce6dffc094&e=3D=
+b4af456f64" title=3D"blog.teamtreehouse.com/working-with-shadow-dom">Workin=
+g with Shadow DOM</a></strong><br><span style=3D"font-size: 13px; line-hei=
+ght: 19px">
+An introduction to Shadow DOM, one of the building blocks of <a href=3D"ht=
+tp://javascriptweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb96=
+75f313ceb2&id=3D4284619916&e=3Db4af456f64">Web Components</a>, the work-i=
+n-progress HTML5 standard for custom widgets.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5a70a0db37&e=3D=
+b4af456f64" title=3D"gaslight.co/blog/angular-backed-svgs">AngularJS-backed=
+ SVGs</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+For simple charts, you may not need a full-fledged SVG library, AngularJS=
+=E2=80=99s built-in capabilities may be enough.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D56efcfc349&e=3D=
+b4af456f64" title=3D"www.jacopretorius.net/2013/07/angularjs-best-practice=
+s.html">AngularJS Best Practices</a></strong><br><span style=3D"font-size:=
+ 13px; line-height: 19px">
+Stick to the canonical project directory structure, use dependency injecti=
+on, etc.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D72cc3a3d07&e=3Db4af456f64" title=3D"net.tutsp=
+lus.com/tutorials/javascript-ajax/resources-to-get-you-up-to-speed-in-embe=
+r-js">11 Resources to Get You Up to Speed in Ember.js</a><br><span style=
+=3D"font-size: 13px; line-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5ed10f9ea2&e=3D=
+b4af456f64" title=3D"benjaminbenben.com/2013/07/28/phantomjs-webserver">Usi=
+ng PhantomJS WebServer</a></strong><br><span style=3D"font-size: 13px; lin=
+e-height: 19px">
+With <a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D3a53013abf&e=3Db4af456f64">PhantomJS</a=
+>, you can let a real web browser (without a graphical user interface) eva=
+luate pages (including JavaScript). This article shows how to write Phanto=
+mJS-based web apps that process evaluated pages and serve the results to c=
+lients. For example: the final HTML of dynamic web pages, screenshots, etc=
+=2E Such web apps are easily deployed to Heroku.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D1f71356f71&e=3D=
+b4af456f64" title=3D"blog.pamelafox.org/2013/07/a-guide-to-writing-backbone=
+-apps-at.html">A Guide to Writing Backbone Apps At Coursera</a></strong><b=
+r><span style=3D"font-size: 13px; line-height: 19px">
+Best practices for how Coursera uses Backbone.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D37a2c498a4&e=3D=
+b4af456f64" title=3D"html5hub.com/oop-is-not-your-hammer">OOP is Not Your=
+ Hammer</a></strong><br><span style=3D"font-size: 13px; line-height: 19px"=
+>
+John Hann explains that (plain) Object-Oriented Programming (OOP) is not a=
+lways the best solution and looks at two alternatives: events and Aspect-O=
+riented Programming (AOP).
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D2b4e2b8b4b&e=3Db4af456f64" title=3D"net.tuts=
+plus.com/tutorials/javascript-ajax/handlebars-js-a-behind-the-scenes-look"=
+>Handlebars.js: A Behind the Scenes Look</a><br><span style=3D"font-size:=
+ 13px; line-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D05c695292f&e=3D=
+b4af456f64" title=3D"fastandfluid.com/publicdownloads/AngularJSIn60Minutes=
+Ish_DanWahlin_May2013.pdf">AngularJS in 60 Minutes [PDF]</a></strong><br>=
+<span style=3D"font-size: 13px; line-height: 19px">
+Dan Wahlin has transcribed <a href=3D"http://javascriptweekly.us1.list-man=
+age.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D5ca50af39e&e=3D=
+b4af456f64">his talk</a> to a PDF file.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd7201c0e46&e=3D=
+b4af456f64" title=3D"net.tutsplus.com/articles/interview-with-chris-willia=
+ms">Interview With Chris Williams</a></strong><br><span style=3D"font-size=
+: 13px; line-height: 19px">
+Rey Bango interviews Chris Williams (founder and organizer of JSConf), wit=
+h topics ranging from the history and goals of JSConf to robotics.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D30d20a2022&e=3Db4af456f64" title=3D"stackover=
+flow.com/q/14994391/3951">How Do I =E2=80=9CThink in AngularJS=E2=80=9D If=
+ I Have A jQuery Background?</a><br><span style=3D"font-size: 13px; line-h=
+eight: 19px"></span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Watching</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Deaadddad97&e=3D=
+b4af456f64" title=3D"www.youtube.com/watch?v=3DmPljRj4IS3w">Tutorial: Writi=
+ng A Native Windows 8.1 App in TypeScript</a></strong><br><span style=3D"f=
+ont-size: 13px; line-height: 19px">
+Uses AngularJS, Bootstrap and BankersBox.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D1c900ea25a&e=3Db4af456f64" title=3D"blog.code=
+ship.io/2013/07/30/testing-tuesday-16-javascript-testing-with-jasmine.html=
+">JavaScript Testing with Jasmine in 7 Minutes</a><br><span style=3D"font-=
+size: 13px; line-height: 19px"></span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Code and Libraries</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df44a0b9ba6&e=3D=
+b4af456f64" title=3D"jspm.io">jspm: Frictionless Browser Package Management=
+</a></strong><br><span style=3D"font-size: 13px; line-height: 19px">
+Comprises two components. First, JSPM loader lets you load three module fo=
+rmats: ECMAScript 6 modules, AMD, CommonJS. Second, JSPM CDN lets you load=
+ npm packages and modules on GitHub without installing them locally.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D42cbf4be59&e=3D=
+b4af456f64" title=3D"www.kickstarter.com/projects/noflo/noflo-development-=
+environment">The NoFlo Visual Development Environment for JavaScript</a></=
+strong><br><span style=3D"font-size: 13px; line-height: 19px">
+We linked to <a href=3D"http://javascriptweekly.us1.list-manage.com/track/=
+click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd27395aae5&e=3Db4af456f64">NoFlo=
+</a>, a flow based programming tool for Node, back in <a href=3D"http://ja=
+vascriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ce=
+b2&id=3D6933539949&e=3Db4af456f64">issue 87</a> and it has continued to m=
+ature. Flow Based Programming is a paradigm where the logic of an applicat=
+ion is designed in a visual graph and the team are now trying to raise mon=
+ey to build a full visual development environment on Kickstarter (<a href=
+=3D"http://javascriptweekly.us1.list-manage2.com/track/click?u=3D0618f6a79=
+d6bb9675f313ceb2&id=3D96035464b3&e=3Db4af456f64">more perspective from th=
+e team</a>). If they reach their stretch goals, they may cover Objective C=
+ and Java too.</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7e9b63dfe2&e=3D=
+b4af456f64" title=3D"github.com/ForbesLindesay/throat">throat: Throttle A C=
+ollection of Promise-Returning Functions</a></strong><br><span style=3D"fo=
+nt-size: 13px; line-height: 19px">
+Control how many promise-returning functions should be executed concurrent=
+ly.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D790aeb5229&e=3D=
+b4af456f64" title=3D"github.com/dylang/grunt-notify">Grunt-Notify: Automati=
+c Notifications When Grunt Tasks Fail</a></strong><br><span style=3D"font-=
+size: 13px; line-height: 19px">
+Tired of continusously jumping back to the command line to see if and why=
+ grunt task fail such as JSHint? Add grunt-notify to your Gruntfile and it=
+ will provide automatic notifications in OS X, Windows, and Linux.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D76b85d49f3&e=3D=
+b4af456f64" title=3D"github.com/mariusGundersen/Overload">Overload: Simple=
+ Way to Overload JavaScript Functions</a></strong><br><span style=3D"font-=
+size: 13px; line-height: 19px">
+A library to perform <a href=3D"http://javascriptweekly.us1.list-manage1.c=
+om/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Deaa1469fe6&e=3D=
+b4af456f64">multiple dispatch</a>: When a given (generic) function is called, you=
+ can trigger one of several implementations, depending on the number and t=
+ype of the arguments.
+</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D8926d21f42&e=3Db4af456f64" title=3D"github.c=
+om/assemble/handlebars-helpers">Handlebars-Helpers: An Extensive Library o=
+f 100+ Handlebars Helpers</a><br><span style=3D"font-size: 13px; line-heig=
+ht: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D308c00b267&e=3Db4af456f64" title=3D"github.co=
+m/azer/alert">Alert: Play Alert Sounds in The Browser</a><br><span style=
+=3D"font-size: 13px; line-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3Df51bc9cc69&e=3Db4af456f64" title=3D"lightswit=
+ch05.github.io/table-to-json">Table-to-JSON: jQuery Plugin That Converts H=
+TML Tables to JavaScript Objects</a><br><span style=3D"font-size: 13px; li=
+ne-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D00cad94857&e=3Db4af456f64" title=3D"jcreamer=
+898.github.io/bindr">Bindr: Small JavaScript Dependency Injection Framewor=
+k</a><br><span style=3D"font-size: 13px; line-height: 19px"></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D6c3b966a17&e=3Db4af456f64" title=3D"ricostac=
+ruz.com/jquery.transit">Transit: Smooth CSS Transitions and Transformation=
+s for jQuery</a><br><span style=3D"font-size: 13px; line-height: 19px"></s=
+pan></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage1.com/track/click?u=3D06=
+18f6a79d6bb9675f313ceb2&id=3D939cf2a4a6&e=3Db4af456f64" title=3D"damirfoy=
+=2Ecom/iCheck">iCheck: Super Customized Checkboxes and Radio Buttons for jQu=
+ery and Zepto</a><br><span style=3D"font-size: 13px; line-height: 19px"></=
+span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Jobs</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6c9849f285&e=3D=
+b4af456f64" title=3D"www.spotify.com/us/jobs/view/oRxtXfwy">Senior Javascr=
+ipt Engineer @ Spotify NYC</a></strong><br><span style=3D"font-size: 13px;=
+ line-height: 19px">We=E2=80=99re looking for incredible, senior Javascrip=
+t Engineers to join our team in NYC. If you=E2=80=99re the right one for u=
+s, you have expert knowledge of developing rich applications using Javascr=
+ipt and love working with other web technologies like HTML5 and CSS3. </sp=
+an></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D16db4c5e34&e=3D=
+b4af456f64" title=3D"www.youneedabudget.com/blog/2013/we-need-a-full-time-j=
+avascript-front-end-developer">JavaScript expert wanted at YouNeedABudget.=
+com (Remote position)</a></strong><br><span style=3D"font-size: 13px; line=
+-height: 19px">We write beautiful personal finance software called "You Ne=
+ed a Budget" (YNAB). Now we're moving it to the web! Come work with our sm=
+all, passionate team to make this app our best work yet! (You can work fro=
+m home, no matter where home is.)</span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd10306a702&e=3D=
+b4af456f64" title=3D"www.booking.com/jobs.en-us.html?sid=3D6347b93357e576d5=
+5321f73612402f55;dcid=3D1;st=3Ddetails;job_id=3D12341">Front End Developer=
+ at Booking.com in Amsterdam, the Netherlands</a></strong><br><span style=
+=3D"font-size: 13px; line-height: 19px">Are you interested in building the=
+ best accommodation website used by millions of customers? Do you have sol=
+id experience developing with HTML/CSS/JS? Booking.com is looking for an e=
+xperienced Front End Developer. Learn more about us <a href=3D"http://java=
+scriptweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2=
+&id=3D72f90197c5&e=3Db4af456f64">in this video.</a></span></p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; font-size: 16px; line-height: 18px; margin-top: 0.6em">=
+<a href=3D"http://javascriptweekly.us1.list-manage.com/track/click?u=3D061=
+8f6a79d6bb9675f313ceb2&id=3D83035dd16e&e=3Db4af456f64" title=3D"cooperpre=
+ss.com/jobs">Post a job in a future issue of JavaScript Weekly</a><br><spa=
+n style=3D"font-size: 13px; line-height: 19px"></span></p>
+<p style=3D"font-weight: bold; font-size: 18px; margin: 0; border-top: 3px=
+ solid #0aa; padding-left: 0px; padding-top: 2px; margin-top: 32px; margin=
+-bottom: 0px; color: #0aa;clear:both; ">Last but not least..</p>
+    <p style=3D"margin: 0.7em 0px 1.1em 0px; line-height: 22px; clear:both=
+; font-size: 16px; "><strong><a href=3D"http://javascriptweekly.us1.list-m=
+anage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8c78f9c29c&e=3D=
+b4af456f64" title=3D"www.red-gate.com/delivery/deployment-manager/?utm_sou=
+rce=3Djavascriptweekly&utm_medium=3Ddisplayemail&utm_content=3Dtotal_deplo=
+yment_v2_m1&utm_campaign=3Ddeploymentmanager&utm_term=3Demail-20676">Autom=
+ate your release process</a></strong><br><span style=3D"font-size: 13px; l=
+ine-height: 19px">
+Get fast, repeatable deployments at your fingertips with Red Gate=E2=80=99=
+s Deployment Manager. Ship your .NET apps, services, and databases in a si=
+ngle process, see the status of your environments on the shared dashboard,=
+ and manage all your deployments in one place. Get started now.
+</span><br><span style=3D"font-size: 90%; color: #999; font-family: sans-s=
+erif; font-size: 12px; font-weight: bold">SPONSORED ITEM</span></p>
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size: 12px; color: #033">
+=09<p>Editor: <a href=3D"http://javascriptweekly.us1.list-manage2.com/trac=
+k/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Df76c00db29&e=3Db4af456f64">Dr.=
+ Axel Rauschmayer</a> | Publisher in Chief: <a href=3D"http://javascriptwe=
+ekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7=
+884d27510&e=3Db4af456f64">Peter Cooper</a></p>
+=09<p>Want to see more? Check out <a href=3D"http://javascriptweekly.us1.l=
+ist-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd21657668f&=
+e=3Db4af456f64">the archive of all our old issues!</a></p>
+=09<p style=3D"line-height: 19px"><span style=3D"font-size: 14px; backgrou=
+nd-color: #fff; font-weight: bold; padding: 8px;">Reading this as a non-su=
+bscriber? <a href=3D"http://javascriptweekly.us1.list-manage2.com/track/cl=
+ick?u=3D0618f6a79d6bb9675f313ceb2&id=3D1f5e3962a8&e=3Db4af456f64">Click h=
+ere to subscribe.</a></span>
+=09<br>Want to advertise? <a href=3D"http://javascriptweekly.us1.list-mana=
+ge.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D467574cccf&e=3D=
+b4af456f64">See our media kit for details.</a>
+=09<br>Want to post a job? <a href=3D"http://javascriptweekly.us1.list-man=
+age.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd8de4f416b&e=3D=
+b4af456f64">Use our self serve system</a> or reply to this e-mail.
+=09<br>To otherwise contact the editor, just reply to this e-mail :-)
+=09</p>
+=09<p>&copy; 2013 Cooper Press Ltd. &ndash; Office 30, Lincoln Way, Fairfi=
+eld Enterprise Centre, Louth, Lincs, UK<br><a href=3D"http://javascriptwee=
+kly.us1.list-manage.com/unsubscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3D596=
+bcf37c5&e=3Db4af456f64&c=3D8b8574fe6f">Unsubscribe</a> or <a href=3D"http://=
+javascriptweekly.us1.list-manage1.com/profile?u=3D0618f6a79d6bb9675f313ceb=
+2&id=3D596bcf37c5&e=3Db4af456f64">Update / Change Your E-mail Address</a></p=
+>
+=09</td></tr>
+</table>
+</td></tr></table>
+<img src=3D"http://javascriptweekly.us1.list-manage.com/track/open.php?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3D8b8574fe6f&e=3Db4af456f64" height=3D"1"=
+ width=3D"1"></body></html>
+--_----------=_MCPart_1211414704--
