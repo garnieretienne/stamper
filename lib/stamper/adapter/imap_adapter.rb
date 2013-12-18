@@ -16,13 +16,9 @@ module Stamper
         @current_mailbox_messages = nil
       end
 
-      # TODO: Use the `STATUS` command to get informations on:
-      # * MESSAGES: the number of messages in the mailbox.
-      # * RECENT: the number of recent messages in the mailbox.
-      # * UNSEEN: the number of unseen messages in the mailbox.
       def list_subscribed_mailboxes
-        imap.lsub("", "%").map do |imap_data| 
-          IMAPAdapter.convert(imap_data)
+        imap.lsub("", "%").map do |list_data| 
+          convert_list_data(list_data)
         end
       end
 
@@ -31,37 +27,37 @@ module Stamper
         last_seqno = current_mailbox_messages
         end_at = (index) || last_seqno
         start_at = (last_seqno > results) ? end_at - results + 1 : 1
-        imap.fetch(start_at..end_at, "ENVELOPE").map do |imap_data|
-          IMAPAdapter.convert(imap_data)
-        end
+
+        fetch_rfc822(start_at..end_at, header_only: true)
       end
 
-      # Convert data returned by the Net::IMAP methods to simple Hash
-      def self.convert(imap_data)
-        case imap_data
-
-        when Net::IMAP::FetchData
-          envelope = imap_data.attr["ENVELOPE"]
-          return {
-            header: {
-              date: envelope.date,
-              from: "#{envelope.from.first.name} <#{envelope.from.first.mailbox}@#{envelope.from.first.host}>",
-              to: "#{envelope.from.first.name} <#{envelope.to.first.mailbox}@#{envelope.to.first.host}>",
-              subject: envelope.subject
-            }
-          }
-
-        when Net::IMAP::MailboxList
-          return {
-            name: imap_data.name
-          }
-
-        else
-          raise "Cannot convert these data"
-        end
+      def get_message_in_mailbox(mailbox: nil, seqno: nil)
+        open_mailbox(mailbox)
+        fetch_rfc822(seqno)
       end
 
       private
+
+      def fetch_rfc822(search_param, header_only: false)
+        attribute = (header_only) ? "RFC822.HEADER" : "RFC822"
+        fetch_data = imap.fetch(search_param, attribute)
+        
+        case search_param
+        when Enumerable
+          fetch_data.map{ |imap_data| convert_fetch_data(imap_data, attribute) }
+        else
+          convert_fetch_data(fetch_data.first, attribute)
+        end
+      end
+
+      def convert_fetch_data(imap_data, attribute)
+        rfc822 = imap_data.attr[attribute]
+        Stamper::Converter::RFC822Converter.convert(rfc822)
+      end
+
+      def convert_list_data(list_data)
+        Stamper::Mailbox.new name: list_data
+      end
 
       def open_mailbox(mailbox)
         if current_mailbox != mailbox

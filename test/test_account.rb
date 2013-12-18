@@ -27,24 +27,9 @@ class TestAccount < Minitest::Test
     refute_nil @account.adapter
   end
 
-  def test_list_subscribed_mailboxes
-    @adapter.expect :list_subscribed_mailboxes, [{name: 'INBOX'}, {name: 'Spam'}]
-    mailboxes = @account.list_subscribed_mailboxes
+  def test_undefined_methods_are_proxied_to_the_adapter
+    @adapter.expect :non_existing_method, nil
+    @account.non_existing_method
     @adapter.verify
-    assert_instance_of Stamper::Mailbox, mailboxes.first
-  end
-
-  def test_list_messages_in_mailbox
-    @adapter.expect :list_messages_in_mailbox, [
-      {
-        header: {
-          date: "Mon, 7 Feb 1994 21:52:25 -0800 (PST)",
-          from: "Contact name <contact_address@provider.tld>"
-        }
-      }
-    ]
-    messages = @account.list_messages_in_mailbox(mailbox: 'Mailbox1')
-    @adapter.verify
-    assert_instance_of Stamper::Message, messages.last
   end
 end

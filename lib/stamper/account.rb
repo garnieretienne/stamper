@@ -11,16 +11,8 @@ module Stamper
       @adapter = adapter
     end
 
-    def list_subscribed_mailboxes
-      @adapter.list_subscribed_mailboxes.map do |mailbox_attributes|
-        Mailbox.new mailbox_attributes
-      end
-    end
-
-    def list_messages_in_mailbox(mailbox: "INBOX")
-      @adapter.list_messages_in_mailbox.map do |message_attributes|
-        Message.new message_attributes
-      end
+    def method_missing(name, *args, &block)
+      adapter.send(name, *args, &block)
     end
   end
 end
