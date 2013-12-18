@@ -21,10 +21,8 @@ module Stamper
       # * RECENT: the number of recent messages in the mailbox.
       # * UNSEEN: the number of unseen messages in the mailbox.
       def list_subscribed_mailboxes
-        imap.lsub("", "%").map do |imap_mailbox| 
-          {
-            name: imap_mailbox.name
-          }
+        imap.lsub("", "%").map do |imap_data| 
+          IMAPAdapter.convert(imap_data)
         end
       end
 
@@ -34,8 +32,17 @@ module Stamper
         end_at = (index) || last_seqno
         start_at = (last_seqno > results) ? end_at - results + 1 : 1
         imap.fetch(start_at..end_at, "ENVELOPE").map do |imap_data|
+          IMAPAdapter.convert(imap_data)
+        end
+      end
+
+      # Convert data returned by the Net::IMAP methods to simple Hash
+      def self.convert(imap_data)
+        case imap_data
+
+        when Net::IMAP::FetchData
           envelope = imap_data.attr["ENVELOPE"]
-          {
+          return {
             header: {
               date: envelope.date,
               from: "#{envelope.from.first.name} <#{envelope.from.first.mailbox}@#{envelope.from.first.host}>",
@@ -43,6 +50,14 @@ module Stamper
               subject: envelope.subject
             }
           }
+
+        when Net::IMAP::MailboxList
+          return {
+            name: imap_data.name
+          }
+
+        else
+          raise "Cannot convert these data"
         end
       end
 
