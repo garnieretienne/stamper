@@ -6,14 +6,17 @@ module Stamper
 
     class IMAPAdapter
 
-      attr_reader :imap
+      attr_reader :imap_manager
       attr_accessor :current_mailbox, :current_mailbox_messages
 
-      def initialize(host: nil, port: 993, ssl: true, user: nil, password: nil)
-        @imap = Net::IMAP.new(host, port: port, ssl: ssl)
-        imap.login(user, password)
+      def initialize(*args)
+        @imap_manager = Stamper::IMAPConnectionManager.new(*args)
         @current_mailbox = nil
         @current_mailbox_messages = nil
+      end
+
+      def imap
+        imap_manager.open
       end
 
       def list_subscribed_mailboxes
