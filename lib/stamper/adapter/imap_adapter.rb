@@ -59,7 +59,7 @@ module Stamper
       end
 
       def convert_list_data(list_data)
-        Stamper::Mailbox.new name: list_data
+        Stamper::Mailbox.new name: list_data.name
       end
 
       def open_mailbox(mailbox)
