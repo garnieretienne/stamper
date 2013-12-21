@@ -11,8 +11,13 @@ module Stamper
       @adapter = adapter
     end
 
-    def method_missing(name, *args, &block)
-      adapter.send(name, *args, &block)
+    def subscribed_mailboxes
+      if @mailboxes.nil?
+        @mailboxes = adapter.list_subscribed_mailboxes.map do |mailbox_struct|
+          Stamper::Mailbox.new(name: mailbox_struct.name, account: self)
+        end
+      end
+      @mailboxes
     end
   end
 end

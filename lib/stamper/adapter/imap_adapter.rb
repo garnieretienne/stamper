@@ -6,6 +6,8 @@ module Stamper
 
     class IMAPAdapter
 
+      Mailbox = Struct.new(:name)
+
       attr_reader :imap_manager
       attr_accessor :current_mailbox, :current_mailbox_messages
 
@@ -59,7 +61,8 @@ module Stamper
       end
 
       def convert_list_data(list_data)
-        Stamper::Mailbox.new name: list_data.name
+        # Stamper::Mailbox.new name: list_data.name
+        Mailbox.new(list_data.name)
       end
 
       def open_mailbox(mailbox)

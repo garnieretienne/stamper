@@ -27,9 +27,9 @@ class TestAccount < Minitest::Test
     refute_nil @account.adapter
   end
 
-  def test_undefined_methods_are_proxied_to_the_adapter
-    @adapter.expect :non_existing_method, nil
-    @account.non_existing_method
+  def test_subscribed_mailboxes_list
+    @adapter.expect :list_subscribed_mailboxes, []
+    @account.subscribed_mailboxes
     @adapter.verify
   end
 end
