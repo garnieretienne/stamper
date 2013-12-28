@@ -1,7 +1,7 @@
 module Stamper
 
   class Message
-    HEADER_FIELDS = :date, :from
+    HEADER_FIELDS = :date, :from, :to, :subject
 
     attr_reader *HEADER_FIELDS, :header, :mailbox, :seqno
 
