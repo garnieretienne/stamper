@@ -33,11 +33,19 @@ class TestMailbox < Minitest::Test
   def test_getting_messages_from_account_adapter
     @account.adapter.expect :list_messages_in_mailbox, 
       [Stamper::Adapter::IMAPAdapter::Message.new(1, rfc822_sample)], 
-      [mailbox: @mailbox.name]
+      [mailbox: @mailbox.name, index: nil, results: 20]
     @mailbox.messages
     @account.adapter.verify
     messages = @mailbox.messages
     assert_instance_of Stamper::Message, messages.first
     assert_equal @mailbox, messages.first.mailbox
+  end
+
+  def test_getting_messages_from_account_adapter_specifing_pagination
+    @account.adapter.expect :list_messages_in_mailbox, 
+      [Stamper::Adapter::IMAPAdapter::Message.new(100, rfc822_sample)], 
+      [mailbox: @mailbox.name, index: 100, results: 1]
+    @mailbox.messages(index: 100, results: 1)
+    @account.adapter.verify
   end
 end

@@ -11,9 +11,10 @@ module Stamper
       @account = account
     end
 
-    def messages
-      if @messages.nil?
-        @messages = adapter.list_messages_in_mailbox(mailbox: name).map do |message_struct|
+    def messages(search_options = {index: nil, results: 20})
+      if @search_options != search_options
+        @search_options = search_options
+        @messages = adapter.list_messages_in_mailbox({mailbox: name}.merge(search_options)).map do |message_struct|
           message = Stamper::Converter::RFC822Converter.convert(message_struct.rfc822, 
             seqno: message_struct.seqno, 
             mailbox: self
