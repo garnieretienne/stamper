@@ -18,19 +18,21 @@ class TestIMAPAdapter < Minitest::Test
   def test_list_subscribed_mailboxes
     mailboxes = @adapter.list_subscribed_mailboxes
     assert_equal 1, mailboxes.count
+    assert_kind_of Struct, mailboxes.first
   end
 
   def test_list_messages_in_mailbox
     messages = @adapter.list_messages_in_mailbox(mailbox: 'Mailbox1')
-    assert_kind_of Enumerable, messages
+    assert_instance_of Array, messages
     assert_equal 3, messages.count
     messages = @adapter.list_messages_in_mailbox(mailbox: 'INBOX', index: 100, results: 50)
     assert_equal 50, messages.count
+    assert_kind_of Struct, messages.first
   end
 
   def test_get_message_in_mailbox
     message = @adapter.get_message_in_mailbox(mailbox: 'INBOX', seqno: 1)
-    refute_kind_of Enumerable, message
+    assert_kind_of Struct, message
     refute_nil message
   end
 

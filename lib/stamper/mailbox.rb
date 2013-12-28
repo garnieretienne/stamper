@@ -12,7 +12,13 @@ module Stamper
     end
 
     def messages
-      @messages = adapter.list_messages_in_mailbox(mailbox: name) if @messages.nil?
+      if @messages.nil?
+        @messages = adapter.list_messages_in_mailbox(mailbox: name).map do |message_struct|
+          message = Stamper::Converter::RFC822Converter.convert(message_struct.rfc822)
+          message.mailbox = self
+          message
+        end
+      end
       @messages
     end
 

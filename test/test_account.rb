@@ -28,8 +28,10 @@ class TestAccount < Minitest::Test
   end
 
   def test_subscribed_mailboxes_list
-    @adapter.expect :list_subscribed_mailboxes, []
-    @account.subscribed_mailboxes
+    @adapter.expect :list_subscribed_mailboxes, 
+      [Stamper::Adapter::IMAPAdapter::Mailbox.new('INBOX')]
+    mailboxes = @account.subscribed_mailboxes
     @adapter.verify
+    assert_instance_of Stamper::Mailbox, mailboxes.first
   end
 end

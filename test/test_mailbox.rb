@@ -31,9 +31,13 @@ class TestMailbox < Minitest::Test
   end
 
   def test_getting_messages_from_account_adapter
-    @account.adapter.expect :list_messages_in_mailbox, [], [@name]
+    @account.adapter.expect :list_messages_in_mailbox, 
+      [Stamper::Adapter::IMAPAdapter::Message.new(rfc822_sample)], 
+      [mailbox: @mailbox.name]
     @mailbox.messages
     @account.adapter.verify
-    @mailbox.messages
+    messages = @mailbox.messages
+    assert_instance_of Stamper::Message, messages.first
+    assert_equal @mailbox, messages.first.mailbox
   end
 end

@@ -4,12 +4,17 @@ module Stamper
     HEADER_FIELDS = :date, :from
 
     attr_reader *HEADER_FIELDS, :body, :header
+    attr_accessor :mailbox
 
     def initialize(header: {}, body: nil)
       @header = header
       @body = body
       parse_header
       validate_header!
+    end
+
+    def mailbox?
+      !mailbox.nil?
     end
 
     private

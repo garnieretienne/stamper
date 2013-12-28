@@ -35,4 +35,12 @@ class TestMessage < Minitest::Test
     error = assert_raises(RuntimeError){ Stamper::Message.new(header: {from: @from_address}) }
     assert_equal "No 'date' header field provided", error.message
   end
+
+  def test_a_message_can_have_a_mailbox
+    refute @message.mailbox?
+    mailbox = Object.new
+    @message.mailbox = mailbox
+    assert @message.mailbox?
+    assert_equal mailbox, @message.mailbox
+  end
 end
