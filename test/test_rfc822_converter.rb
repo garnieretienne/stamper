@@ -11,7 +11,7 @@ class TestRFC822Converter < Minitest::Test
   end
 
   def test_rfc822_convertion_into_message
-    message = Stamper::Converter::RFC822Converter.convert(rfc822_sample)
+    message = Stamper::Converter::RFC822Converter.convert(rfc822_sample, mailbox: Object.new)
     assert_instance_of Stamper::Message, message
     Stamper::Message::HEADER_FIELDS.each do |field|
       refute_nil message.send(field)
@@ -20,11 +20,10 @@ class TestRFC822Converter < Minitest::Test
   end
 
   def test_rfc822_header_convertion_into_message
-    message = Stamper::Converter::RFC822Converter.convert(rfc822_header_sample)
+    message = Stamper::Converter::RFC822Converter.convert(rfc822_header_sample, mailbox: Object.new)
     assert_instance_of Stamper::Message, message
     Stamper::Message::HEADER_FIELDS.each do |field|
       refute_nil message.send(field)
     end
-    assert_nil message.send(:body)
   end
 end

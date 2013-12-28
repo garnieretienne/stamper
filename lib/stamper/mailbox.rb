@@ -14,10 +14,10 @@ module Stamper
     def messages
       if @messages.nil?
         @messages = adapter.list_messages_in_mailbox(mailbox: name).map do |message_struct|
-          message = Stamper::Converter::RFC822Converter.convert(message_struct.rfc822)
-          message.seqno = message_struct.seqno
-          message.mailbox = self
-          message
+          message = Stamper::Converter::RFC822Converter.convert(message_struct.rfc822, 
+            seqno: message_struct.seqno, 
+            mailbox: self
+          )
         end
       end
       @messages

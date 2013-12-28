@@ -15,13 +15,13 @@ module Stamper
         @rfc822 = rfc822
       end
 
-      def to_message
-        message = Stamper::Message.new(header: header, body: body)
+      def to_message(options = {})
+        message = Stamper::Message.new({header: header, body: body}.merge(options))
         return message
       end
 
-      def self.convert(rfc822)
-        RFC822Converter.new(rfc822).to_message
+      def self.convert(rfc822, options = {})
+        RFC822Converter.new(rfc822).to_message(options)
       end
 
       private

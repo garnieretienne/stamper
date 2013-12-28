@@ -35,7 +35,6 @@ class TestMailbox < Minitest::Test
       [Stamper::Adapter::IMAPAdapter::Message.new(1, rfc822_sample)], 
       [mailbox: @mailbox.name]
     @mailbox.messages
-    debugger
     @account.adapter.verify
     messages = @mailbox.messages
     assert_instance_of Stamper::Message, messages.first
