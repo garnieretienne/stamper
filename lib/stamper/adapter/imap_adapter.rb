@@ -7,7 +7,7 @@ module Stamper
     class IMAPAdapter
 
       Mailbox = Struct.new(:name)
-      Message = Struct.new(:rfc822)
+      Message = Struct.new(:seqno, :rfc822)
 
       attr_reader :imap_manager
       attr_accessor :current_mailbox, :current_mailbox_messages
@@ -58,7 +58,7 @@ module Stamper
 
       def convert_fetch_data(imap_data, attribute)
         rfc822 = imap_data.attr[attribute]
-        Message.new(rfc822)
+        Message.new(imap_data.seqno, rfc822)
       end
 
       def convert_list_data(list_data)

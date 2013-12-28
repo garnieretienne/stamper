@@ -7,7 +7,7 @@ class TestMessage < Minitest::Test
     @date = "Mon, 7 Feb 1994 21:52:25 -0800 (PST)"
     @from_address = "Contact name <contact_address@provider.tld>"
     @header = {date: @date, from: @from_address}
-    @message = Stamper::Message.new(header: @header, body: @body)
+    @message = Stamper::Message.new(seqno: 1, header: @header, body: @body)
   end
 
   def test_body_reader
@@ -34,6 +34,10 @@ class TestMessage < Minitest::Test
   def test_raising_error_if_no_date_field_is_provided
     error = assert_raises(RuntimeError){ Stamper::Message.new(header: {from: @from_address}) }
     assert_equal "No 'date' header field provided", error.message
+  end
+
+  def test_seqno_reader
+    assert_equal 1, @message.seqno
   end
 
   def test_a_message_can_have_a_mailbox

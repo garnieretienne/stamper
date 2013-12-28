@@ -4,9 +4,10 @@ module Stamper
     HEADER_FIELDS = :date, :from
 
     attr_reader *HEADER_FIELDS, :body, :header
-    attr_accessor :mailbox
+    attr_accessor :mailbox, :seqno
 
-    def initialize(header: {}, body: nil)
+    def initialize(seqno: nil, header: {}, body: nil)
+      @seqno = seqno
       @header = header
       @body = body
       parse_header
