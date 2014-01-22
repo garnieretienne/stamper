@@ -1,24 +1,38 @@
 # Stamper
 
-TODO: Write a gem description
+Stamper is a ruby library to explore mailboxes and read emails through adapter. Currently only an IMAP adapter is available.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'stamper'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install stamper
+Stamper is not published as a gem yet, use git for development.
 
 ## Usage
 
-TODO: Write usage instructions here
+Example in the Vagrant VM:
+```
+require 'stamper'
+
+adapter = Stamper::Adapter::IMAPAdapter.new(
+  host: 'localhost',
+  user: 'vagrant',
+  password: 'vagrant',
+  ssl: {verify_mode: 0}
+)
+me = Stamper::Account.new(address: 'user.name@domain.tld', adapter: adapter)
+inbox = me.subscribed_mailboxes.first
+last_two_messages_subject = inbox.messages(results: 2).map{|message| message.subject}
+```
+
+## Test
+
+Tests are configured to run into a vagrant VM (a local IMAP server must be installed and configured).
+
+```
+$> vagrant up
+$> vagrant ssh
+$vm> cd /vagrant
+$vm> bundle exec rake test
+```
 
 ## Contributing
 
